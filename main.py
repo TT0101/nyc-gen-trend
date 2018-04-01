@@ -5,6 +5,7 @@ from flask import Flask
 
 #app files
 import basicMapWithPolygonsWorking as test
+import nycgenheatmap as home
 
 fServer = Flask(__name__)
 initLayout = html.Div(id='page-content', children="init")
@@ -14,4 +15,5 @@ app.layout = initLayout
 app.css.config.serve_locally = True
 app.scripts.config.serve_locally = True
 
-app = test.run(app)
+#app = test.run(app)
+app = home.runMapPage(app)
