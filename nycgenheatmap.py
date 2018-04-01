@@ -38,11 +38,11 @@ def runMapPage(app):
                         ,html.Div(id='divOverviewNone'
                                 , children='Hover over an area to see the overview'
                                 , style={'font-style':'italic'})
-                        ], style={'width':'66vh', 'text-align':'left', 'float':'right'}),
+                        ], style={'width':'28%', 'text-align':'left', 'float':'right'}),
             
                 dcc.Graph(
-                        id = 'zcta-example',
-                        style={'height':'90vh', 'width':'135vh'},
+                        id = 'zctaheatmap',
+                        style={'height':'90vh', 'width':'70%', 'float':'left'},
                         figure=dict(data=mapData, layout=mapLayout)
                         )
                 ], style={'width':'100%'})
