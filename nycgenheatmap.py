@@ -9,17 +9,30 @@ import dash_html_components as html
 import plotly.graph_objs as go
 import json
 import os
+import pandas as pd
+
+#classes
+import zctaoverview as zo
 
 def runMapPage(app):
     #constants
     mapboxtoken = 'pk.eyJ1IjoidHRob21haWVyIiwiYSI6ImNqZjduZzkzdjF6d2wyd2xubTI3djN4cGwifQ.3-bkCbF2NAzEyTsqK3okWg'
     zctaPolygonFile = os.getcwd() + "/mysite/Datafiles/Map/nyczipcodetabulationareas.geojson"
-     
+    zctaRentIndexFile = os.getcwd() + "/mysite/Datafiles/withZCTA_MockRentIndex.csv"
+    
     zctaGeojson = getZCTAPolygons(zctaPolygonFile)
+    zctaZips, zctaLats, zctaLongs = getZCTADataFromGeojson(zctaGeojson)
+    
     centerPoint = {"latitude": 40.702793, "longitude":-73.965584}
 
+    #dynamic constants
+    CURRENT_ZCTA = zo.ZCTAOverview('', 0, '', 0)
+    
+    #data
+    genOverviewData = pd.read_csv(zctaRentIndexFile)
+    
     #map setup
-    mapData = getHeatMapData()
+    mapData = getHeatMapData(zctaZips, zctaLats, zctaLongs)
 
     mapLayout = getHeatMapLayout(mapboxtoken, zctaGeojson, centerPoint)
 
@@ -32,12 +45,26 @@ def runMapPage(app):
                 , style={'height':'25px', 'background-color':'black', 'color':'white'}
                 ),
         #body
-        html.Div(children=[         
+        html.Div(children=[  
+#                dcc.RangeSlider(
+#                        marks={i: i['year'] for i in genData},
+#                        min=min(genData['year']),
+#                        max=max(genData['year']),
+#                        value=[min(genData), max(genData)]
+#                        )
+#                
                 html.Div(children=[
                         html.H4(children='Overview')
-                        ,html.Div(id='divOverviewNone'
-                                , children='Hover over an area to see the overview'
+                        ,html.P(id='divOverviewTitle'
+                                , children='Hover over an area to view'
                                 , style={'font-style':'italic'})
+                        ,html.Div(id="divOverviewData"
+                                  , children=[
+                                          html.P(CURRENT_ZCTA.CombinedLabel(), id='zctaNbh')
+                                          ,html.P("Borough: " + CURRENT_ZCTA.Boro, id='boroVal')
+                                          ,html.P("Change in rental price: " + str(CURRENT_ZCTA.GenIndex), id='genIndexVal')
+                                          ]
+                                  , style={})
                         ], style={'width':'28%', 'text-align':'left', 'float':'right'}),
             
                 dcc.Graph(
@@ -59,12 +86,25 @@ def getZCTAPolygons(fileLocation):
     
     return geojsonlayer
 
-def getHeatMapData():
+def getZCTADataFromGeojson(zctaGeojson):
+    zctaZips = []
+    zctaLats=[]
+    zctaLongs=[]
+    for item in zctaGeojson['features']:
+        pItem = item['properties']
+        zctaZips.append(pItem['postalCode'])
+        zctaLats.append(pItem['latitude'])
+        zctaLongs.append(pItem['longitude'])
+    
+    return zctaZips, zctaLats, zctaLongs
+
+def getHeatMapData(texts, lats, longs):
     return go.Data([
             go.Scattermapbox(
-                    lat=[],
-                    lon=[], #this is for markers right now, figure out how to do hover
-                    mode='markers'
+                    lat=lats,
+                    lon=longs, #this is for markers right now, figure out how to do hover
+                    mode='markers',
+                    text=texts
                     )
             ])
             
