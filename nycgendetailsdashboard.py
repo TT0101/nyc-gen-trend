@@ -9,7 +9,7 @@ import plotly.graph_objs as go
 import pandas as pd
 
 import localMain as app
-#from main import app
+#import main as app #enable this to run on server
 
 import zctapolygons as zpoly
 import indexcolors as ic
