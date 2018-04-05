@@ -5,7 +5,7 @@
 
 #overall imports
 import localMain as app
-#from main import app
+#import main as app #enable this to run on server
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
