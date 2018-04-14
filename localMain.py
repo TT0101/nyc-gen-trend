@@ -16,6 +16,8 @@ import nycgenheatmap as home
 import nycgendetailsdashboard as detail
 import app1 #testing....
 
+#ug, it only doesn't work locally!
+
 #main layout
 #overview = home.runMapPage()
 app.layout = html.Div([

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author Theresa Thomaier
+@author TT
 """
 
 #overall imports
@@ -85,8 +85,6 @@ def getHeatMapLayout(mapboxtoken, polyObjData, centerPoint, zctaOverviewData):
                     )
                 )
 
-#def getBlankCallbackElements():
-#    return html.Div(id='zctaGenHeatMap'), html.Div(id='divOverviewData')
 
 #genheatmapcallbacks
 @app.callback(Output('divOverviewData', 'children'),
@@ -111,9 +109,6 @@ def updateCurrentZCTA(hoverData):
             #,html.P(hoverData)
             ]
 
-@app.callback(Output('divtest', 'children'), [Input('test', 'hoverData')])
-def test(hoverData):
-    return "this is a test! " + str(hoverData)
 
 #constants
 mapboxtoken = 'pk.eyJ1IjoidHRob21haWVyIiwiYSI6ImNqZjduZzkzdjF6d2wyd2xubTI3djN4cGwifQ.3-bkCbF2NAzEyTsqK3okWg'
@@ -131,7 +126,6 @@ mapLayout = getHeatMapLayout(mapboxtoken, polyOverviewData, centerPoint, oData.G
 #actually runs the page
 def runMapPage():
     #UI application
-    #app.layout = html.Div(children=[
     return html.Div([
         #header
         html.Div(children=[
@@ -141,8 +135,6 @@ def runMapPage():
                 ),
         #body
         html.Div(children=[  
-                html.P(id='test', children='testme!'),
-                html.Div(id='divtest'),
 #                dcc.RangeSlider(
 #                        marks={i: i['year'] for i in genData},
 #                        min=min(genData['year']),
