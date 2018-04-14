@@ -20,8 +20,17 @@ import zctapolygons as zpoly
 import indexcolors as ic
 import genoverviewdata as oData
 import TypeHelper as th
+import config
 
+#constants
+mapboxtoken = config.mapboxtoken
+centerPoint = config.nyccenterpoint
 
+#polygon parsing and mapping to overview data 
+zctaGeojson = zpoly.getZCTAPolygons()
+knownZips = [z.ZCTA for z in oData.GENOVERVIEWDATA]
+polyOverviewData = zpoly.getZCTADataFromGeojson(knownZips, zctaGeojson)
+    
 #functions
 def getHeatMapData(polyObjData, zctaOverviewData):
     return go.Data([
@@ -105,22 +114,24 @@ def updateCurrentZCTA(hoverData):
             ,html.P(dcc.Markdown("**Neighborhood(s)**: " + cZcta.Neighborhood), id="nbh")
             ,html.P(dcc.Markdown("**Borough**: " + cZcta.Boro), id='boroVal')
             ,html.P(dcc.Markdown("**Gentrification index**: " + str(cZcta.GenIndex)), id='genIndexVal')
-            ,dcc.Link('Go To Dashboard >>', href="/details/" + str(cZcta.ZCTA), style={"color": "navy", "text-decoration": "underline", "cursor":"pointer"})
-            #,html.P(hoverData)
             ]
 
-
-#constants
-mapboxtoken = 'pk.eyJ1IjoidHRob21haWVyIiwiYSI6ImNqZjduZzkzdjF6d2wyd2xubTI3djN4cGwifQ.3-bkCbF2NAzEyTsqK3okWg'
-centerPoint = {"latitude": 40.702793, "longitude":-73.965584}
-    
-zctaGeojson = zpoly.getZCTAPolygons()
-knownZips = [z.ZCTA for z in oData.GENOVERVIEWDATA]
-polyOverviewData = zpoly.getZCTADataFromGeojson(knownZips, zctaGeojson)
-    
-#map setup
+#@app.callback(Output('linkPlaceholder', 'children'),
+#              [Input('zctaGenHeatMap', 'clickData')])
+#def onHeatMapClick(clickData):
+#    if not clickData:
+#        return ''
+#    else:
+#        intZcta = th.cleanInts(clickData['points'][0]['text'])
+#        if(intZcta == 0):
+#            return "Not Found" 
+#        
+#        return  [
+#                dcc.Link('Go To Dashboard for ZCTA ' + str(intZcta) +' >>', href="/details/" + str(intZcta), style={"color": "navy", "text-decoration": "underline", "cursor":"pointer"})
+#                ]
+        
+#map setup (must be down here b/c needs functions)
 mapData = getHeatMapData(polyOverviewData, oData.GENOVERVIEWDATA)
-
 mapLayout = getHeatMapLayout(mapboxtoken, polyOverviewData, centerPoint, oData.GENOVERVIEWDATA)
     
 #actually runs the page
@@ -145,7 +156,7 @@ def runMapPage():
                 html.Div(children=[
                         html.H4(children='Overview')
                         ,html.P(id='divOverviewTitle'
-                                , children='Hover over an area to view'
+                                , children='Hover over an area to view, click to get to details dashboard'
                                 , style={'font-style':'italic'})
                         ,html.Div(id="divOverviewData", style={})
                         ], style={'width':'28%', 'text-align':'left', 'float':'right'}),
@@ -159,5 +170,4 @@ def runMapPage():
     ])
                 
 
-    #return pLayout
 

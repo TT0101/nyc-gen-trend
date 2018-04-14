@@ -16,16 +16,19 @@ import zctapolygons as zpoly
 import indexcolors as ic
 import genoverviewdata as oData
 
+import TypeHelper as th
+import config
+
+mapboxtoken = config.mapboxtoken 
     
 def runDetailsDash(zcta):
     #zcta = parseZCTAOutOfURL(dcc.Location.pathname)
     if zcta == None:
         return html.P(children='Invalid call: ' + str(zcta))
     else:
-        zctaOverview = oData.getOverviewForZCTA(zcta, oData.GENOVERVIEWDATA)
+        zctaOverview = oData.getOverviewForZCTA(th.cleanInts(zcta), oData.GENOVERVIEWDATA)
         
     #data
-    mapboxtoken = 'pk.eyJ1IjoidHRob21haWVyIiwiYSI6ImNqZjduZzkzdjF6d2wyd2xubTI3djN4cGwifQ.3-bkCbF2NAzEyTsqK3okWg'
    
     zctaPoly = zpoly.getAllPolygonsForZCTA(zctaOverview.ZCTA)
     genIndexColor = ic.getSpecificColor(zctaOverview.GenIndex)
