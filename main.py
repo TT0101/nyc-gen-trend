@@ -1,24 +1,13 @@
-import dash
+#import dash
 import dash_core_components as dcc
 from dash.dependencies import Output, Input
 import dash_html_components as html
-
+import re
 
 import nycgenheatmap as home
 import nycgendetailsdashboard as detail
-import genoverviewdata as oData
-
-import TypeHelper as th
-
-from flask import Flask
 
 from app import app
-
-#move this to app when on server
-#fServer = Flask(__name__)
-#app = dash.Dash(__name__, server=fServer, static_folder='static', url_base_pathname='/')
-#
-#app.config['suppress_callback_exceptions']=True
 
 #main setup
 app.css.config.serve_locally = True
