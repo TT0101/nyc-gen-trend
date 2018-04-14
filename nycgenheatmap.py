@@ -4,137 +4,26 @@
 """
 
 #overall imports
-import localMain as app
+from app import app
+#import localMain as app
 #import main as app #enable this to run on server
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 #import json
-import os
-import pandas as pd
 
 #classes
-import zctaoverview as zo
 import zctapolygons as zpoly
 
+#helpers
 import indexcolors as ic
-import FileHelper as fh
+import genoverviewdata as oData
 import TypeHelper as th
 
-def runMapPage():
-    #constants
-    mapboxtoken = 'pk.eyJ1IjoidHRob21haWVyIiwiYSI6ImNqZjduZzkzdjF6d2wyd2xubTI3djN4cGwifQ.3-bkCbF2NAzEyTsqK3okWg'
-    zctaRentIndexFile = os.getcwd() + "/mysite/Datafiles/withZCTA_MockRentIndex.csv"
-    zctaStaticFile = os.getcwd() + "/mysite/Datafiles/zip_to_zcta10_nyc_with_NBH.csv"
-    
-    centerPoint = {"latitude": 40.702793, "longitude":-73.965584}
 
-    #data
-    genOverviewData = fh.readInCSVDicData(zctaRentIndexFile, processOverviewData)
-    allZCTAWithNBH = fh.readInCSVDicData(zctaStaticFile, processStaticFileData)
-
-    combinedOverviewData = mergeForMissingZCTA(genOverviewData, allZCTAWithNBH)
-    
-    zctaGeojson = zpoly.getZCTAPolygons()
-    knownZips = [z.ZCTA for z in combinedOverviewData]
-    polyOverviewData = zpoly.getZCTADataFromGeojson(knownZips, zctaGeojson)
-    
-    
-    #mock for now, will deal with on hover later
-    app.CURRENT_ZCTA = combinedOverviewData[0]
-    
-    #map setup
-    mapData = getHeatMapData(polyOverviewData)
-
-    mapLayout = getHeatMapLayout(mapboxtoken, polyOverviewData, centerPoint, combinedOverviewData)
-
-    #UI application
-    #app.layout = html.Div(children=[
-    pLayout = html.Div(children=[
-        #header
-        html.Div(children =[
-                html.H2(children='NYC Gentrification Trends', style={'text-align':'center'})
-                ]
-                , style={'height':'25px', 'background-color':'black', 'color':'white'}
-                ),
-        #body
-        html.Div(children=[  
-#                dcc.RangeSlider(
-#                        marks={i: i['year'] for i in genData},
-#                        min=min(genData['year']),
-#                        max=max(genData['year']),
-#                        value=[min(genData), max(genData)]
-#                        )
-#                
-                html.Div(children=[
-                        html.H4(children='Overview')
-                        ,html.P(id='divOverviewTitle'
-                                , children='Hover over an area to view'
-                                , style={'font-style':'italic'})
-                        ,html.Div(id="divOverviewData"
-                                  , children=[
-                                          html.P(dcc.Markdown("**Zip Code Tabulation Area (ZCTA)**: " + str(app.CURRENT_ZCTA.ZCTA)), id='zcta')
-                                          ,html.P(dcc.Markdown("**Neighborhood(s)**: " + app.CURRENT_ZCTA.Neighborhood), id="nbh")
-                                          ,html.P(dcc.Markdown("**Borough**: " + app.CURRENT_ZCTA.Boro), id='boroVal')
-                                          ,html.P(dcc.Markdown("**Gentrification index**: " + str(app.CURRENT_ZCTA.GenIndex)), id='genIndexVal')
-                                          ,dcc.Link('Go To Dashboard >>', href="/details", style={"color": "navy", "text-decoration": "underline", "cursor":"pointer"})
-                                          ]
-                                  , style={})
-                        ], style={'width':'28%', 'text-align':'left', 'float':'right'}),
-            
-                dcc.Graph(
-                        id = 'zctaheatmap',
-                        style={'height':'90vh', 'width':'70%', 'float':'left'},
-                        figure=dict(data=mapData, layout=mapLayout)
-                        )
-                ], style={'width':'100%'})
-    ], style={'width':'100%', 'height':'100%', 'padding':'0px'})
-                
-
-    return pLayout
-    #return app
-
-#processing
-def processOverviewData(fileList):
-    data = []
-    rowCount = 0
-    for line in fileList:
-        if rowCount > 0:
-            ov = zo.ZCTAOverview(line['boroLabel'], line['zcta'], line['nbhLabel'], line['PctChange'])
-            data.append(ov)
-        rowCount += 1
-    
-    return data
-
-def processStaticFileData(fileList):
-    data = []
-    rowCount = 0
-    for line in fileList:
-        if rowCount > 0:
-            cleanZip = th.cleanInts(line['zcta5'])
-            if len(line['zcta5']) == 5 and cleanZip != 0 and cleanZip not in [z.ZCTA for z in data]:
-                ov = zo.ZCTAOverview(line['boro'], line['zcta5'], line['neighborhoodlabel'], 0.0)
-                data.append(ov)
-        rowCount += 1
-    
-    return data
-
-def mergeForMissingZCTA(indexData, zctaData):
-    zctasWIndex = [i.ZCTA for i in indexData]
-    missing = [z for z in zctaData if z.ZCTA not in zctasWIndex]
-    return indexData + missing
-    
 #functions
-def getOverviewForZCTA(zcta, overviewData):
-    matching = [z for z in overviewData if z.ZCTA == zcta]
-    
-    if len(matching) > 0:
-        return matching[0]
-    
-    return zo.ZCTAOverview('', zcta, '', 0.0)
-    
-def getHeatMapData(polyObjData):
+def getHeatMapData(polyObjData, zctaOverviewData):
     return go.Data([
             go.Scattermapbox(
                     lat=zpoly.getLatsFromPolyData(polyObjData),
@@ -142,14 +31,28 @@ def getHeatMapData(polyObjData):
                     mode='markers',
                     fillcolor='black',
                     text=zpoly.getZCTAsFromPolyData(polyObjData),
+                    #customdata=zpoly.getZCTAsFromPolyData(polyObjData),
                     marker=dict(
-                             colorscale=[item[0] for item in ic.getColorScale()],
-                             color=[item[1] for item in ic.getColorScale()],
-                             opacity=0.8,
-                             colorbar=dict(
-                                     title="Index"
-                             )
-                    )
+                             color=[ic.getSpecificColor(oData.getOverviewForZCTA(p.ZCTATyped, zctaOverviewData).GenIndex) for p in polyObjData],#'navy',
+                             #colorscale=ic.getColorScale(),
+                             opacity=0.1,
+#                             colorbar=dict(
+#                                    title="Index",
+#                                    x=0.935,
+#                                    xpad=0,
+#                                    #dtick=1,
+#                                    #nticks=len(ic.getColorScale()),
+#                                    tickfont=dict(
+#                                        color='black'
+#                                    ),
+#                                    titlefont=dict(
+#                                        color='black'
+#                                    ),
+#                                    titleside='left',
+#                                    tickvals = [1, 50, 100],
+#                                    ticktext = ['Low','Mid','High']
+#                                )
+                        )
                 )
             ])
             
@@ -157,6 +60,7 @@ def getHeatMapLayout(mapboxtoken, polyObjData, centerPoint, zctaOverviewData):
     return go.Layout(
             height=800,
             autosize=True,
+            showlegend=False,
             margin = dict(l = 0, r = 0, t = 0, b = 0),
             hovermode='closest',
             mapbox=dict(
@@ -165,8 +69,8 @@ def getHeatMapLayout(mapboxtoken, polyObjData, centerPoint, zctaOverviewData):
                                     sourcetype = 'geojson',
                                     source = zpoly.getSpecificPolyInfo(p.ObjectID),
                                     type = 'fill',
-                                    color = ic.getSpecificColor(getOverviewForZCTA(p.ZCTATyped, zctaOverviewData).GenIndex),
-                                    opacity=0.6
+                                    color = ic.getSpecificColor(oData.getOverviewForZCTA(p.ZCTATyped, zctaOverviewData).GenIndex),
+                                    opacity=0.8
                                     ) for p in polyObjData #g in zctaOverviewData
                             ],
                     accesstoken=(mapboxtoken),
@@ -180,4 +84,88 @@ def getHeatMapLayout(mapboxtoken, polyObjData, centerPoint, zctaOverviewData):
                     style='light'
                     )
                 )
+
+#def getBlankCallbackElements():
+#    return html.Div(id='zctaGenHeatMap'), html.Div(id='divOverviewData')
+
+#genheatmapcallbacks
+@app.callback(Output('divOverviewData', 'children'),
+              [Input('zctaGenHeatMap', 'hoverData')])
+def updateCurrentZCTA(hoverData):
+    if not hoverData:
+        return ""
+    else:
+        #return str(hoverData['points'][0]['text'])
+        intZcta = th.cleanInts(hoverData['points'][0]['text'])
+        if(intZcta == 0):
+            return "Not Found" #hoverData['points']
+            
+    cZcta = oData.getOverviewForZCTA(intZcta, oData.GENOVERVIEWDATA) #change to call by zcta
+        
+    return [
+            html.P(dcc.Markdown("**Zip Code Tabulation Area (ZCTA)**: " + str(cZcta.ZCTA)), id='zcta')
+            ,html.P(dcc.Markdown("**Neighborhood(s)**: " + cZcta.Neighborhood), id="nbh")
+            ,html.P(dcc.Markdown("**Borough**: " + cZcta.Boro), id='boroVal')
+            ,html.P(dcc.Markdown("**Gentrification index**: " + str(cZcta.GenIndex)), id='genIndexVal')
+            ,dcc.Link('Go To Dashboard >>', href="/details/" + str(cZcta.ZCTA), style={"color": "navy", "text-decoration": "underline", "cursor":"pointer"})
+            #,html.P(hoverData)
+            ]
+
+@app.callback(Output('divtest', 'children'), [Input('test', 'hoverData')])
+def test(hoverData):
+    return "this is a test! " + str(hoverData)
+
+#constants
+mapboxtoken = 'pk.eyJ1IjoidHRob21haWVyIiwiYSI6ImNqZjduZzkzdjF6d2wyd2xubTI3djN4cGwifQ.3-bkCbF2NAzEyTsqK3okWg'
+centerPoint = {"latitude": 40.702793, "longitude":-73.965584}
+    
+zctaGeojson = zpoly.getZCTAPolygons()
+knownZips = [z.ZCTA for z in oData.GENOVERVIEWDATA]
+polyOverviewData = zpoly.getZCTADataFromGeojson(knownZips, zctaGeojson)
+    
+#map setup
+mapData = getHeatMapData(polyOverviewData, oData.GENOVERVIEWDATA)
+
+mapLayout = getHeatMapLayout(mapboxtoken, polyOverviewData, centerPoint, oData.GENOVERVIEWDATA)
+    
+#actually runs the page
+def runMapPage():
+    #UI application
+    #app.layout = html.Div(children=[
+    return html.Div([
+        #header
+        html.Div(children=[
+                html.H2(children='NYC Gentrification Trends', style={'text-align':'center'})
+                ]
+                , style={'height':'25px', 'background-color':'black', 'color':'white'}
+                ),
+        #body
+        html.Div(children=[  
+                html.P(id='test', children='testme!'),
+                html.Div(id='divtest'),
+#                dcc.RangeSlider(
+#                        marks={i: i['year'] for i in genData},
+#                        min=min(genData['year']),
+#                        max=max(genData['year']),
+#                        value=[min(genData), max(genData)]
+#                        )
+#                
+                html.Div(children=[
+                        html.H4(children='Overview')
+                        ,html.P(id='divOverviewTitle'
+                                , children='Hover over an area to view'
+                                , style={'font-style':'italic'})
+                        ,html.Div(id="divOverviewData", style={})
+                        ], style={'width':'28%', 'text-align':'left', 'float':'right'}),
+            
+                dcc.Graph(
+                        id = 'zctaGenHeatMap',
+                        style={'height':'90vh', 'width':'70%', 'float':'left'},
+                        figure=dict(data=mapData, layout=mapLayout)
+                        )
+                ], style={'width':'100%'})
+    ])
+                
+
+    #return pLayout
 

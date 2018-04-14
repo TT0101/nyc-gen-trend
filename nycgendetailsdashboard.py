@@ -8,18 +8,21 @@ import dash_html_components as html
 import plotly.graph_objs as go
 import pandas as pd
 
-import localMain as app
+#import localMain as app
 #import main as app #enable this to run on server
+from app import app
 
 import zctapolygons as zpoly
 import indexcolors as ic
+import genoverviewdata as oData
 
-
-def runDetailsDash():
-    if app.CURRENT_ZCTA == None:
-        return html.P(children='Invalid call')
+    
+def runDetailsDash(zcta):
+    #zcta = parseZCTAOutOfURL(dcc.Location.pathname)
+    if zcta == None:
+        return html.P(children='Invalid call: ' + str(zcta))
     else:
-        zctaOverview = app.CURRENT_ZCTA
+        zctaOverview = oData.getOverviewForZCTA(zcta, oData.GENOVERVIEWDATA)
         
     #data
     mapboxtoken = 'pk.eyJ1IjoidHRob21haWVyIiwiYSI6ImNqZjduZzkzdjF6d2wyd2xubTI3djN4cGwifQ.3-bkCbF2NAzEyTsqK3okWg'
@@ -156,3 +159,8 @@ def getChartData(data):
                 )
             ])
 
+#callbacks
+                
+                
+#static layout for getting callbacks to work
+layout = runDetailsDash(10001)

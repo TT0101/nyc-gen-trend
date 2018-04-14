@@ -6,18 +6,29 @@ import dash_html_components as html
 
 import nycgenheatmap as home
 import nycgendetailsdashboard as detail
+import genoverviewdata as oData
+
+import TypeHelper as th
 
 from flask import Flask
 
+from app import app
 
-CURRENT_ZCTA = None #global to allow grab of data across pages
+#move this to app when on server
+#fServer = Flask(__name__)
+#app = dash.Dash(__name__, server=fServer, static_folder='static', url_base_pathname='/')
+#
+#app.config['suppress_callback_exceptions']=True
 
-fServer = Flask(__name__)
-#initLayout = html.Div(id='page-content', children="init")
-app = dash.Dash(__name__, server=fServer, static_folder='static', url_base_pathname='/')
-#app.layout = initLayout
+#main setup
+app.css.config.serve_locally = True
+app.scripts.config.serve_locally = True
 
-app.config['suppress_callback_exceptions']=True
+app.layout = html.Div([
+            dcc.Location(id='url', refresh=False),
+            html.Div(id='pageContent')#, children=home.runMapPage())
+            ])
+
 
 #link callback
 @app.callback(Output('pageContent', 'children'),
@@ -25,18 +36,9 @@ app.config['suppress_callback_exceptions']=True
 def display_page(pathname):
     if pathname == '/':
          return home.runMapPage()
-    elif pathname == '/details':
-         return detail.runDetailsDash()
+    elif '/details/' in pathname:
+            zcta = re.search(r'\d{5}$', pathname)
+            return detail.runDetailsDash(zcta.group(0).strip())
     else:
         return '404'
 
-
-app.css.config.serve_locally = True
-app.scripts.config.serve_locally = True
-
-app.layout = html.Div([
-            dcc.Location(id='url', refresh=False),
-            html.Div(id='pageContent', children=home.runMapPage())
-            ])
-
-#app = test.run(app)
