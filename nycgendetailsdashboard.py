@@ -5,6 +5,7 @@
 #overall imports
 import dash_core_components as dcc
 import dash_html_components as html
+from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import pandas as pd
 
@@ -15,25 +16,35 @@ from app import app
 import zctapolygons as zpoly
 import indexcolors as ic
 import genoverviewdata as oData
+import subwaydatarepository as sdres
 
 import TypeHelper as th
 import config
 
-mapboxtoken = config.mapboxtoken 
+mapboxtoken = config.mapboxtoken
+zctaOverview = None 
+zctaPoly = None
+pointsDic = None
+genIndexColor = None
     
 def runDetailsDash(zcta):
-    #zcta = parseZCTAOutOfURL(dcc.Location.pathname)
+    #define in globals so callbacks can use it, but we must assign here due to zcta value being needed
+    global zctaOverview
+    global zctaPoly
+    global pointsDic
+    global genIndexColor
+    
     if zcta == None:
         return html.P(children='Invalid call: ' + str(zcta))
     else:
         zctaOverview = oData.getOverviewForZCTA(th.cleanInts(zcta), oData.GENOVERVIEWDATA)
         
-    #data
-   
+    #data load
     zctaPoly = zpoly.getAllPolygonsForZCTA(zctaOverview.ZCTA)
     genIndexColor = ic.getSpecificColor(zctaOverview.GenIndex)
 
-    pointsDic = getDataWithLocationDictionary(zctaOverview.ZCTA)
+    pointsDic = getDataWithLocationDictionary(zctaOverview)
+    
     
     #this is mock data for now, would get from whatever is chosen in multiselect 
     x = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
@@ -41,16 +52,13 @@ def runDetailsDash(zcta):
     chartData = pd.DataFrame({'x': x, 'y': y})
     chartData.head()
     
-    #map
-    mapData = getMapData(pointsDic)
-    mapLayout = getMapLayout(mapboxtoken, zctaPoly, genIndexColor)
+
     
     #chart
     currentChartData = getChartData(chartData)
     
     #ui
-    #app.layout = html.Div(children=[
-    pLayout = html.Div(children=[
+    return html.Div(children=[
         #header
         html.Div(children =[
                 html.H2(children='NYC Gentrification Dashboard: ' + str(zctaOverview.ZCTA), style={'text-align':'center'})
@@ -69,19 +77,18 @@ def runDetailsDash(zcta):
                         ], style={'width':'15%', 'float':'right', 'text-align':'right'})
                 #map
                 ,html.Div(children=[
-                         dcc.Dropdown(
+                         dcc.Dropdown(id='mapDataSelect',
                             options=[
-                                {'label': 'Schools', 'value': 'S'},
-                                {'label': 'Subway Entry', 'value': 'SE'},
-                                {'label': 'CitiBike Stands', 'value': 'CS'}
+                                #{'label': 'Schools', 'value': 'S'},
+                                {'label': 'Subway Stations', 'value': 'SE'},
+                                #{'label': 'CitiBike Stands', 'value': 'CS'}
                             ],
                             multi=True,
-                            value="SE"
+                            value=["SE"]
                         ),
                         dcc.Graph(
                         id = 'zctaRegionMap',
-                        style={'height':'100%', 'width':'100%'},
-                        figure=dict(data=mapData, layout=mapLayout)
+                        style={'height':'100%', 'width':'100%'} #figure comes from callback
                         )
                         ], style={'width':'35%', 'height':'50vh', 'float':'right'}),
                 #graphs and charts
@@ -96,7 +103,7 @@ def runDetailsDash(zcta):
                         {'label': 'School Class Sizes', 'value': 'SCS'}
                     ],
                     multi=True,
-                    value="RP"
+                    value=["RP"]
                 ),
                 dcc.Graph(
                             id='detailsGraph',
@@ -106,24 +113,61 @@ def runDetailsDash(zcta):
             ])
     ], style={'width':'100%', 'height':'100%', 'padding':'0px'})
     
-    return pLayout
 
 
 #functions
-def getDataWithLocationDictionary(zctaVal):
-    return {}
+def getDataWithLocationDictionary(zctaOverview):
+    return {'SE': filterByNearbyBoro(sdres.subwayEntryways, zctaOverview.Boro, sdres.BoroColName)}
 
-def getMapData(pointsDic):
+def getPointsToPlot(valuesChosen, data):
+    layers = []
+    for key in data:
+        if key in valuesChosen:
+            layers.append([key, data[key]])
+    
+    return layers
+
+def getBlankMap():
     
     return go.Data([
             go.Scattermapbox(
-                    #lat=lats,
-                    #lon=longs, 
-                    mode='markers',
-                    #text=texts
+                    mode='markers'
                     )
             ])
             
+def getMapWithPoints(valuesChosen, data):
+    layers = getPointsToPlot(valuesChosen, data)
+        
+    return go.Data([
+            go.Scattermapbox(
+                    lat=[item[1]['latitude'] for item in layers][0],
+                    lon=[item[1]['longitude'] for item in layers][0], 
+                    mode='markers',
+                    text=[item[1]['label'] for item in layers][0],
+                    marker=dict(
+                             color=[ic.getDetailSpecificColor(item[0]) for item in layers],
+                             opacity=1.0,
+                             size=10
+#                             colorbar=dict(
+#                                     title="Index",
+#                                     x=0.935,
+##                                    xpad=0,
+##                                    #dtick=1,
+##                                    #nticks=len(ic.getColorScale()),
+##                                    tickfont=dict(
+##                                        color='black'
+##                                    ),
+##                                    titlefont=dict(
+##                                        color='black'
+##                                    ),
+##                                    titleside='left',
+##                                    tickvals = [1, 50, 100],
+##                                    ticktext = ['Low','Mid','High']
+#                                     )
+                             )
+                    )
+            ])
+        
 def getMapLayout(mapboxtoken, polygons, genColor):
     return go.Layout(
             #height=800,
@@ -137,7 +181,7 @@ def getMapLayout(mapboxtoken, polygons, genColor):
                                     source = polygons,
                                     type = 'fill',
                                     color = genColor,
-                                    opacity = 0.6
+                                    opacity = 0.4
                                     )
                             ],
                     accesstoken=(mapboxtoken),
@@ -162,8 +206,28 @@ def getChartData(data):
                 )
             ])
 
+#helpers
+def filterByZcta(df, zcta, zctaColName):
+    return df[df[zctaColName] == zcta]
+
+def filterByNearbyBoro(df, boro, boroColName):
+    boroList = [boro]
+    if(boro == "Brooklyn"):
+        boroList.append("Queens")
+    elif(boro == "Queens"):
+        boroList.append("Brooklyn")
+    return df[df[boroColName].isin(boroList)]
+    
 #callbacks
+@app.callback(Output('zctaRegionMap', 'figure'),
+              [Input('mapDataSelect', 'value')])
+def onMapDataSelected(value):
+    #map
+    mapLayout = getMapLayout(mapboxtoken, zctaPoly, genIndexColor)
+    if value == None or len(value) == 0:
+        mapData = getBlankMap()
+        return dict(data=mapData, layout=mapLayout)
+    else:
+        mapData = getMapWithPoints(value, pointsDic)
+        return dict(data=mapData, layout=mapLayout)
                 
-                
-#static layout for getting callbacks to work
-layout = runDetailsDash(10001)

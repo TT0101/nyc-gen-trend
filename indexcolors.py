@@ -18,4 +18,8 @@ def getSpecificColor(index):
     
     return 'rgb(0,0,10)'
     
-    
+def getDetailColorScale():
+    return [['SE', '#015409']]
+
+def getDetailSpecificColor(index):
+    return [item[1] for item in getDetailColorScale() if item[0] == index]
