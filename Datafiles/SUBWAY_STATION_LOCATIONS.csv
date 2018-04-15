@@ -1,0 +1,474 @@
+OBJECTID,NAME,LINE,NOTES,longitude,latitude,zipcode,zcta,nbhLabel,boroLabel,label
+1,Astor Pl,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9910699986197,40.7300540002898,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,Astor Pl Station - 4-6-6 Express
+2,Canal St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-74.0001929992733,40.7188030010771,10013,10013,"Tribeca, Soho",Manhattan,Canal St Station - 4-6-6 Express
+3,50th St,1-2,"1-all times, 2-nights",-73.9838489998663,40.7617279996142,10019,10019,Midtown West,Manhattan,50th St Station - 1-2
+4,Bergen St,2-3-4,"4-nights, 3-all other times, 2-all times",-73.9749991511681,40.6808621368296,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Bergen St Station - 2-3-4
+5,Pennsylvania Ave,3-4,"4-nights, 3-all other times",-73.8948859115406,40.6647144514357,11207,11207,East New York,Brooklyn,Pennsylvania Ave Station - 3-4
+6,238th St,1,"1-all times, exit only northbound",-73.9008700001852,40.8846670006498,10463,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx,238th St Station - 1
+7,Cathedral Pkwy (110th St),A-B-C,"A-nights, B-weekdays and evenings, C-all times exc nights",-73.9580667066136,40.800581558115,10036,10036,Midtown West,Manhattan,Cathedral Pkwy (110th St) Station - A-B-C
+8,Kingston - Throop Aves,A-C,"A-nights, C-all other times",-73.9408589987126,40.679918999416,11216,11216,Bedford-Stuyvesant,Brooklyn,Kingston - Throop Aves Station - A-C
+9,65th St,E-M-R,"E-nights, R-all other times, M-weekdays and evenings",-73.8987883783301,40.7497195293568,11377,11377,Woodside,Queens,65th St Station - E-M-R
+10,36th St,E-M-R,"E-nights, R-all other times, M-weekdays and evenings",-73.9290181846154,40.7519600440108,11101,11101,Long Island City,Queens,36th St Station - E-M-R
+11,Delancey St - Essex St,J-M-Z,"J-all times, M-all times exc nights, Z-rush hours AM westbound, PM eastbound",-73.9874094020297,40.7183060561862,10002,10002,Lower East Side,Manhattan,Delancey St - Essex St Station - J-M-Z
+12,Van Siclen Ave,J-Z,"Z-rush hours AM westbound, PM eastbound, J-all other times",-73.8916577270245,40.6780282144778,11207,11207,East New York,Brooklyn,Van Siclen Ave Station - J-Z
+13,Norwood Ave,J-Z,"Z-rush hours AM westbound, PM eastbound, J-all other times",-73.8796259991078,40.6815200004568,11208,11208,Cypress Hills,Brooklyn,Norwood Ave Station - J-Z
+14,104th-102nd Sts,J-Z,"Z-rush hours AM westbound, PM eastbound, J-all other times",-73.8444350002968,40.6951659982337,11418,11418,"Kew Gardens, Richmond Hill",Queens,104th-102nd Sts Station - J-Z
+15,DeKalb Ave,B-D-N-Q-R,"B-weekdays and evenings, D-all other times, N-nights, R-all other times, Q-all times",-73.9817709444095,40.6906481199698,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,DeKalb Ave Station - B-D-N-Q-R
+16,Beach 105th St,A-S,"A-rush hours AM northbound, PM southbound, S Broad Channel to Rockaway Park-all times",-73.8275807503453,40.5832684381029,11694,11694,"Neponsit, Rockaway Park",Queens,Beach 105th St Station - A-S
+17,Beach 90th St,A-S,"A-rush hours AM northbound, PM southbound, S Broad Channel to Rockaway Park-all times",-73.8136514041963,40.5880915645732,11693,11693,"Broad Channel, Hammels, Rockaway Beach (Far Rockaway)",Queens,Beach 90th St Station - A-S
+18,Freeman St,2-5,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",-73.8917522534946,40.8299874463841,10459,10459,Foxhurst,Bronx,Freeman St Station - 2-5
+19,Intervale Ave,2-5,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",-73.8966173846165,40.8221421311708,10459,10459,Foxhurst,Bronx,Intervale Ave Station - 2-5
+20,182nd-183rd Sts,B-D,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",-73.9007409999897,40.8560929988186,10457,10457,"West Bronx, Mt Hope, Tremont, Belmont",Bronx,182nd-183rd Sts Station - B-D
+21,174th-175th Sts,B-D,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",-73.9101360005008,40.8458999998341,10453,10453,"Morris Heights, University Heights",Bronx,174th-175th Sts Station - B-D
+22,167th St,B-D,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",-73.9184320008225,40.833768998628,10452,10452,"Highbridge, Mt Eden",Bronx,167th St Station - B-D
+23,Mets - Willets Point,7-7 Express,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",-73.8456249984179,40.7546219988126,11368,11368,Willets Point,Queens,Mets - Willets Point Station - 7-7 Express
+24,Junction Blvd,7-7 Express,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",-73.8695270010352,40.7491449994884,11372,11372,Jackson Heights,Queens,Junction Blvd Station - 7-7 Express
+25,Flushing - Main St,7-7 Express,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",-73.8300300026251,40.7595999991501,11354,11354,"Flushing, Linden Hill",Queens,Flushing - Main St Station - 7-7 Express
+26,Buhre Ave,6-6 Express,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",-73.8325690000374,40.8468099988855,10461,10461,"Morris Park, Middletown-Pelham Bay, Westchester Square",Bronx,Buhre Ave Station - 6-6 Express
+27,3rd Ave - 138th St,6-6 Express,"6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9261380001414,40.8104760011726,10454,10454,"Mott Haven, Port Morris",Bronx,3rd Ave - 138th St Station - 6-6 Express
+28,Castle Hill Ave,6-6 Express,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",-73.8512219996147,40.8342549982546,10462,10462,"Parkchester, East Bronx",Bronx,Castle Hill Ave Station - 6-6 Express
+29,Brooklyn Bridge - City Hall,4-5-6-6 Express,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",-74.0041310005885,40.7130649994331,10007,10007,"Tribeca, Financial District",Manhattan,Brooklyn Bridge - City Hall Station - 4-5-6-6 Express
+30,Zerega Ave,6-6 Express,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",-73.8470359987544,40.8364880006082,10462,10462,"Parkchester, East Bronx",Bronx,Zerega Ave Station - 6-6 Express
+31,Grand Central - 42nd St,4-5-6-6 Express,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",-73.9767132992584,40.7518074298163,10017,10017,Midtown East,Manhattan,Grand Central - 42nd St Station - 4-5-6-6 Express
+32,33rd St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9820760014895,40.7460809990915,10016,10016,"Murray Hill, Kips Bay",Manhattan,33rd St Station - 4-6-6 Express
+33,96th St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9510700015425,40.7856719999861,10128,10128,Upper East Side,Manhattan,96th St Station - 4-6-6 Express
+34,77th St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9598739988605,40.7736200007462,10075,10075,Upper East Side,Manhattan,77th St Station - 4-6-6 Express
+35,Chauncey St,J-Z,"Z-rush hours AM westbound, PM eastbound, J-all other times",-73.9103835703338,40.682851300878,11207,11207,East New York,Brooklyn,Chauncey St Station - J-Z
+36,Union St,D-N-R,"D,N-nights, R-all other times",-73.9831099990967,40.677315667351,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,Union St Station - D-N-R
+37,Elmhurst Ave,E-M-R,"E-nights, R-all other times, M-weekdays and evenings",-73.8820347465864,40.7423700797217,11373,11373,Elmhurst,Queens,Elmhurst Ave Station - E-M-R
+38,Ralph Ave,A-C,"A-nights, C-all other times",-73.9207859993331,40.6788220008734,11233,11233,"Bedford-Stuyvesant, Stuyvesant Heights",Brooklyn,Ralph Ave Station - A-C
+39,Pelham Pkwy,2-5,"2-all times, 5-rush hours AM southbound, PM northbound",-73.8674806785004,40.8571924091606,10467,10467,"Norwood, Olinville, Allerton",Bronx,Pelham Pkwy Station - 2-5
+40,Gun Hill Rd,2-5,"2-all times, 5-rush hours AM southbound, PM northbound",-73.866134105387,40.877839385172,10467,10467,"Norwood, Olinville, Allerton",Bronx,Gun Hill Rd Station - 2-5
+41,Nereid Ave (238 St),2-5,"2-all times, 5-rush hours AM southbound, PM northbound",-73.8543153107622,40.8982865155753,10466,10466,"Wakefield, Edenwald",Bronx,Nereid Ave (238 St) Station - 2-5
+42,Franklin Ave,2-3-4-5,"2,4-all times, 3-all times exc nights, 5-weekdays",-73.9580997367769,40.6707651534489,11238,11238,Prospect Heights,Brooklyn,Franklin Ave Station - 2-3-4-5
+43,Simpson St,2-5,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",-73.893066395079,40.8239768412374,10459,10459,Foxhurst,Bronx,Simpson St Station - 2-5
+44,Bronx Park East,2-5,"2-all times, 5-rush hours AM southbound, PM northbound",-73.868356091781,40.8487686663389,10462,10462,"Parkchester, East Bronx",Bronx,Bronx Park East Station - 2-5
+45,Winthrop St,2-5,"2-all times, 5-weekdays",-73.9500793459099,40.6566593137608,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,Winthrop St Station - 2-5
+46,Van Siclen Ave,3-4,"4-nights, 3-all other times",-73.8894049173011,40.6655179630596,11207,11207,East New York,Brooklyn,Van Siclen Ave Station - 3-4
+47,149th St - Grand Concourse,4,4-all times,-73.9273847542618,40.8183034437232,10451,10451,? (is a point on the map),Bronx,149th St - Grand Concourse Station - 4
+48,161st St - Yankee Stadium,4,4-all times,-73.9256919950573,40.8282303274217,10452,10452,"Highbridge, Mt Eden",Bronx,161st St - Yankee Stadium Station - 4
+49,Lexington Ave - 59th St,4-5-6-6 Express,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",-73.9679670004732,40.7625260003046,10022,10022,Midtown East,Manhattan,Lexington Ave - 59th St Station - 4-5-6-6 Express
+50,E 149th St,6,6-all times,-73.9040979987595,40.812117998272,10455,10455,? (is a point on the map),Bronx,E 149th St Station - 6
+51,Morrison Av - Soundview,6,6-all times,-73.8745159992949,40.8295210015675,10472,10472,"Soundview, Unionport",Bronx,Morrison Av - Soundview Station - 6
+52,Whitlock Ave,6,6-all times,-73.8862829985325,40.826525000559,10459,10459,Foxhurst,Bronx,Whitlock Ave Station - 6
+53,St Lawrence Ave,6,6-all times,-73.8676179992367,40.8315090005233,10472,10472,"Soundview, Unionport",Bronx,St Lawrence Ave Station - 6
+54,Woodside - 61st St,7-7 Express,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",-73.9029840017301,40.7456300011384,11377,11377,Woodside,Queens,Woodside - 61st St Station - 7-7 Express
+55,Far Rockaway - Mott Ave,A,A-all times,-73.7554049992473,40.6039950016875,11691,11691,Bayswater (Far Rockaway),Queens,Far Rockaway - Mott Ave Station - A
+56,72nd St,A-B-C,"A-nights, B-weekdays and evenings, C-all times exc nights",-73.976336575218,40.7755193972926,10023,10023,Upper West Side,Manhattan,72nd St Station - A-B-C
+57,96th St,A-B-C,"A-nights, B-weekdays and evenings, C-all times exc nights",-73.9646024568716,40.7916187976701,10025,10025,Upper West Side,Manhattan,96th St Station - A-B-C
+58,168th St,A-C,"A-all times, C-all times exc nights",-73.9395609998543,40.8407189999079,10032,10032,Washington Heights,Manhattan,168th St Station - A-C
+59,Kingsbridge Rd,B-D,"B-rush hours, D-all times",-73.8935090000331,40.8669779999994,10458,10458,"Fordham, Belmont",Bronx,Kingsbridge Rd Station - B-D
+60,42nd St - Bryant Pk,B-D-F-M,"B,M-weekdays and evenings, D,F-all times",-73.9845909990471,40.7541840013125,10036,10036,Midtown West,Manhattan,42nd St - Bryant Pk Station - B-D-F-M
+61,Prospect Park,B-Q-S,"B-weekdays and evenings, Q,S to Franklin Av-Fulton St-all times",-73.9620313042661,40.6616334551018,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,Prospect Park Station - B-Q-S
+62,55th St,D,D-all times,-73.9953488259574,40.6314787609375,11219,11219,Borough Park,Brooklyn,55th St Station - D
+63,Jamaica - Van Wyck,E,E-all times,-73.8170128713541,40.7028985528731,11418,11418,"Kew Gardens, Richmond Hill",Queens,Jamaica - Van Wyck Station - E
+64,Kew Gardens - Union Tpke,E-F,"E,F-all times",-73.8303702709878,40.714034819571,11415,11415,Kew Gardens,Queens,Kew Gardens - Union Tpke Station - E-F
+65,Sutphin Blvd - Archer Av,E-J-Z,"E,J-all times, Z-rush hours AM westbound, PM eastbound",-73.8080047196383,40.700382424235,11435,11435,"Briarwood, South Jamaica",Queens,Sutphin Blvd - Archer Av Station - E-J-Z
+66,Court Sq - 23rd St,E-M,"E-all times, M-weekdays and evenings",-73.9460547026633,40.7477681214143,11101,11101,Long Island City,Queens,Court Sq - 23rd St Station - E-M
+67,67th Ave,E-M-R,"E-nights, R-all other times, M-weekdays and evenings",-73.8528604843491,40.726505475813,11375,11375,"Forest Hills, Forest Hills Gardens",Queens,67th Ave Station - E-M-R
+68,Grand Ave - Newtown,E-M-R,"E-nights, R-all other times, M-weekdays and evenings",-73.8772208566918,40.7368134181971,11373,11373,Elmhurst,Queens,Grand Ave - Newtown Station - E-M-R
+69,Ditmas Ave,F,F-all times,-73.9781719996516,40.6361186666629,11218,11218,"Ditmas Park, Kensington",Brooklyn,Ditmas Ave Station - F
+70,Classon Ave,G,G-all times,-73.9599900013721,40.6888890002646,11238,11238,Prospect Heights,Brooklyn,Classon Ave Station - G
+71,Broadway,G,G-all times,-73.9503122560662,40.7061265762742,11211,11211,Williamsburg,Brooklyn,Broadway Station - G
+72,Lorimer St,L,L-all times,-73.9502479999697,40.7140720006472,11211,11211,Williamsburg,Brooklyn,Lorimer St Station - L
+73,Sutter Ave,L,L-all times,-73.9019160004208,40.669145000614,11207,11207,East New York,Brooklyn,Sutter Ave Station - L
+74,Wilson Ave,L,L-all times,-73.9039586049186,40.6888665424602,11207,11207,East New York,Brooklyn,Wilson Ave Station - L
+75,Halsey St,J,J-all times,-73.9166388842194,40.6864152707043,11221,11221,"Bedford-Stuyvesant, Bushwick",Brooklyn,Halsey St Station - J
+76,Lorimer St,J-M,"J-all times, skips weekdays AM westbound, PM eastbound, M-all times exc nights",-73.947354998842,40.7038440000421,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Lorimer St Station - J-M
+77,8th Ave,N,N-all times,-74.0115159977216,40.6349709996472,11220,11220,Sunset Park,Brooklyn,8th Ave Station - N
+78,36th Ave,N-W,"N-all times, W part time",-73.929861999118,40.7564420005104,11106,11106,Ravenswood (Astoria),Queens,36th Ave Station - N-W
+79,Broadway,N-W,"N-all times, W part time",-73.9258229991991,40.7614319988006,11106,11106,Ravenswood (Astoria),Queens,Broadway Station - N-W
+80,Times Sq - 42nd St,N-Q-R-W,"N,Q-all times, R-all times exc nights, W part time",-73.9867680015398,40.7546119985154,10018,10018,Midtown West,Manhattan,Times Sq - 42nd St Station - N-Q-R-W
+81,Grand Central - 42nd St,S,"S to Times Sq-all times exc nights, closed nights-use 7",-73.979188999891,40.7527686667422,10017,10017,Midtown East,Manhattan,Grand Central - 42nd St Station - S
+82,Park Pl,S,S Franklin Av-Fulton St to Prospect Park-all times,-73.9576240007464,40.6747716668526,11238,11238,Prospect Heights,Brooklyn,Park Pl Station - S
+83,111th St,A-S,"S Euclid Av to Ozone Park-Lefferts Blvd-nights, A-all other times",-73.8321629984539,40.6843310000124,11419,11419,"Kew Gardens, Richmond Hill",Queens,111th St Station - A-S
+84,W 4th St - Washington Sq (Lower),B-D-F-M,"B,M-weekdays and evenings, D,F-all times",-74.0003081475598,40.7322544933679,10011,10011,"Chelsea ,  Village",Manhattan,W 4th St - Washington Sq (Lower) Station - B-D-F-M
+85,51st St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9719200006998,40.7571069998932,10022,10022,Midtown East,Manhattan,51st St Station - 4-6-6 Express
+86,86th St,1-2,"1-all times, 2-nights",-73.9762179985933,40.7886440007389,10024,10024,Upper West Side,Manhattan,86th St Station - 1-2
+87,233rd St,2-5,"2-all times, 5-rush hours AM southbound, PM northbound",-73.8573623952154,40.8931432413838,10466,10466,"Wakefield, Edenwald",Bronx,233rd St Station - 2-5
+88,66th St - Lincoln Ctr,1-2,"1-all times, 2-nights",-73.9822089999578,40.7734400005204,10023,10023,Upper West Side,Manhattan,66th St - Lincoln Ctr Station - 1-2
+89,Hunts Point Ave,6-6 Express,"6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.8905490001734,40.8209479985231,10459,10459,Foxhurst,Bronx,Hunts Point Ave Station - 6-6 Express
+90,Canal St,1-2,"1-all times, 2-nights",-74.0062770001748,40.7228539977878,10013,10013,"Tribeca, Soho",Manhattan,Canal St Station - 1-2
+91,Middletown Rd,6-6 Express,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",-73.8363219975594,40.8438630012838,10461,10461,"Morris Park, Middletown-Pelham Bay, Westchester Square",Bronx,Middletown Rd Station - 6-6 Express
+92,23rd St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9865990020789,40.7398640004746,10010,10010,"Gramercy, Flatiron",Manhattan,23rd St Station - 4-6-6 Express
+93,Court Sq,7-7 Express,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",-73.9452640003968,40.7470229988964,11101,11101,Long Island City,Queens,Court Sq Station - 7-7 Express
+94,59th St - Columbus Circle,1-2,"1-all times, 2-nights",-73.9819290023272,40.7682470006369,10019,10019,Midtown West,Manhattan,59th St - Columbus Circle Station - 1-2
+95,Hunters Point Ave,7-7 Express,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",-73.9489160009391,40.7422159998632,11101,11101,Long Island City,Queens,Hunters Point Ave Station - 7-7 Express
+96,23rd St,1-2,"1-all times, 2-nights",-73.9956570016487,40.7440809998975,10011,10011,"Chelsea ,  Village",Manhattan,23rd St Station - 1-2
+97,Houston St,1-2,"1-all times, 2-nights",-74.0053670018058,40.7282510007302,10014,10014,"West Village, Soho",Manhattan,Houston St Station - 1-2
+98,104th St,A-S,"S Euclid Av to Ozone Park-Lefferts Blvd-nights, A-all other times",-73.83768300061,40.6817110010912,11417,11417,"Ozone Park, Tudor Village",Queens,104th St Station - A-S
+99,Broad Channel,A-S,"A,S to Rockaway Park-all times",-73.8158326878296,40.6084021806968,11693,11693,"Broad Channel, Hammels, Rockaway Beach (Far Rockaway)",Queens,Broad Channel Station - A-S
+100,Ocean Pkwy,Q,Q-all times,-73.9685009997518,40.5763116670809,11224,11224,"Coney Island, Sea Gate",Brooklyn,Ocean Pkwy Station - Q
+101,Vernon Blvd - Jackson Ave,7-7 Express,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",-73.9535809987525,40.7426259996975,11101,11101,Long Island City,Queens,Vernon Blvd - Jackson Ave Station - 7-7 Express
+102,68th St - Hunter College,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9638700015804,40.7681410004968,10065,10065,Upper East Side,Manhattan,68th St - Hunter College Station - 4-6-6 Express
+103,Queensboro Plz,7-7 Express-N-W,"7,N-all times, 7 Express-rush hours AM westbound, PM eastbound, W part time",-73.9401635351909,40.7506356510148,11101,11101,Long Island City,Queens,Queensboro Plz Station - 7-7 Express-N-W
+104,Rockaway Blvd,A-S,"A-all times, S Euclid Av to Ozone Park-Lefferts Blvd-nights",-73.8438529979573,40.6804289995884,11417,11417,"Ozone Park, Tudor Village",Queens,Rockaway Blvd Station - A-S
+105,Union Sq - 14th St,4-5-6-6 Express,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",-73.9899509988188,40.7346730009961,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,Union Sq - 14th St Station - 4-5-6-6 Express
+106,Bedford - Nostrand Aves,G,G-all times,-73.9535220006402,40.6896270015844,11205,11205,"Bedford-Stuyvesant, Navy Yard, Clinton Hill, Fort Greene",Brooklyn,Bedford - Nostrand Aves Station - G
+107,15th St - Prospect Park,F-G,"F,G-all times",-73.9797358059287,40.6600356881002,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,15th St - Prospect Park Station - F-G
+108,7th Ave,F-G,"F,G-all times",-73.9802511790094,40.6662446900199,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,7th Ave Station - F-G
+109,Ft Hamilton Pkwy,F-G,"F,G-all times",-73.9757759991747,40.6507816680342,11218,11218,"Ditmas Park, Kensington",Brooklyn,Ft Hamilton Pkwy Station - F-G
+110,Church Ave,F-G,"F,G-all times",-73.9797211622908,40.64427200013,11218,11218,"Ditmas Park, Kensington",Brooklyn,Church Ave Station - F-G
+111,Beverly Rd,Q,Q-all times,-73.9643577962313,40.6439045986042,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Beverly Rd Station - Q
+112,Church Ave,B-Q,"B-weekdays and evenings, Q-all times",-73.9628824619211,40.6504932464648,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Church Ave Station - B-Q
+113,Newkirk Ave,B-Q,"B-weekdays and evenings, Q-all times",-73.9626948683726,40.6351419373379,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Newkirk Ave Station - B-Q
+114,Parkside Ave,Q,Q-all times,-73.9614534398765,40.6550730416372,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Parkside Ave Station - Q
+115,Grand Army Plaza,2-3-4,"4-nights, 3-all other times, 2-all times",-73.9709563319228,40.6752946951032,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Grand Army Plaza Station - 2-3-4
+116,Atlantic Av - Barclay's Center,2-3-4-5,"2,4-all times, 3-all times exc nights, 5-weekdays",-73.9775499353939,40.6844201652676,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Atlantic Av - Barclay's Center Station - 2-3-4-5
+117,Rockaway Ave,A-C,"A-nights, C-all other times",-73.9119459972662,40.6783399998835,11233,11233,"Bedford-Stuyvesant, Stuyvesant Heights",Brooklyn,Rockaway Ave Station - A-C
+118,Fulton St,G,G-all times,-73.9753749983315,40.6871189995077,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Fulton St Station - G
+119,Clinton - Washington Aves,G,G-all times,-73.9667959986695,40.6880940010606,11238,11238,Prospect Heights,Brooklyn,Clinton - Washington Aves Station - G
+120,7th Ave,B-Q,"B-weekdays and evenings, Q-all times",-73.9728527919102,40.6771021798329,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,7th Ave Station - B-Q
+121,Atlantic Av - Barclay's Center,B-Q,"B-weekdays and evenings, Q-all times",-73.9767834396317,40.6844883234537,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Atlantic Av - Barclay's Center Station - B-Q
+122,Atlantic Av - Barclay's Center,D-N-Q-R,"D,N-all times, R-all times exc nights",-73.9788099995677,40.6836656672794,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Atlantic Av - Barclay's Center Station - D-N-Q-R
+123,Borough Hall,4-5,"4-all times, 5-weekdays",-73.9901510009054,40.6924039999911,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Borough Hall Station - 4-5
+124,Aqueduct Racetrack,A,"A-to Manhattan only, racing days only",-73.8359189996516,40.6720969991729,11420,11420,South Ozone Park,Queens,Aqueduct Racetrack Station - A
+125,Morris Park,5,5-all times,-73.8604950011725,40.8543639996643,10462,10462,"Parkchester, East Bronx",Bronx,Morris Park Station - 5
+126,Pelham Pkwy,5,5-all times,-73.8553590004356,40.8589849998201,10469,10469,"Laconia, Pelham Gardens, Baychester",Bronx,Pelham Pkwy Station - 5
+127,Nostrand Ave,A-C,"A-all times, C-all times exc nights",-73.9504260009968,40.6804380000623,11216,11216,Bedford-Stuyvesant,Brooklyn,Nostrand Ave Station - A-C
+128,Nevins St,2-3-4-5,"2,4-all times, 3-all times exc nights, 5-weekdays",-73.9804067987458,40.6883105801902,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Nevins St Station - 2-3-4-5
+129,Eastern Pkwy - Bklyn Museum,2-3-4,"4-nights, 3-all other times, 2-all times",-73.9642220374842,40.6720322354593,11238,11238,Prospect Heights,Brooklyn,Eastern Pkwy - Bklyn Museum Station - 2-3-4
+130,Beverly Rd,2-5,"2-all times, 5-weekdays",-73.948847983817,40.6451235189437,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Beverly Rd Station - 2-5
+131,Church Ave,2-5,"2-all times, 5-weekdays",-73.9494551403534,40.6508606878022,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Church Ave Station - 2-5
+132,Newkirk Ave,2-5,"2-all times, 5-weekdays",-73.9482999082241,40.6399912427531,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Newkirk Ave Station - 2-5
+133,Brooklyn College - Flatbush Ave,2-5,"2-all times, 5-weekdays",-73.9475412073441,40.6328424070074,11210,11210,"Brooklyn College, Flatbush, Vanderveer",Brooklyn,Brooklyn College - Flatbush Ave Station - 2-5
+134,Sterling St,2-5,"2-all times, 5-weekdays",-73.9507289112494,40.6627729934283,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,Sterling St Station - 2-5
+135,Crown Hts - Utica Ave,3-4,"3-all times exc nights, 4-all times",-73.9329325608185,40.6689783110781,11213,11213,"Brower Park, Crown Heights, Weeksville",Brooklyn,Crown Hts - Utica Ave Station - 3-4
+136,Kingston Ave,3-4,"4-nights, 3-all other times",-73.9421597839296,40.6694814486498,11213,11213,"Brower Park, Crown Heights, Weeksville",Brooklyn,Kingston Ave Station - 3-4
+137,Nassau Ave,G,G-all times,-73.9511830001652,40.7244799978083,11222,11222,Greenpoint,Brooklyn,Nassau Ave Station - G
+138,Greenpoint Ave,G,G-all times,-73.9544250014623,40.7312669997147,11222,11222,Greenpoint,Brooklyn,Greenpoint Ave Station - G
+139,Marcy Ave,J-M-Z,"J-all times, M-all times exc nights, Z-rush hours AM westbound, PM eastbound",-73.9578320007573,40.7083830000179,11211,11211,Williamsburg,Brooklyn,Marcy Ave Station - J-M-Z
+140,Hewes St,J-M,"J-all times, skips weekdays AM westbound, PM eastbound, M-all times exc nights",-73.9534880003846,40.706889998054,11211,11211,Williamsburg,Brooklyn,Hewes St Station - J-M
+141,138th St - Grand Concourse,4-5,"4-all times, skips rush hours AM southbound, PM northbound, 5-all times exc nights",-73.9298489993561,40.8132239995891,10451,10451,? (is a point on the map),Bronx,138th St - Grand Concourse Station - 4-5
+142,5th Ave - 53rd St,E-M,"E-all times, M-weekdays and evenings",-73.9752485052734,40.7600868323133,10022,10022,Midtown East,Manhattan,5th Ave - 53rd St Station - E-M
+143,Lexington Ave - 53rd St,E-M,"E-all times, M-weekdays and evenings",-73.9690723749021,40.7574683078287,10022,10022,Midtown East,Manhattan,Lexington Ave - 53rd St Station - E-M
+144,28th St,N-Q-R-W,"N-all times, R-all times exc nights, part time",-73.9886980012874,40.7454539997995,10001,10001,"Chelsea,  West Midtown",Manhattan,28th St Station - N-Q-R-W
+145,Herald Sq - 34th St,N-Q-R-W,"N,Q-all times, R-all times exc nights",-73.9879368338264,40.7496445600944,10001,10001,"Chelsea,  West Midtown",Manhattan,Herald Sq - 34th St Station - N-Q-R-W
+146,1st Ave,L,L-all times,-73.9816808748913,40.7309749758007,10009,10009,East Village,Manhattan,1st Ave Station - L
+147,Times Sq - 42nd St,S,"S to Grand Central-all times exc nights, closed nights-use 7",-73.986228999532,40.7559830005701,10036,10036,Midtown West,Manhattan,Times Sq - 42nd St Station - S
+148,Metropolitan Ave,G,G-all times,-73.9514239994525,40.7127740007343,11211,11211,Williamsburg,Brooklyn,Metropolitan Ave Station - G
+149,Grand St,L,L-all times,-73.9404969987464,40.7115760006482,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Grand St Station - L
+150,Graham Ave,L,L-all times,-73.9439439986904,40.7145759983636,11211,11211,Williamsburg,Brooklyn,Graham Ave Station - L
+151,Bedford Ave,L,L-all times,-73.9566649980653,40.717173998589,11211,11211,Williamsburg,Brooklyn,Bedford Ave Station - L
+152,Montrose Ave,L,L-all times,-73.9397928471351,40.7073910643845,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Montrose Ave Station - L
+153,Long Island City - Court Sq,G,G-all times,-73.9438155959784,40.7463050335715,11101,11101,Long Island City,Queens,Long Island City - Court Sq Station - G
+154,21st St,G,G-all times,-73.9495999997552,40.7441286664954,11101,11101,Long Island City,Queens,21st St Station - G
+155,39th Ave,N-W,"N-all times, W part time",-73.932851376796,40.7527630614085,11101,11101,Long Island City,Queens,39th Ave Station - N-W
+156,145th St,1,1-all times,-73.9503599987971,40.8265509996219,10031,10031,"Hamilton Heights, Sugar Hill",Manhattan,145th St Station - 1
+157,157th St,1,1-all times,-73.9448899990105,40.8340410001399,10032,10032,Washington Heights,Manhattan,157th St Station - 1
+158,96th St,1-2-3,"1,2,3-all times",-73.972322999157,40.7939190012147,10025,10025,Upper West Side,Manhattan,96th St Station - 1-2-3
+159,103rd St,1,1-all times,-73.9683789996082,40.7994460003348,10025,10025,Upper West Side,Manhattan,103rd St Station - 1
+160,Central Park North (110th St),2-3,"2,3-all times",-73.9518220017691,40.7990749997732,10026,10026,"Manhattan Valley, Morningside Heights, Harlem",Manhattan,Central Park North (110th St) Station - 2-3
+161,103rd St,A-B-C,"A-nights, B-weekdays and evenings, C-all times exc nights",-73.9613700826762,40.7960607399045,10025,10025,Upper West Side,Manhattan,103rd St Station - A-B-C
+162,72nd St,1-2-3,"1,2,3-all times",-73.9819700015958,40.7784530006861,10023,10023,Upper West Side,Manhattan,72nd St Station - 1-2-3
+163,81st St,A-B-C,"A-nights, B-weekdays and evenings, C-all times exc nights",-73.9720979493721,40.7813460841821,10024,10024,Upper West Side,Manhattan,81st St Station - A-B-C
+164,75th Ave,E-F,"E-evenings, weekends, nights, F-all times",-73.8369236938716,40.7180446534874,11375,11375,"Forest Hills, Forest Hills Gardens",Queens,75th Ave Station - E-F
+165,86th St,A-B-C,"A-nights, B-weekdays and evenings, C-all times exc nights",-73.9688284942967,40.7858230467856,10024,10024,Upper West Side,Manhattan,86th St Station - A-B-C
+166,Cathedral Pkwy (110th St),1,1-all times,-73.9668470005456,40.8039669996149,10025,10025,Upper West Side,Manhattan,Cathedral Pkwy (110th St) Station - 1
+167,116th St - Columbia University,1,1-all times,-73.9641099975775,40.8077220012309,10027,10027,"Mt. Morris Park, Morningside Heights",Manhattan,116th St - Columbia University Station - 1
+168,125th St,2-3,"2,3-all times",-73.9454950001141,40.8077539991828,10027,10027,"Mt. Morris Park, Morningside Heights",Manhattan,125th St Station - 2-3
+169,135th St,2-3,"2,3-all times",-73.9407700010671,40.8142290003391,10037,10037,Harlem,Manhattan,135th St Station - 2-3
+170,116th St,2-3,"2,3-all times",-73.9496250009691,40.802097999133,10026,10026,"Manhattan Valley, Morningside Heights, Harlem",Manhattan,116th St Station - 2-3
+171,Tremont Ave,B-D,"B-rush hours, D-all times",-73.9052270012236,40.8504099995102,10457,10457,"West Bronx, Mt Hope, Tremont, Belmont",Bronx,Tremont Ave Station - B-D
+172,137th St - City College,1,1-all times,-73.9536760008787,40.8220079996848,10031,10031,"Hamilton Heights, Sugar Hill",Manhattan,137th St - City College Station - 1
+173,145th St,3,"3-all times, exit only northbound",-73.936244998733,40.8204209996928,10039,10039,Harlem,Manhattan,145th St Station - 3
+174,176th St,4,4-all times,-73.9117939988447,40.8484800012369,10453,10453,"Morris Heights, University Heights",Bronx,176th St Station - 4
+175,Burnside Ave,4,4-all times,-73.9076840015997,40.8534530015569,10453,10453,"Morris Heights, University Heights",Bronx,Burnside Ave Station - 4
+176,170th St,B-D,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",-73.9133999984698,40.8393059996416,10452,10452,"Highbridge, Mt Eden",Bronx,170th St Station - B-D
+177,168th St,1,1-all times,-73.9401329990726,40.8405559991485,10032,10032,Washington Heights,Manhattan,168th St Station - 1
+178,181st St,1,1-all times,-73.9335959996056,40.8495049997407,10033,10033,Washington Heights,Manhattan,181st St Station - 1
+179,191st St,1,1-all times,-73.9294119974204,40.8552250017584,10040,10040,"Washington Hts, Hudson Hts",Manhattan,191st St Station - 1
+180,175th St,A,A-all times,-73.939703997616,40.847391000724,10033,10033,Washington Heights,Manhattan,175th St Station - A
+181,Beach 44th St,A,A-all times,-73.7760129999951,40.5929429990862,11691,11691,Bayswater (Far Rockaway),Queens,Beach 44th St Station - A
+182,Beach 60th St,A,A-all times,-73.7885219980118,40.5923740012124,11691,11691,Bayswater (Far Rockaway),Queens,Beach 60th St Station - A
+183,Beach 98th St,A-S,"A-rush hours AM northbound, PM southbound, S Broad Channel to Rockaway Park-all times",-73.8205205895952,40.5853856913328,11694,11694,"Neponsit, Rockaway Park",Queens,Beach 98th St Station - A-S
+184,Rockaway Park - Beach 116 St,A-S,"A-rush hours AM northbound, PM southbound, S to Broad Channel-all times",-73.8355900870124,40.5809558655735,11694,11694,"Neponsit, Rockaway Park",Queens,Rockaway Park - Beach 116 St Station - A-S
+185,Beach 36th St,A,A-all times,-73.7681749993969,40.5953980016688,11691,11691,Bayswater (Far Rockaway),Queens,Beach 36th St Station - A
+186,Beach 25th St,A,A-all times,-73.7613529976207,40.6000660010588,11691,11691,Bayswater (Far Rockaway),Queens,Beach 25th St Station - A
+187,Parsons Blvd,F,F-all times,-73.8032890002188,40.7075719996157,11432,11432,"Jamaica Estates, Jamaica Hills",Queens,Parsons Blvd Station - F
+188,169th St,F,F-all times,-73.7934741992772,40.710517502784,11432,11432,"Jamaica Estates, Jamaica Hills",Queens,169th St Station - F
+189,103rd St - Corona Plaza,7,7-all times,-73.8626999983041,40.7498650005556,11368,11368,Willets Point,Queens,103rd St - Corona Plaza Station - 7
+190,111th St,7,7-all times,-73.8553339983488,40.7517299994171,11368,11368,Willets Point,Queens,111th St Station - 7
+191,63rd Dr - Rego Park,E-M-R,"E-nights, R-all other times, M-weekdays and evenings",-73.861618200972,40.7297639724224,11374,11374,Rego Park,Queens,63rd Dr - Rego Park Station - E-M-R
+192,Grant Ave,A-S,"A-all times, S Euclid Av to Ozone Park-Lefferts Blvd-nights",-73.865049998777,40.6770440005448,11208,11208,Cypress Hills,Brooklyn,Grant Ave Station - A-S
+193,79th St,1-2,"1-all times, 2-nights",-73.9799170005613,40.7839339995903,10024,10024,Upper West Side,Manhattan,79th St Station - 1-2
+194,Atlantic Ave,L,L-all times,-73.9030969995401,40.675344666408,11207,11207,East New York,Brooklyn,Atlantic Ave Station - L
+195,Christopher St - Sheridan Sq,1-2,"1-all times, 2-nights",-74.0029059985523,40.7334220010423,10014,10014,"West Village, Soho",Manhattan,Christopher St - Sheridan Sq Station - 1-2
+196,Ozone Park - Lefferts Blvd,A-S,"S to Euclid Av-nights, A-all other times",-73.8257979990661,40.6859509987836,11419,11419,"Kew Gardens, Richmond Hill",Queens,Ozone Park - Lefferts Blvd Station - A-S
+197,Times Sq - 42nd St,7-7 Express,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",-73.9876909982515,40.7554770019825,10036,10036,Midtown West,Manhattan,Times Sq - 42nd St Station - 7-7 Express
+198,W 8th St - NY Aquarium,F-Q,"F,Q-all times",-73.9759578741382,40.5760338181037,11224,11224,"Coney Island, Sea Gate",Brooklyn,W 8th St - NY Aquarium Station - F-Q
+199,28th St,1-2,"1-all times, 2-nights",-73.9933650013432,40.7472149991822,10001,10001,"Chelsea,  West Midtown",Manhattan,28th St Station - 1-2
+200,28th St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9842640011041,40.743069999259,10016,10016,"Murray Hill, Kips Bay",Manhattan,28th St Station - 4-6-6 Express
+201,Pelham Bay Park,6-6 Express,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",-73.8281210005929,40.8524619995166,10461,10461,"Morris Park, Middletown-Pelham Bay, Westchester Square",Bronx,Pelham Bay Park Station - 6-6 Express
+202,Westchester Sq - E Tremont Ave,6-6 Express,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",-73.8429519992501,40.8398920010139,10461,10461,"Morris Park, Middletown-Pelham Bay, Westchester Square",Bronx,Westchester Sq - E Tremont Ave Station - 6-6 Express
+203,18th St,1-2,"1-all times, 2-nights",-73.9978710006041,40.7410399998021,10011,10011,"Chelsea ,  Village",Manhattan,18th St Station - 1-2
+204,Grand Central - 42nd St,7-7 Express,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",-73.9760410011151,40.7514310002869,10017,10017,Midtown East,Manhattan,Grand Central - 42nd St Station - 7-7 Express
+205,Beach 67th St,A,A-all times,-73.7969239998421,40.5909270007813,11692,11692,Arverne (Far Rockaway),Queens,Beach 67th St Station - A
+206,W 4th St - Washington Sq (Upper),A-C-E,"A,E-all times, C-all times exc nights",-74.0004950022543,40.7323379977433,10011,10011,"Chelsea ,  Village",Manhattan,W 4th St - Washington Sq (Upper) Station - A-C-E
+207,85th St - Forest Pky,J,J-all times,-73.8600870000687,40.692426999661,11421,11421,Woodhaven,Queens,85th St - Forest Pky Station - J
+208,Woodhaven Blvd,J-Z,"J-all times, Z-rush hours AM westbound, PM eastbound",-73.8520519974079,40.6937039988011,11421,11421,Woodhaven,Queens,Woodhaven Blvd Station - J-Z
+209,111th St,J,J-all times,-73.836793384547,40.6971148106965,11418,11418,"Kew Gardens, Richmond Hill",Queens,111th St Station - J
+210,121st St,J-Z,"Z-rush hours AM westbound, PM eastbound, J-all other times",-73.8283490001795,40.7004819985153,11418,11418,"Kew Gardens, Richmond Hill",Queens,121st St Station - J-Z
+211,Halsey St,L,L-all times,-73.9039340011863,40.6955180011488,11385,11385,"Fresh Pond, Glendale, Ridgewood",Queens,Halsey St Station - L
+212,Myrtle - Wyckoff Aves,L,L-all times,-73.9109757182647,40.6994710624271,11237,11237,Bushwick,Brooklyn,Myrtle - Wyckoff Aves Station - L
+213,New Lots Ave,3-4,"4-nights, 3-all other times",-73.8841107080033,40.6663149325969,11207,11207,East New York,Brooklyn,New Lots Ave Station - 3-4
+214,Van Siclen Ave,A-C,"A-nights, C-all other times",-73.8903580002471,40.672709999061,11207,11207,East New York,Brooklyn,Van Siclen Ave Station - A-C
+215,Cleveland St,J,J-all times,-73.8851940021643,40.6797779989612,11208,11208,Cypress Hills,Brooklyn,Cleveland St Station - J
+216,Livonia Ave,L,L-all times,-73.9005623722606,40.6640572709464,11212,11212,"Brownsville, East Flatbush",Brooklyn,Livonia Ave Station - L
+217,Junius St,3-4,"4-nights, 3-all other times",-73.9024486418356,40.6635890018172,11212,11212,"Brownsville, East Flatbush",Brooklyn,Junius St Station - 3-4
+218,Rockaway Ave,3-4,"4-nights, 3-all other times",-73.9089583358445,40.6626174881522,11212,11212,"Brownsville, East Flatbush",Brooklyn,Rockaway Ave Station - 3-4
+219,Canarsie - Rockaway Pkwy,L,L-all times,-73.9018500001729,40.6466536673953,11236,11236,"Canarsie, Jamaica Bay",Brooklyn,Canarsie - Rockaway Pkwy Station - L
+220,E 105th St,L,L-all times,-73.8995476938872,40.650468785447,11236,11236,"Canarsie, Jamaica Bay",Brooklyn,E 105th St Station - L
+221,Saratoga Ave,3-4,"4-nights, 3-all other times",-73.9163302500795,40.6615297898075,11212,11212,"Brownsville, East Flatbush",Brooklyn,Saratoga Ave Station - 3-4
+222,Sutter Ave - Rutland Road,3-4,"4-nights, 3-all other times",-73.92252118536,40.6647667887749,11212,11212,"Brownsville, East Flatbush",Brooklyn,Sutter Ave - Rutland Road Station - 3-4
+223,New Lots Ave,L,L-all times,-73.8992779605714,40.6589147736853,11207,11207,East New York,Brooklyn,New Lots Ave Station - L
+224,Broadway Junction,J-Z,"J-all times, Z-rush hours AM westbound, PM eastbound",-73.9042899974641,40.6793660014737,11207,11207,East New York,Brooklyn,Broadway Junction Station - J-Z
+225,Alabama Ave,J,J-all times,-73.8985260015965,40.6769980000038,11207,11207,East New York,Brooklyn,Alabama Ave Station - J
+226,Shepherd Ave,A-C,"A-nights, C-all other times",-73.8807499974727,40.6741300014559,11208,11208,Cypress Hills,Brooklyn,Shepherd Ave Station - A-C
+227,Crescent St,J-Z,"J-all times, Z-rush hours AM westbound, PM eastbound",-73.8739292521578,40.6831526570774,11208,11208,Cypress Hills,Brooklyn,Crescent St Station - J-Z
+228,Cypress Hills,J,J-all times,-73.87332199883,40.6896160008388,11208,11208,Cypress Hills,Brooklyn,Cypress Hills Station - J
+229,75th St - Eldert Ln,J-Z,"Z-rush hours AM westbound, PM eastbound, J-all other times",-73.8672879994496,40.6912900012467,11421,11421,Woodhaven,Queens,75th St - Eldert Ln Station - J-Z
+230,69th St,7,7-all times,-73.8964029993185,40.7463249994103,11377,11377,Woodside,Queens,69th St Station - 7
+231,74th St - Broadway,7,7-all times,-73.8912051289911,40.7468675738291,11372,11372,Jackson Heights,Queens,74th St - Broadway Station - 7
+232,Woodhaven Blvd - Queens Mall,E-M-R,"E-nights, R-all other times, M-weekdays and evenings",-73.8694320861235,40.7330973738097,11374,11374,Rego Park,Queens,Woodhaven Blvd - Queens Mall Station - E-M-R
+233,Myrtle - Wyckoff Aves,M,M-all times,-73.912178999396,40.6994540009084,11237,11237,Bushwick,Brooklyn,Myrtle - Wyckoff Aves Station - M
+234,Seneca Ave,M,M-all times,-73.9075819988542,40.702918998949,11385,11385,"Fresh Pond, Glendale, Ridgewood",Queens,Seneca Ave Station - M
+235,DeKalb Ave,L,L-all times,-73.9182320021972,40.7036929996164,11237,11237,Bushwick,Brooklyn,DeKalb Ave Station - L
+236,52nd St,7,7-all times,-73.9125489989125,40.7441490010216,11377,11377,Woodside,Queens,52nd St Station - 7
+237,46th St,E-M-R,"E-nights, R-all other times, M-weekdays and evenings",-73.9135217499554,40.7563169526081,11103,11103,Astoria,Queens,46th St Station - E-M-R
+238,Northern Blvd,E-M-R,"E-nights, R-all other times, M-weekdays and evenings",-73.9060650805236,40.7528248292361,11377,11377,Woodside,Queens,Northern Blvd Station - E-M-R
+239,46th St,7,7-all times,-73.9184350010397,40.7431320006038,11377,11377,Woodside,Queens,46th St Station - 7
+240,82nd St - Jackson Hts,7,7-all times,-73.8836970007188,40.7476589995591,11373,11373,Elmhurst,Queens,82nd St - Jackson Hts Station - 7
+241,90th St - Elmhurst Av,7,7-all times,-73.8766129998699,40.7484080006091,11372,11372,Jackson Heights,Queens,90th St - Elmhurst Av Station - 7
+242,Howard Beach - JFK Airport,A,A-all times,-73.8303010007103,40.6604760000496,11414,11414,"Howard Beach, Lindenwood",Queens,Howard Beach - JFK Airport Station - A
+243,Aqueduct - North Conduit Av,A,A-all times,-73.8340579994872,40.6682340016998,11420,11420,South Ozone Park,Queens,Aqueduct - North Conduit Av Station - A
+244,Briarwood - Van Wyck Blvd,E-F,"E-evenings, weekends, nights, F-all times",-73.8206926363744,40.7091618153695,11415,11415,Kew Gardens,Queens,Briarwood - Van Wyck Blvd Station - E-F
+245,Forest Hills - 71st Av,E-F-M-R,"E,F-all times, M-weekdays and evenings, R-all times exc nights",-73.8445167201267,40.7215943095359,11375,11375,"Forest Hills, Forest Hills Gardens",Queens,Forest Hills - 71st Av Station - E-F-M-R
+246,Sutphin Blvd,F,F-all times,-73.8108329989723,40.7054179990676,11435,11435,"Briarwood, South Jamaica",Queens,Sutphin Blvd Station - F
+247,Jamaica Ctr - Parsons / Archer,E-J-Z,"E,J-all times, Z-rush hours AM westbound, PM eastbound",-73.8010963229892,40.7020673762119,11432,11432,"Jamaica Estates, Jamaica Hills",Queens,Jamaica Ctr - Parsons / Archer Station - E-J-Z
+248,225th St,2-5,"2-all times, 5-rush hours AM southbound, PM northbound",-73.8602146177274,40.8880282586379,10466,10466,"Wakefield, Edenwald",Bronx,225th St Station - 2-5
+249,Elder Ave,6,6-all times,-73.8791589987478,40.8285840010893,10472,10472,"Soundview, Unionport",Bronx,Elder Ave Station - 6
+250,Longwood Ave,6,6-all times,-73.8964349989741,40.8161039999724,10455,10455,? (is a point on the map),Bronx,Longwood Ave Station - 6
+251,Astoria Blvd,N-W,"N-all times, W part time",-73.9180950010924,40.7700369994909,11102,11102,Astoria,Queens,Astoria Blvd Station - N-W
+252,Astoria - Ditmars Blvd,N-W,"N-all times, W part time",-73.9120340001031,40.7750356665237,11105,11105,Astoria,Queens,Astoria - Ditmars Blvd Station - N-W
+253,Jackson Ave,2-5,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",-73.9077019387083,40.816437466864,10455,10455,? (is a point on the map),Bronx,Jackson Ave Station - 2-5
+254,Prospect Ave,2-5,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",-73.9017777873092,40.8194872648384,10455,10455,? (is a point on the map),Bronx,Prospect Ave Station - 2-5
+255,Cypress Ave,6,6-all times,-73.9140419999475,40.8053680007636,10454,10454,"Mott Haven, Port Morris",Bronx,Cypress Ave Station - 6
+256,174th St,2-5,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",-73.8876935981289,40.8371955501706,10460,10460,"Charlotte Gardens, West Farms, Van Nest",Bronx,174th St Station - 2-5
+257,Allerton Ave,2-5,"2-all times, 5-rush hours AM southbound, PM northbound",-73.8672342285163,40.8654833779393,10467,10467,"Norwood, Olinville, Allerton",Bronx,Allerton Ave Station - 2-5
+258,E 143rd St - St Mary's St,6,6-all times,-73.9076569993649,40.8087190009014,10455,10455,? (is a point on the map),Bronx,E 143rd St - St Mary's St Station - 6
+259,Kingsbridge Rd,4,4-all times,-73.8971740010174,40.8677600008858,10468,10468,"Jerome Park, Fordham Manor, Fordham Heights",Bronx,Kingsbridge Rd Station - 4
+260,Bedford Park Blvd - Lehman College,4,4-all times,-73.8900640006948,40.8734119998012,10468,10468,"Jerome Park, Fordham Manor, Fordham Heights",Bronx,Bedford Park Blvd - Lehman College Station - 4
+261,Harlem - 148 St,3,3-all times,-73.9364700000556,40.8238800008046,10039,10039,Harlem,Manhattan,Harlem - 148 St Station - 3
+262,Mt Eden Ave,4,4-all times,-73.9146849986034,40.8444340009268,10452,10452,"Highbridge, Mt Eden",Bronx,Mt Eden Ave Station - 4
+263,Fordham Rd,B-D,"B-rush hours, D-all times",-73.897749001024,40.8612959986835,10458,10458,"Fordham, Belmont",Bronx,Fordham Rd Station - B-D
+264,170th St,4,4-all times,-73.9177909974593,40.84007499993,10452,10452,"Highbridge, Mt Eden",Bronx,170th St Station - 4
+265,Bedford Park Blvd,B-D,"B-rush hours, D-all times",-73.8871379988957,40.8732439986165,10468,10468,"Jerome Park, Fordham Manor, Fordham Heights",Bronx,Bedford Park Blvd Station - B-D
+266,Marble Hill - 225th St,1,1-all times,-73.9098309992355,40.8745609994179,10034,10034,Inwood,Manhattan,Marble Hill - 225th St Station - 1
+267,231st St,1,1-all times,-73.9048340010787,40.8788559981794,10463,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx,231st St Station - 1
+268,215th St,1,1-all times,-73.9152789995436,40.8694439994605,10034,10034,Inwood,Manhattan,215th St Station - 1
+269,207th St,1,1-all times,-73.9188190013231,40.8646140005259,10034,10034,Inwood,Manhattan,207th St Station - 1
+270,Inwood - 207th St,A,A-all times,-73.9198990010047,40.8680719999974,10034,10034,Inwood,Manhattan,Inwood - 207th St Station - A
+271,Van Cortlandt Park - 242nd St,1,1-all times,-73.8985830004965,40.8892480001148,10463,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx,Van Cortlandt Park - 242nd St Station - 1
+272,West Farms Sq - E Tremont Av,2-5,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",-73.8799612787718,40.840207632418,10460,10460,"Charlotte Gardens, West Farms, Van Nest",Bronx,West Farms Sq - E Tremont Av Station - 2-5
+273,219th St,2-5,"2-all times, 5-rush hours AM southbound, PM northbound",-73.8625097078866,40.8838879746253,10467,10467,"Norwood, Olinville, Allerton",Bronx,219th St Station - 2-5
+274,Mosholu Pkwy,4,4-all times,-73.8846549998873,40.8797499994723,10467,10467,"Norwood, Olinville, Allerton",Bronx,Mosholu Pkwy Station - 4
+275,Norwood - 205th St,D,D-all times,-73.8788549991869,40.8748110001118,10467,10467,"Norwood, Olinville, Allerton",Bronx,Norwood - 205th St Station - D
+276,Burke Ave,2-5,"2-all times, 5-rush hours AM southbound, PM northbound",-73.867053617476,40.8712588025477,10467,10467,"Norwood, Olinville, Allerton",Bronx,Burke Ave Station - 2-5
+277,Baychester Ave,5,5-all times,-73.8385909980215,40.8786630003731,10469,10469,"Laconia, Pelham Gardens, Baychester",Bronx,Baychester Ave Station - 5
+278,Eastchester - Dyre Ave,5,5-all times,-73.8308340021742,40.8882999990101,10466,10466,"Wakefield, Edenwald",Bronx,Eastchester - Dyre Ave Station - 5
+279,Jamaica - 179th St,F,F-all times,-73.7838170017645,40.712645666744,11432,11432,"Jamaica Estates, Jamaica Hills",Queens,Jamaica - 179th St Station - F
+280,Wakefield - 241st St,2,2-all times,-73.8506199987954,40.9031250005413,10470,10470,Woodlawn Heights,Bronx,Wakefield - 241st St Station - 2
+281,Botanic Garden,S,S Franklin Av-Fulton St to Prospect Park-all times,-73.9592449994569,40.6703426665844,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,Botanic Garden Station - S
+282,Bushwick - Aberdeen,L,L-all times,-73.9052617630511,40.6828606255118,11207,11207,East New York,Brooklyn,Bushwick - Aberdeen Station - L
+283,Broadway Junction,L,L-all times,-73.9031175792069,40.6784562484287,11207,11207,East New York,Brooklyn,Broadway Junction Station - L
+284,Gun Hill Rd,5,5-all times,-73.8463840015177,40.8695259996268,10469,10469,"Laconia, Pelham Gardens, Baychester",Bronx,Gun Hill Rd Station - 5
+285,E 180th St,2-5,"2,5-all times",-73.8733460951088,40.8418630412186,10460,10460,"Charlotte Gardens, West Farms, Van Nest",Bronx,E 180th St Station - 2-5
+286,Dyckman St,1,1-all times,-73.9255360000647,40.860531001388,10040,10040,"Washington Hts, Hudson Hts",Manhattan,Dyckman St Station - 1
+287,125th St,1,1-all times,-73.9583720009704,40.8155809999789,10027,10027,"Mt. Morris Park, Morningside Heights",Manhattan,125th St Station - 1
+288,Franklin Ave - Fulton St,S,S to Prospect Park-all times,-73.9558270011043,40.6805956659826,11238,11238,Prospect Heights,Brooklyn,Franklin Ave - Fulton St Station - S
+289,149th St - Grand Concourse,2-5,"2-all times, 5-all times exc nights",-73.9267224743861,40.8183301440974,10451,10451,? (is a point on the map),Bronx,149th St - Grand Concourse Station - 2-5
+290,3rd Ave - 149th St,2-5,"2-all times, 5-all times exc nights",-73.9177915276098,40.81602925251,10455,10455,? (is a point on the map),Bronx,3rd Ave - 149th St Station - 2-5
+291,167th St,4,4-all times,-73.9213999978443,40.8355369993367,10452,10452,"Highbridge, Mt Eden",Bronx,167th St Station - 4
+292,Brook Ave,6,6-all times,-73.9192399990943,40.807565999877,10454,10454,"Mott Haven, Port Morris",Bronx,Brook Ave Station - 6
+293,33rd St,7,7-all times,-73.9309969995384,40.7445869998399,11101,11101,Long Island City,Queens,33rd St Station - 7
+294,40th St,7,7-all times,-73.9240159984882,40.7437810014913,11104,11104,Sunnyside,Queens,40th St Station - 7
+295,145th St,A-B-C-D,"A,D-all times, B-weekdays and evenings, C-all times exc nights",-73.9440879282312,40.8247663608719,10031,10031,"Hamilton Heights, Sugar Hill",Manhattan,145th St Station - A-B-C-D
+296,155th St,B-D,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",-73.9382089981162,40.8301349999812,10039,10039,Harlem,Manhattan,155th St Station - B-D
+297,161st St - Yankee Stadium,B-D,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",-73.9256509977548,40.8279049988459,10452,10452,"Highbridge, Mt Eden",Bronx,161st St - Yankee Stadium Station - B-D
+298,Utica Ave,A-C,"A-all times, C-all times exc nights",-73.9307289991403,40.6793639995055,11233,11233,"Bedford-Stuyvesant, Stuyvesant Heights",Brooklyn,Utica Ave Station - A-C
+299,Steinway St,E-M-R,"E-nights, R-all other times, M-weekdays and evenings",-73.9205264716827,40.7569873591257,11103,11103,Astoria,Queens,Steinway St Station - E-M-R
+300,Kosciuszko St,J,J-all times,-73.9285089992741,40.693172001292,11221,11221,"Bedford-Stuyvesant, Bushwick",Brooklyn,Kosciuszko St Station - J
+301,Gates Ave,J-Z,"Z-rush hours AM westbound, PM eastbound, J-all other times",-73.9221560015075,40.6895839990139,11221,11221,"Bedford-Stuyvesant, Bushwick",Brooklyn,Gates Ave Station - J-Z
+302,Central Ave,M,M-all times,-73.9272429990284,40.6978730001183,11221,11221,"Bedford-Stuyvesant, Bushwick",Brooklyn,Central Ave Station - M
+303,Knickerbocker Ave,M,M-all times,-73.9197200018863,40.698660001238,11237,11237,Bushwick,Brooklyn,Knickerbocker Ave Station - M
+304,30th Ave,N-W,"N-all times, W part time",-73.9214790001739,40.766778666733,11102,11102,Astoria,Queens,30th Ave Station - N-W
+305,Jefferson St,L,L-all times,-73.9229130000312,40.7066066659887,11237,11237,Bushwick,Brooklyn,Jefferson St Station - L
+306,Morgan Ave,L,L-all times,-73.9331470002421,40.7061516668073,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Morgan Ave Station - L
+307,Queens Plz,E-M-R,"E-all times, M-weekdays and evenings, R-all times exc nights",-73.937138239657,40.7489177198632,11101,11101,Long Island City,Queens,Queens Plz Station - E-M-R
+308,18th Ave,F,F-all times,-73.976970999658,40.6297546663858,11230,11230,Midwood,Brooklyn,18th Ave Station - F
+309,77th St,R,R-all times,-74.0255099996266,40.6297416668869,11209,11209,"Bay Ridge, Fort Hamilton",Brooklyn,77th St Station - R
+310,Bay Ridge Ave,R,R-all times,-74.0233769995073,40.6349666668238,11220,11220,Sunset Park,Brooklyn,Bay Ridge Ave Station - R
+311,50th St,D,D-all times,-73.9946587805514,40.6362608909614,11219,11219,Borough Park,Brooklyn,50th St Station - D
+312,Ft Hamilton Pkwy,N,N-all times,-74.0053510004628,40.6313856672245,11219,11219,Borough Park,Brooklyn,Ft Hamilton Pkwy Station - N
+313,25th Ave,D,D-all times,-73.9868290001148,40.5977036669586,11214,11214,Bath Beach,Brooklyn,25th Ave Station - D
+314,Bay Pky,D,D-all times,-73.9936762000529,40.6019504615723,11214,11214,Bath Beach,Brooklyn,Bay Pky Station - D
+315,20th Ave,N,N-all times,-73.9845219984611,40.617108999866,11204,11204,"Bensonhurst, Parkville",Brooklyn,20th Ave Station - N
+316,18th Ave,N,N-all times,-73.9904539986599,40.62068699768,11204,11204,"Bensonhurst, Parkville",Brooklyn,18th Ave Station - N
+317,Bay Ridge - 95th St,R,R-all times,-74.0308760008577,40.6166216672595,11209,11209,"Bay Ridge, Fort Hamilton",Brooklyn,Bay Ridge - 95th St Station - R
+318,86th St,R,R-all times,-74.0283979999864,40.6226866671503,11209,11209,"Bay Ridge, Fort Hamilton",Brooklyn,86th St Station - R
+319,79th St,D,D-all times,-74.0005828743151,40.6131589256952,11214,11214,Bath Beach,Brooklyn,79th St Station - D
+320,71st St,D,D-all times,-73.9988409485068,40.6192587097727,11228,11228,Dyker Heights,Brooklyn,71st St Station - D
+321,20th Ave,D,D-all times,-73.9981743215757,40.6046769981693,11214,11214,Bath Beach,Brooklyn,20th Ave Station - D
+322,18th Ave,D,D-all times,-74.0015925923941,40.6077357317174,11214,11214,Bath Beach,Brooklyn,18th Ave Station - D
+323,62nd St,D,D-all times,-73.9968572499486,40.6262244629222,11219,11219,Borough Park,Brooklyn,62nd St Station - D
+324,New Utrecht Ave,N,N-all times,-73.9963530002597,40.6248416672589,11219,11219,Borough Park,Brooklyn,New Utrecht Ave Station - N
+325,Ave U,F,F-all times,-73.9733764197488,40.5959248255175,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Ave U Station - F
+326,Kings Hwy,F,F-all times,-73.9723553085244,40.6032584051283,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Kings Hwy Station - F
+327,Brighton Beach,B-Q,"B-weekdays and evenings, Q-all times",-73.961353785988,40.5777101966424,11235,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn,Brighton Beach Station - B-Q
+328,Sheepshead Bay,B-Q,"B-weekdays and evenings, Q-all times",-73.9540579125791,40.5865475470754,11235,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn,Sheepshead Bay Station - B-Q
+329,Ave U,Q,Q-all times,-73.955811223163,40.5993089509547,11229,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn,Ave U Station - Q
+330,Kings Hwy,B-Q,"B-weekdays and evenings, Q-all times",-73.9576087353808,40.608638645396,11229,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn,Kings Hwy Station - B-Q
+331,Ave U,N,N-all times,-73.9790840009943,40.5972359999204,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Ave U Station - N
+332,Kings Hwy,N,N-all times,-73.9803730022934,40.6040589998049,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Kings Hwy Station - N
+333,Neptune Ave,F,F-all times,-73.9745927281881,40.5807387584915,11224,11224,"Coney Island, Sea Gate",Brooklyn,Neptune Ave Station - F
+334,Ave X,F,F-all times,-73.974265999689,40.5894496666253,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Ave X Station - F
+335,Bay 50th St,D,D-all times,-73.9837650004595,40.5888406665193,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Bay 50th St Station - D
+336,Gravesend - 86th St,N,N-all times,-73.9781889993627,40.5924650008886,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Gravesend - 86th St Station - N
+337,Ave P,F,F-all times,-73.9730028152875,40.6088428089499,11230,11230,Midwood,Brooklyn,Ave P Station - F
+338,Ave N,F,F-all times,-73.9740485087314,40.6143567119088,11230,11230,Midwood,Brooklyn,Ave N Station - F
+339,Bay Pky,F,F-all times,-73.9752569782215,40.6207316231679,11204,11204,"Bensonhurst, Parkville",Brooklyn,Bay Pky Station - F
+340,Ave M,Q,Q-all times,-73.9592431052215,40.6173977444437,11230,11230,Midwood,Brooklyn,Ave M Station - Q
+341,Bay Pky,N,N-all times,-73.9817800106929,40.61145578989,11204,11204,"Bensonhurst, Parkville",Brooklyn,Bay Pky Station - N
+342,Ave I,F,F-all times,-73.9760693317093,40.6250174401914,11230,11230,Midwood,Brooklyn,Ave I Station - F
+343,Ave J,Q,Q-all times,-73.9606931624693,40.6250228199152,11230,11230,Midwood,Brooklyn,Ave J Station - Q
+344,Ave H,Q,Q-all times,-73.961517939425,40.6292083775897,11230,11230,Midwood,Brooklyn,Ave H Station - Q
+345,Neck Rd,Q,Q-all times,-73.9550782749376,40.595321691117,11229,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn,Neck Rd Station - Q
+346,21st St - Queensbridge,F,F-all times,-73.9419376145745,40.7537392708755,11101,11101,Long Island City,Queens,21st St - Queensbridge Station - F
+347,50th St,A-C-E,"A-nights, C-all other times, E-all times",-73.9859840002641,40.76245599926,10019,10019,Midtown West,Manhattan,50th St Station - A-C-E
+348,7th Ave,B-D-E,"D,E-all times, B-weekdays and evenings",-73.9816978234448,40.7629701524563,10019,10019,Midtown West,Manhattan,7th Ave Station - B-D-E
+349,47th-50th Sts - Rockefeller Ctr,B-D-F-M,"B,M-weekdays and evenings, D,F-all times",-73.981331002277,40.7586410015982,10020,10020,Midtown West,Manhattan,47th-50th Sts - Rockefeller Ctr Station - B-D-F-M
+350,57th St,F,F-all times,-73.9773680008517,40.7640850008171,10019,10019,Midtown West,Manhattan,57th St Station - F
+351,Lexington Ave - 63rd St,F-Q,"F-all times, Q all times",-73.9660896441325,40.7646180944237,10065,10065,Upper East Side,Manhattan,Lexington Ave - 63rd St Station - F-Q
+352,Roosevelt Island - Main St,F,F-all times,-73.9532349997887,40.7591719996711,10044,10044,"Washington Hts, Hudson Hts",Manhattan,Roosevelt Island - Main St Station - F
+353,59th St - Columbus Circle,A-B-C-D,"A,D-all times, B-weekdays and evenings, C-all times exc nights",-73.981648723014,40.7682495317761,10019,10019,Midtown West,Manhattan,59th St - Columbus Circle Station - A-B-C-D
+354,49th St,N-Q-R-W,"N-all times, Q-all times exc weekends, R-all times exc nights, W part time",-73.9842095659109,40.7598019738707,10036,10036,Midtown West,Manhattan,49th St Station - N-Q-R-W
+355,57th St,N-Q-R-W,"N,Q-all times, R-all times exc nights, W part time",-73.9807297337213,40.7645655250183,10019,10019,Midtown West,Manhattan,57th St Station - N-Q-R-W
+356,5th Ave - 59th St,N-R-W,"N-all times, R-all times exc nights, W part time",-73.9733470004705,40.7648109997553,10019,10019,Midtown West,Manhattan,5th Ave - 59th St Station - N-R-W
+357,Lexington Ave - 59th St,N-R-W,"N-all times, R-all times exc nights, W part time",-73.9673750171144,40.7627088553946,10022,10022,Midtown East,Manhattan,Lexington Ave - 59th St Station - N-R-W
+358,34th St - Penn Station,1-2-3,"1,2,3-all times",-73.9910569991398,40.7503730000395,10001,10001,"Chelsea,  West Midtown",Manhattan,34th St - Penn Station Station - 1-2-3
+359,Times Sq - 42nd St,1-2-3,"1,2,3-all times",-73.9874950005189,40.7552899999568,10018,10018,Midtown West,Manhattan,Times Sq - 42nd St Station - 1-2-3
+360,Fulton St,A-C,"A-all times, C-all times exc nights",-74.0076230932399,40.7101621653019,10038,10038,"Financial District, Seaport",Manhattan,Fulton St Station - A-C
+361,Chambers St,A-C,"A-all times, C-all times exc nights",-74.0085847357013,40.714111000774,10007,10007,"Tribeca, Financial District",Manhattan,Chambers St Station - A-C
+362,42nd St - Port Authority Bus Term,A-C-E,"A,E-all times, C-all times exc nights",-73.9897350008586,40.7573079985515,10036,10036,Midtown West,Manhattan,42nd St - Port Authority Bus Term Station - A-C-E
+363,Myrtle-Willoughby Aves,G,G-all times,-73.9490669989016,40.6946189990376,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Myrtle-Willoughby Aves Station - G
+364,Flushing Ave,G,G-all times,-73.9502340010257,40.7003766662215,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Flushing Ave Station - G
+365,23rd St,F-M,"F-all times, M-weekdays and evenings",-73.9927650047139,40.742954317826,10009,10009,East Village,Manhattan,23rd St Station - F-M
+366,Herald Sq - 34th St,B-D-F-M,"B,M-weekdays and evenings, D,F-all times",-73.9877718907292,40.7497893999001,10001,10001,"Chelsea,  West Midtown",Manhattan,Herald Sq - 34th St Station - B-D-F-M
+367,Hoyt - Schermerhorn Sts,A-C-G,"A,G-all times, C-all times exc nights",-73.9850362403414,40.6884084758064,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Hoyt - Schermerhorn Sts Station - A-C-G
+368,Jay St - MetroTech,A-C-F,"A,F-all times, C-all times exc nights",-73.9872181526732,40.6924706368471,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Jay St - MetroTech Station - A-C-F
+369,East Broadway,F,F-all times,-73.990177001222,40.7138550010204,10002,10002,Lower East Side,Manhattan,East Broadway Station - F
+370,Delancey St - Essex St,F,F-all times,-73.9880780680772,40.7186807421945,10002,10002,Lower East Side,Manhattan,Delancey St - Essex St Station - F
+371,Lower East Side - 2nd Ave,F,F-all times,-73.9899380000343,40.7234016657491,10002,10002,Lower East Side,Manhattan,Lower East Side - 2nd Ave Station - F
+372,Flushing Ave,J-M,"J-all times, skips weekdays AM westbound, PM eastbound, M-all times exc nights",-73.9413773483837,40.7004044029811,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Flushing Ave Station - J-M
+373,Myrtle Ave,J-M-Z,"J,M-all times, Z-rush hours AM westbound, PM eastbound",-73.9356230012996,40.6971950005145,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Myrtle Ave Station - J-M-Z
+374,4th Av - 9th St,F-G,"F,G-all times",-73.989778999389,40.6702716672849,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,4th Av - 9th St Station - F-G
+375,Smith - 9th Sts,F-G,"F,G-all times",-73.9958917279094,40.6736410609041,11231,11231,"Carroll Gardens, Columbia Heights, Red Hook",Brooklyn,Smith - 9th Sts Station - F-G
+376,Bergen St,F-G,"F,G-all times",-73.9907564957357,40.6861105472598,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Bergen St Station - F-G
+377,Jay St - MetroTech,N-R,"N-nights, R-all other times",-73.9860566785461,40.6922553964532,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Jay St - MetroTech Station - N-R
+378,Court St,N-R,"N-nights, R-all other times",-73.9918183090113,40.694196480777,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Court St Station - N-R
+379,Union Sq - 14th St,N-Q-R-W,"N,Q-all times, R-all times exc nights",-73.9905388618165,40.7358722669981,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,Union Sq - 14th St Station - N-Q-R-W
+380,23rd St,N-Q-R-W,"N-all times, Q-nights, R-all times exc nights",-73.9893440010291,40.74130266729,10010,10010,"Gramercy, Flatiron",Manhattan,23rd St Station - N-Q-R-W
+381,Prospect Ave,D-N-R,"D,N-nights, R-all other times",-73.9928720006742,40.6654136671298,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,Prospect Ave Station - D-N-R
+382,4th Av - 9th St,D-N-R,"D,N-nights, R-all other times",-73.9883019997451,40.6708466668428,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,4th Av - 9th St Station - D-N-R
+383,3rd Ave,L,L-all times,-73.9857500011209,40.7326909997166,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,3rd Ave Station - L
+384,Union Sq - 14th St,L,L-all times,-73.9906697690182,40.7347633121792,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,Union Sq - 14th St Station - L
+385,Liberty Ave,A-C,"A-nights, C-all other times",-73.8965480010393,40.6745419998709,11207,11207,East New York,Brooklyn,Liberty Ave Station - A-C
+386,Broadway Junction,A-C,"A-all times, C-all times exc nights",-73.9053160005534,40.6783336660802,11233,11233,"Bedford-Stuyvesant, Stuyvesant Heights",Brooklyn,Broadway Junction Station - A-C
+387,59th St,N-R,"N,R-all times",-74.0178809995399,40.6413616662838,11220,11220,Sunset Park,Brooklyn,59th St Station - N-R
+388,45th St,N-R,"N-nights, R-all times, skips nights northbound",-74.0100060007494,40.6489386666128,11220,11220,Sunset Park,Brooklyn,45th St Station - N-R
+389,36th St,D-N-R,"D,N,R-all times",-74.0035489995181,40.6551436663389,11232,11232,"Greenwood, Industry City, Bush Terminal, Sunset Park",Brooklyn,36th St Station - D-N-R
+390,9th Ave,D,D-all times,-73.994448744512,40.6464840772664,11232,11232,"Greenwood, Industry City, Bush Terminal, Sunset Park",Brooklyn,9th Ave Station - D
+391,53rd St,N-R,"N-nights, R-all times, skips nights northbound",-74.0140339998632,40.6450686673598,11220,11220,Sunset Park,Brooklyn,53rd St Station - N-R
+392,Ft Hamilton Pkwy,D,D-all times,-73.9942022375285,40.6409127114447,11219,11219,Borough Park,Brooklyn,Ft Hamilton Pkwy Station - D
+393,25th St,D-N-R,"D,N-nights, R-all other times",-73.998090999743,40.6603966669232,11232,11232,"Greenwood, Industry City, Bush Terminal, Sunset Park",Brooklyn,25th St Station - D-N-R
+394,Carroll St,F-G,"F,G-all times",-73.9949469799884,40.6802733517018,11231,11231,"Carroll Gardens, Columbia Heights, Red Hook",Brooklyn,Carroll St Station - F-G
+395,Spring St,A-C-E,"A-nights, C-all other times, E-all times",-74.0037389984376,40.7262270012931,10013,10013,"Tribeca, Soho",Manhattan,Spring St Station - A-C-E
+396,181st St,A,A-all times,-73.9379690020501,40.8516949997446,10033,10033,Washington Heights,Manhattan,181st St Station - A
+397,190th St,A,A-all times,-73.9341799996433,40.8590219989248,10040,10040,"Washington Hts, Hudson Hts",Manhattan,190th St Station - A
+398,116th St,A-B-C,"A-nights, B-weekdays and evenings, C-all times exc nights",-73.9547977805731,40.8050581334421,10026,10026,"Manhattan Valley, Morningside Heights, Harlem",Manhattan,116th St Station - A-B-C
+399,125th St,A-B-C-D,"A,D-all times, B-weekdays and evenings, C-all times exc nights",-73.9522479973477,40.8110716729946,10027,10027,"Mt. Morris Park, Morningside Heights",Manhattan,125th St Station - A-B-C-D
+400,Prince St,N-Q-R-W,"N-all times, Q-nights, R-all times exc nights",-73.9977020004599,40.7243286659757,10012,10012,"Village, NoHo, Soho",Manhattan,Prince St Station - N-Q-R-W
+401,8th St - NYU,N-Q-R-W,"N-all times, Q-nights, R-all times exc nights",-73.9925079984915,40.7304649985399,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,8th St - NYU Station - N-Q-R-W
+402,Fulton St,2-3,"2-all times, 3-all times exc nights",-74.006570999702,40.7094159992587,10038,10038,"Financial District, Seaport",Manhattan,Fulton St Station - 2-3
+403,Park Pl,2-3,"2-all times, 3-all times exc nights",-74.0088109999736,40.7130509990777,10007,10007,"Tribeca, Financial District",Manhattan,Park Pl Station - 2-3
+404,Chambers St,1-2-3,"1,2-all times, 3-all times exc nights",-74.0092660017011,40.7154780001133,10007,10007,"Tribeca, Financial District",Manhattan,Chambers St Station - 1-2-3
+405,Hoyt St,2-3,"2-all times, 3-all times exc nights",-73.9850637957565,40.6905441853547,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Hoyt St Station - 2-3
+406,Borough Hall,2-3,"2-all times, 3-all times exc nights",-73.9899979996069,40.6932189996111,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Borough Hall Station - 2-3
+407,183rd St,4,4-all times,-73.9038790015153,40.8584070004084,10468,10468,"Jerome Park, Fordham Manor, Fordham Heights",Bronx,183rd St Station - 4
+408,Fordham Rd,4,4-all times,-73.901033999217,40.8628029998894,10468,10468,"Jerome Park, Fordham Manor, Fordham Heights",Bronx,Fordham Rd Station - 4
+409,World Trade Center,E,E-all times,-74.009744615177,40.7125639268082,10007,10007,"Tribeca, Financial District",Manhattan,World Trade Center Station - E
+410,Canal St - Holland Tunnel,A-C-E,"A,E-all times, C-all times exc nights",-74.0052290023424,40.7208240000712,10013,10013,"Tribeca, Soho",Manhattan,Canal St - Holland Tunnel Station - A-C-E
+411,155th St,A-C,"A-nights, C-all other times",-73.9415140008221,40.8305179992925,10032,10032,Washington Heights,Manhattan,155th St Station - A-C
+412,163rd St - Amsterdam Av,A-C,"A-nights, C-all other times",-73.9398920018834,40.836012999231,10032,10032,Washington Heights,Manhattan,163rd St - Amsterdam Av Station - A-C
+413,Fulton St,J-Z,"J-all times, Z-rush hours AM westbound, PM eastbound",-74.0079380011039,40.7100226665842,10038,10038,"Financial District, Seaport",Manhattan,Fulton St Station - J-Z
+414,Chambers St,J-Z,"J-all times, Z-rush hours AM westbound, PM eastbound",-74.0034067303134,40.7132337896267,10007,10007,"Tribeca, Financial District",Manhattan,Chambers St Station - J-Z
+415,Canal St,J-Z,"J-all times, Z-rush hours AM westbound, PM eastbound",-73.9998263854594,40.7181738769739,10013,10013,"Tribeca, Soho",Manhattan,Canal St Station - J-Z
+416,City Hall,R-W,"N-nights, R-all other times",-74.0069858178034,40.713272331117,10007,10007,"Tribeca, Financial District",Manhattan,City Hall Station - R-W
+417,Canal St,R-W,"N-nights, R-all other times",-74.0018260000577,40.719465001059,10013,10013,"Tribeca, Soho",Manhattan,Canal St Station - R-W
+418,South Ferry,1,1-all times,-74.0131689591926,40.7017305075745,10004,10004,Battery Park City,Manhattan,South Ferry Station - 1
+419,Bowling Green,4-5,"4-all times, 5-all times exc nights",-74.0140079980343,40.7049139992808,10004,10004,Battery Park City,Manhattan,Bowling Green Station - 4-5
+420,Wall St,4-5,"4-all times, 5-weekdays",-74.0118619986011,40.707557000866,10006,10006,"Financial District, Battery Park City",Manhattan,Wall St Station - 4-5
+421,Whitehall St,R-W,"N-nights, R-all other times",-74.0130072374272,40.7031423735991,10004,10004,Battery Park City,Manhattan,Whitehall St Station - R-W
+422,Rector St,R-W,"N-nights, R-all other times",-74.012974562538,40.7077447562945,10006,10006,"Financial District, Battery Park City",Manhattan,Rector St Station - R-W
+423,Fresh Pond Rd,M,M-all times,-73.8958980017196,40.7062259982305,11385,11385,"Fresh Pond, Glendale, Ridgewood",Queens,Fresh Pond Rd Station - M
+424,Middle Village - Metropolitan Ave,M,M-all times,-73.8895772297809,40.7114313050583,11381,11379,Middle Village,Queens,Middle Village - Metropolitan Ave Station - M
+425,Rector St,1,1-all times,-74.0137830011974,40.7075129995218,10006,10006,"Financial District, Battery Park City",Manhattan,Rector St Station - 1
+426,Cortlandt St,1,Temporarily closed,-74.0121880011229,40.7118350008202,10006,10006,"Financial District, Battery Park City",Manhattan,Cortlandt St Station - 1
+427,Fulton St,4-5,"4-all times, 5-weekdays",-74.0095089985646,40.7103679988221,10007,10007,"Tribeca, Financial District",Manhattan,Fulton St Station - 4-5
+428,Broad St,J-Z,"J-all times, Z-rush hours AM westbound, PM eastbound",-74.0110559999175,40.706476001106,10005,10005,Financial District,Manhattan,Broad St Station - J-Z
+429,Cortlandt St,R-W,"N-nights, R-all other times",-74.0111319647327,40.7105129841524,10007,10007,"Tribeca, Financial District",Manhattan,Cortlandt St Station - R-W
+430,Wall St,2-3,"2-all times, 3-all times exc nights",-74.0090999984426,40.7068209997534,10005,10005,Financial District,Manhattan,Wall St Station - 2-3
+431,Dyckman St,A,A-all times,-73.9272709996073,40.8654909989689,10040,10040,"Washington Hts, Hudson Hts",Manhattan,Dyckman St Station - A
+432,Grand St,B-D,"B-weekdays and evenings, D-all times",-73.9937529991359,40.7182669995499,10002,10002,Lower East Side,Manhattan,Grand St Station - B-D
+433,Broadway - Lafayette St,B-D-F-M,"B,M-weekdays and evenings, D,F-all times",-73.9962039987605,40.725296998738,10012,10012,"Village, NoHo, Soho",Manhattan,Broadway - Lafayette St Station - B-D-F-M
+434,Bowery,J-Z,"J-all times, Z-rush hours AM westbound, PM eastbound",-73.9938069065424,40.7202468831473,10002,10002,Lower East Side,Manhattan,Bowery Station - J-Z
+435,Canal St,N-Q,"N-all times, Q-weekdays and evenings",-74.0010547130603,40.7188142635871,10013,10013,"Tribeca, Soho",Manhattan,Canal St Station - N-Q
+436,23rd St,A-C-E,"A-nights, C-all other times, E-all times",-73.998041001172,40.7459059994,10011,10011,"Chelsea ,  Village",Manhattan,23rd St Station - A-C-E
+437,34th St - Penn Station,A-C-E,"A,E-all times, C-all times exc nights",-73.9933909997058,40.7522870007759,10001,10001,"Chelsea,  West Midtown",Manhattan,34th St - Penn Station Station - A-C-E
+438,Jackson Hts - Roosevelt Av,E-F-M-R,"E,F-all times, M-weekdays and evenings, R-all times exc nights",-73.891298665197,40.7465396911589,11373,11373,Elmhurst,Queens,Jackson Hts - Roosevelt Av Station - E-F-M-R
+439,14th St,1-2-3,"1,2-all times, 3-all times exc nights",-74.000201000635,40.7378259997281,10011,10011,"Chelsea ,  Village",Manhattan,14th St Station - 1-2-3
+440,135th St,A-B-C,"A-nights, B-weekdays and evenings, C-all times exc nights",-73.9475348087921,40.8179055592127,10032,10032,Washington Heights,Manhattan,135th St Station - A-B-C
+441,14th St,F-M,"F-all times, M-weekdays and evenings",-73.9962089992135,40.7382279996951,10011,10011,"Chelsea ,  Village",Manhattan,14th St Station - F-M
+442,6th Ave,L,L-all times,-73.9977507887478,40.7377414698105,10011,10011,"Chelsea ,  Village",Manhattan,6th Ave Station - L
+443,8th Ave,L,L-all times,-74.0025780010476,40.739776666382,10011,10011,"Chelsea ,  Village",Manhattan,8th Ave Station - L
+444,14th St,A-C-E,"A,E-all times, C-all times exc nights",-74.0016899993703,40.7408930001933,10011,10011,"Chelsea ,  Village",Manhattan,14th St Station - A-C-E
+445,Nostrand Ave,3-4,"4-nights, 3-all other times",-73.9504262489579,40.6699381509305,11216,11216,Bedford-Stuyvesant,Brooklyn,Nostrand Ave Station - 3-4
+446,Clark St,2-3,"2-all times, 3-all times exc nights",-73.9930859982196,40.6974659999647,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Clark St Station - 2-3
+447,Franklin Ave,A-C,"A-nights, C-all other times",-73.9568480001461,40.6813796665874,11238,11238,Prospect Heights,Brooklyn,Franklin Ave Station - A-C
+448,Clinton - Washington Aves,A-C,"A-nights, C-all other times",-73.9658379985728,40.6832629991264,11238,11238,Prospect Heights,Brooklyn,Clinton - Washington Aves Station - A-C
+449,Forest Ave,M,M-all times,-73.9030750000596,40.7044120008781,11385,11385,"Fresh Pond, Glendale, Ridgewood",Queens,Forest Ave Station - M
+450,110th St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9442499968716,40.7950200001131,10029,10029,"East Harlem, Carnegie Hill",Manhattan,110th St Station - 4-6-6 Express
+451,86th St,4-5-6-6 Express,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",-73.9555889998513,40.7794919982095,10028,10028,Upper East Side,Manhattan,86th St Station - 4-5-6-6 Express
+452,York St,F,F-all times,-73.9868849999367,40.6997426676916,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,York St Station - F
+453,High St,A-C,"A-all times, C-all times exc nights",-73.9905310006546,40.6993369997788,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,High St Station - A-C
+454,Lafayette Ave,A-C,"A-nights, C-all other times",-73.9739459984941,40.6861130002057,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Lafayette Ave Station - A-C
+455,President St,2-5,"2-all times, 5 weekdays",-73.9505892002221,40.6678836035368,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,President St Station - 2-5
+456,Woodlawn,4,4-all times,-73.8787509999093,40.8860370002533,10467,10467,"Norwood, Olinville, Allerton",Bronx,Woodlawn Station - 4
+457,Bleecker St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays PM",-73.9946590000633,40.7259146668266,10012,10012,"Village, NoHo, Soho",Manhattan,Bleecker St Station - 4-6-6 Express
+458,103rd St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9474780015222,40.7906000000845,10029,10029,"East Harlem, Carnegie Hill",Manhattan,103rd St Station - 4-6-6 Express
+459,Euclid Ave,A-C-S,"S to Ozone Park-Lefferts Blvd-nights, C-all other times, A-all times",-73.8721060009968,40.6753769982394,11208,11208,Cypress Hills,Brooklyn,Euclid Ave Station - A-C-S
+460,88th St,A-S,"A-all times, S Euclid Av to Ozone Park-Lefferts Blvd-nights",-73.8514700002609,40.679843001355,11417,11417,"Ozone Park, Tudor Village",Queens,88th St Station - A-S
+461,Cortelyou Rd,Q,Q-all times,-73.9637900550549,40.6409401651401,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Cortelyou Rd Station - Q
+462,116th St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9416169983714,40.7986290002001,10029,10029,"East Harlem, Carnegie Hill",Manhattan,116th St Station - 4-6-6 Express
+463,Parkchester,6-6 Express,"6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.860816001084,40.8332259992786,10472,10472,"Soundview, Unionport",Bronx,Parkchester Station - 6-6 Express
+464,Franklin St,1-2,"1-all times, 2-nights",-74.0068860027711,40.7193180013021,10013,10013,"Tribeca, Soho",Manhattan,Franklin St Station - 1-2
+465,80th St,A-S,"A-all times, S Euclid Av to Ozone Park-Lefferts Blvd-nights",-73.8589920020633,40.6793710011543,11417,11417,"Ozone Park, Tudor Village",Queens,80th St Station - A-S
+466,5th Ave - Bryant Pk,7-7 Express,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",-73.9819629985671,40.7538210006482,10036,10036,Midtown West,Manhattan,5th Ave - Bryant Pk Station - 7-7 Express
+467,Spring St,4-6-6 Express,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",-73.9971410000667,40.7223009999937,10012,10012,"Village, NoHo, Soho",Manhattan,Spring St Station - 4-6-6 Express
+468,125th St,4-5-6-6 Express,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",-73.9375940005573,40.8041380005873,10035,10035,Harlem,Manhattan,125th St Station - 4-5-6-6 Express
+469,Coney Island - Stillwell Av,D-F-N-Q,"D,F,N,Q-all times",-73.9812359981396,40.5772810000675,11224,11224,"Coney Island, Sea Gate",Brooklyn,Coney Island - Stillwell Av Station - D-F-N-Q
+470,34th St - Hudson Yards,7-7 Express,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",-74.0021970944221,40.755446359616,10001,10001,"Chelsea,  West Midtown",Manhattan,34th St - Hudson Yards Station - 7-7 Express
+641,72nd St,Q,Q-all times,-73.9583617868225,40.768802510149,10021,10021,Upper East Side,Manhattan,72nd St Station - Q
+642,86th St,Q,Q-all times,-73.9517709096492,40.7778610433316,10028,10028,Upper East Side,Manhattan,86th St Station - Q
+643,96th St,Q,Q-all times,-73.9470660219183,40.7842366501777,10128,10128,Upper East Side,Manhattan,96th St Station - Q
