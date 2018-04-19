@@ -37,8 +37,6 @@ def display_page(pathname):
         elif '/details/' in pathname:
             zcta = re.search(r'\d{5}$', pathname)
             return detail.runDetailsDash(zcta.group(0).strip())
-        elif pathname == '/app1':
-            return app1.getLayout()
         else:
             return 'Error 404: You are very lost. '
     except Exception as e:
