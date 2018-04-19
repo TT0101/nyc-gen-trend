@@ -19,6 +19,7 @@ import genoverviewdata as oData
 import subwaydatarepository as sdres
 
 import TypeHelper as th
+import maphelpers as mh
 import config
 
 mapboxtoken = config.mapboxtoken
@@ -66,6 +67,8 @@ def runDetailsDash(zcta):
                 , style={'height':'25px', 'background-color':'black', 'color':'white'}
                 ),
         #html.Br(),
+        #scripts
+        html.Div(id="mapScript"),
         #body
         html.Div(children=[
                 #overview
@@ -90,7 +93,7 @@ def runDetailsDash(zcta):
                         id = 'zctaRegionMap',
                         style={'height':'100%', 'width':'100%'} #figure comes from callback
                         )
-                        ], style={'width':'35%', 'height':'50vh', 'float':'right'}),
+                        ], style={'width':'35%', 'height':'65%', 'float':'right'}),
                 #graphs and charts
                 html.Div(children=[
                 #select time trends
@@ -111,7 +114,9 @@ def runDetailsDash(zcta):
                         )
                 ], style={'width': '64%', 'float':'left'})
             ])
+            
     ], style={'width':'100%', 'height':'100%', 'padding':'0px'})
+    
     
 
 
@@ -134,40 +139,47 @@ def getBlankMap():
                     mode='markers'
                     )
             ])
-            
+
+
+#need this to mark each set of points with a color so we can color different datasets different colors
+def getColorsForLayers(data, dataSets): #pass in datasets so we don't calculate again
+    #dataSets = [list(item[1]['latitude'].values.T.flatten()) for item in data] # use lat just as an index of count
+    colors = [ic.getDetailSpecificColor(item[0]) for item in data]
+    colorPointArray = []
+    setCount = 0
+    for s in dataSets:
+        colorPointArray += [colors[setCount] for item in s['lat']]
+        setCount += 1
+    
+    return colorPointArray
+
+#build the whole marker dictionary since we can go through the array twice instead of 6 times then....
+def getMarkerDataForLayers(data):
+    dataSets = [{'lat':list(item[1]['latitude'].values.T.flatten()),'lon':list(item[1]['longitude'].values.T.flatten()), 'text': list(item[1]['label'].values.T.flatten())} for item in data]
+    mergedData = {'lat': [], 'lon': [], 'text': []
+                 , 'mode':'marker'
+                 , 'marker': dict(color=getColorsForLayers(data, dataSets),
+                             opacity=1.0,
+                             size=10)
+                 }
+    
+    #get rid of the sub arrays and make it one array for each
+    for s in dataSets:
+        for k in s:
+            mergedData[k] += s[k]
+    
+    return mergedData
+
+#get the map data when there's data to display
 def getMapWithPoints(valuesChosen, data):
     layers = getPointsToPlot(valuesChosen, data)
-        
-    return go.Data([
-            go.Scattermapbox(
-                    lat=[item[1]['latitude'] for item in layers][0],
-                    lon=[item[1]['longitude'] for item in layers][0], 
-                    mode='markers',
-                    text=[item[1]['label'] for item in layers][0],
-                    marker=dict(
-                             color=[ic.getDetailSpecificColor(item[0]) for item in layers],
-                             opacity=1.0,
-                             size=10
-#                             colorbar=dict(
-#                                     title="Index",
-#                                     x=0.935,
-##                                    xpad=0,
-##                                    #dtick=1,
-##                                    #nticks=len(ic.getColorScale()),
-##                                    tickfont=dict(
-##                                        color='black'
-##                                    ),
-##                                    titlefont=dict(
-##                                        color='black'
-##                                    ),
-##                                    titleside='left',
-##                                    tickvals = [1, 50, 100],
-##                                    ticktext = ['Low','Mid','High']
-#                                     )
-                             )
-                    )
-            ])
-        
+    
+    if len(layers) <= 0:
+        return getBlankMap()
+    
+    return go.Data([go.Scattermapbox(getMarkerDataForLayers(layers))])
+
+#get map layout with polygon of zcta
 def getMapLayout(mapboxtoken, polygons, genColor):
     return go.Layout(
             #height=800,
@@ -191,7 +203,7 @@ def getMapLayout(mapboxtoken, polygons, genColor):
                                 lon=zpoly.getCenterLongFromMultPolys(polygons)
                                 ),
                     pitch=0,
-                    zoom=13,
+                    zoom=mh.getBoundsZoomLevel(zpoly.getMinMaxLatLongForPolygons(polygons), {'height':400, 'width':450}), #rewrite to do it my way....
                     style='light'
                     )
                 )
@@ -219,15 +231,25 @@ def filterByNearbyBoro(df, boro, boroColName):
     return df[df[boroColName].isin(boroList)]
     
 #callbacks
+#you HAVE to use 0.20.1 or lower version of core-components of dash for this to work. 0.21.1 introduced a bug where a re-load of the markers doesn't fully render on the map; upgrading doesn't fix this yet
 @app.callback(Output('zctaRegionMap', 'figure'),
               [Input('mapDataSelect', 'value')])
 def onMapDataSelected(value):
     #map
     mapLayout = getMapLayout(mapboxtoken, zctaPoly, genIndexColor)
+    
     if value == None or len(value) == 0:
         mapData = getBlankMap()
-        return dict(data=mapData, layout=mapLayout)
     else:
         mapData = getMapWithPoints(value, pointsDic)
-        return dict(data=mapData, layout=mapLayout)
-                
+       
+    return dict(data=mapData, layout=mapLayout)             
+
+#@app.callback(Output('mapScript', 'children'),
+#              [Input('mapDataSelect', 'value')])
+#def loadZoomOnMapLoad(value):
+#    latLongCorners = zpoly.getMinMaxLatLongForPolygons(zctaPoly)
+#    app.scripts.append_script('document.getElementById("zctaRegionMap").fitBounds([[' + str(latLongCorners[0][0]) + ',' + str(latLongCorners[0][1]) + '],['+ str(latLongCorners[1][0]) + ',' + str(latLongCorners[1][1]) + ']]);')
+#    #return html.Div(str(latLongCorners))
+#    #layers = getPointsToPlot(value, pointsDic)
+#    return str(getMapWithPoints(value, pointsDic))

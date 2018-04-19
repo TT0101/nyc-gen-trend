@@ -90,3 +90,24 @@ def getAllPolygonsForZCTA(zctaVal):
             matching.append(item)
     
     return {"type": "FeatureCollection", "features": matching } 
+
+def getMinMaxLatLongForPolygons(polygons):
+    polygonLatLongs = []
+    for p in polygons['features']:
+        polygonLatLongs.append(p['geometry']['coordinates'][0])
+    latLongCorners = []
+    lats = [item[1] for item in polygonLatLongs[0]]
+    longs = [item[0] for item in polygonLatLongs[0]]
+    latLongCorners.append([min(lats), min(longs)])
+    latLongCorners.append([max(lats), max(longs)])
+    
+    return latLongCorners
+    
+#    lats = [item[0] for item in polygonLatLongs]
+#    longs = [item[1] for item in polygonLatLongs]
+#    
+#    latLongCorners.append([min(lats), min(longs)])
+#    latLongCorners.append([max(lats), max(longs)])
+#    
+#    return latLongCorners
+    
