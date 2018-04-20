@@ -27,6 +27,11 @@ zctaOverview = None
 zctaPoly = None
 pointsDic = None
 genIndexColor = None
+
+#map
+mapOptions = [  
+                {'label': 'Subway Stations', 'value': 'SE'}
+             ]
     
 def runDetailsDash(zcta):
     #define in globals so callbacks can use it, but we must assign here due to zcta value being needed
@@ -53,7 +58,6 @@ def runDetailsDash(zcta):
     chartData = pd.DataFrame({'x': x, 'y': y})
     chartData.head()
     
-
     
     #chart
     currentChartData = getChartData(chartData)
@@ -81,11 +85,7 @@ def runDetailsDash(zcta):
                 #map
                 ,html.Div(children=[
                          dcc.Dropdown(id='mapDataSelect',
-                            options=[
-                                #{'label': 'Schools', 'value': 'S'},
-                                {'label': 'Subway Stations', 'value': 'SE'},
-                                #{'label': 'CitiBike Stands', 'value': 'CS'}
-                            ],
+                            options= mapOptions,
                             multi=True,
                             value=["SE"]
                         ),
@@ -140,35 +140,33 @@ def getBlankMap():
                     )
             ])
 
-
-#need this to mark each set of points with a color so we can color different datasets different colors
-def getColorsForLayers(data, dataSets): #pass in datasets so we don't calculate again
-    #dataSets = [list(item[1]['latitude'].values.T.flatten()) for item in data] # use lat just as an index of count
-    colors = [ic.getDetailSpecificColor(item[0]) for item in data]
-    colorPointArray = []
+def repeatItemForNumberOfLats(items, dataSets):
     setCount = 0
+    repeatArray = []
     for s in dataSets:
-        colorPointArray += [colors[setCount] for item in s['lat']]
+        repeatArray += [items[setCount] for item in s['lat']]
         setCount += 1
-    
-    return colorPointArray
 
-#build the whole marker dictionary since we can go through the array twice instead of 6 times then....
+    return repeatArray
+
+
+def getPointCategoryForLayer(key):
+    return list(filter(lambda option: option['value'] == key, mapOptions))[0]['label']
+
+
+#build a scattermapbox for each dataset, so this results in one loop
 def getMarkerDataForLayers(data):
-    dataSets = [{'lat':list(item[1]['latitude'].values.T.flatten()),'lon':list(item[1]['longitude'].values.T.flatten()), 'text': list(item[1]['label'].values.T.flatten())} for item in data]
-    mergedData = {'lat': [], 'lon': [], 'text': []
-                 , 'mode':'marker'
-                 , 'marker': dict(color=getColorsForLayers(data, dataSets),
-                             opacity=1.0,
-                             size=10)
-                 }
-    
-    #get rid of the sub arrays and make it one array for each
-    for s in dataSets:
-        for k in s:
-            mergedData[k] += s[k]
-    
-    return mergedData
+    return [go.Scattermapbox({
+                         'lat': item[1]['latitude'].values
+                         , 'lon': item[1]['longitude'].values
+                         , 'text': item[1]['label'].values
+                         , 'mode':'marker'
+                         , 'name': getPointCategoryForLayer(item[0])
+                         , 'marker': dict(color=ic.getDetailSpecificColor(item[0]),
+                                          opacity=1.0,
+                                          size=10)
+                         })
+            for item in data]
 
 #get the map data when there's data to display
 def getMapWithPoints(valuesChosen, data):
@@ -177,13 +175,15 @@ def getMapWithPoints(valuesChosen, data):
     if len(layers) <= 0:
         return getBlankMap()
     
-    return go.Data([go.Scattermapbox(getMarkerDataForLayers(layers))])
+    return getMarkerDataForLayers(layers)
 
 #get map layout with polygon of zcta
 def getMapLayout(mapboxtoken, polygons, genColor):
     return go.Layout(
             #height=800,
             autosize=True,
+            showlegend=True,
+            legend=dict(orientation='h'),
             margin = dict(l = 0, r = 0, t = 0, b = 0),
             hovermode='closest',
             mapbox=dict(

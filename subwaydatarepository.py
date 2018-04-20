@@ -11,7 +11,7 @@ import datadisplaycleaner as dc
 
 #functions
 def getSubwayEntrywayData():
-    fileName = os.getcwd() + "/mysite/Datafiles/SUBWAY_STATION_LOCATIONS.csv"
+    fileName = os.getcwd() + "/mysite/Datafiles/SUBWAY_STATION_LOCATIONS2.csv"
     #added the label, latitude, and longitude columns in excel manually instead...
     return fh.readInCSVPandas(fileName, 0)
 
