@@ -17,6 +17,7 @@ import zctapolygons as zpoly
 import indexcolors as ic
 import genoverviewdata as oData
 import subwaydatarepository as sdres
+import schooldatarepository as scres
 
 import TypeHelper as th
 import maphelpers as mh
@@ -30,7 +31,9 @@ genIndexColor = None
 
 #map
 mapOptions = [  
-                {'label': 'Subway Stations', 'value': 'SE'}
+                {'label': 'Schools', 'value':'SC'}
+                ,{'label': 'Subway Stations', 'value': 'SE'}
+                
              ]
     
 def runDetailsDash(zcta):
@@ -122,7 +125,10 @@ def runDetailsDash(zcta):
 
 #functions
 def getDataWithLocationDictionary(zctaOverview):
-    return {'SE': filterByNearbyBoro(sdres.subwayEntryways, zctaOverview.Boro, sdres.BoroColName)}
+    return {
+             'SE': filterByNearbyBoro(sdres.subwayEntryways, zctaOverview.Boro, sdres.BoroColName)
+            ,'SC': filterByZcta(scres.schoolLocations, zctaOverview.ZCTA, scres.ZCTAColName)
+            }
 
 def getPointsToPlot(valuesChosen, data):
     layers = []
