@@ -1,0 +1,498 @@
+,Unnamed: 0,Station ID,Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude,latitude,longitude,zipcode,zcta,nbhLabel,boroLabel,label
+0,0,1,1,R01,BMT,Astoria,Astoria - Ditmars Blvd,Q,N W,Elevated,40.775036,-73.912034,40.775036,-73.912034,11105,11105,Astoria,Queens,Astoria - Ditmars Blvd -- N W
+1,1,2,2,R03,BMT,Astoria,Astoria Blvd,Q,N W,Elevated,40.770258,-73.917843,40.770258,-73.917843,11102,11102,Astoria,Queens,Astoria Blvd -- N W
+2,2,3,3,R04,BMT,Astoria,30 Av,Q,N W,Elevated,40.766779,-73.921479,40.766779,-73.921479,11102,11102,Astoria,Queens,30 Av -- N W
+3,3,4,4,R05,BMT,Astoria,Broadway,Q,N W,Elevated,40.76182,-73.925508,40.76182,-73.925508,11106,11106,Ravenswood (Astoria),Queens,Broadway -- N W
+4,4,5,5,R06,BMT,Astoria,36 Av,Q,N W,Elevated,40.756804,-73.929575,40.756804,-73.929575,11106,11106,Ravenswood (Astoria),Queens,36 Av -- N W
+5,5,6,6,R08,BMT,Astoria,39 Av,Q,N W,Elevated,40.752882,-73.932755,40.752882,-73.932755,11101,11101,Long Island City,Queens,39 Av -- N W
+6,6,7,613,R11,BMT,Astoria,Lexington Av/59 St,M,N W R,Subway,40.76266,-73.967258,40.76266,-73.967258,10022,10022,Midtown East,Manhattan,Lexington Av/59 St -- N W R
+7,7,8,8,R13,BMT,Astoria,5 Av/59 St,M,N W R,Subway,40.764811,-73.973347,40.764811,-73.973347,10019,10019,Midtown West,Manhattan,5 Av/59 St -- N W R
+8,8,9,9,R14,BMT,Broadway - Brighton,57 St - 7 Av,M,N Q R W,Subway,40.764664,-73.980658,40.764664,-73.980658,10019,10019,Midtown West,Manhattan,57 St - 7 Av -- N Q R W
+9,9,10,10,R15,BMT,Broadway - Brighton,49 St,M,N R W,Subway,40.759901,-73.984139,40.759901,-73.984139,10019,10019,Midtown West,Manhattan,49 St -- N R W
+10,10,11,611,R16,BMT,Broadway - Brighton,Times Sq - 42 St,M,N Q R W,Subway,40.754672,-73.986754,40.754672,-73.986754,10018,10018,Midtown West,Manhattan,Times Sq - 42 St -- N Q R W
+11,11,12,607,R17,BMT,Broadway - Brighton,34 St - Herald Sq,M,N Q R W,Subway,40.749567,-73.98795,40.749567,-73.98795,10001,10001,"Chelsea,  West Midtown",Manhattan,34 St - Herald Sq -- N Q R W
+12,12,13,13,R18,BMT,Broadway - Brighton,28 St,M,R W,Subway,40.745494,-73.988691,40.745494,-73.988691,10001,10001,"Chelsea,  West Midtown",Manhattan,28 St -- R W
+13,13,14,14,R19,BMT,Broadway - Brighton,23 St,M,R W,Subway,40.741303,-73.989344,40.741303,-73.989344,10010,10010,"Gramercy, Flatiron",Manhattan,23 St -- R W
+14,14,15,602,R20,BMT,Broadway - Brighton,14 St - Union Sq,M,N Q R W,Subway,40.735736,-73.990568,40.735736,-73.990568,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,14 St - Union Sq -- N Q R W
+15,15,16,16,R21,BMT,Broadway - Brighton,8 St - NYU,M,R W,Subway,40.730328,-73.992629,40.730328,-73.992629,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,8 St - NYU -- R W
+16,16,17,17,R22,BMT,Broadway - Brighton,Prince St,M,R W,Subway,40.724329,-73.997702,40.724329,-73.997702,10012,10012,"Village, NoHo, Soho",Manhattan,Prince St -- R W
+17,17,18,623,R23,BMT,Broadway,Canal St,M,R W,Subway,40.719527,-74.001775,40.719527,-74.001775,10013,10013,"Tribeca, Soho",Manhattan,Canal St -- R W
+18,18,19,623,Q01,BMT,Manhattan Bridge,Canal St,M,N Q,Subway,40.718383,-74.00046,40.718383,-74.00046,10013,10013,"Tribeca, Soho",Manhattan,Canal St -- N Q
+19,19,20,20,R24,BMT,Broadway,City Hall,M,R W,Subway,40.713282,-74.006978,40.713282,-74.006978,10007,10007,"Tribeca, Financial District",Manhattan,City Hall -- R W
+20,20,21,21,R25,BMT,Broadway,Cortlandt St,M,R W,Subway,40.710668,-74.011029,40.710668,-74.011029,10007,10007,"Tribeca, Financial District",Manhattan,Cortlandt St -- R W
+21,21,22,22,R26,BMT,Broadway,Rector St,M,R W,Subway,40.70722,-74.013342,40.70722,-74.013342,10006,10006,"Financial District, Battery Park City",Manhattan,Rector St -- R W
+22,22,23,635,R27,BMT,Broadway,Whitehall St,M,R W,Subway,40.703087,-74.012994,40.703087,-74.012994,10004,10004,Battery Park City,Manhattan,Whitehall St -- R W
+23,23,24,620,R28,BMT,Broadway,Court St,Bk,R,Subway,40.6941,-73.991777,40.6941,-73.991777,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Court St -- R
+24,24,25,636,R29,BMT,Broadway,Jay St - MetroTech,Bk,R,Subway,40.69218,-73.985942,40.69218,-73.985942,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Jay St - MetroTech -- R
+25,25,26,26,R30,BMT,Broadway - Brighton,DeKalb Av,Bk,B Q R,Subway,40.690635,-73.981824,40.690635,-73.981824,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,DeKalb Av -- B Q R
+26,26,27,617,R31,BMT,4th Av,Atlantic Av - Barclays Ctr,Bk,D N R,Subway,40.683666,-73.97881,40.683666,-73.97881,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Atlantic Av - Barclays Ctr -- D N R
+27,27,28,28,R32,BMT,4th Av,Union St,Bk,R,Subway,40.677316,-73.98311,40.677316,-73.98311,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,Union St -- R
+28,28,29,608,R33,BMT,4th Av,9 St,Bk,R,Subway,40.670847,-73.988302,40.670847,-73.988302,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,9 St -- R
+29,29,30,30,R34,BMT,4th Av,Prospect Av,Bk,R,Subway,40.665414,-73.992872,40.665414,-73.992872,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,Prospect Av -- R
+30,30,31,31,R35,BMT,4th Av,25 St,Bk,R,Subway,40.660397,-73.998091,40.660397,-73.998091,11232,11232,"Greenwood, Industry City, Bush Terminal, Sunset Park",Brooklyn,25 St -- R
+31,31,32,32,R36,BMT,4th Av,36 St,Bk,D N R,Subway,40.655144,-74.003549,40.655144,-74.003549,11232,11232,"Greenwood, Industry City, Bush Terminal, Sunset Park",Brooklyn,36 St -- D N R
+32,32,33,33,R39,BMT,4th Av,45 St,Bk,R,Subway,40.648939,-74.010006,40.648939,-74.010006,11220,11220,Sunset Park,Brooklyn,45 St -- R
+33,33,34,34,R40,BMT,4th Av,53 St,Bk,R,Subway,40.645069,-74.014034,40.645069,-74.014034,11220,11220,Sunset Park,Brooklyn,53 St -- R
+34,34,35,35,R41,BMT,4th Av,59 St,Bk,N R,Subway,40.641362,-74.017881,40.641362,-74.017881,11220,11220,Sunset Park,Brooklyn,59 St -- N R
+35,35,36,36,R42,BMT,4th Av,Bay Ridge Av,Bk,R,Subway,40.634967,-74.023377,40.634967,-74.023377,11220,11220,Sunset Park,Brooklyn,Bay Ridge Av -- R
+36,36,37,37,R43,BMT,4th Av,77 St,Bk,R,Subway,40.629742,-74.02551,40.629742,-74.02551,11209,11209,"Bay Ridge, Fort Hamilton",Brooklyn,77 St -- R
+37,37,38,38,R44,BMT,4th Av,86 St,Bk,R,Subway,40.622687,-74.028398,40.622687,-74.028398,11209,11209,"Bay Ridge, Fort Hamilton",Brooklyn,86 St -- R
+38,38,39,39,R45,BMT,4th Av,Bay Ridge - 95 St,Bk,R,Subway,40.616622,-74.030876,40.616622,-74.030876,11209,11209,"Bay Ridge, Fort Hamilton",Brooklyn,Bay Ridge - 95 St -- R
+39,39,40,617,D24,BMT,Broadway - Brighton,Atlantic Av - Barclays Ctr,Bk,B Q,Subway,40.68446,-73.97689,40.68446,-73.97689,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Atlantic Av - Barclays Ctr -- B Q
+40,40,41,41,D25,BMT,Broadway - Brighton,7 Av,Bk,B Q,Subway,40.67705,-73.972367,40.67705,-73.972367,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,7 Av -- B Q
+41,41,42,42,D26,BMT,Broadway - Brighton,Prospect Park,Bk,B Q,Open Cut,40.661614,-73.962246,40.661614,-73.962246,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,Prospect Park -- B Q
+42,42,43,43,D27,BMT,Broadway - Brighton,Parkside Av,Bk,B Q,Open Cut,40.655292,-73.961495,40.655292,-73.961495,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Parkside Av -- B Q
+43,43,44,44,D28,BMT,Broadway - Brighton,Church Av,Bk,B Q,Open Cut,40.650527,-73.962982,40.650527,-73.962982,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Church Av -- B Q
+44,44,45,45,D29,BMT,Broadway - Brighton,Beverley Rd,Bk,B Q,Open Cut,40.644031,-73.964492,40.644031,-73.964492,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Beverley Rd -- B Q
+45,45,46,46,D30,BMT,Broadway - Brighton,Cortelyou Rd,Bk,B Q,Open Cut,40.640927,-73.963891,40.640927,-73.963891,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Cortelyou Rd -- B Q
+46,46,47,47,D31,BMT,Broadway - Brighton,Newkirk Plaza,Bk,B Q,Open Cut,40.635082,-73.962793,40.635082,-73.962793,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Newkirk Plaza -- B Q
+47,47,48,48,D32,BMT,Broadway - Brighton,Avenue H,Bk,B Q,Open Cut,40.62927,-73.961639,40.62927,-73.961639,11230,11230,Midwood,Brooklyn,Avenue H -- B Q
+48,48,49,49,D33,BMT,Broadway - Brighton,Avenue J,Bk,B Q,Open Cut,40.625039,-73.960803,40.625039,-73.960803,11230,11230,Midwood,Brooklyn,Avenue J -- B Q
+49,49,50,50,D34,BMT,Broadway - Brighton,Avenue M,Bk,B Q,Open Cut,40.617618,-73.959399,40.617618,-73.959399,11230,11230,Midwood,Brooklyn,Avenue M -- B Q
+50,50,51,51,D35,BMT,Broadway - Brighton,Kings Hwy,Bk,B Q,Open Cut,40.60867,-73.957734,40.60867,-73.957734,11229,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn,Kings Hwy -- B Q
+51,51,52,52,D37,BMT,Broadway - Brighton,Avenue U,Bk,B Q,Open Cut,40.5993,-73.955929,40.5993,-73.955929,11229,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn,Avenue U -- B Q
+52,52,53,53,D38,BMT,Broadway - Brighton,Neck Rd,Bk,B Q,Open Cut,40.595246,-73.955161,40.595246,-73.955161,11229,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn,Neck Rd -- B Q
+53,53,54,54,D39,BMT,Broadway - Brighton,Sheepshead Bay,Bk,B Q,Open Cut,40.586896,-73.954155,40.586896,-73.954155,11235,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn,Sheepshead Bay -- B Q
+54,54,55,55,D40,BMT,Broadway - Brighton,Brighton Beach,Bk,B Q,Elevated,40.577621,-73.961376,40.577621,-73.961376,11235,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn,Brighton Beach -- B Q
+55,55,56,56,D41,BMT,Broadway - Brighton,Ocean Pkwy,Bk,Q,Elevated,40.576312,-73.968501,40.576312,-73.968501,11224,11224,"Coney Island, Sea Gate",Brooklyn,Ocean Pkwy -- Q
+56,56,57,57,D42,BMT,Broadway - Brighton,W 8 St - NY Aquarium,Bk,F Q,Elevated,40.576127,-73.975939,40.576127,-73.975939,11224,11224,"Coney Island, Sea Gate",Brooklyn,W 8 St - NY Aquarium -- F Q
+57,57,58,58,D43,BMT,Sea Beach / West End / Culver / Brighton,Coney Island - Stillwell Av,Bk,D F N Q,Viaduct,40.577422,-73.981233,40.577422,-73.981233,11224,11224,"Coney Island, Sea Gate",Brooklyn,Coney Island - Stillwell Av -- D F N Q
+58,58,59,59,B12,BMT,West End,9 Av,Bk,D,Open Cut,40.646292,-73.994324,40.646292,-73.994324,11232,11232,"Greenwood, Industry City, Bush Terminal, Sunset Park",Brooklyn,9 Av -- D
+59,59,60,60,B13,BMT,West End,Fort Hamilton Pkwy,Bk,D,Elevated,40.640914,-73.994304,40.640914,-73.994304,11219,11219,Borough Park,Brooklyn,Fort Hamilton Pkwy -- D
+60,60,61,61,B14,BMT,West End,50 St,Bk,D,Elevated,40.63626,-73.994791,40.63626,-73.994791,11219,11219,Borough Park,Brooklyn,50 St -- D
+61,61,62,62,B15,BMT,West End,55 St,Bk,D,Elevated,40.631435,-73.995476,40.631435,-73.995476,11219,11219,Borough Park,Brooklyn,55 St -- D
+62,62,63,615,B16,BMT,West End,62 St,Bk,D,Elevated,40.626472,-73.996895,40.626472,-73.996895,11219,11219,Borough Park,Brooklyn,62 St -- D
+63,63,64,64,B17,BMT,West End,71 St,Bk,D,Elevated,40.619589,-73.998864,40.619589,-73.998864,11228,11228,Dyker Heights,Brooklyn,71 St -- D
+64,64,65,65,B18,BMT,West End,79 St,Bk,D,Elevated,40.613501,-74.00061,40.613501,-74.00061,11214,11214,Bath Beach,Brooklyn,79 St -- D
+65,65,66,66,B19,BMT,West End,18 Av,Bk,D,Elevated,40.607954,-74.001736,40.607954,-74.001736,11214,11214,Bath Beach,Brooklyn,18 Av -- D
+66,66,67,67,B20,BMT,West End,20 Av,Bk,D,Elevated,40.604556,-73.998168,40.604556,-73.998168,11214,11214,Bath Beach,Brooklyn,20 Av -- D
+67,67,68,68,B21,BMT,West End,Bay Pkwy,Bk,D,Elevated,40.601875,-73.993728,40.601875,-73.993728,11214,11214,Bath Beach,Brooklyn,Bay Pkwy -- D
+68,68,69,69,B22,BMT,West End,25 Av,Bk,D,Elevated,40.597704,-73.986829,40.597704,-73.986829,11214,11214,Bath Beach,Brooklyn,25 Av -- D
+69,69,70,70,B23,BMT,West End,Bay 50 St,Bk,D,Elevated,40.588841,-73.983765,40.588841,-73.983765,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Bay 50 St -- D
+70,70,71,71,N02,BMT,Sea Beach,8 Av,Bk,N,Open Cut,40.635064,-74.011719,40.635064,-74.011719,11220,11220,Sunset Park,Brooklyn,8 Av -- N
+71,71,72,72,N03,BMT,Sea Beach,Fort Hamilton Pkwy,Bk,N,Open Cut,40.631386,-74.005351,40.631386,-74.005351,11219,11219,Borough Park,Brooklyn,Fort Hamilton Pkwy -- N
+72,72,73,615,N04,BMT,Sea Beach,New Utrecht Av,Bk,N,Open Cut,40.624842,-73.996353,40.624842,-73.996353,11219,11219,Borough Park,Brooklyn,New Utrecht Av -- N
+73,73,74,74,N05,BMT,Sea Beach,18 Av,Bk,N,Open Cut,40.620671,-73.990414,40.620671,-73.990414,11204,11204,"Bensonhurst, Parkville",Brooklyn,18 Av -- N
+74,74,75,75,N06,BMT,Sea Beach,20 Av,Bk,N,Open Cut,40.61741,-73.985026,40.61741,-73.985026,11204,11204,"Bensonhurst, Parkville",Brooklyn,20 Av -- N
+75,75,76,76,N07,BMT,Sea Beach,Bay Pkwy,Bk,N,Open Cut,40.611815,-73.981848,40.611815,-73.981848,11204,11204,"Bensonhurst, Parkville",Brooklyn,Bay Pkwy -- N
+76,76,77,77,N08,BMT,Sea Beach,Kings Hwy,Bk,N,Open Cut,40.603923,-73.980353,40.603923,-73.980353,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Kings Hwy -- N
+77,77,78,78,N09,BMT,Sea Beach,Avenue U,Bk,N,Open Cut,40.597473,-73.979137,40.597473,-73.979137,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Avenue U -- N
+78,78,79,79,N10,BMT,Sea Beach,86 St,Bk,N,Open Cut,40.592721,-73.97823,40.592721,-73.97823,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,86 St -- N
+79,79,80,80,J12,BMT,Jamaica,121 St,Q,J Z,Elevated,40.700492,-73.828294,40.700492,-73.828294,11418,11418,"Kew Gardens, Richmond Hill",Queens,121 St -- J Z
+80,80,81,81,J13,BMT,Jamaica,111 St,Q,J,Elevated,40.697418,-73.836345,40.697418,-73.836345,11418,11418,"Kew Gardens, Richmond Hill",Queens,111 St -- J
+81,81,82,82,J14,BMT,Jamaica,104 St,Q,J Z,Elevated,40.695178,-73.84433,40.695178,-73.84433,11418,11418,"Kew Gardens, Richmond Hill",Queens,104 St -- J Z
+82,82,83,83,J15,BMT,Jamaica,Woodhaven Blvd,Q,J Z,Elevated,40.693879,-73.851576,40.693879,-73.851576,11421,11421,Woodhaven,Queens,Woodhaven Blvd -- J Z
+83,83,84,84,J16,BMT,Jamaica,85 St - Forest Pkwy,Q,J,Elevated,40.692435,-73.86001,40.692435,-73.86001,11421,11421,Woodhaven,Queens,85 St - Forest Pkwy -- J
+84,84,85,85,J17,BMT,Jamaica,75 St,Q,J Z,Elevated,40.691324,-73.867139,40.691324,-73.867139,11421,11421,Woodhaven,Queens,75 St -- J Z
+85,85,86,86,J19,BMT,Jamaica,Cypress Hills,Bk,J,Elevated,40.689941,-73.87255,40.689941,-73.87255,11208,11208,Cypress Hills,Brooklyn,Cypress Hills -- J
+86,86,87,87,J20,BMT,Jamaica,Crescent St,Bk,J Z,Elevated,40.683194,-73.873785,40.683194,-73.873785,11208,11208,Cypress Hills,Brooklyn,Crescent St -- J Z
+87,87,88,88,J21,BMT,Jamaica,Norwood Av,Bk,J Z,Elevated,40.68141,-73.880039,40.68141,-73.880039,11208,11208,Cypress Hills,Brooklyn,Norwood Av -- J Z
+88,88,89,89,J22,BMT,Jamaica,Cleveland St,Bk,J,Elevated,40.679947,-73.884639,40.679947,-73.884639,11208,11208,Cypress Hills,Brooklyn,Cleveland St -- J
+89,89,90,90,J23,BMT,Jamaica,Van Siclen Av,Bk,J Z,Elevated,40.678024,-73.891688,40.678024,-73.891688,11207,11207,East New York,Brooklyn,Van Siclen Av -- J Z
+90,90,91,91,J24,BMT,Jamaica,Alabama Av,Bk,J,Elevated,40.676992,-73.898654,40.676992,-73.898654,11207,11207,East New York,Brooklyn,Alabama Av -- J
+91,91,92,621,J27,BMT,Jamaica,Broadway Jct,Bk,J Z,Elevated,40.679498,-73.904512,40.679498,-73.904512,11207,11207,East New York,Brooklyn,Broadway Jct -- J Z
+92,92,93,93,J28,BMT,Jamaica,Chauncey St,Bk,J Z,Elevated,40.682893,-73.910456,40.682893,-73.910456,11207,11207,East New York,Brooklyn,Chauncey St -- J Z
+93,93,94,94,J29,BMT,Jamaica,Halsey St,Bk,J,Elevated,40.68637,-73.916559,40.68637,-73.916559,11221,11221,"Bedford-Stuyvesant, Bushwick",Brooklyn,Halsey St -- J
+94,94,95,95,J30,BMT,Jamaica,Gates Av,Bk,J Z,Elevated,40.68963,-73.92227,40.68963,-73.92227,11221,11221,"Bedford-Stuyvesant, Bushwick",Brooklyn,Gates Av -- J Z
+95,95,96,96,J31,BMT,Jamaica,Kosciuszko St,Bk,J,Elevated,40.693342,-73.928814,40.693342,-73.928814,11221,11221,"Bedford-Stuyvesant, Bushwick",Brooklyn,Kosciuszko St -- J
+96,96,97,97,M11,BMT,Jamaica,Myrtle Av,Bk,J M Z,Elevated,40.697207,-73.935657,40.697207,-73.935657,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Myrtle Av -- J M Z
+97,97,98,98,M12,BMT,Jamaica,Flushing Av,Bk,J M,Elevated,40.70026,-73.941126,40.70026,-73.941126,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Flushing Av -- J M
+98,98,99,99,M13,BMT,Jamaica,Lorimer St,Bk,J M,Elevated,40.703869,-73.947408,40.703869,-73.947408,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Lorimer St -- J M
+99,99,100,100,M14,BMT,Jamaica,Hewes St,Bk,J M,Elevated,40.70687,-73.953431,40.70687,-73.953431,11211,11211,Williamsburg,Brooklyn,Hewes St -- J M
+100,100,101,101,M16,BMT,Jamaica,Marcy Av,Bk,J M Z,Elevated,40.708359,-73.957757,40.708359,-73.957757,11211,11211,Williamsburg,Brooklyn,Marcy Av -- J M Z
+101,101,102,625,M18,BMT,Jamaica,Essex St,M,J M Z,Subway,40.718315,-73.987437,40.718315,-73.987437,10002,10002,Lower East Side,Manhattan,Essex St -- J M Z
+102,102,103,103,M19,BMT,Jamaica,Bowery,M,J Z,Subway,40.72028,-73.993915,40.72028,-73.993915,10002,10002,Lower East Side,Manhattan,Bowery -- J Z
+103,103,104,623,M20,BMT,Jamaica,Canal St,M,J Z,Subway,40.718092,-73.999892,40.718092,-73.999892,10013,10013,"Tribeca, Soho",Manhattan,Canal St -- J Z
+104,104,105,622,M21,BMT,Jamaica,Chambers St,M,J Z,Subway,40.713243,-74.003401,40.713243,-74.003401,10007,10007,"Tribeca, Financial District",Manhattan,Chambers St -- J Z
+105,105,106,628,M22,BMT,Jamaica,Fulton St,M,J Z,Subway,40.710374,-74.007582,40.710374,-74.007582,10038,10038,"Financial District, Seaport",Manhattan,Fulton St -- J Z
+106,106,107,107,M23,BMT,Jamaica,Broad St,M,J Z,Subway,40.706476,-74.011056,40.706476,-74.011056,10005,10005,Financial District,Manhattan,Broad St -- J Z
+107,107,108,108,M01,BMT,Myrtle Av,Middle Village - Metropolitan Av,Q,M,Elevated,40.711396,-73.889601,40.711396,-73.889601,11381,11379,Middle Village,Queens,Middle Village - Metropolitan Av -- M
+108,108,109,109,M04,BMT,Myrtle Av,Fresh Pond Rd,Q,M,Elevated,40.706186,-73.895877,40.706186,-73.895877,11385,11385,"Fresh Pond, Glendale, Ridgewood",Queens,Fresh Pond Rd -- M
+109,109,110,110,M05,BMT,Myrtle Av,Forest Av,Q,M,Elevated,40.704423,-73.903077,40.704423,-73.903077,11385,11385,"Fresh Pond, Glendale, Ridgewood",Queens,Forest Av -- M
+110,110,111,111,M06,BMT,Myrtle Av,Seneca Av,Q,M,Elevated,40.702762,-73.90774,40.702762,-73.90774,11385,11385,"Fresh Pond, Glendale, Ridgewood",Queens,Seneca Av -- M
+111,111,112,630,M08,BMT,Myrtle Av,Myrtle - Wyckoff Avs,Bk,M,Elevated,40.69943,-73.912385,40.69943,-73.912385,11237,11237,Bushwick,Brooklyn,Myrtle - Wyckoff Avs -- M
+112,112,113,113,M09,BMT,Myrtle Av,Knickerbocker Av,Bk,M,Elevated,40.698664,-73.919711,40.698664,-73.919711,11237,11237,Bushwick,Brooklyn,Knickerbocker Av -- M
+113,113,114,114,M10,BMT,Myrtle Av,Central Av,Bk,M,Elevated,40.697857,-73.927397,40.697857,-73.927397,11221,11221,"Bedford-Stuyvesant, Bushwick",Brooklyn,Central Av -- M
+114,114,115,618,L01,BMT,Canarsie,8 Av,M,L,Subway,40.739777,-74.002578,40.739777,-74.002578,10011,10011,"Chelsea ,  Village",Manhattan,8 Av -- L
+115,115,116,601,L02,BMT,Canarsie,6 Av,M,L,Subway,40.737335,-73.996786,40.737335,-73.996786,10011,10011,"Chelsea ,  Village",Manhattan,6 Av -- L
+116,116,117,602,L03,BMT,Canarsie,Union Sq - 14 St,M,L,Subway,40.734789,-73.99073,40.734789,-73.99073,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,Union Sq - 14 St -- L
+117,117,118,118,L05,BMT,Canarsie,3 Av,M,L,Subway,40.732849,-73.986122,40.732849,-73.986122,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,3 Av -- L
+118,118,119,119,L06,BMT,Canarsie,1 Av,M,L,Subway,40.730953,-73.981628,40.730953,-73.981628,10009,10009,East Village,Manhattan,1 Av -- L
+119,119,120,120,L08,BMT,Canarsie,Bedford Av,Bk,L,Subway,40.717304,-73.956872,40.717304,-73.956872,11211,11211,Williamsburg,Brooklyn,Bedford Av -- L
+120,120,121,629,L10,BMT,Canarsie,Lorimer St,Bk,L,Subway,40.714063,-73.950275,40.714063,-73.950275,11211,11211,Williamsburg,Brooklyn,Lorimer St -- L
+121,121,122,122,L11,BMT,Canarsie,Graham Av,Bk,L,Subway,40.714565,-73.944053,40.714565,-73.944053,11211,11211,Williamsburg,Brooklyn,Graham Av -- L
+122,122,123,123,L12,BMT,Canarsie,Grand St,Bk,L,Subway,40.711926,-73.94067,40.711926,-73.94067,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Grand St -- L
+123,123,124,124,L13,BMT,Canarsie,Montrose Av,Bk,L,Subway,40.707739,-73.93985,40.707739,-73.93985,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Montrose Av -- L
+124,124,125,125,L14,BMT,Canarsie,Morgan Av,Bk,L,Subway,40.706152,-73.933147,40.706152,-73.933147,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Morgan Av -- L
+125,125,126,126,L15,BMT,Canarsie,Jefferson St,Bk,L,Subway,40.706607,-73.922913,40.706607,-73.922913,11237,11237,Bushwick,Brooklyn,Jefferson St -- L
+126,126,127,127,L16,BMT,Canarsie,DeKalb Av,Bk,L,Subway,40.703811,-73.918425,40.703811,-73.918425,11237,11237,Bushwick,Brooklyn,DeKalb Av -- L
+127,127,128,630,L17,BMT,Canarsie,Myrtle - Wyckoff Avs,Bk,L,Subway,40.699814,-73.911586,40.699814,-73.911586,11237,11237,Bushwick,Brooklyn,Myrtle - Wyckoff Avs -- L
+128,128,129,129,L19,BMT,Canarsie,Halsey St,Q,L,Subway,40.695602,-73.904084,40.695602,-73.904084,11385,11385,"Fresh Pond, Glendale, Ridgewood",Queens,Halsey St -- L
+129,129,130,130,L20,BMT,Canarsie,Wilson Av,Bk,L,Subway,40.688764,-73.904046,40.688764,-73.904046,11207,11207,East New York,Brooklyn,Wilson Av -- L
+130,130,131,131,L21,BMT,Canarsie,Bushwick Av - Aberdeen St,Bk,L,Subway,40.682829,-73.905249,40.682829,-73.905249,11207,11207,East New York,Brooklyn,Bushwick Av - Aberdeen St -- L
+131,131,132,621,L22,BMT,Canarsie,Broadway Jct,Bk,L,Elevated,40.678856,-73.90324,40.678856,-73.90324,11207,11207,East New York,Brooklyn,Broadway Jct -- L
+132,132,133,133,L24,BMT,Canarsie,Atlantic Av,Bk,L,Elevated,40.675345,-73.903097,40.675345,-73.903097,11207,11207,East New York,Brooklyn,Atlantic Av -- L
+133,133,134,134,L25,BMT,Canarsie,Sutter Av,Bk,L,Elevated,40.669367,-73.901975,40.669367,-73.901975,11207,11207,East New York,Brooklyn,Sutter Av -- L
+134,134,135,135,L26,BMT,Canarsie,Livonia Av,Bk,L,Elevated,40.664038,-73.900571,40.664038,-73.900571,11212,11212,"Brownsville, East Flatbush",Brooklyn,Livonia Av -- L
+135,135,136,136,L27,BMT,Canarsie,New Lots Av,Bk,L,Elevated,40.658733,-73.899232,40.658733,-73.899232,11207,11207,East New York,Brooklyn,New Lots Av -- L
+136,136,137,137,L28,BMT,Canarsie,E 105 St,Bk,L,At Grade,40.650573,-73.899485,40.650573,-73.899485,11236,11236,"Canarsie, Jamaica Bay",Brooklyn,E 105 St -- L
+137,137,138,138,L29,BMT,Canarsie,Canarsie - Rockaway Pkwy,Bk,L,At Grade,40.646654,-73.90185,40.646654,-73.90185,11236,11236,"Canarsie, Jamaica Bay",Brooklyn,Canarsie - Rockaway Pkwy -- L
+138,138,139,627,S01,BMT,Franklin Shuttle,Franklin Av,Bk,S,Elevated,40.680596,-73.955827,40.680596,-73.955827,11238,11238,Prospect Heights,Brooklyn,Franklin Av -- S
+139,139,141,141,S03,BMT,Franklin Shuttle,Park Pl,Bk,S,Open Cut,40.674772,-73.957624,40.674772,-73.957624,11238,11238,Prospect Heights,Brooklyn,Park Pl -- S
+140,140,142,626,S04,BMT,Franklin Shuttle,Botanic Garden,Bk,S,Open Cut,40.670343,-73.959245,40.670343,-73.959245,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,Botanic Garden -- S
+141,141,143,143,A02,IND,8th Av - Fulton St,Inwood - 207 St,M,A,Subway,40.868072,-73.919899,40.868072,-73.919899,10034,10034,Inwood,Manhattan,Inwood - 207 St -- A
+142,142,144,144,A03,IND,8th Av - Fulton St,Dyckman St,M,A,Subway,40.865491,-73.927271,40.865491,-73.927271,10040,10040,"Washington Hts, Hudson Hts",Manhattan,Dyckman St -- A
+143,143,145,145,A05,IND,8th Av - Fulton St,190 St,M,A,Subway,40.859022,-73.93418,40.859022,-73.93418,10040,10040,"Washington Hts, Hudson Hts",Manhattan,190 St -- A
+144,144,146,146,A06,IND,8th Av - Fulton St,181 St,M,A,Subway,40.851695,-73.937969,40.851695,-73.937969,10033,10033,Washington Heights,Manhattan,181 St -- A
+145,145,147,147,A07,IND,8th Av - Fulton St,175 St,M,A,Subway,40.847391,-73.939704,40.847391,-73.939704,10033,10033,Washington Heights,Manhattan,175 St -- A
+146,146,148,605,A09,IND,8th Av - Fulton St,168 St,M,A C,Subway,40.840719,-73.939561,40.840719,-73.939561,10032,10032,Washington Heights,Manhattan,168 St -- A C
+147,147,149,149,A10,IND,8th Av - Fulton St,163 St - Amsterdam Av,M,C,Subway,40.836013,-73.939892,40.836013,-73.939892,10032,10032,Washington Heights,Manhattan,163 St - Amsterdam Av -- C
+148,148,150,150,A11,IND,8th Av - Fulton St,155 St,M,C,Subway,40.830518,-73.941514,40.830518,-73.941514,10032,10032,Washington Heights,Manhattan,155 St -- C
+149,149,151,151,A12,IND,8th Av - Fulton St,145 St,M,A C,Subway,40.824783,-73.944216,40.824783,-73.944216,10031,10031,"Hamilton Heights, Sugar Hill",Manhattan,145 St -- A C
+150,150,151,151,D13,IND,Concourse,145 St,M,B D,Subway,40.824783,-73.944216,40.824783,-73.944216,10031,10031,"Hamilton Heights, Sugar Hill",Manhattan,145 St -- B D
+151,151,152,152,A14,IND,8th Av - Fulton St,135 St,M,B C,Subway,40.817894,-73.947649,40.817894,-73.947649,10032,10032,Washington Heights,Manhattan,135 St -- B C
+152,152,153,153,A15,IND,8th Av - Fulton St,125 St,M,A B C D,Subway,40.811109,-73.952343,40.811109,-73.952343,10027,10027,"Mt. Morris Park, Morningside Heights",Manhattan,125 St -- A B C D
+153,153,154,154,A16,IND,8th Av - Fulton St,116 St,M,B C,Subway,40.805085,-73.954882,40.805085,-73.954882,10026,10026,"Manhattan Valley, Morningside Heights, Harlem",Manhattan,116 St -- B C
+154,154,155,155,A17,IND,8th Av - Fulton St,Cathedral Pkwy (110 St),M,B C,Subway,40.800603,-73.958161,40.800603,-73.958161,10036,10036,Midtown West,Manhattan,Cathedral Pkwy (110 St) -- B C
+155,155,156,156,A18,IND,8th Av - Fulton St,103 St,M,B C,Subway,40.796092,-73.961454,40.796092,-73.961454,10025,10025,Upper West Side,Manhattan,103 St -- B C
+156,156,157,157,A19,IND,8th Av - Fulton St,96 St,M,B C,Subway,40.791642,-73.964696,40.791642,-73.964696,10025,10025,Upper West Side,Manhattan,96 St -- B C
+157,157,158,158,A20,IND,8th Av - Fulton St,86 St,M,B C,Subway,40.785868,-73.968916,40.785868,-73.968916,10024,10024,Upper West Side,Manhattan,86 St -- B C
+158,158,159,159,A21,IND,8th Av - Fulton St,81 St - Museum of Natural History,M,B C,Subway,40.781433,-73.972143,40.781433,-73.972143,10024,10024,Upper West Side,Manhattan,81 St - Museum of Natural History -- B C
+159,159,160,160,A22,IND,8th Av - Fulton St,72 St,M,B C,Subway,40.775594,-73.97641,40.775594,-73.97641,10023,10023,Upper West Side,Manhattan,72 St -- B C
+160,160,161,614,A24,IND,8th Av - Fulton St,59 St - Columbus Circle,M,A B C D,Subway,40.768296,-73.981736,40.768296,-73.981736,10019,10019,Midtown West,Manhattan,59 St - Columbus Circle -- A B C D
+161,161,162,162,A25,IND,8th Av - Fulton St,50 St,M,C E,Subway,40.762456,-73.985984,40.762456,-73.985984,10019,10019,Midtown West,Manhattan,50 St -- C E
+162,162,163,611,A27,IND,8th Av - Fulton St,42 St - Port Authority Bus Terminal,M,A C E,Subway,40.757308,-73.989735,40.757308,-73.989735,10036,10036,Midtown West,Manhattan,42 St - Port Authority Bus Terminal -- A C E
+163,163,164,164,A28,IND,8th Av - Fulton St,34 St - Penn Station,M,A C E,Subway,40.752287,-73.993391,40.752287,-73.993391,10001,10001,"Chelsea,  West Midtown",Manhattan,34 St - Penn Station -- A C E
+164,164,165,165,A30,IND,8th Av - Fulton St,23 St,M,C E,Subway,40.745906,-73.998041,40.745906,-73.998041,10011,10011,"Chelsea ,  Village",Manhattan,23 St -- C E
+165,165,166,618,A31,IND,8th Av - Fulton St,14 St,M,A C E,Subway,40.740893,-74.00169,40.740893,-74.00169,10011,10011,"Chelsea ,  Village",Manhattan,14 St -- A C E
+166,166,167,167,A32,IND,8th Av - Fulton St,W 4 St,M,A C E,Subway,40.732338,-74.000495,40.732338,-74.000495,10011,10011,"Chelsea ,  Village",Manhattan,W 4 St -- A C E
+167,167,167,167,D20,IND,6th Av - Culver,W 4 St,M,B D F M,Subway,40.732338,-74.000495,40.732338,-74.000495,10011,10011,"Chelsea ,  Village",Manhattan,W 4 St -- B D F M
+168,168,168,168,A33,IND,8th Av - Fulton St,Spring St,M,C E,Subway,40.726227,-74.003739,40.726227,-74.003739,10013,10013,"Tribeca, Soho",Manhattan,Spring St -- C E
+169,169,169,169,A34,IND,8th Av - Fulton St,Canal St,M,A C E,Subway,40.720824,-74.005229,40.720824,-74.005229,10013,10013,"Tribeca, Soho",Manhattan,Canal St -- A C E
+170,170,170,624,A36,IND,8th Av - Fulton St,Chambers St,M,A C,Subway,40.714111,-74.008585,40.714111,-74.008585,10007,10007,"Tribeca, Financial District",Manhattan,Chambers St -- A C
+171,171,171,624,E01,IND,8th Av - Fulton St,World Trade Center,M,E,Subway,40.712582,-74.009781,40.712582,-74.009781,10007,10007,"Tribeca, Financial District",Manhattan,World Trade Center -- E
+172,172,172,628,A38,IND,8th Av - Fulton St,Fulton St,M,A C,Subway,40.710197,-74.007691,40.710197,-74.007691,10038,10038,"Financial District, Seaport",Manhattan,Fulton St -- A C
+173,173,173,173,A40,IND,8th Av - Fulton St,High St,Bk,A C,Subway,40.699337,-73.990531,40.699337,-73.990531,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,High St -- A C
+174,174,174,636,A41,IND,8th Av - Fulton St,Jay St - MetroTech,Bk,A C F,Subway,40.692338,-73.987342,40.692338,-73.987342,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Jay St - MetroTech -- A C F
+175,175,175,175,A42,IND,8th Av - Fulton St,Hoyt - Schermerhorn Sts,Bk,A C G,Subway,40.688484,-73.985001,40.688484,-73.985001,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Hoyt - Schermerhorn Sts -- A C G
+176,176,176,176,A43,IND,8th Av - Fulton St,Lafayette Av,Bk,C,Subway,40.686113,-73.973946,40.686113,-73.973946,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Lafayette Av -- C
+177,177,177,177,A44,IND,8th Av - Fulton St,Clinton - Washington Avs,Bk,C,Subway,40.683263,-73.965838,40.683263,-73.965838,11238,11238,Prospect Heights,Brooklyn,Clinton - Washington Avs -- C
+178,178,178,627,A45,IND,8th Av - Fulton St,Franklin Av,Bk,C,Subway,40.68138,-73.956848,40.68138,-73.956848,11238,11238,Prospect Heights,Brooklyn,Franklin Av -- C
+179,179,179,179,A46,IND,8th Av - Fulton St,Nostrand Av,Bk,A C,Subway,40.680438,-73.950426,40.680438,-73.950426,11216,11216,Bedford-Stuyvesant,Brooklyn,Nostrand Av -- A C
+180,180,180,180,A47,IND,8th Av - Fulton St,Kingston - Throop Avs,Bk,C,Subway,40.679921,-73.940858,40.679921,-73.940858,11216,11216,Bedford-Stuyvesant,Brooklyn,Kingston - Throop Avs -- C
+181,181,181,181,A48,IND,8th Av - Fulton St,Utica Av,Bk,A C,Subway,40.679364,-73.930729,40.679364,-73.930729,11233,11233,"Bedford-Stuyvesant, Stuyvesant Heights",Brooklyn,Utica Av -- A C
+182,182,182,182,A49,IND,8th Av - Fulton St,Ralph Av,Bk,C,Subway,40.678822,-73.920786,40.678822,-73.920786,11233,11233,"Bedford-Stuyvesant, Stuyvesant Heights",Brooklyn,Ralph Av -- C
+183,183,183,183,A50,IND,8th Av - Fulton St,Rockaway Av,Bk,C,Subway,40.67834,-73.911946,40.67834,-73.911946,11233,11233,"Bedford-Stuyvesant, Stuyvesant Heights",Brooklyn,Rockaway Av -- C
+184,184,184,621,A51,IND,8th Av - Fulton St,Broadway Jct,Bk,A C,Subway,40.678334,-73.905316,40.678334,-73.905316,11233,11233,"Bedford-Stuyvesant, Stuyvesant Heights",Brooklyn,Broadway Jct -- A C
+185,185,185,185,A52,IND,8th Av - Fulton St,Liberty Av,Bk,C,Subway,40.674542,-73.896548,40.674542,-73.896548,11207,11207,East New York,Brooklyn,Liberty Av -- C
+186,186,186,186,A53,IND,8th Av - Fulton St,Van Siclen Av,Bk,C,Subway,40.67271,-73.890358,40.67271,-73.890358,11207,11207,East New York,Brooklyn,Van Siclen Av -- C
+187,187,187,187,A54,IND,8th Av - Fulton St,Shepherd Av,Bk,C,Subway,40.67413,-73.88075,40.67413,-73.88075,11208,11208,Cypress Hills,Brooklyn,Shepherd Av -- C
+188,188,188,188,A55,IND,8th Av - Fulton St,Euclid Av,Bk,A C,Subway,40.675377,-73.872106,40.675377,-73.872106,11208,11208,Cypress Hills,Brooklyn,Euclid Av -- A C
+189,189,189,189,A57,IND,Liberty Av,Grant Av,Bk,A,Subway,40.677044,-73.86505,40.677044,-73.86505,11208,11208,Cypress Hills,Brooklyn,Grant Av -- A
+190,190,190,190,A59,IND,Liberty Av,80 St,Q,A,Elevated,40.679371,-73.858992,40.679371,-73.858992,11417,11417,"Ozone Park, Tudor Village",Queens,80 St -- A
+191,191,191,191,A60,IND,Liberty Av,88 St,Q,A,Elevated,40.679843,-73.85147,40.679843,-73.85147,11417,11417,"Ozone Park, Tudor Village",Queens,88 St -- A
+192,192,192,192,A61,IND,Liberty Av,Rockaway Blvd,Q,A,Elevated,40.680429,-73.843853,40.680429,-73.843853,11417,11417,"Ozone Park, Tudor Village",Queens,Rockaway Blvd -- A
+193,193,193,193,A63,IND,Liberty Av,104 St,Q,A,Elevated,40.681711,-73.837683,40.681711,-73.837683,11417,11417,"Ozone Park, Tudor Village",Queens,104 St -- A
+194,194,194,194,A64,IND,Liberty Av,111 St,Q,A,Elevated,40.684331,-73.832163,40.684331,-73.832163,11419,11419,"Kew Gardens, Richmond Hill",Queens,111 St -- A
+195,195,195,195,A65,IND,Liberty Av,Ozone Park - Lefferts Blvd,Q,A,Elevated,40.685951,-73.825798,40.685951,-73.825798,11419,11419,"Kew Gardens, Richmond Hill",Queens,Ozone Park - Lefferts Blvd -- A
+196,196,196,196,H01,IND,Rockaway,Aqueduct Racetrack,Q,A,At Grade,40.672097,-73.835919,40.672097,-73.835919,11420,11420,South Ozone Park,Queens,Aqueduct Racetrack -- A
+197,197,197,197,H02,IND,Rockaway,Aqueduct - N Conduit Av,Q,A,At Grade,40.668234,-73.834058,40.668234,-73.834058,11420,11420,South Ozone Park,Queens,Aqueduct - N Conduit Av -- A
+198,198,198,198,H03,IND,Rockaway,Howard Beach - JFK Airport,Q,A,At Grade,40.660476,-73.830301,40.660476,-73.830301,11414,11414,"Howard Beach, Lindenwood",Queens,Howard Beach - JFK Airport -- A
+199,199,199,199,H04,IND,Rockaway,Broad Channel,Q,A S,At Grade,40.608382,-73.815925,40.608382,-73.815925,11693,11693,"Broad Channel, Hammels, Rockaway Beach (Far Rockaway)",Queens,Broad Channel -- A S
+200,200,199,199,H19,IND,Rockaway,Broad Channel,Q,A S,At Grade,40.608382,-73.815925,40.608382,-73.815925,11693,11693,"Broad Channel, Hammels, Rockaway Beach (Far Rockaway)",Queens,Broad Channel -- A S
+201,201,200,200,H12,IND,Rockaway,Beach 90 St,Q,A S,Viaduct,40.588034,-73.813641,40.588034,-73.813641,11693,11693,"Broad Channel, Hammels, Rockaway Beach (Far Rockaway)",Queens,Beach 90 St -- A S
+202,202,201,201,H13,IND,Rockaway,Beach 98 St,Q,A S,Viaduct,40.585307,-73.820558,40.585307,-73.820558,11694,11694,"Neponsit, Rockaway Park",Queens,Beach 98 St -- A S
+203,203,202,202,H14,IND,Rockaway,Beach 105 St,Q,A S,Viaduct,40.583209,-73.827559,40.583209,-73.827559,11694,11694,"Neponsit, Rockaway Park",Queens,Beach 105 St -- A S
+204,204,203,203,H15,IND,Rockaway,Rockaway Park - Beach 116 St,Q,A S,At Grade,40.580903,-73.835592,40.580903,-73.835592,11694,11694,"Neponsit, Rockaway Park",Queens,Rockaway Park - Beach 116 St -- A S
+205,205,204,204,H06,IND,Rockaway,Beach 67 St,Q,A,Viaduct,40.590927,-73.796924,40.590927,-73.796924,11692,11692,Arverne (Far Rockaway),Queens,Beach 67 St -- A
+206,206,205,205,H07,IND,Rockaway,Beach 60 St,Q,A,Viaduct,40.592374,-73.788522,40.592374,-73.788522,11691,11691,Bayswater (Far Rockaway),Queens,Beach 60 St -- A
+207,207,206,206,H08,IND,Rockaway,Beach 44 St,Q,A,Viaduct,40.592943,-73.776013,40.592943,-73.776013,11691,11691,Bayswater (Far Rockaway),Queens,Beach 44 St -- A
+208,208,207,207,H09,IND,Rockaway,Beach 36 St,Q,A,Viaduct,40.595398,-73.768175,40.595398,-73.768175,11691,11691,Bayswater (Far Rockaway),Queens,Beach 36 St -- A
+209,209,208,208,H10,IND,Rockaway,Beach 25 St,Q,A,Viaduct,40.600066,-73.761353,40.600066,-73.761353,11691,11691,Bayswater (Far Rockaway),Queens,Beach 25 St -- A
+210,210,209,209,H11,IND,Rockaway,Far Rockaway - Mott Av,Q,A,Viaduct,40.603995,-73.755405,40.603995,-73.755405,11691,11691,Bayswater (Far Rockaway),Queens,Far Rockaway - Mott Av -- A
+211,211,210,210,D01,IND,Concourse,Norwood - 205 St,Bx,D,Subway,40.874811,-73.878855,40.874811,-73.878855,10467,10467,"Norwood, Olinville, Allerton",Bronx,Norwood - 205 St -- D
+212,212,211,211,D03,IND,Concourse,Bedford Park Blvd,Bx,B D,Subway,40.873244,-73.887138,40.873244,-73.887138,10468,10468,"Jerome Park, Fordham Manor, Fordham Heights",Bronx,Bedford Park Blvd -- B D
+213,213,212,212,D04,IND,Concourse,Kingsbridge Rd,Bx,B D,Subway,40.866978,-73.893509,40.866978,-73.893509,10458,10458,"Fordham, Belmont",Bronx,Kingsbridge Rd -- B D
+214,214,213,213,D05,IND,Concourse,Fordham Rd,Bx,B D,Subway,40.861296,-73.897749,40.861296,-73.897749,10458,10458,"Fordham, Belmont",Bronx,Fordham Rd -- B D
+215,215,214,214,D06,IND,Concourse,182-183 Sts,Bx,B D,Subway,40.856093,-73.900741,40.856093,-73.900741,10457,10457,"West Bronx, Mt Hope, Tremont, Belmont",Bronx,182-183 Sts -- B D
+216,216,215,215,D07,IND,Concourse,Tremont Av,Bx,B D,Subway,40.85041,-73.905227,40.85041,-73.905227,10457,10457,"West Bronx, Mt Hope, Tremont, Belmont",Bronx,Tremont Av -- B D
+217,217,216,216,D08,IND,Concourse,174-175 Sts,Bx,B D,Subway,40.8459,-73.910136,40.8459,-73.910136,10453,10453,"Morris Heights, University Heights",Bronx,174-175 Sts -- B D
+218,218,217,217,D09,IND,Concourse,170 St,Bx,B D,Subway,40.839306,-73.9134,40.839306,-73.9134,10452,10452,"Highbridge, Mt Eden",Bronx,170 St -- B D
+219,219,218,218,D10,IND,Concourse,167 St,Bx,B D,Subway,40.833771,-73.91844,40.833771,-73.91844,10452,10452,"Highbridge, Mt Eden",Bronx,167 St -- B D
+220,220,219,604,D11,IND,Concourse,161 St - Yankee Stadium,Bx,B D,Subway,40.827905,-73.925651,40.827905,-73.925651,10452,10452,"Highbridge, Mt Eden",Bronx,161 St - Yankee Stadium -- B D
+221,221,220,220,D12,IND,Concourse,155 St,M,B D,Subway,40.830135,-73.938209,40.830135,-73.938209,10039,10039,Harlem,Manhattan,155 St -- B D
+222,222,221,221,B04,IND,63rd St,21 St - Queensbridge,Q,F,Subway,40.754203,-73.942836,40.754203,-73.942836,11101,11101,Long Island City,Queens,21 St - Queensbridge -- F
+223,223,222,222,B06,IND,63rd St,Roosevelt Island,M,F,Subway,40.759145,-73.95326,40.759145,-73.95326,10044,10044,"Washington Hts, Hudson Hts",Manhattan,Roosevelt Island -- F
+224,224,223,223,B08,IND,63rd St,Lexington Av/63 St,M,F Q,Subway,40.764629,-73.966113,40.764629,-73.966113,10065,10065,Upper East Side,Manhattan,Lexington Av/63 St -- F Q
+225,225,224,224,B10,IND,6th Av - Culver,57 St,M,F,Subway,40.763972,-73.97745,40.763972,-73.97745,10019,10019,Midtown West,Manhattan,57 St -- F
+226,226,225,225,D15,IND,6th Av - Culver,47-50 Sts - Rockefeller Ctr,M,B D F M,Subway,40.758663,-73.981329,40.758663,-73.981329,10020,10020,Midtown West,Manhattan,47-50 Sts - Rockefeller Ctr -- B D F M
+227,227,226,609,D16,IND,6th Av - Culver,42 St - Bryant Pk,M,B D F M,Subway,40.754222,-73.984569,40.754222,-73.984569,10018,10018,Midtown West,Manhattan,42 St - Bryant Pk -- B D F M
+228,228,227,607,D17,IND,6th Av - Culver,34 St - Herald Sq,M,B D F M,Subway,40.749719,-73.987823,40.749719,-73.987823,10001,10001,"Chelsea,  West Midtown",Manhattan,34 St - Herald Sq -- B D F M
+229,229,228,228,D18,IND,6th Av - Culver,23 St,M,F M,Subway,40.742878,-73.992821,40.742878,-73.992821,10010,10010,"Gramercy, Flatiron",Manhattan,23 St -- F M
+230,230,229,601,D19,IND,6th Av - Culver,14 St,M,F M,Subway,40.738228,-73.996209,40.738228,-73.996209,10011,10011,"Chelsea ,  Village",Manhattan,14 St -- F M
+231,231,230,619,D21,IND,6th Av - Culver,Broadway-Lafayette St,M,B D F M,Subway,40.725297,-73.996204,40.725297,-73.996204,10012,10012,"Village, NoHo, Soho",Manhattan,Broadway-Lafayette St -- B D F M
+232,232,231,231,D22,IND,6th Av - Culver,Grand St,M,B D,Subway,40.718267,-73.993753,40.718267,-73.993753,10002,10002,Lower East Side,Manhattan,Grand St -- B D
+233,233,232,232,F14,IND,6th Av - Culver,2 Av,M,F,Subway,40.723402,-73.989938,40.723402,-73.989938,10002,10002,Lower East Side,Manhattan,2 Av -- F
+234,234,233,625,F15,IND,6th Av - Culver,Delancey St,M,F,Subway,40.718611,-73.988114,40.718611,-73.988114,10002,10002,Lower East Side,Manhattan,Delancey St -- F
+235,235,234,234,F16,IND,6th Av - Culver,East Broadway,M,F,Subway,40.713715,-73.990173,40.713715,-73.990173,10002,10002,Lower East Side,Manhattan,East Broadway -- F
+236,236,235,235,F18,IND,6th Av - Culver,York St,Bk,F,Subway,40.701397,-73.986751,40.701397,-73.986751,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,York St -- F
+237,237,236,236,F20,IND,6th Av - Culver,Bergen St,Bk,F G,Subway,40.686145,-73.990862,40.686145,-73.990862,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Bergen St -- F G
+238,238,237,237,F21,IND,6th Av - Culver,Carroll St,Bk,F G,Subway,40.680303,-73.995048,40.680303,-73.995048,11231,11231,"Carroll Gardens, Columbia Heights, Red Hook",Brooklyn,Carroll St -- F G
+239,239,238,238,F22,IND,6th Av - Culver,Smith - 9 Sts,Bk,F G,Viaduct,40.67358,-73.995959,40.67358,-73.995959,11231,11231,"Carroll Gardens, Columbia Heights, Red Hook",Brooklyn,Smith - 9 Sts -- F G
+240,240,239,608,F23,IND,6th Av - Culver,4 Av,Bk,F G,Viaduct,40.670272,-73.989779,40.670272,-73.989779,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,4 Av -- F G
+241,241,240,240,F24,IND,6th Av - Culver,7 Av,Bk,F G,Subway,40.666271,-73.980305,40.666271,-73.980305,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,7 Av -- F G
+242,242,241,241,F25,IND,6th Av - Culver,15 St - Prospect Park,Bk,F G,Subway,40.660365,-73.979493,40.660365,-73.979493,11215,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn,15 St - Prospect Park -- F G
+243,243,242,242,F26,IND,6th Av - Culver,Fort Hamilton Pkwy,Bk,F G,Subway,40.650782,-73.975776,40.650782,-73.975776,11218,11218,"Ditmas Park, Kensington",Brooklyn,Fort Hamilton Pkwy -- F G
+244,244,243,243,F27,IND,6th Av - Culver,Church Av,Bk,F,Subway,40.644041,-73.979678,40.644041,-73.979678,11218,11218,"Ditmas Park, Kensington",Brooklyn,Church Av -- F
+245,245,244,244,F29,IND,6th Av - Culver,Ditmas Av,Bk,F,Elevated,40.636119,-73.978172,40.636119,-73.978172,11218,11218,"Ditmas Park, Kensington",Brooklyn,Ditmas Av -- F
+246,246,245,245,F30,IND,6th Av - Culver,18 Av,Bk,F,Elevated,40.629755,-73.976971,40.629755,-73.976971,11230,11230,Midwood,Brooklyn,18 Av -- F
+247,247,246,246,F31,IND,6th Av - Culver,Avenue I,Bk,F,Elevated,40.625322,-73.976127,40.625322,-73.976127,11230,11230,Midwood,Brooklyn,Avenue I -- F
+248,248,247,247,F32,IND,6th Av - Culver,Bay Pkwy,Bk,F,Elevated,40.620769,-73.975264,40.620769,-73.975264,11230,11230,Midwood,Brooklyn,Bay Pkwy -- F
+249,249,248,248,F33,IND,6th Av - Culver,Avenue N,Bk,F,Elevated,40.61514,-73.974197,40.61514,-73.974197,11230,11230,Midwood,Brooklyn,Avenue N -- F
+250,250,249,249,F34,IND,6th Av - Culver,Avenue P,Bk,F,Elevated,40.608944,-73.973022,40.608944,-73.973022,11230,11230,Midwood,Brooklyn,Avenue P -- F
+251,251,250,250,F35,IND,6th Av - Culver,Kings Hwy,Bk,F,Elevated,40.603217,-73.972361,40.603217,-73.972361,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Kings Hwy -- F
+252,252,251,251,F36,IND,6th Av - Culver,Avenue U,Bk,F,Elevated,40.596063,-73.973357,40.596063,-73.973357,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Avenue U -- F
+253,253,252,252,F38,IND,6th Av - Culver,Avenue X,Bk,F,Elevated,40.58962,-73.97425,40.58962,-73.97425,11223,11223,"Gravesend, Homecrest, Kensington",Brooklyn,Avenue X -- F
+254,254,253,253,F39,IND,6th Av - Culver,Neptune Av,Bk,F,Elevated,40.581011,-73.974574,40.581011,-73.974574,11224,11224,"Coney Island, Sea Gate",Brooklyn,Neptune Av -- F
+255,255,254,254,F01,IND,Queens Blvd,Jamaica - 179 St,Q,F,Subway,40.712646,-73.783817,40.712646,-73.783817,11432,11432,"Jamaica Estates, Jamaica Hills",Queens,Jamaica - 179 St -- F
+256,256,255,255,F02,IND,Queens Blvd,169 St,Q,F,Subway,40.71047,-73.793604,40.71047,-73.793604,11432,11432,"Jamaica Estates, Jamaica Hills",Queens,169 St -- F
+257,257,256,256,F03,IND,Queens Blvd,Parsons Blvd,Q,F,Subway,40.707564,-73.803326,40.707564,-73.803326,11432,11432,"Jamaica Estates, Jamaica Hills",Queens,Parsons Blvd -- F
+258,258,257,257,F04,IND,Queens Blvd,Sutphin Blvd,Q,F,Subway,40.70546,-73.810708,40.70546,-73.810708,11435,11435,"Briarwood, South Jamaica",Queens,Sutphin Blvd -- F
+259,259,258,258,F05,IND,Queens Blvd,Briarwood - Van Wyck Blvd,Q,E F,Subway,40.709179,-73.820574,40.709179,-73.820574,11415,11415,Kew Gardens,Queens,Briarwood - Van Wyck Blvd -- E F
+260,260,259,259,F06,IND,Queens Blvd,Kew Gardens - Union Tpke,Q,E F,Subway,40.714441,-73.831008,40.714441,-73.831008,11375,11375,"Forest Hills, Forest Hills Gardens",Queens,Kew Gardens - Union Tpke -- E F
+261,261,260,260,F07,IND,Queens Blvd,75 Av,Q,E F,Subway,40.718331,-73.837324,40.718331,-73.837324,11375,11375,"Forest Hills, Forest Hills Gardens",Queens,75 Av -- E F
+262,262,261,261,G08,IND,Queens Blvd,Forest Hills - 71 Av,Q,E F M R,Subway,40.721691,-73.844521,40.721691,-73.844521,11375,11375,"Forest Hills, Forest Hills Gardens",Queens,Forest Hills - 71 Av -- E F M R
+263,263,262,262,G09,IND,Queens Blvd,67 Av,Q,M R,Subway,40.726523,-73.852719,40.726523,-73.852719,11375,11375,"Forest Hills, Forest Hills Gardens",Queens,67 Av -- M R
+264,264,263,263,G10,IND,Queens Blvd,63 Dr - Rego Park,Q,M R,Subway,40.729846,-73.861604,40.729846,-73.861604,11374,11374,Rego Park,Queens,63 Dr - Rego Park -- M R
+265,265,264,264,G11,IND,Queens Blvd,Woodhaven Blvd,Q,M R,Subway,40.733106,-73.869229,40.733106,-73.869229,11374,11374,Rego Park,Queens,Woodhaven Blvd -- M R
+266,266,265,265,G12,IND,Queens Blvd,Grand Av - Newtown,Q,M R,Subway,40.737015,-73.877223,40.737015,-73.877223,11377,11377,Woodside,Queens,Grand Av - Newtown -- M R
+267,267,266,266,G13,IND,Queens Blvd,Elmhurst Av,Q,M R,Subway,40.742454,-73.882017,40.742454,-73.882017,11373,11373,Elmhurst,Queens,Elmhurst Av -- M R
+268,268,267,616,G14,IND,Queens Blvd,Jackson Hts - Roosevelt Av,Q,E F M R,Subway,40.746644,-73.891338,40.746644,-73.891338,11373,11373,Elmhurst,Queens,Jackson Hts - Roosevelt Av -- E F M R
+269,269,268,268,G15,IND,Queens Blvd,65 St,Q,M R,Subway,40.749669,-73.898453,40.749669,-73.898453,11377,11377,Woodside,Queens,65 St -- M R
+270,270,269,269,G16,IND,Queens Blvd,Northern Blvd,Q,M R,Subway,40.752885,-73.906006,40.752885,-73.906006,11377,11377,Woodside,Queens,Northern Blvd -- M R
+271,271,270,270,G18,IND,Queens Blvd,46 St,Q,M R,Subway,40.756312,-73.913333,40.756312,-73.913333,11103,11103,Astoria,Queens,46 St -- M R
+272,272,271,271,G19,IND,Queens Blvd,Steinway St,Q,M R,Subway,40.756879,-73.92074,40.756879,-73.92074,11103,11103,Astoria,Queens,Steinway St -- M R
+273,273,272,272,G20,IND,Queens Blvd,36 St,Q,M R,Subway,40.752039,-73.928781,40.752039,-73.928781,11101,11101,Long Island City,Queens,36 St -- M R
+274,274,273,273,G21,IND,Queens Blvd,Queens Plaza,Q,E M R,Subway,40.748973,-73.937243,40.748973,-73.937243,11101,11101,Long Island City,Queens,Queens Plaza -- E M R
+275,275,274,606,F09,IND,Queens Blvd,Court Sq,Q,E M,Subway,40.747846,-73.946,40.747846,-73.946,11101,11101,Long Island City,Queens,Court Sq -- E M
+276,276,275,612,F11,IND,Queens Blvd,Lexington Av/53 St,M,E M,Subway,40.757552,-73.969055,40.757552,-73.969055,10022,10022,Midtown East,Manhattan,Lexington Av/53 St -- E M
+277,277,276,276,F12,IND,Queens Blvd,5 Av/53 St,M,E M,Subway,40.760167,-73.975224,40.760167,-73.975224,10022,10022,Midtown East,Manhattan,5 Av/53 St -- E M
+278,278,277,277,D14,IND,Queens Blvd,7 Av,M,B D E,Subway,40.762862,-73.981637,40.762862,-73.981637,10019,10019,Midtown West,Manhattan,7 Av -- B D E
+279,279,278,278,G05,IND,Queens - Archer,Jamaica Center - Parsons/Archer,Q,E J Z,Subway,40.702147,-73.801109,40.702147,-73.801109,11432,11432,"Jamaica Estates, Jamaica Hills",Queens,Jamaica Center - Parsons/Archer -- E J Z
+280,280,279,279,G06,IND,Queens - Archer,Sutphin Blvd - Archer Av - JFK Airport,Q,E J Z,Subway,40.700486,-73.807969,40.700486,-73.807969,11435,11435,"Briarwood, South Jamaica",Queens,Sutphin Blvd - Archer Av - JFK Airport -- E J Z
+281,281,280,280,G07,IND,Queens - Archer,Jamaica - Van Wyck,Q,E,Subway,40.702566,-73.816859,40.702566,-73.816859,11418,11418,"Kew Gardens, Richmond Hill",Queens,Jamaica - Van Wyck -- E
+282,282,281,606,G22,IND,Crosstown,Court Sq,Q,G,Subway,40.746554,-73.943832,40.746554,-73.943832,11101,11101,Long Island City,Queens,Court Sq -- G
+283,283,282,282,G24,IND,Crosstown,21 St,Q,G,Subway,40.744065,-73.949724,40.744065,-73.949724,11101,11101,Long Island City,Queens,21 St -- G
+284,284,283,283,G26,IND,Crosstown,Greenpoint Av,Bk,G,Subway,40.731352,-73.954449,40.731352,-73.954449,11222,11222,Greenpoint,Brooklyn,Greenpoint Av -- G
+285,285,284,284,G28,IND,Crosstown,Nassau Av,Bk,G,Subway,40.724635,-73.951277,40.724635,-73.951277,11222,11222,Greenpoint,Brooklyn,Nassau Av -- G
+286,286,285,629,G29,IND,Crosstown,Metropolitan Av,Bk,G,Subway,40.712792,-73.951418,40.712792,-73.951418,11211,11211,Williamsburg,Brooklyn,Metropolitan Av -- G
+287,287,286,286,G30,IND,Crosstown,Broadway,Bk,G,Subway,40.706092,-73.950308,40.706092,-73.950308,11211,11211,Williamsburg,Brooklyn,Broadway -- G
+288,288,287,287,G31,IND,Crosstown,Flushing Av,Bk,G,Subway,40.700377,-73.950234,40.700377,-73.950234,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Flushing Av -- G
+289,289,288,288,G32,IND,Crosstown,Myrtle - Willoughby Avs,Bk,G,Subway,40.694568,-73.949046,40.694568,-73.949046,11206,11206,"Bedford-Stuyvesant, Williamsburg",Brooklyn,Myrtle - Willoughby Avs -- G
+290,290,289,289,G33,IND,Crosstown,Bedford - Nostrand Avs,Bk,G,Subway,40.689627,-73.953522,40.689627,-73.953522,11205,11205,"Bedford-Stuyvesant, Navy Yard, Clinton Hill, Fort Greene",Brooklyn,Bedford - Nostrand Avs -- G
+291,291,290,290,G34,IND,Crosstown,Classon Av,Bk,G,Subway,40.688873,-73.96007,40.688873,-73.96007,11238,11238,Prospect Heights,Brooklyn,Classon Av -- G
+292,292,291,291,G35,IND,Crosstown,Clinton - Washington Avs,Bk,G,Subway,40.688089,-73.966839,40.688089,-73.966839,11238,11238,Prospect Heights,Brooklyn,Clinton - Washington Avs -- G
+293,293,292,292,G36,IND,Crosstown,Fulton St,Bk,G,Subway,40.687119,-73.975375,40.687119,-73.975375,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Fulton St -- G
+294,294,293,293,101,IRT,Broadway - 7Av,Van Cortlandt Park - 242 St,Bx,1,Elevated,40.889248,-73.898583,40.889248,-73.898583,10463,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx,Van Cortlandt Park - 242 St -- 1
+295,295,294,294,103,IRT,Broadway - 7Av,238 St,Bx,1,Elevated,40.884667,-73.90087,40.884667,-73.90087,10463,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx,238 St -- 1
+296,296,295,295,104,IRT,Broadway - 7Av,231 St,Bx,1,Elevated,40.878856,-73.904834,40.878856,-73.904834,10463,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx,231 St -- 1
+297,297,296,296,106,IRT,Broadway - 7Av,Marble Hill - 225 St,M,1,Elevated,40.874561,-73.909831,40.874561,-73.909831,10034,10034,Inwood,Manhattan,Marble Hill - 225 St -- 1
+298,298,297,297,107,IRT,Broadway - 7Av,215 St,M,1,Elevated,40.869444,-73.915279,40.869444,-73.915279,10034,10034,Inwood,Manhattan,215 St -- 1
+299,299,298,298,108,IRT,Broadway - 7Av,207 St,M,1,Elevated,40.864621,-73.918822,40.864621,-73.918822,10034,10034,Inwood,Manhattan,207 St -- 1
+300,300,299,299,109,IRT,Broadway - 7Av,Dyckman St,M,1,Elevated,40.860531,-73.925536,40.860531,-73.925536,10040,10040,"Washington Hts, Hudson Hts",Manhattan,Dyckman St -- 1
+301,301,300,300,110,IRT,Broadway - 7Av,191 St,M,1,Subway,40.855225,-73.929412,40.855225,-73.929412,10040,10040,"Washington Hts, Hudson Hts",Manhattan,191 St -- 1
+302,302,301,301,111,IRT,Broadway - 7Av,181 St,M,1,Subway,40.849505,-73.933596,40.849505,-73.933596,10033,10033,Washington Heights,Manhattan,181 St -- 1
+303,303,302,605,112,IRT,Broadway - 7Av,168 St - Washington Hts,M,1,Subway,40.840556,-73.940133,40.840556,-73.940133,10032,10032,Washington Heights,Manhattan,168 St - Washington Hts -- 1
+304,304,303,303,113,IRT,Broadway - 7Av,157 St,M,1,Subway,40.834041,-73.94489,40.834041,-73.94489,10032,10032,Washington Heights,Manhattan,157 St -- 1
+305,305,304,304,114,IRT,Broadway - 7Av,145 St,M,1,Subway,40.826551,-73.95036,40.826551,-73.95036,10031,10031,"Hamilton Heights, Sugar Hill",Manhattan,145 St -- 1
+306,306,305,305,115,IRT,Broadway - 7Av,137 St - City College,M,1,Subway,40.822008,-73.953676,40.822008,-73.953676,10031,10031,"Hamilton Heights, Sugar Hill",Manhattan,137 St - City College -- 1
+307,307,306,306,116,IRT,Broadway - 7Av,125 St,M,1,Elevated,40.815581,-73.958372,40.815581,-73.958372,10027,10027,"Mt. Morris Park, Morningside Heights",Manhattan,125 St -- 1
+308,308,307,307,117,IRT,Broadway - 7Av,116 St - Columbia University,M,1,Subway,40.807722,-73.96411,40.807722,-73.96411,10027,10027,"Mt. Morris Park, Morningside Heights",Manhattan,116 St - Columbia University -- 1
+309,309,308,308,118,IRT,Broadway - 7Av,Cathedral Pkwy,M,1,Subway,40.803967,-73.966847,40.803967,-73.966847,10025,10025,Upper West Side,Manhattan,Cathedral Pkwy -- 1
+310,310,309,309,119,IRT,Broadway - 7Av,103 St,M,1,Subway,40.799446,-73.968379,40.799446,-73.968379,10025,10025,Upper West Side,Manhattan,103 St -- 1
+311,311,310,310,120,IRT,Broadway - 7Av,96 St,M,1 2 3,Subway,40.793919,-73.972323,40.793919,-73.972323,10025,10025,Upper West Side,Manhattan,96 St -- 1 2 3
+312,312,311,311,121,IRT,Broadway - 7Av,86 St,M,1,Subway,40.788644,-73.976218,40.788644,-73.976218,10024,10024,Upper West Side,Manhattan,86 St -- 1
+313,313,312,312,122,IRT,Broadway - 7Av,79 St,M,1,Subway,40.783934,-73.979917,40.783934,-73.979917,10024,10024,Upper West Side,Manhattan,79 St -- 1
+314,314,313,313,123,IRT,Broadway - 7Av,72 St,M,1 2 3,Subway,40.778453,-73.98197,40.778453,-73.98197,10023,10023,Upper West Side,Manhattan,72 St -- 1 2 3
+315,315,314,314,124,IRT,Broadway - 7Av,66 St - Lincoln Center,M,1,Subway,40.77344,-73.982209,40.77344,-73.982209,10023,10023,Upper West Side,Manhattan,66 St - Lincoln Center -- 1
+316,316,315,614,125,IRT,Broadway - 7Av,59 St - Columbus Circle,M,1,Subway,40.768247,-73.981929,40.768247,-73.981929,10019,10019,Midtown West,Manhattan,59 St - Columbus Circle -- 1
+317,317,316,316,126,IRT,Broadway - 7Av,50 St,M,1,Subway,40.761728,-73.983849,40.761728,-73.983849,10019,10019,Midtown West,Manhattan,50 St -- 1
+318,318,317,611,127,IRT,Broadway - 7Av,Times Sq - 42 St,M,1 2 3,Subway,40.75529,-73.987495,40.75529,-73.987495,10018,10018,Midtown West,Manhattan,Times Sq - 42 St -- 1 2 3
+319,319,318,318,128,IRT,Broadway - 7Av,34 St - Penn Station,M,1 2 3,Subway,40.750373,-73.991057,40.750373,-73.991057,10001,10001,"Chelsea,  West Midtown",Manhattan,34 St - Penn Station -- 1 2 3
+320,320,319,319,129,IRT,Broadway - 7Av,28 St,M,1,Subway,40.747215,-73.993365,40.747215,-73.993365,10001,10001,"Chelsea,  West Midtown",Manhattan,28 St -- 1
+321,321,320,320,130,IRT,Broadway - 7Av,23 St,M,1,Subway,40.744081,-73.995657,40.744081,-73.995657,10011,10011,"Chelsea ,  Village",Manhattan,23 St -- 1
+322,322,321,321,131,IRT,Broadway - 7Av,18 St,M,1,Subway,40.74104,-73.997871,40.74104,-73.997871,10011,10011,"Chelsea ,  Village",Manhattan,18 St -- 1
+323,323,322,601,132,IRT,Broadway - 7Av,14 St,M,1 2 3,Subway,40.737826,-74.000201,40.737826,-74.000201,10011,10011,"Chelsea ,  Village",Manhattan,14 St -- 1 2 3
+324,324,323,323,133,IRT,Broadway - 7Av,Christopher St - Sheridan Sq,M,1,Subway,40.733422,-74.002906,40.733422,-74.002906,10014,10014,"West Village, Soho",Manhattan,Christopher St - Sheridan Sq -- 1
+325,325,324,324,134,IRT,Broadway - 7Av,Houston St,M,1,Subway,40.728251,-74.005367,40.728251,-74.005367,10014,10014,"West Village, Soho",Manhattan,Houston St -- 1
+326,326,325,325,135,IRT,Broadway - 7Av,Canal St,M,1,Subway,40.722854,-74.006277,40.722854,-74.006277,10013,10013,"Tribeca, Soho",Manhattan,Canal St -- 1
+327,327,326,326,136,IRT,Broadway - 7Av,Franklin St,M,1,Subway,40.719318,-74.006886,40.719318,-74.006886,10013,10013,"Tribeca, Soho",Manhattan,Franklin St -- 1
+328,328,327,327,137,IRT,Broadway - 7Av,Chambers St,M,1 2 3,Subway,40.715478,-74.009266,40.715478,-74.009266,10007,10007,"Tribeca, Financial District",Manhattan,Chambers St -- 1 2 3
+329,329,328,328,138,IRT,Broadway - 7Av,Cortlandt St,M,1,Subway,40.711835,-74.012188,40.711835,-74.012188,10006,10006,"Financial District, Battery Park City",Manhattan,Cortlandt St -- 1
+330,330,329,329,139,IRT,Broadway - 7Av,Rector St,M,1,Subway,40.707513,-74.013783,40.707513,-74.013783,10006,10006,"Financial District, Battery Park City",Manhattan,Rector St -- 1
+331,331,330,635,142,IRT,Broadway - 7Av,South Ferry,M,1,Subway,40.702068,-74.013664,40.702068,-74.013664,10004,10004,Battery Park City,Manhattan,South Ferry -- 1
+332,332,331,624,228,IRT,Clark St,Park Pl,M,2 3,Subway,40.713051,-74.008811,40.713051,-74.008811,10007,10007,"Tribeca, Financial District",Manhattan,Park Pl -- 2 3
+333,333,332,628,229,IRT,Clark St,Fulton St,M,2 3,Subway,40.709416,-74.006571,40.709416,-74.006571,10038,10038,"Financial District, Seaport",Manhattan,Fulton St -- 2 3
+334,334,333,333,230,IRT,Clark St,Wall St,M,2 3,Subway,40.706821,-74.0091,40.706821,-74.0091,10005,10005,Financial District,Manhattan,Wall St -- 2 3
+335,335,334,334,231,IRT,Clark St,Clark St,Bk,2 3,Subway,40.697466,-73.993086,40.697466,-73.993086,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Clark St -- 2 3
+336,336,335,620,232,IRT,Clark St,Borough Hall,Bk,2 3,Subway,40.693219,-73.989998,40.693219,-73.989998,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Borough Hall -- 2 3
+337,337,336,336,233,IRT,Eastern Pky,Hoyt St,Bk,2 3,Subway,40.690545,-73.985065,40.690545,-73.985065,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Hoyt St -- 2 3
+338,338,337,337,234,IRT,Eastern Pky,Nevins St,Bk,2 3 4 5,Subway,40.688246,-73.980492,40.688246,-73.980492,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Nevins St -- 2 3 4 5
+339,339,338,617,235,IRT,Eastern Pky,Atlantic Av - Barclays Ctr,Bk,2 3,Subway,40.684359,-73.977666,40.684359,-73.977666,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Atlantic Av - Barclays Ctr -- 2 3
+340,340,339,339,236,IRT,Eastern Pky,Bergen St,Bk,2 3,Subway,40.680829,-73.975098,40.680829,-73.975098,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Bergen St -- 2 3
+341,341,340,340,237,IRT,Eastern Pky,Grand Army Plaza,Bk,2 3,Subway,40.675235,-73.971046,40.675235,-73.971046,11217,11217,"Boerum Hill, Gowanus, Park Slope",Brooklyn,Grand Army Plaza -- 2 3
+342,342,341,341,238,IRT,Eastern Pky,Eastern Pkwy - Brooklyn Museum,Bk,2 3,Subway,40.671987,-73.964375,40.671987,-73.964375,11238,11238,Prospect Heights,Brooklyn,Eastern Pkwy - Brooklyn Museum -- 2 3
+343,343,342,626,239,IRT,Eastern Pky,Franklin Av,Bk,2 3 4 5,Subway,40.670682,-73.958131,40.670682,-73.958131,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,Franklin Av -- 2 3 4 5
+344,344,343,343,248,IRT,Eastern Pky,Nostrand Av,Bk,3,Subway,40.669847,-73.950466,40.669847,-73.950466,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,Nostrand Av -- 3
+345,345,344,344,249,IRT,Eastern Pky,Kingston Av,Bk,3,Subway,40.669399,-73.942161,40.669399,-73.942161,11213,11213,"Brower Park, Crown Heights, Weeksville",Brooklyn,Kingston Av -- 3
+346,346,345,345,250,IRT,Eastern Pky,Crown Hts - Utica Av,Bk,3 4,Subway,40.668897,-73.932942,40.668897,-73.932942,11213,11213,"Brower Park, Crown Heights, Weeksville",Brooklyn,Crown Hts - Utica Av -- 3 4
+347,347,346,346,251,IRT,Eastern Pky,Sutter Av - Rutland Rd,Bk,3,Elevated,40.664717,-73.92261,40.664717,-73.92261,11212,11212,"Brownsville, East Flatbush",Brooklyn,Sutter Av - Rutland Rd -- 3
+348,348,347,347,252,IRT,Eastern Pky,Saratoga Av,Bk,3,Elevated,40.661453,-73.916327,40.661453,-73.916327,11212,11212,"Brownsville, East Flatbush",Brooklyn,Saratoga Av -- 3
+349,349,348,348,253,IRT,Eastern Pky,Rockaway Av,Bk,3,Elevated,40.662549,-73.908946,40.662549,-73.908946,11212,11212,"Brownsville, East Flatbush",Brooklyn,Rockaway Av -- 3
+350,350,349,349,254,IRT,Eastern Pky,Junius St,Bk,3,Elevated,40.663515,-73.902447,40.663515,-73.902447,11212,11212,"Brownsville, East Flatbush",Brooklyn,Junius St -- 3
+351,351,350,350,255,IRT,Eastern Pky,Pennsylvania Av,Bk,3,Elevated,40.664635,-73.894895,40.664635,-73.894895,11207,11207,East New York,Brooklyn,Pennsylvania Av -- 3
+352,352,351,351,256,IRT,Eastern Pky,Van Siclen Av,Bk,3,Elevated,40.665449,-73.889395,40.665449,-73.889395,11207,11207,East New York,Brooklyn,Van Siclen Av -- 3
+353,353,352,352,257,IRT,Eastern Pky,New Lots Av,Bk,3,Elevated,40.666235,-73.884079,40.666235,-73.884079,11207,11207,East New York,Brooklyn,New Lots Av -- 3
+354,354,353,353,241,IRT,Nostrand,President St,Bk,2 5,Subway,40.667883,-73.950683,40.667883,-73.950683,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,President St -- 2 5
+355,355,354,354,242,IRT,Nostrand,Sterling St,Bk,2 5,Subway,40.662742,-73.95085,40.662742,-73.95085,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,Sterling St -- 2 5
+356,356,355,355,243,IRT,Nostrand,Winthrop St,Bk,2 5,Subway,40.656652,-73.9502,40.656652,-73.9502,11225,11225,"Crown Heights, Prospect Lefferts Gardens",Brooklyn,Winthrop St -- 2 5
+357,357,356,356,244,IRT,Nostrand,Church Av,Bk,2 5,Subway,40.650843,-73.949575,40.650843,-73.949575,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Church Av -- 2 5
+358,358,357,357,245,IRT,Nostrand,Beverly Rd,Bk,2 5,Subway,40.645098,-73.948959,40.645098,-73.948959,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Beverly Rd -- 2 5
+359,359,358,358,246,IRT,Nostrand,Newkirk Av,Bk,2 5,Subway,40.639967,-73.948411,40.639967,-73.948411,11226,11226,"Flatbush, Prospect Park South",Brooklyn,Newkirk Av -- 2 5
+360,360,359,359,247,IRT,Nostrand,Flatbush Av - Brooklyn College,Bk,2 5,Subway,40.632836,-73.947642,40.632836,-73.947642,11210,11210,"Brooklyn College, Flatbush, Vanderveer",Brooklyn,Flatbush Av - Brooklyn College -- 2 5
+361,361,360,360,601,IRT,Pelham,Pelham Bay Park,Bx,6,Elevated,40.852462,-73.828121,40.852462,-73.828121,10461,10461,"Morris Park, Middletown-Pelham Bay, Westchester Square",Bronx,Pelham Bay Park -- 6
+362,362,361,361,602,IRT,Pelham,Buhre Av,Bx,6,Elevated,40.84681,-73.832569,40.84681,-73.832569,10461,10461,"Morris Park, Middletown-Pelham Bay, Westchester Square",Bronx,Buhre Av -- 6
+363,363,362,362,603,IRT,Pelham,Middletown Rd,Bx,6,Elevated,40.843863,-73.836322,40.843863,-73.836322,10461,10461,"Morris Park, Middletown-Pelham Bay, Westchester Square",Bronx,Middletown Rd -- 6
+364,364,363,363,604,IRT,Pelham,Westchester Sq - E Tremont Av,Bx,6,Elevated,40.839892,-73.842952,40.839892,-73.842952,10461,10461,"Morris Park, Middletown-Pelham Bay, Westchester Square",Bronx,Westchester Sq - E Tremont Av -- 6
+365,365,364,364,606,IRT,Pelham,Zerega Av,Bx,6,Elevated,40.836488,-73.847036,40.836488,-73.847036,10462,10462,"Parkchester, East Bronx",Bronx,Zerega Av -- 6
+366,366,365,365,607,IRT,Pelham,Castle Hill Av,Bx,6,Elevated,40.834255,-73.851222,40.834255,-73.851222,10462,10462,"Parkchester, East Bronx",Bronx,Castle Hill Av -- 6
+367,367,366,366,608,IRT,Pelham,Parkchester,Bx,6,Elevated,40.833226,-73.860816,40.833226,-73.860816,10472,10472,"Soundview, Unionport",Bronx,Parkchester -- 6
+368,368,367,367,609,IRT,Pelham,St Lawrence Av,Bx,6,Elevated,40.831509,-73.867618,40.831509,-73.867618,10472,10472,"Soundview, Unionport",Bronx,St Lawrence Av -- 6
+369,369,368,368,610,IRT,Pelham,Morrison Av- Sound View,Bx,6,Elevated,40.829521,-73.874516,40.829521,-73.874516,10472,10472,"Soundview, Unionport",Bronx,Morrison Av- Sound View -- 6
+370,370,369,369,611,IRT,Pelham,Elder Av,Bx,6,Elevated,40.828584,-73.879159,40.828584,-73.879159,10472,10472,"Soundview, Unionport",Bronx,Elder Av -- 6
+371,371,370,370,612,IRT,Pelham,Whitlock Av,Bx,6,Elevated,40.826525,-73.886283,40.826525,-73.886283,10459,10459,Foxhurst,Bronx,Whitlock Av -- 6
+372,372,371,371,613,IRT,Pelham,Hunts Point Av,Bx,6,Subway,40.820948,-73.890549,40.820948,-73.890549,10459,10459,Foxhurst,Bronx,Hunts Point Av -- 6
+373,373,372,372,614,IRT,Pelham,Longwood Av,Bx,6,Subway,40.816104,-73.896435,40.816104,-73.896435,10455,10455,Woodstock,Bronx,Longwood Av -- 6
+374,374,373,373,615,IRT,Pelham,E 149 St,Bx,6,Subway,40.812118,-73.904098,40.812118,-73.904098,10455,10455,Woodstock,Bronx,E 149 St -- 6
+375,375,374,374,616,IRT,Pelham,E 143 St - St Mary's St,Bx,6,Subway,40.808719,-73.907657,40.808719,-73.907657,10455,10455,Woodstock,Bronx,E 143 St - St Mary's St -- 6
+376,376,375,375,617,IRT,Pelham,Cypress Av,Bx,6,Subway,40.805368,-73.914042,40.805368,-73.914042,10454,10454,"Mott Haven, Port Morris",Bronx,Cypress Av -- 6
+377,377,376,376,618,IRT,Pelham,Brook Av,Bx,6,Subway,40.807566,-73.91924,40.807566,-73.91924,10454,10454,"Mott Haven, Port Morris",Bronx,Brook Av -- 6
+378,378,377,377,619,IRT,Pelham,3 Av - 138 St,Bx,6,Subway,40.810476,-73.926138,40.810476,-73.926138,10454,10454,"Mott Haven, Port Morris",Bronx,3 Av - 138 St -- 6
+379,379,378,378,401,IRT,Jerome Av,Woodlawn,Bx,4,Elevated,40.886037,-73.878751,40.886037,-73.878751,10467,10467,"Norwood, Olinville, Allerton",Bronx,Woodlawn -- 4
+380,380,379,379,402,IRT,Jerome Av,Mosholu Pkwy,Bx,4,Elevated,40.87975,-73.884655,40.87975,-73.884655,10467,10467,"Norwood, Olinville, Allerton",Bronx,Mosholu Pkwy -- 4
+381,381,380,380,405,IRT,Jerome Av,Bedford Park Blvd - Lehman College,Bx,4,Elevated,40.873412,-73.890064,40.873412,-73.890064,10468,10468,"Jerome Park, Fordham Manor, Fordham Heights",Bronx,Bedford Park Blvd - Lehman College -- 4
+382,382,381,381,406,IRT,Jerome Av,Kingsbridge Rd,Bx,4,Elevated,40.86776,-73.897174,40.86776,-73.897174,10468,10468,"Jerome Park, Fordham Manor, Fordham Heights",Bronx,Kingsbridge Rd -- 4
+383,383,382,382,407,IRT,Jerome Av,Fordham Rd,Bx,4,Elevated,40.862803,-73.901034,40.862803,-73.901034,10468,10468,"Jerome Park, Fordham Manor, Fordham Heights",Bronx,Fordham Rd -- 4
+384,384,383,383,408,IRT,Jerome Av,183 St,Bx,4,Elevated,40.858407,-73.903879,40.858407,-73.903879,10468,10468,"Jerome Park, Fordham Manor, Fordham Heights",Bronx,183 St -- 4
+385,385,384,384,409,IRT,Jerome Av,Burnside Av,Bx,4,Elevated,40.853453,-73.907684,40.853453,-73.907684,10453,10453,"Morris Heights, University Heights",Bronx,Burnside Av -- 4
+386,386,385,385,410,IRT,Jerome Av,176 St,Bx,4,Elevated,40.84848,-73.911794,40.84848,-73.911794,10453,10453,"Morris Heights, University Heights",Bronx,176 St -- 4
+387,387,386,386,411,IRT,Jerome Av,Mt Eden Av,Bx,4,Elevated,40.844434,-73.914685,40.844434,-73.914685,10452,10452,"Highbridge, Mt Eden",Bronx,Mt Eden Av -- 4
+388,388,387,387,412,IRT,Jerome Av,170 St,Bx,4,Elevated,40.840075,-73.917791,40.840075,-73.917791,10452,10452,"Highbridge, Mt Eden",Bronx,170 St -- 4
+389,389,388,388,413,IRT,Jerome Av,167 St,Bx,4,Elevated,40.835537,-73.9214,40.835537,-73.9214,10452,10452,"Highbridge, Mt Eden",Bronx,167 St -- 4
+390,390,389,604,414,IRT,Jerome Av,161 St - Yankee Stadium,Bx,4,Elevated,40.827994,-73.925831,40.827994,-73.925831,10452,10452,"Highbridge, Mt Eden",Bronx,161 St - Yankee Stadium -- 4
+391,391,390,603,415,IRT,Jerome Av,149 St - Grand Concourse,Bx,4,Subway,40.818375,-73.927351,40.818375,-73.927351,10451,10451,South Bronx,Bronx,149 St - Grand Concourse -- 4
+392,392,391,391,416,IRT,Jerome Av,138 St - Grand Concourse,Bx,4 5,Subway,40.813224,-73.929849,40.813224,-73.929849,10451,10451,South Bronx,Bronx,138 St - Grand Concourse -- 4 5
+393,393,392,392,621,IRT,Lexington Av,125 St,M,4 5 6,Subway,40.804138,-73.937594,40.804138,-73.937594,10035,10035,Harlem,Manhattan,125 St -- 4 5 6
+394,394,393,393,622,IRT,Lexington Av,116 St,M,6,Subway,40.798629,-73.941617,40.798629,-73.941617,10029,10029,"East Harlem, Carnegie Hill",Manhattan,116 St -- 6
+395,395,394,394,623,IRT,Lexington Av,110 St,M,6,Subway,40.79502,-73.94425,40.79502,-73.94425,10029,10029,"East Harlem, Carnegie Hill",Manhattan,110 St -- 6
+396,396,395,395,624,IRT,Lexington Av,103 St,M,6,Subway,40.7906,-73.947478,40.7906,-73.947478,10029,10029,"East Harlem, Carnegie Hill",Manhattan,103 St -- 6
+397,397,396,396,625,IRT,Lexington Av,96 St,M,6,Subway,40.785672,-73.95107,40.785672,-73.95107,10128,10128,Upper East Side,Manhattan,96 St -- 6
+398,398,397,397,626,IRT,Lexington Av,86 St,M,4 5 6,Subway,40.779492,-73.955589,40.779492,-73.955589,10028,10028,Upper East Side,Manhattan,86 St -- 4 5 6
+399,399,398,398,627,IRT,Lexington Av,77 St,M,6,Subway,40.77362,-73.959874,40.77362,-73.959874,10075,10075,Upper East Side,Manhattan,77 St -- 6
+400,400,399,399,628,IRT,Lexington Av,68 St - Hunter College,M,6,Subway,40.768141,-73.96387,40.768141,-73.96387,10065,10065,Upper East Side,Manhattan,68 St - Hunter College -- 6
+401,401,400,613,629,IRT,Lexington Av,59 St,M,4 5 6,Subway,40.762526,-73.967967,40.762526,-73.967967,10022,10022,Midtown East,Manhattan,59 St -- 4 5 6
+402,402,401,612,630,IRT,Lexington Av,51 St,M,6,Subway,40.757107,-73.97192,40.757107,-73.97192,10022,10022,Midtown East,Manhattan,51 St -- 6
+403,403,402,610,631,IRT,Lexington Av,Grand Central - 42 St,M,4 5 6,Subway,40.751776,-73.976848,40.751776,-73.976848,10017,10017,Midtown East,Manhattan,Grand Central - 42 St -- 4 5 6
+404,404,403,403,632,IRT,Lexington Av,33 St,M,6,Subway,40.746081,-73.982076,40.746081,-73.982076,10016,10016,"Murray Hill, Kips Bay",Manhattan,33 St -- 6
+405,405,404,404,633,IRT,Lexington Av,28 St,M,6,Subway,40.74307,-73.984264,40.74307,-73.984264,10016,10016,"Murray Hill, Kips Bay",Manhattan,28 St -- 6
+406,406,405,405,634,IRT,Lexington Av,23 St,M,6,Subway,40.739864,-73.986599,40.739864,-73.986599,10010,10010,"Gramercy, Flatiron",Manhattan,23 St -- 6
+407,407,406,602,635,IRT,Lexington Av,14 St - Union Sq,M,4 5 6,Subway,40.734673,-73.989951,40.734673,-73.989951,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,14 St - Union Sq -- 4 5 6
+408,408,407,407,636,IRT,Lexington Av,Astor Pl,M,6,Subway,40.730054,-73.99107,40.730054,-73.99107,10003,10003,"Greenwich Village, Union Square, Gramercy, Flatiron",Manhattan,Astor Pl -- 6
+409,409,408,619,637,IRT,Lexington Av,Bleecker St,M,6,Subway,40.725915,-73.994659,40.725915,-73.994659,10012,10012,"Village, NoHo, Soho",Manhattan,Bleecker St -- 6
+410,410,409,409,638,IRT,Lexington Av,Spring St,M,6,Subway,40.722301,-73.997141,40.722301,-73.997141,10012,10012,"Village, NoHo, Soho",Manhattan,Spring St -- 6
+411,411,410,623,639,IRT,Lexington Av,Canal St,M,6,Subway,40.718803,-74.000193,40.718803,-74.000193,10013,10013,"Tribeca, Soho",Manhattan,Canal St -- 6
+412,412,411,622,640,IRT,Lexington Av,Brooklyn Bridge - City Hall,M,4 5 6,Subway,40.713065,-74.004131,40.713065,-74.004131,10007,10007,"Tribeca, Financial District",Manhattan,Brooklyn Bridge - City Hall -- 4 5 6
+413,413,412,628,418,IRT,Lexington Av,Fulton St,M,4 5,Subway,40.710368,-74.009509,40.710368,-74.009509,10007,10007,"Tribeca, Financial District",Manhattan,Fulton St -- 4 5
+414,414,413,413,419,IRT,Lexington Av,Wall St,M,4 5,Subway,40.707557,-74.011862,40.707557,-74.011862,10006,10006,"Financial District, Battery Park City",Manhattan,Wall St -- 4 5
+415,415,414,414,420,IRT,Lexington Av,Bowling Green,M,4 5,Subway,40.704817,-74.014065,40.704817,-74.014065,10004,10004,Battery Park City,Manhattan,Bowling Green -- 4 5
+416,416,415,620,423,IRT,Eastern Pky,Borough Hall,Bk,4 5,Subway,40.692404,-73.990151,40.692404,-73.990151,11201,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn,Borough Hall -- 4 5
+417,417,416,416,201,IRT,Lenox - White Plains Rd,Wakefield - 241 St,Bx,2,Elevated,40.903125,-73.85062,40.903125,-73.85062,10470,10470,Woodlawn Heights,Bronx,Wakefield - 241 St -- 2
+418,418,417,417,204,IRT,Lenox - White Plains Rd,Nereid Av,Bx,2 5,Elevated,40.898379,-73.854376,40.898379,-73.854376,10466,10466,"Wakefield, Edenwald",Bronx,Nereid Av -- 2 5
+419,419,418,418,205,IRT,Lenox - White Plains Rd,233 St,Bx,2 5,Elevated,40.893193,-73.857473,40.893193,-73.857473,10466,10466,"Wakefield, Edenwald",Bronx,233 St -- 2 5
+420,420,419,419,206,IRT,Lenox - White Plains Rd,225 St,Bx,2 5,Elevated,40.888022,-73.860341,40.888022,-73.860341,10466,10466,"Wakefield, Edenwald",Bronx,225 St -- 2 5
+421,421,420,420,207,IRT,Lenox - White Plains Rd,219 St,Bx,2 5,Elevated,40.883895,-73.862633,40.883895,-73.862633,10467,10467,"Norwood, Olinville, Allerton",Bronx,219 St -- 2 5
+422,422,421,421,208,IRT,Lenox - White Plains Rd,Gun Hill Rd,Bx,2 5,Elevated,40.87785,-73.866256,40.87785,-73.866256,10467,10467,"Norwood, Olinville, Allerton",Bronx,Gun Hill Rd -- 2 5
+423,423,422,422,209,IRT,Lenox - White Plains Rd,Burke Av,Bx,2 5,Elevated,40.871356,-73.867164,40.871356,-73.867164,10467,10467,"Norwood, Olinville, Allerton",Bronx,Burke Av -- 2 5
+424,424,423,423,210,IRT,Lenox - White Plains Rd,Allerton Av,Bx,2 5,Elevated,40.865462,-73.867352,40.865462,-73.867352,10467,10467,"Norwood, Olinville, Allerton",Bronx,Allerton Av -- 2 5
+425,425,424,424,211,IRT,Lenox - White Plains Rd,Pelham Pkwy,Bx,2 5,Elevated,40.857192,-73.867615,40.857192,-73.867615,10462,10462,"Parkchester, East Bronx",Bronx,Pelham Pkwy -- 2 5
+426,426,425,425,212,IRT,Lenox - White Plains Rd,Bronx Park East,Bx,2 5,Elevated,40.848828,-73.868457,40.848828,-73.868457,10462,10462,"Parkchester, East Bronx",Bronx,Bronx Park East -- 2 5
+427,427,426,426,213,IRT,Lenox - White Plains Rd,E 180 St,Bx,2 5,Elevated,40.841894,-73.873488,40.841894,-73.873488,10460,10460,"Charlotte Gardens, West Farms, Van Nest",Bronx,E 180 St -- 2 5
+428,428,427,427,214,IRT,Lenox - White Plains Rd,West Farms Sq - E Tremont Av,Bx,2 5,Elevated,40.840295,-73.880049,40.840295,-73.880049,10460,10460,"Charlotte Gardens, West Farms, Van Nest",Bronx,West Farms Sq - E Tremont Av -- 2 5
+429,429,428,428,215,IRT,Lenox - White Plains Rd,174 St,Bx,2 5,Elevated,40.837288,-73.887734,40.837288,-73.887734,10460,10460,"Charlotte Gardens, West Farms, Van Nest",Bronx,174 St -- 2 5
+430,430,429,429,216,IRT,Lenox - White Plains Rd,Freeman St,Bx,2 5,Elevated,40.829993,-73.891865,40.829993,-73.891865,10459,10459,Foxhurst,Bronx,Freeman St -- 2 5
+431,431,430,430,217,IRT,Lenox - White Plains Rd,Simpson St,Bx,2 5,Elevated,40.824073,-73.893064,40.824073,-73.893064,10459,10459,Foxhurst,Bronx,Simpson St -- 2 5
+432,432,431,431,218,IRT,Lenox - White Plains Rd,Intervale Av,Bx,2 5,Elevated,40.822181,-73.896736,40.822181,-73.896736,10459,10459,Foxhurst,Bronx,Intervale Av -- 2 5
+433,433,432,432,219,IRT,Lenox - White Plains Rd,Prospect Av,Bx,2 5,Elevated,40.819585,-73.90177,40.819585,-73.90177,10455,10455,Woodstock,Bronx,Prospect Av -- 2 5
+434,434,433,433,220,IRT,Lenox - White Plains Rd,Jackson Av,Bx,2 5,Elevated,40.81649,-73.907807,40.81649,-73.907807,10455,10455,Woodstock,Bronx,Jackson Av -- 2 5
+435,435,434,434,221,IRT,Lenox - White Plains Rd,3 Av - 149 St,Bx,2 5,Subway,40.816109,-73.917757,40.816109,-73.917757,10455,10455,Woodstock,Bronx,3 Av - 149 St -- 2 5
+436,436,435,603,222,IRT,Lenox - White Plains Rd,149 St - Grand Concourse,Bx,2 5,Subway,40.81841,-73.926718,40.81841,-73.926718,10451,10451,South Bronx,Bronx,149 St - Grand Concourse -- 2 5
+437,437,436,436,301,IRT,Lenox - White Plains Rd,Harlem - 148 St,M,3,Subway,40.82388,-73.93647,40.82388,-73.93647,10039,10039,Harlem,Manhattan,Harlem - 148 St -- 3
+438,438,437,437,302,IRT,Lenox - White Plains Rd,145 St,M,3,Subway,40.820421,-73.936245,40.820421,-73.936245,10039,10039,Harlem,Manhattan,145 St -- 3
+439,439,438,438,224,IRT,Lenox - White Plains Rd,135 St,M,2 3,Subway,40.814229,-73.94077,40.814229,-73.94077,10037,10037,Harlem,Manhattan,135 St -- 2 3
+440,440,439,439,225,IRT,Lenox - White Plains Rd,125 St,M,2 3,Subway,40.807754,-73.945495,40.807754,-73.945495,10027,10027,"Mt. Morris Park, Morningside Heights",Manhattan,125 St -- 2 3
+441,441,440,440,226,IRT,Lenox - White Plains Rd,116 St,M,2 3,Subway,40.802098,-73.949625,40.802098,-73.949625,10026,10026,"Manhattan Valley, Morningside Heights, Harlem",Manhattan,116 St -- 2 3
+442,442,441,441,227,IRT,Lenox - White Plains Rd,Central Park North (110 St),M,2 3,Subway,40.799075,-73.951822,40.799075,-73.951822,10026,10026,"Manhattan Valley, Morningside Heights, Harlem",Manhattan,Central Park North (110 St) -- 2 3
+443,443,442,442,501,IRT,Dyre Av,Eastchester - Dyre Av,Bx,5,At Grade,40.8883,-73.830834,40.8883,-73.830834,10466,10466,"Wakefield, Edenwald",Bronx,Eastchester - Dyre Av -- 5
+444,444,443,443,502,IRT,Dyre Av,Baychester Av,Bx,5,Open Cut,40.878663,-73.838591,40.878663,-73.838591,10469,10469,"Laconia, Pelham Gardens, Baychester",Bronx,Baychester Av -- 5
+445,445,444,444,503,IRT,Dyre Av,Gun Hill Rd,Bx,5,Open Cut,40.869526,-73.846384,40.869526,-73.846384,10469,10469,"Laconia, Pelham Gardens, Baychester",Bronx,Gun Hill Rd -- 5
+446,446,445,445,504,IRT,Dyre Av,Pelham Pkwy,Bx,5,Open Cut,40.858985,-73.855359,40.858985,-73.855359,10469,10469,"Laconia, Pelham Gardens, Baychester",Bronx,Pelham Pkwy -- 5
+447,447,446,446,505,IRT,Dyre Av,Morris Park,Bx,5,Open Cut,40.854364,-73.860495,40.854364,-73.860495,10462,10462,"Parkchester, East Bronx",Bronx,Morris Park -- 5
+448,448,447,447,701,IRT,Flushing,Flushing - Main St,Q,7,Subway,40.7596,-73.83003,40.7596,-73.83003,11354,11354,"Flushing, Linden Hill",Queens,Flushing - Main St -- 7
+449,449,448,448,702,IRT,Flushing,Mets - Willets Point,Q,7,Elevated,40.754622,-73.845625,40.754622,-73.845625,11368,11368,Willets Point,Queens,Mets - Willets Point -- 7
+450,450,449,449,705,IRT,Flushing,111 St,Q,7,Elevated,40.75173,-73.855334,40.75173,-73.855334,11368,11368,Willets Point,Queens,111 St -- 7
+451,451,450,450,706,IRT,Flushing,103 St - Corona Plaza,Q,7,Elevated,40.749865,-73.8627,40.749865,-73.8627,11368,11368,Willets Point,Queens,103 St - Corona Plaza -- 7
+452,452,451,451,707,IRT,Flushing,Junction Blvd,Q,7,Elevated,40.749145,-73.869527,40.749145,-73.869527,11372,11372,Jackson Heights,Queens,Junction Blvd -- 7
+453,453,452,452,708,IRT,Flushing,90 St - Elmhurst Av,Q,7,Elevated,40.748408,-73.876613,40.748408,-73.876613,11372,11372,Jackson Heights,Queens,90 St - Elmhurst Av -- 7
+454,454,453,453,709,IRT,Flushing,82 St - Jackson Hts,Q,7,Elevated,40.747659,-73.883697,40.747659,-73.883697,11373,11373,Elmhurst,Queens,82 St - Jackson Hts -- 7
+455,455,454,616,710,IRT,Flushing,74 St - Broadway,Q,7,Elevated,40.746848,-73.891394,40.746848,-73.891394,11372,11372,Jackson Heights,Queens,74 St - Broadway -- 7
+456,456,455,455,711,IRT,Flushing,69 St,Q,7,Elevated,40.746325,-73.896403,40.746325,-73.896403,11377,11377,Woodside,Queens,69 St -- 7
+457,457,456,456,712,IRT,Flushing,Woodside - 61 St,Q,7,Elevated,40.74563,-73.902984,40.74563,-73.902984,11377,11377,Woodside,Queens,Woodside - 61 St -- 7
+458,458,457,457,713,IRT,Flushing,52 St,Q,7,Elevated,40.744149,-73.912549,40.744149,-73.912549,11377,11377,Woodside,Queens,52 St -- 7
+459,459,458,458,714,IRT,Flushing,46 St,Q,7,Elevated,40.743132,-73.918435,40.743132,-73.918435,11377,11377,Woodside,Queens,46 St -- 7
+460,460,459,459,715,IRT,Flushing,40 St,Q,7,Elevated,40.743781,-73.924016,40.743781,-73.924016,11104,11104,Sunnyside,Queens,40 St -- 7
+461,461,460,460,716,IRT,Flushing,33 St,Q,7,Elevated,40.744587,-73.930997,40.744587,-73.930997,11101,11101,Long Island City,Queens,33 St -- 7
+462,462,461,461,718,IRT,Flushing,Queensboro Plaza,Q,7,Elevated,40.750582,-73.940202,40.750582,-73.940202,11101,11101,Long Island City,Queens,Queensboro Plaza -- 7
+463,463,461,461,R09,BMT,Astoria,Queensboro Plaza,Q,N W,Elevated,40.750582,-73.940202,40.750582,-73.940202,11101,11101,Long Island City,Queens,Queensboro Plaza -- N W
+464,464,462,606,719,IRT,Flushing,Court Sq,Q,7,Elevated,40.747023,-73.945264,40.747023,-73.945264,11101,11101,Long Island City,Queens,Court Sq -- 7
+465,465,463,463,720,IRT,Flushing,Hunters Point Av,Q,7,Subway,40.742216,-73.948916,40.742216,-73.948916,11101,11101,Long Island City,Queens,Hunters Point Av -- 7
+466,466,464,464,721,IRT,Flushing,Vernon Blvd - Jackson Av,Q,7,Subway,40.742626,-73.953581,40.742626,-73.953581,11101,11101,Long Island City,Queens,Vernon Blvd - Jackson Av -- 7
+467,467,465,610,723,IRT,Flushing,Grand Central - 42 St,M,7,Subway,40.751431,-73.976041,40.751431,-73.976041,10017,10017,Midtown East,Manhattan,Grand Central - 42 St -- 7
+468,468,466,609,724,IRT,Flushing,5 Av,M,7,Subway,40.753821,-73.981963,40.753821,-73.981963,10036,10036,Midtown West,Manhattan,5 Av -- 7
+469,469,467,611,725,IRT,Flushing,Times Sq - 42 St,M,7,Subway,40.755477,-73.987691,40.755477,-73.987691,10036,10036,Midtown West,Manhattan,Times Sq - 42 St -- 7
+470,470,468,611,902,IRT,Lexington - Shuttle,Times Sq - 42 St,M,S,Subway,40.755983,-73.986229,40.755983,-73.986229,10036,10036,Midtown West,Manhattan,Times Sq - 42 St -- S
+471,471,469,610,901,IRT,Lexington - Shuttle,Grand Central - 42 St,M,S,Subway,40.752769,-73.979189,40.752769,-73.979189,10017,10017,Midtown East,Manhattan,Grand Central - 42 St -- S
+472,472,471,471,726,IRT,Flushing,34 St - 11 Av,M,7,Subway,40.755882,-74.00191,40.755882,-74.00191,10001,10001,"Chelsea,  West Midtown",Manhattan,34 St - 11 Av -- 7
+473,473,475,475,Q05,IND,Second Av,96 St,M,Q,Subway,40.784318,-73.947152,40.784318,-73.947152,10029,10029,"East Harlem, Carnegie Hill",Manhattan,96 St -- Q
+474,474,476,476,Q04,IND,Second Av,86 St,M,Q,Subway,40.777891,-73.951787,40.777891,-73.951787,10028,10028,Upper East Side,Manhattan,86 St -- Q
+475,475,477,477,Q03,IND,Second Av,72 St,M,Q,Subway,40.768799,-73.958424,40.768799,-73.958424,10021,10021,Upper East Side,Manhattan,72 St -- Q
+476,476,501,501,S31,SIR,Staten Island,St George,SI,SIR,Open Cut,40.643748,-74.073643,40.643748,-74.073643,10301,10301,"New Brighton, St. George, Tompkinsville, Silver Lake, Sunnyside",Staten Island,St George -- SIR
+477,477,502,502,S30,SIR,Staten Island,Tompkinsville,SI,SIR,At Grade,40.636949,-74.074835,40.636949,-74.074835,10301,10301,"New Brighton, St. George, Tompkinsville, Silver Lake, Sunnyside",Staten Island,Tompkinsville -- SIR
+478,478,503,503,S29,SIR,Staten Island,Stapleton,SI,SIR,Elevated,40.627915,-74.075162,40.627915,-74.075162,10304,10304,"Clifton, Grasmere, Fox Hills, Park Hill, Todt Hill, Stapleton",Staten Island,Stapleton -- SIR
+479,479,504,504,S28,SIR,Staten Island,Clifton,SI,SIR,Elevated,40.621319,-74.071402,40.621319,-74.071402,10304,10304,"Clifton, Grasmere, Fox Hills, Park Hill, Todt Hill, Stapleton",Staten Island,Clifton -- SIR
+480,480,505,505,S27,SIR,Staten Island,Grasmere,SI,SIR,Open Cut,40.603117,-74.084087,40.603117,-74.084087,10304,10304,"Clifton, Grasmere, Fox Hills, Park Hill, Todt Hill, Stapleton",Staten Island,Grasmere -- SIR
+481,481,506,506,S26,SIR,Staten Island,Old Town,SI,SIR,Embankment,40.596612,-74.087368,40.596612,-74.087368,10304,10304,"Clifton, Grasmere, Fox Hills, Park Hill, Todt Hill, Stapleton",Staten Island,Old Town -- SIR
+482,482,507,507,S25,SIR,Staten Island,Dongan Hills,SI,SIR,Embankment,40.588849,-74.09609,40.588849,-74.09609,10304,10304,"Clifton, Grasmere, Fox Hills, Park Hill, Todt Hill, Stapleton",Staten Island,Dongan Hills -- SIR
+483,483,508,508,S24,SIR,Staten Island,Jefferson Av,SI,SIR,Embankment,40.583591,-74.103338,40.583591,-74.103338,10306,10306,"Arrochar, Concord, Grasmere, Fort Wadsworth, Shore Acres, Rosebank",Staten Island,Jefferson Av -- SIR
+484,484,509,509,S23,SIR,Staten Island,Grant City,SI,SIR,Open Cut,40.578965,-74.109704,40.578965,-74.109704,10306,10306,"Arrochar, Concord, Grasmere, Fort Wadsworth, Shore Acres, Rosebank",Staten Island,Grant City -- SIR
+485,485,510,510,S22,SIR,Staten Island,New Dorp,SI,SIR,Open Cut,40.57348,-74.11721,40.57348,-74.11721,10306,10306,"Arrochar, Concord, Grasmere, Fort Wadsworth, Shore Acres, Rosebank",Staten Island,New Dorp -- SIR
+486,486,511,511,S21,SIR,Staten Island,Oakwood Heights,SI,SIR,Open Cut,40.56511,-74.12632,40.56511,-74.12632,10306,10306,"Arrochar, Concord, Grasmere, Fort Wadsworth, Shore Acres, Rosebank",Staten Island,Oakwood Heights -- SIR
+487,487,512,512,S20,SIR,Staten Island,Bay Terrace,SI,SIR,Embankment,40.5564,-74.136907,40.5564,-74.136907,10306,10306,"Arrochar, Concord, Grasmere, Fort Wadsworth, Shore Acres, Rosebank",Staten Island,Bay Terrace -- SIR
+488,488,513,513,S19,SIR,Staten Island,Great Kills,SI,SIR,Open Cut,40.551231,-74.151399,40.551231,-74.151399,10308,10308,Great Kills,Staten Island,Great Kills -- SIR
+489,489,514,514,S18,SIR,Staten Island,Eltingville,SI,SIR,Embankment,40.544601,-74.16457,40.544601,-74.16457,10312,10312,"Port Richmond, West Brighton, Edwin Markham Gardens",Staten Island,Eltingville -- SIR
+490,490,515,515,S17,SIR,Staten Island,Annadale,SI,SIR,Open Cut,40.54046,-74.178217,40.54046,-74.178217,10312,10312,"Port Richmond, West Brighton, Edwin Markham Gardens",Staten Island,Annadale -- SIR
+491,491,516,516,S16,SIR,Staten Island,Huguenot,SI,SIR,Open Cut,40.533674,-74.191794,40.533674,-74.191794,10312,10312,"Port Richmond, West Brighton, Edwin Markham Gardens",Staten Island,Huguenot -- SIR
+492,492,517,517,S15,SIR,Staten Island,Prince's Bay,SI,SIR,Open Cut,40.525507,-74.200064,40.525507,-74.200064,10309,10309,"Charleston, Prince's Bay",Staten Island,Prince's Bay -- SIR
+493,493,518,518,S14,SIR,Staten Island,Pleasant Plains,SI,SIR,Embankment,40.52241,-74.217847,40.52241,-74.217847,10309,10309,"Charleston, Prince's Bay",Staten Island,Pleasant Plains -- SIR
+494,494,519,519,S13,SIR,Staten Island,Richmond Valley,SI,SIR,Open Cut,40.519631,-74.229141,40.519631,-74.229141,10309,10309,"Charleston, Prince's Bay",Staten Island,Richmond Valley -- SIR
+495,495,522,522,S09,SIR,Staten Island,Tottenville,SI,SIR,At Grade,40.512764,-74.251961,40.512764,-74.251961,10307,10307,"Arrochar, Concord, Grasmere, Fort Wadsworth, Shore Acres, Rosebank",Staten Island,Tottenville -- SIR
+496,496,523,523,S11,SIR,Staten Island,Arthur Kill,SI,SIR,At Grade,40.516578,-74.242096,40.516578,-74.242096,10307,10307,"Arrochar, Concord, Grasmere, Fort Wadsworth, Shore Acres, Rosebank",Staten Island,Arthur Kill -- SIR
