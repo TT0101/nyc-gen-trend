@@ -14,7 +14,6 @@ from app import app
 
 import nycgenheatmap as home
 import nycgendetailsdashboard as detail
-import app1 #testing....
 
 import TypeHelper as th
 
@@ -23,7 +22,8 @@ import TypeHelper as th
 #main layout
 app.layout = html.Div([
             dcc.Location(id='url', refresh=False),
-            html.Div(id='pageContent', children=home.runMapPage()) #why do the callbacks for genmap only work when this is the one loaded with the layout????
+            #...and the downgrade must have downgraded or upgraded something else, because now those callbacks are working locally without the hack...
+            html.Div(id='pageContent')#, children=home.runMapPage()) #why do the callbacks for genmap only work when this is the one loaded with the layout????
             ])
 
 

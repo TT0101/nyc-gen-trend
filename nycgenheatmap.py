@@ -33,34 +33,43 @@ polyOverviewData = zpoly.getZCTADataFromGeojson(knownZips, zctaGeojson)
     
 #functions
 def getHeatMapData(polyObjData, zctaOverviewData):
+    normedScale = ic.getColorScale() 
     return go.Data([
             go.Scattermapbox(
                     lat=zpoly.getLatsFromPolyData(polyObjData),
                     lon=zpoly.getLongsFromPolyData(polyObjData), 
                     mode='markers',
-                    fillcolor='black',
+                    #fillcolor='black',
                     text=zpoly.getZCTAsFromPolyData(polyObjData),
                     #customdata=zpoly.getZCTAsFromPolyData(polyObjData),
                     marker=dict(
                              color=[ic.getSpecificColor(oData.getOverviewForZCTA(p.ZCTATyped, zctaOverviewData).GenIndex) for p in polyObjData],#'navy',
-                             #colorscale=ic.getColorScale(),
+                             colorscale=normedScale,
+                             showscale=True,
+                             cmax = oData.GetMaxGenIndex(),
+                             cmin = oData.GetMinGenIndex(),
                              opacity=0.1,
-#                             colorbar=dict(
-#                                    title="Index",
-#                                    x=0.935,
-#                                    xpad=0,
-#                                    #dtick=1,
-#                                    #nticks=len(ic.getColorScale()),
-#                                    tickfont=dict(
-#                                        color='black'
-#                                    ),
-#                                    titlefont=dict(
-#                                        color='black'
-#                                    ),
-#                                    titleside='left',
-#                                    tickvals = [1, 50, 100],
-#                                    ticktext = ['Low','Mid','High']
-#                                )
+                             colorbar=dict(
+                                    title="Index",
+                                    thickness=15,
+                                    outlinecolor='black',
+                                    x=1,#0.935,
+                                    xpad=0,
+                                    tickfont=dict(
+                                        color='black',
+                                        size=14,
+                                        family="Arial"
+                                    ),
+                                    titlefont=dict(
+                                        color='black',
+                                        size=14,
+                                        family="Arial"
+                                    ),
+                                   titleside='left',
+                                   ticks="outside",
+                                   tickformat=".2f%"
+                                   
+                                )
                         )
                 )
             ])
@@ -145,6 +154,7 @@ def runMapPage():
                 , style={'height':'25px', 'background-color':'black', 'color':'white'}
                 ),
         #body
+        #html.Div(children=str(ic.normedGenColorScale()[-1])),
         html.Div(children=[  
 #                dcc.RangeSlider(
 #                        marks={i: i['year'] for i in genData},
@@ -169,5 +179,4 @@ def runMapPage():
                 ], style={'width':'100%'})
     ])
                 
-
 

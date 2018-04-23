@@ -27,6 +27,7 @@ mapboxtoken = config.mapboxtoken
 zctaOverview = None 
 zctaPoly = None
 pointsDic = None
+mapCountDic = None
 genIndexColor = None
 
 #map
@@ -35,12 +36,22 @@ mapOptions = [
                 ,{'label': 'Subway Stations', 'value': 'SE'}
                 
              ]
+
+#graph
+graphOptions = [
+                        {'label': 'Rental Prices', 'value': 'RP'},
+                        {'label': 'New Construction', 'value': 'NC'},
+                        {'label': 'Food Permits', 'value': 'FP'},
+                        {'label': 'Sidewalk Cafe Licences', 'value': 'SCL'},
+                        {'label': 'School Class Sizes', 'value': 'SCS'}
+                ]
     
 def runDetailsDash(zcta):
     #define in globals so callbacks can use it, but we must assign here due to zcta value being needed
     global zctaOverview
     global zctaPoly
     global pointsDic
+    global mapCountDic
     global genIndexColor
     
     if zcta == None:
@@ -53,7 +64,7 @@ def runDetailsDash(zcta):
     genIndexColor = ic.getSpecificColor(zctaOverview.GenIndex)
 
     pointsDic = getDataWithLocationDictionary(zctaOverview)
-    
+    mapCountDic = getDataWithLocationCounts(zctaOverview)
     
     #this is mock data for now, would get from whatever is chosen in multiselect 
     x = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
@@ -95,19 +106,14 @@ def runDetailsDash(zcta):
                         dcc.Graph(
                         id = 'zctaRegionMap',
                         style={'height':'100%', 'width':'100%'} #figure comes from callback
-                        )
+                        ),
+                        #html.Div(id="mapCountStats")
                         ], style={'width':'35%', 'height':'65%', 'float':'right'}),
                 #graphs and charts
                 html.Div(children=[
                 #select time trends
                 dcc.Dropdown(
-                    options=[
-                        {'label': 'Rental Prices', 'value': 'RP'},
-                        {'label': 'New Construction', 'value': 'NC'},
-                        {'label': 'Food Permits', 'value': 'FP'},
-                        {'label': 'Sidewalk Cafe Licences', 'value': 'SCL'},
-                        {'label': 'School Class Sizes', 'value': 'SCS'}
-                    ],
+                    options=graphOptions,
                     multi=True,
                     value=["RP"]
                 ),
@@ -126,17 +132,23 @@ def runDetailsDash(zcta):
 #functions
 def getDataWithLocationDictionary(zctaOverview):
     return {
-             'SE': filterByNearbyBoro(sdres.subwayEntryways, zctaOverview.Boro, sdres.BoroColName)
-            ,'SC': filterByZcta(scres.schoolLocations, zctaOverview.ZCTA, scres.ZCTAColName)
+             'SE': sdres.getSubwaysInBoros(zctaOverview.Boro)
+            ,'SC': scres.getSchoolsInZcta(zctaOverview.ZCTA)
             }
 
-def getPointsToPlot(valuesChosen, data):
-    layers = []
-    for key in data:
-        if key in valuesChosen:
-            layers.append([key, data[key]])
+def getDataWithLocationCounts(zctaOverview):
+    return {
+                'SE': sdres.getNumberOfSubwaysInZcta(zctaOverview.ZCTA),
+                'SC': scres.getNumberOfSchoolsInZcta(zctaOverview.ZCTA)
+            }
+
+def getDataFromChosen(valuesChosen, data):
+    return [[key, data[key]] for key in valuesChosen]
     
-    return layers
+
+def getListOfCountsFormatted(dataDict):
+    return ["Number of " + getPointCategoryForLayer(key) + ": " + str(dataDict[key]) for key in dataDict]
+        
 
 def getBlankMap():
     
@@ -157,7 +169,7 @@ def repeatItemForNumberOfLats(items, dataSets):
 
 
 def getPointCategoryForLayer(key):
-    return list(filter(lambda option: option['value'] == key, mapOptions))[0]['label']
+    return list(filter(lambda option: option['value'] == key, mapOptions))[0]['label'] + " (" + str(mapCountDic[key]) + ")"
 
 
 #build a scattermapbox for each dataset, so this results in one loop
@@ -176,7 +188,7 @@ def getMarkerDataForLayers(data):
 
 #get the map data when there's data to display
 def getMapWithPoints(valuesChosen, data):
-    layers = getPointsToPlot(valuesChosen, data)
+    layers = getDataFromChosen(valuesChosen, data)
     
     if len(layers) <= 0:
         return getBlankMap()
@@ -199,7 +211,7 @@ def getMapLayout(mapboxtoken, polygons, genColor):
                                     source = polygons,
                                     type = 'fill',
                                     color = genColor,
-                                    opacity = 0.4
+                                    opacity = 0.2
                                     )
                             ],
                     accesstoken=(mapboxtoken),
@@ -224,17 +236,7 @@ def getChartData(data):
                 )
             ])
 
-#helpers
-def filterByZcta(df, zcta, zctaColName):
-    return df[df[zctaColName] == zcta]
 
-def filterByNearbyBoro(df, boro, boroColName):
-    boroList = [boro]
-    if(boro == "Brooklyn"):
-        boroList.append("Queens")
-    elif(boro == "Queens"):
-        boroList.append("Brooklyn")
-    return df[df[boroColName].isin(boroList)]
     
 #callbacks
 #you HAVE to use 0.20.1 or lower version of core-components of dash for this to work. 0.21.1 introduced a bug where a re-load of the markers doesn't fully render on the map; upgrading doesn't fix this yet
@@ -249,13 +251,14 @@ def onMapDataSelected(value):
     else:
         mapData = getMapWithPoints(value, pointsDic)
        
-    return dict(data=mapData, layout=mapLayout)             
+    return dict(data=mapData, layout=mapLayout)   
 
+#
 #@app.callback(Output('mapScript', 'children'),
 #              [Input('mapDataSelect', 'value')])
 #def loadZoomOnMapLoad(value):
-#    latLongCorners = zpoly.getMinMaxLatLongForPolygons(zctaPoly)
-#    app.scripts.append_script('document.getElementById("zctaRegionMap").fitBounds([[' + str(latLongCorners[0][0]) + ',' + str(latLongCorners[0][1]) + '],['+ str(latLongCorners[1][0]) + ',' + str(latLongCorners[1][1]) + ']]);')
+#    #latLongCorners = zpoly.getMinMaxLatLongForPolygons(zctaPoly)
+#    #app.scripts.append_script('document.getElementById("zctaRegionMap").fitBounds([[' + str(latLongCorners[0][0]) + ',' + str(latLongCorners[0][1]) + '],['+ str(latLongCorners[1][0]) + ',' + str(latLongCorners[1][1]) + ']]);')
 #    #return html.Div(str(latLongCorners))
 #    #layers = getPointsToPlot(value, pointsDic)
-#    return str(getMapWithPoints(value, pointsDic))
+#    return str(ic.getSpecificColor(zctaOverview.GenIndex))
