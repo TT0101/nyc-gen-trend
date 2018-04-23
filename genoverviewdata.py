@@ -63,5 +63,20 @@ def mergeForMissingZCTA(indexData, zctaData):
     missing = [z for z in zctaData if z.ZCTA not in zctasWIndex]
     return indexData + missing
 
+#max and min
+def GetMinGenIndex():
+    minObj = min(GENOVERVIEWDATA, key=lambda z: z.GenIndex)
+    if minObj is not None:
+        return minObj.GenIndex
+    
+    return 0
+
+def GetMaxGenIndex():
+    maxObj = max(GENOVERVIEWDATA, key=lambda z: z.GenIndex)
+    if maxObj is not None:
+        return maxObj.GenIndex
+    
+    return 100
+
 #run first
 GENOVERVIEWDATA = getOverviewData() #load the data first so we have it
