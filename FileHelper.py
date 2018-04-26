@@ -51,14 +51,14 @@ def readInCSVData(fileName, processFunction):
             
     return data
 
-def readInCSVPandas(fileName, index):#, processFunction):
+def readInCSVPandas(fileName, index):
     try:
         if index > -1:
             pData = pd.read_csv(fileName, index_col=index)
         else:
             pData = pd.read_csv(fileName)
             
-        #pDataClean = processFunction(pData)
+        
         
     except IOError as e:
         print("Cound not read in the file at " + fileName + ". Error is: " + str(e))
@@ -71,6 +71,23 @@ def readInCSVPandas(fileName, index):#, processFunction):
     
     return pData
 
+def readInCSVPandasProcessing(fileName, index, processFunction):
+    try:
+         pData = readInCSVPandas(fileName, index)
+            
+         return processFunction(pData)
+        
+    except IOError as e:
+        print("Cound not read in the file at " + fileName + ". Error is: " + str(e))
+    except AttributeError as e2:
+        print("There was an error: " + str(e2))
+    except TypeError as e3:
+        print("There was an error: " + str(e3))
+    except Exception as ex:
+         print("There is a unspecified error. " + str(ex))
+    
+   
+
 def writeOutCSVPandas(fileName, data):
     try:
         data.to_csv(fileName)
@@ -82,6 +99,7 @@ def writeOutCSVPandas(fileName, data):
         print("There was an error: " + str(e3))
     except:
          print("There is a unspecified error.")
+         
 #user input parsing
 def parseToCSVFileName(userInput):
     fullreg = re.compile('^\w+.csv?$')
@@ -99,4 +117,6 @@ def parseToCSVFileName(userInput):
     
     #if there's no extention on it, add the .csv extention and return
     return cleanerInput + ".csv"
+
+
     
