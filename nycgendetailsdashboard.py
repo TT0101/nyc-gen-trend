@@ -7,6 +7,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
+from plotly import tools
 import pandas as pd
 
 #import localMain as app
@@ -18,6 +19,7 @@ import indexcolors as ic
 import genoverviewdata as oData
 import subwaydatarepository as sdres
 import schooldatarepository as scres
+import housingpricerepository as hpres
 
 import TypeHelper as th
 import maphelpers as mh
@@ -28,6 +30,7 @@ zctaOverview = None
 zctaPoly = None
 pointsDic = None
 mapCountDic = None
+chartDic = None
 genIndexColor = None
 
 #map
@@ -39,11 +42,12 @@ mapOptions = [
 
 #graph
 graphOptions = [
-                        {'label': 'Rental Prices', 'value': 'RP'},
-                        {'label': 'New Construction', 'value': 'NC'},
-                        {'label': 'Food Permits', 'value': 'FP'},
-                        {'label': 'Sidewalk Cafe Licences', 'value': 'SCL'},
-                        {'label': 'School Class Sizes', 'value': 'SCS'}
+                    {'label': 'Housing Prices (per Sq Ft)', 'value': 'HP'},
+                    {'label': 'Rental Prices (per Sq Ft)', 'value': 'RP'},
+#                        {'label': 'New Construction', 'value': 'NC'},
+#                        {'label': 'Food Permits', 'value': 'FP'},
+#                        {'label': 'Sidewalk Cafe Licences', 'value': 'SCL'},
+#                        {'label': 'School Class Sizes', 'value': 'SCS'}
                 ]
     
 def runDetailsDash(zcta):
@@ -52,7 +56,10 @@ def runDetailsDash(zcta):
     global zctaPoly
     global pointsDic
     global mapCountDic
+    global chartDic
     global genIndexColor
+    global mapOptions
+    global graphOptions
     
     if zcta == None:
         return html.P(children='Invalid call: ' + str(zcta))
@@ -63,19 +70,17 @@ def runDetailsDash(zcta):
     zctaPoly = zpoly.getAllPolygonsForZCTA(zctaOverview.ZCTA)
     genIndexColor = ic.getSpecificColor(zctaOverview.GenIndex)
 
+    #data dictionaries
     pointsDic = getDataWithLocationDictionary(zctaOverview)
     mapCountDic = getDataWithLocationCounts(zctaOverview)
+    chartDic = getDataForChartsDictionary(zctaOverview)
     
-    #this is mock data for now, would get from whatever is chosen in multiselect 
-    x = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
-    y = [2,4,6,8,1,3,5,7,9]
-    chartData = pd.DataFrame({'x': x, 'y': y})
-    chartData.head()
-    
-    
-    #chart
-    currentChartData = getChartData(chartData)
-    
+    #remove options not avaliable
+    foundPointData = [key for key in pointsDic if len(pointsDic[key]) > 0]
+    foundChartData = [key for key in chartDic if len(chartDic[key]) > 0]
+    mapOptions = [item for item in mapOptions if item['value'] in foundPointData]
+    graphOptions = [item for item in graphOptions if item['value'] in foundChartData]
+        
     #ui
     return html.Div(children=[
         #header
@@ -107,20 +112,17 @@ def runDetailsDash(zcta):
                         id = 'zctaRegionMap',
                         style={'height':'100%', 'width':'100%'} #figure comes from callback
                         ),
-                        #html.Div(id="mapCountStats")
                         ], style={'width':'35%', 'height':'65%', 'float':'right'}),
                 #graphs and charts
                 html.Div(children=[
                 #select time trends
                 dcc.Dropdown(
+                    id='chartDataSelect',
                     options=graphOptions,
                     multi=True,
-                    value=["RP"]
+                    value=["HP"]
                 ),
-                dcc.Graph(
-                            id='detailsGraph',
-                            figure=dict(data=currentChartData)
-                        )
+                dcc.Graph(id='detailsGraph')
                 ], style={'width': '64%', 'float':'left'})
             ])
             
@@ -142,6 +144,12 @@ def getDataWithLocationCounts(zctaOverview):
                 'SC': scres.getNumberOfSchoolsInZcta(zctaOverview.ZCTA)
             }
 
+def getDataForChartsDictionary(zctaOverview):
+    return {
+                'HP': hpres.getMedianSellZcta(zctaOverview.ZCTA)
+                ,'RP': hpres.getMedianRentalZcta(zctaOverview.ZCTA)
+            }
+
 def getDataFromChosen(valuesChosen, data):
     return [[key, data[key]] for key in valuesChosen]
     
@@ -151,7 +159,6 @@ def getListOfCountsFormatted(dataDict):
         
 
 def getBlankMap():
-    
     return go.Data([
             go.Scattermapbox(
                     mode='markers'
@@ -167,9 +174,15 @@ def repeatItemForNumberOfLats(items, dataSets):
 
     return repeatArray
 
+def getLabelForMultiKey(key, options):
+    matching = list(filter(lambda option: option['value'] == key, options))
+    if(len(matching)>0):
+        return matching[0]
+    
+    return [{'label': ''}]
 
 def getPointCategoryForLayer(key):
-    return list(filter(lambda option: option['value'] == key, mapOptions))[0]['label'] + " (" + str(mapCountDic[key]) + ")"
+    return getLabelForMultiKey(key, mapOptions)['label'] + " (" + str(mapCountDic[key]) + ")"
 
 
 #build a scattermapbox for each dataset, so this results in one loop
@@ -236,9 +249,61 @@ def getChartData(data):
                 )
             ])
 
+def getLinePlot(values, dataDic):
+    lineOptions = ['HP', 'RP']
+    valuesChosen = [val for val in values if val in lineOptions]
+    lineSets = getDataFromChosen(valuesChosen, dataDic)
+    if(len(lineSets) == 0):
+        return getBlankChart()
+    
+    return [go.Scatter(
+                    x=item[1].index
+                    ,y=item[1]['y']
+                    ,connectgaps=True
+                    ,name=getLabelForMultiKey(item[0], graphOptions)['label']
+            )
+            for item in lineSets if len(item[1]) > 0] 
 
+def getBlankChart():
+    return ''
+
+def getLineChartData(values, dataDic):
+    lineChart = getLinePlot(values, dataDic)
+    lineChartLength = len(lineChart)
+    
+    if lineChartLength == 0:
+        return getBlankChart()
+    elif lineChartLength == 1:
+        return go.Data(lineChart)
+    else:
+        #make subplots out of it as there's more than one
+        fig = tools.make_subplots(rows=lineChartLength, cols=1, shared_xaxes=True, vertical_spacing=0.1)
+        c = 1
+        for t in lineChart:
+            fig.append_trace(t, c, 1)
+            c += 1
+            
+        return fig
+    
     
 #callbacks
+@app.callback(Output('detailsGraph', 'figure'),
+              [Input('chartDataSelect', 'value')])
+def onChartDataSelected(values):
+    #this is mock data for now, would get from whatever is chosen in multiselect 
+#    x = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
+#    y = [2,4,6,8,1,3,5,7,9]
+#    chartData = pd.DataFrame({'x': x, 'y': y})
+#    #chartData.head()
+#    return dict(data=getChartData(chartData))
+
+    if values == None or len(values) == 0:
+        chartData = getBlankChart()
+    else:
+        chartData = getLineChartData(values, chartDic)
+        
+    return dict(data=chartData)
+
 #you HAVE to use 0.20.1 or lower version of core-components of dash for this to work. 0.21.1 introduced a bug where a re-load of the markers doesn't fully render on the map; upgrading doesn't fix this yet
 @app.callback(Output('zctaRegionMap', 'figure'),
               [Input('mapDataSelect', 'value')])
@@ -253,12 +318,9 @@ def onMapDataSelected(value):
        
     return dict(data=mapData, layout=mapLayout)   
 
-#
-#@app.callback(Output('mapScript', 'children'),
-#              [Input('mapDataSelect', 'value')])
-#def loadZoomOnMapLoad(value):
-#    #latLongCorners = zpoly.getMinMaxLatLongForPolygons(zctaPoly)
-#    #app.scripts.append_script('document.getElementById("zctaRegionMap").fitBounds([[' + str(latLongCorners[0][0]) + ',' + str(latLongCorners[0][1]) + '],['+ str(latLongCorners[1][0]) + ',' + str(latLongCorners[1][1]) + ']]);')
-#    #return html.Div(str(latLongCorners))
-#    #layers = getPointsToPlot(value, pointsDic)
-#    return str(ic.getSpecificColor(zctaOverview.GenIndex))
+##
+@app.callback(Output('mapScript', 'children'),
+              [Input('mapDataSelect', 'value')])
+def loadZoomOnMapLoad(value):
+
+    return ''#str(chartDic)
