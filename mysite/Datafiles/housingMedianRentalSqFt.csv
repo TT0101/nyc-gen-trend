@@ -1,0 +1,1732 @@
+,zip,sizeRank,year,month,medianPrice,zcta,nbhLabel,boroLabel
+0,10023,2,2013,10,5.02233238789679,10023,Upper West Side,Manhattan
+1,10023,2,2013,11,5.1515151515151505,10023,Upper West Side,Manhattan
+2,10023,2,2013,12,5.21770796770797,10023,Upper West Side,Manhattan
+3,10023,2,2014,1,5.22692307692308,10023,Upper West Side,Manhattan
+4,10023,2,2014,2,5.27518248507044,10023,Upper West Side,Manhattan
+5,10023,2,2014,3,5.21703296703297,10023,Upper West Side,Manhattan
+6,10023,2,2014,4,5.2770635986897005,10023,Upper West Side,Manhattan
+7,10023,2,2014,5,5.33333333333333,10023,Upper West Side,Manhattan
+8,10023,2,2014,6,5.5,10023,Upper West Side,Manhattan
+9,10023,2,2014,7,5.4304189164788195,10023,Upper West Side,Manhattan
+10,10023,2,2014,8,5.46099290780142,10023,Upper West Side,Manhattan
+11,10023,2,2014,9,5.49080254500268,10023,Upper West Side,Manhattan
+12,10023,2,2014,10,5.48870956068611,10023,Upper West Side,Manhattan
+13,10023,2,2014,11,5.423795985448179,10023,Upper West Side,Manhattan
+14,10023,2,2014,12,5.429988974641679,10023,Upper West Side,Manhattan
+15,10023,2,2015,1,5.441302485004281,10023,Upper West Side,Manhattan
+16,10023,2,2015,2,5.38279458588294,10023,Upper West Side,Manhattan
+17,10023,2,2015,3,5.37249283667622,10023,Upper West Side,Manhattan
+18,10023,2,2015,4,5.41760299625468,10023,Upper West Side,Manhattan
+19,10023,2,2015,5,5.47022248129797,10023,Upper West Side,Manhattan
+20,10023,2,2015,6,5.497252747252751,10023,Upper West Side,Manhattan
+21,10023,2,2015,7,5.52930056710775,10023,Upper West Side,Manhattan
+22,10023,2,2015,8,5.49450549450549,10023,Upper West Side,Manhattan
+23,10023,2,2015,9,5.44668270667233,10023,Upper West Side,Manhattan
+24,10023,2,2015,10,5.46099290780142,10023,Upper West Side,Manhattan
+25,10023,2,2015,11,5.56328233657858,10023,Upper West Side,Manhattan
+26,10023,2,2015,12,5.54607508532423,10023,Upper West Side,Manhattan
+27,10023,2,2016,1,5.49450549450549,10023,Upper West Side,Manhattan
+28,10023,2,2016,2,5.49450549450549,10023,Upper West Side,Manhattan
+29,10023,2,2016,3,5.4948071216617205,10023,Upper West Side,Manhattan
+30,10023,2,2016,4,5.46099290780142,10023,Upper West Side,Manhattan
+31,10023,2,2016,5,5.43478260869565,10023,Upper West Side,Manhattan
+32,10023,2,2016,6,5.43916549789621,10023,Upper West Side,Manhattan
+33,10023,2,2016,7,5.41760299625468,10023,Upper West Side,Manhattan
+34,10023,2,2016,8,5.33854166666667,10023,Upper West Side,Manhattan
+35,10023,2,2016,9,5.3299492385786795,10023,Upper West Side,Manhattan
+36,10023,2,2016,10,5.31163823061229,10023,Upper West Side,Manhattan
+37,10023,2,2016,11,5.2363523573201,10023,Upper West Side,Manhattan
+38,10023,2,2016,12,4.9994487453540595,10023,Upper West Side,Manhattan
+39,10023,2,2017,1,5.39522977022977,10023,Upper West Side,Manhattan
+40,10023,2,2017,2,5.3846153846153895,10023,Upper West Side,Manhattan
+41,10023,2,2017,3,5.360455319222111,10023,Upper West Side,Manhattan
+42,10023,2,2017,4,5.46099290780142,10023,Upper West Side,Manhattan
+43,10023,2,2017,5,5.438309694848651,10023,Upper West Side,Manhattan
+44,10023,2,2017,6,5.4001554001554,10023,Upper West Side,Manhattan
+45,10023,2,2017,7,5.41150420083004,10023,Upper West Side,Manhattan
+46,10023,2,2017,8,5.3763676148796495,10023,Upper West Side,Manhattan
+47,10023,2,2017,9,5.34402852049911,10023,Upper West Side,Manhattan
+48,10023,2,2017,10,5.36911072366086,10023,Upper West Side,Manhattan
+49,10023,2,2017,11,5.33333333333333,10023,Upper West Side,Manhattan
+50,10023,2,2017,12,5.26995450785773,10023,Upper West Side,Manhattan
+51,10023,2,2018,1,5.36185383244207,10023,Upper West Side,Manhattan
+52,10023,2,2018,2,5.12261146496815,10023,Upper West Side,Manhattan
+53,10016,10,2013,10,4.86308931318433,10016,"Murray Hill, Kips Bay",Manhattan
+54,10016,10,2013,11,4.8231820287169995,10016,"Murray Hill, Kips Bay",Manhattan
+55,10016,10,2013,12,4.82991946778711,10016,"Murray Hill, Kips Bay",Manhattan
+56,10016,10,2014,1,4.84897518878101,10016,"Murray Hill, Kips Bay",Manhattan
+57,10016,10,2014,2,4.836455415499531,10016,"Murray Hill, Kips Bay",Manhattan
+58,10016,10,2014,3,4.81982074791388,10016,"Murray Hill, Kips Bay",Manhattan
+59,10016,10,2014,4,4.76900149031297,10016,"Murray Hill, Kips Bay",Manhattan
+60,10016,10,2014,5,4.85270790327786,10016,"Murray Hill, Kips Bay",Manhattan
+61,10016,10,2014,6,4.88202764976959,10016,"Murray Hill, Kips Bay",Manhattan
+62,10016,10,2014,7,4.96503496503496,10016,"Murray Hill, Kips Bay",Manhattan
+63,10016,10,2014,8,4.983388704318941,10016,"Murray Hill, Kips Bay",Manhattan
+64,10016,10,2014,9,4.95756710039852,10016,"Murray Hill, Kips Bay",Manhattan
+65,10016,10,2014,10,4.920155038759691,10016,"Murray Hill, Kips Bay",Manhattan
+66,10016,10,2014,11,4.93027359781122,10016,"Murray Hill, Kips Bay",Manhattan
+67,10016,10,2014,12,4.973513831665691,10016,"Murray Hill, Kips Bay",Manhattan
+68,10016,10,2015,1,4.98620267184548,10016,"Murray Hill, Kips Bay",Manhattan
+69,10016,10,2015,2,5.0100200400801596,10016,"Murray Hill, Kips Bay",Manhattan
+70,10016,10,2015,3,5.0,10016,"Murray Hill, Kips Bay",Manhattan
+71,10016,10,2015,4,4.9783549783549805,10016,"Murray Hill, Kips Bay",Manhattan
+72,10016,10,2015,5,5.059523809523809,10016,"Murray Hill, Kips Bay",Manhattan
+73,10016,10,2015,6,5.03828740798645,10016,"Murray Hill, Kips Bay",Manhattan
+74,10016,10,2015,7,5.07955936352509,10016,"Murray Hill, Kips Bay",Manhattan
+75,10016,10,2015,8,5.11140235910878,10016,"Murray Hill, Kips Bay",Manhattan
+76,10016,10,2015,9,5.07549560390335,10016,"Murray Hill, Kips Bay",Manhattan
+77,10016,10,2015,10,5.00779088767078,10016,"Murray Hill, Kips Bay",Manhattan
+78,10016,10,2015,11,5.032021957914,10016,"Murray Hill, Kips Bay",Manhattan
+79,10016,10,2015,12,5.00779088767078,10016,"Murray Hill, Kips Bay",Manhattan
+80,10016,10,2016,1,5.04968982332473,10016,"Murray Hill, Kips Bay",Manhattan
+81,10016,10,2016,2,5.0719844357976696,10016,"Murray Hill, Kips Bay",Manhattan
+82,10016,10,2016,3,5.0719844357976696,10016,"Murray Hill, Kips Bay",Manhattan
+83,10016,10,2016,4,5.101604065750809,10016,"Murray Hill, Kips Bay",Manhattan
+84,10016,10,2016,5,5.05181347150259,10016,"Murray Hill, Kips Bay",Manhattan
+85,10016,10,2016,6,5.0027808676307,10016,"Murray Hill, Kips Bay",Manhattan
+86,10016,10,2016,7,5.07824027991434,10016,"Murray Hill, Kips Bay",Manhattan
+87,10016,10,2016,8,5.0,10016,"Murray Hill, Kips Bay",Manhattan
+88,10016,10,2016,9,5.0,10016,"Murray Hill, Kips Bay",Manhattan
+89,10016,10,2016,10,4.97494333724111,10016,"Murray Hill, Kips Bay",Manhattan
+90,10016,10,2016,11,4.96870109546166,10016,"Murray Hill, Kips Bay",Manhattan
+91,10016,10,2016,12,4.96431732325958,10016,"Murray Hill, Kips Bay",Manhattan
+92,10016,10,2017,1,5.02620545073375,10016,"Murray Hill, Kips Bay",Manhattan
+93,10016,10,2017,2,5.09939498703544,10016,"Murray Hill, Kips Bay",Manhattan
+94,10016,10,2017,3,5.1006711409396,10016,"Murray Hill, Kips Bay",Manhattan
+95,10016,10,2017,4,5.09666080843585,10016,"Murray Hill, Kips Bay",Manhattan
+96,10016,10,2017,5,5.1030082971681505,10016,"Murray Hill, Kips Bay",Manhattan
+97,10016,10,2017,6,5.070118662351669,10016,"Murray Hill, Kips Bay",Manhattan
+98,10016,10,2017,7,5.0100200400801596,10016,"Murray Hill, Kips Bay",Manhattan
+99,10016,10,2017,8,5.05231037489102,10016,"Murray Hill, Kips Bay",Manhattan
+100,10016,10,2017,9,5.01942291731787,10016,"Murray Hill, Kips Bay",Manhattan
+101,10016,10,2017,10,5.0100200400801596,10016,"Murray Hill, Kips Bay",Manhattan
+102,10016,10,2017,11,4.9504950495049505,10016,"Murray Hill, Kips Bay",Manhattan
+103,10016,10,2017,12,4.94296577946768,10016,"Murray Hill, Kips Bay",Manhattan
+104,10016,10,2018,1,4.9549549549549505,10016,"Murray Hill, Kips Bay",Manhattan
+105,10016,10,2018,2,4.872093023255809,10016,"Murray Hill, Kips Bay",Manhattan
+106,11375,11,2013,9,2.29825581395349,11375,"Forest Hills, Forest Hills Gardens",Queens
+107,11375,11,2013,10,2.02737100737101,11375,"Forest Hills, Forest Hills Gardens",Queens
+108,11375,11,2013,11,1.9958333333333302,11375,"Forest Hills, Forest Hills Gardens",Queens
+109,11375,11,2013,12,1.9,11375,"Forest Hills, Forest Hills Gardens",Queens
+110,11375,11,2014,1,2.0475380189067,11375,"Forest Hills, Forest Hills Gardens",Queens
+111,11375,11,2014,2,1.9329373278236899,11375,"Forest Hills, Forest Hills Gardens",Queens
+112,11375,11,2014,3,1.97932162534435,11375,"Forest Hills, Forest Hills Gardens",Queens
+113,11375,11,2014,4,1.98475877192982,11375,"Forest Hills, Forest Hills Gardens",Queens
+114,11375,11,2014,5,2.0833333333333304,11375,"Forest Hills, Forest Hills Gardens",Queens
+115,11375,11,2014,6,2.0833333333333304,11375,"Forest Hills, Forest Hills Gardens",Queens
+116,11375,11,2014,7,2.1780303030303,11375,"Forest Hills, Forest Hills Gardens",Queens
+117,11375,11,2014,8,2.2,11375,"Forest Hills, Forest Hills Gardens",Queens
+118,11375,11,2014,9,2.12731481481481,11375,"Forest Hills, Forest Hills Gardens",Queens
+119,11375,11,2014,10,2.14426213778545,11375,"Forest Hills, Forest Hills Gardens",Queens
+120,11375,11,2014,11,2.17258261933905,11375,"Forest Hills, Forest Hills Gardens",Queens
+121,11375,11,2014,12,2.13333333333333,11375,"Forest Hills, Forest Hills Gardens",Queens
+122,11375,11,2015,1,2.1666666666666696,11375,"Forest Hills, Forest Hills Gardens",Queens
+123,11375,11,2015,2,2.12251477700161,11375,"Forest Hills, Forest Hills Gardens",Queens
+124,11375,11,2015,3,2.22857142857143,11375,"Forest Hills, Forest Hills Gardens",Queens
+125,11375,11,2015,4,2.25,11375,"Forest Hills, Forest Hills Gardens",Queens
+126,11375,11,2015,5,2.23290598290598,11375,"Forest Hills, Forest Hills Gardens",Queens
+127,11375,11,2015,6,2.13782467532468,11375,"Forest Hills, Forest Hills Gardens",Queens
+128,11375,11,2015,7,2.14107142857143,11375,"Forest Hills, Forest Hills Gardens",Queens
+129,11375,11,2015,8,2.1694852941176497,11375,"Forest Hills, Forest Hills Gardens",Queens
+130,11375,11,2015,9,2.33908045977011,11375,"Forest Hills, Forest Hills Gardens",Queens
+131,11375,11,2015,10,2.2,11375,"Forest Hills, Forest Hills Gardens",Queens
+132,11375,11,2015,11,2.13500287852619,11375,"Forest Hills, Forest Hills Gardens",Queens
+133,11375,11,2015,12,2.11324786324786,11375,"Forest Hills, Forest Hills Gardens",Queens
+134,11375,11,2016,1,2.22608140704605,11375,"Forest Hills, Forest Hills Gardens",Queens
+135,11375,11,2016,2,2.30106198236709,11375,"Forest Hills, Forest Hills Gardens",Queens
+136,11375,11,2016,3,2.3030303030302997,11375,"Forest Hills, Forest Hills Gardens",Queens
+137,11375,11,2016,4,2.2696969696969704,11375,"Forest Hills, Forest Hills Gardens",Queens
+138,11375,11,2016,5,2.34869976359338,11375,"Forest Hills, Forest Hills Gardens",Queens
+139,11375,11,2016,6,2.31727272727273,11375,"Forest Hills, Forest Hills Gardens",Queens
+140,11375,11,2016,7,2.35294117647059,11375,"Forest Hills, Forest Hills Gardens",Queens
+141,11375,11,2016,8,2.38171052631579,11375,"Forest Hills, Forest Hills Gardens",Queens
+142,11375,11,2016,9,2.31994981179423,11375,"Forest Hills, Forest Hills Gardens",Queens
+143,11375,11,2016,10,2.35241730279898,11375,"Forest Hills, Forest Hills Gardens",Queens
+144,11375,11,2016,11,2.4158125915080495,11375,"Forest Hills, Forest Hills Gardens",Queens
+145,11375,11,2016,12,2.43037671232877,11375,"Forest Hills, Forest Hills Gardens",Queens
+146,11375,11,2017,1,2.35087719298246,11375,"Forest Hills, Forest Hills Gardens",Queens
+147,11375,11,2017,2,2.62345679012346,11375,"Forest Hills, Forest Hills Gardens",Queens
+148,11375,11,2017,3,2.54372885451909,11375,"Forest Hills, Forest Hills Gardens",Queens
+149,11375,11,2017,4,2.5409090909090897,11375,"Forest Hills, Forest Hills Gardens",Queens
+150,11375,11,2017,5,2.493321460374,11375,"Forest Hills, Forest Hills Gardens",Queens
+151,11375,11,2017,6,2.5095679012345697,11375,"Forest Hills, Forest Hills Gardens",Queens
+152,11375,11,2017,7,2.4689232427623,11375,"Forest Hills, Forest Hills Gardens",Queens
+153,11375,11,2017,8,2.4899667405765,11375,"Forest Hills, Forest Hills Gardens",Queens
+154,11375,11,2017,9,2.47592847317744,11375,"Forest Hills, Forest Hills Gardens",Queens
+155,11375,11,2017,10,2.4706429484943597,11375,"Forest Hills, Forest Hills Gardens",Queens
+156,11375,11,2017,11,2.395,11375,"Forest Hills, Forest Hills Gardens",Queens
+157,11375,11,2017,12,2.5768156424581,11375,"Forest Hills, Forest Hills Gardens",Queens
+158,11375,11,2018,1,2.3961301369863,11375,"Forest Hills, Forest Hills Gardens",Queens
+159,11375,11,2018,2,2.1031468531468502,11375,"Forest Hills, Forest Hills Gardens",Queens
+160,11235,12,2016,12,2.23715497377065,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+161,11235,12,2017,1,2.3333333333333304,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+162,11235,12,2017,2,2.35,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+163,11235,12,2017,3,2.35,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+164,11235,12,2017,4,2.38959107806691,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+165,11235,12,2017,5,2.4375,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+166,11235,12,2017,6,2.40967741935484,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+167,11235,12,2017,7,2.38524325197996,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+168,11235,12,2017,8,2.3322222222222204,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+169,11235,12,2017,9,2.39130434782609,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+170,11235,12,2017,10,2.43821214289646,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+171,11235,12,2017,11,2.45388719512195,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+172,11235,12,2017,12,2.4135156878519703,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+173,11235,12,2018,1,2.36658762420958,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+174,11235,12,2018,2,2.1724137931034497,11235,"Brighton Beach, Manhattan Beach, Sheepshead Bay",Brooklyn
+175,10011,18,2013,10,5.66666666666667,10011,"Chelsea ,  Village",Manhattan
+176,10011,18,2013,11,5.78689899225346,10011,"Chelsea ,  Village",Manhattan
+177,10011,18,2013,12,5.74786063569682,10011,"Chelsea ,  Village",Manhattan
+178,10011,18,2014,1,5.87183765870052,10011,"Chelsea ,  Village",Manhattan
+179,10011,18,2014,2,5.80645161290323,10011,"Chelsea ,  Village",Manhattan
+180,10011,18,2014,3,5.761996904024769,10011,"Chelsea ,  Village",Manhattan
+181,10011,18,2014,4,5.68181818181818,10011,"Chelsea ,  Village",Manhattan
+182,10011,18,2014,5,5.81534772182254,10011,"Chelsea ,  Village",Manhattan
+183,10011,18,2014,6,6.06060606060606,10011,"Chelsea ,  Village",Manhattan
+184,10011,18,2014,7,6.3510773130545,10011,"Chelsea ,  Village",Manhattan
+185,10011,18,2014,8,6.3810391978122105,10011,"Chelsea ,  Village",Manhattan
+186,10011,18,2014,9,6.3535714285714295,10011,"Chelsea ,  Village",Manhattan
+187,10011,18,2014,10,6.27898683182441,10011,"Chelsea ,  Village",Manhattan
+188,10011,18,2014,11,6.25,10011,"Chelsea ,  Village",Manhattan
+189,10011,18,2014,12,6.25,10011,"Chelsea ,  Village",Manhattan
+190,10011,18,2015,1,6.25760340632603,10011,"Chelsea ,  Village",Manhattan
+191,10011,18,2015,2,6.16536453914189,10011,"Chelsea ,  Village",Manhattan
+192,10011,18,2015,3,6.20433145009416,10011,"Chelsea ,  Village",Manhattan
+193,10011,18,2015,4,6.32211212162346,10011,"Chelsea ,  Village",Manhattan
+194,10011,18,2015,5,6.36882129277567,10011,"Chelsea ,  Village",Manhattan
+195,10011,18,2015,6,6.25,10011,"Chelsea ,  Village",Manhattan
+196,10011,18,2015,7,6.25,10011,"Chelsea ,  Village",Manhattan
+197,10011,18,2015,8,6.262626262626259,10011,"Chelsea ,  Village",Manhattan
+198,10011,18,2015,9,6.24375,10011,"Chelsea ,  Village",Manhattan
+199,10011,18,2015,10,6.254266211604099,10011,"Chelsea ,  Village",Manhattan
+200,10011,18,2015,11,6.36237674808275,10011,"Chelsea ,  Village",Manhattan
+201,10011,18,2015,12,6.29965592743197,10011,"Chelsea ,  Village",Manhattan
+202,10011,18,2016,1,6.25,10011,"Chelsea ,  Village",Manhattan
+203,10011,18,2016,2,6.23938099520384,10011,"Chelsea ,  Village",Manhattan
+204,10011,18,2016,3,6.23938099520384,10011,"Chelsea ,  Village",Manhattan
+205,10011,18,2016,4,6.36882129277567,10011,"Chelsea ,  Village",Manhattan
+206,10011,18,2016,5,6.245407788390889,10011,"Chelsea ,  Village",Manhattan
+207,10011,18,2016,6,6.25616370808678,10011,"Chelsea ,  Village",Manhattan
+208,10011,18,2016,7,6.40732265446224,10011,"Chelsea ,  Village",Manhattan
+209,10011,18,2016,8,6.402439024390239,10011,"Chelsea ,  Village",Manhattan
+210,10011,18,2016,9,6.09309016659706,10011,"Chelsea ,  Village",Manhattan
+211,10011,18,2016,10,6.4825487012987,10011,"Chelsea ,  Village",Manhattan
+212,10011,18,2016,11,6.06060606060606,10011,"Chelsea ,  Village",Manhattan
+213,10011,18,2016,12,6.06060606060606,10011,"Chelsea ,  Village",Manhattan
+214,10011,18,2017,1,6.301261829653,10011,"Chelsea ,  Village",Manhattan
+215,10011,18,2017,2,6.374930245293941,10011,"Chelsea ,  Village",Manhattan
+216,10011,18,2017,3,6.3684246999670995,10011,"Chelsea ,  Village",Manhattan
+217,10011,18,2017,4,6.32508833922261,10011,"Chelsea ,  Village",Manhattan
+218,10011,18,2017,5,6.4459951247983005,10011,"Chelsea ,  Village",Manhattan
+219,10011,18,2017,6,6.3745019920318695,10011,"Chelsea ,  Village",Manhattan
+220,10011,18,2017,7,6.24166666666667,10011,"Chelsea ,  Village",Manhattan
+221,10011,18,2017,8,6.21922819684284,10011,"Chelsea ,  Village",Manhattan
+222,10011,18,2017,9,6.0861423220973805,10011,"Chelsea ,  Village",Manhattan
+223,10011,18,2017,10,6.13096895447585,10011,"Chelsea ,  Village",Manhattan
+224,10011,18,2017,11,6.125,10011,"Chelsea ,  Village",Manhattan
+225,10011,18,2017,12,6.045650333344129,10011,"Chelsea ,  Village",Manhattan
+226,10011,18,2018,1,6.1122448979591795,10011,"Chelsea ,  Village",Manhattan
+227,10011,18,2018,2,5.941714184184259,10011,"Chelsea ,  Village",Manhattan
+228,10029,19,2013,9,5.09090909090909,10029,"East Harlem, Carnegie Hill",Manhattan
+229,10029,19,2013,10,5.315078571597669,10029,"East Harlem, Carnegie Hill",Manhattan
+230,10029,19,2013,11,5.1698670605613,10029,"East Harlem, Carnegie Hill",Manhattan
+231,10029,19,2013,12,5.18441840484941,10029,"East Harlem, Carnegie Hill",Manhattan
+232,10029,19,2014,1,5.18590998043053,10029,"East Harlem, Carnegie Hill",Manhattan
+233,10029,19,2014,2,5.1763969449148,10029,"East Harlem, Carnegie Hill",Manhattan
+234,10029,19,2014,3,5.1698670605613,10029,"East Harlem, Carnegie Hill",Manhattan
+235,10029,19,2014,4,5.025996533795491,10029,"East Harlem, Carnegie Hill",Manhattan
+236,10029,19,2014,5,5.14347646176374,10029,"East Harlem, Carnegie Hill",Manhattan
+237,10029,19,2014,6,5.025996533795491,10029,"East Harlem, Carnegie Hill",Manhattan
+238,10029,19,2014,7,5.1698670605613,10029,"East Harlem, Carnegie Hill",Manhattan
+239,10029,19,2014,8,5.1698670605613,10029,"East Harlem, Carnegie Hill",Manhattan
+240,10029,19,2014,9,5.14398864839089,10029,"East Harlem, Carnegie Hill",Manhattan
+241,10029,19,2014,10,5.025996533795491,10029,"East Harlem, Carnegie Hill",Manhattan
+242,10029,19,2014,11,5.24642289348172,10029,"East Harlem, Carnegie Hill",Manhattan
+243,10029,19,2014,12,5.18590998043053,10029,"East Harlem, Carnegie Hill",Manhattan
+244,10029,19,2015,1,5.025996533795491,10029,"East Harlem, Carnegie Hill",Manhattan
+245,10029,19,2015,2,5.18590998043053,10029,"East Harlem, Carnegie Hill",Manhattan
+246,10029,19,2015,3,5.18590998043053,10029,"East Harlem, Carnegie Hill",Manhattan
+247,10029,19,2015,4,5.0979317971784,10029,"East Harlem, Carnegie Hill",Manhattan
+248,10029,19,2015,5,5.1698670605613,10029,"East Harlem, Carnegie Hill",Manhattan
+249,10029,19,2015,6,5.025996533795491,10029,"East Harlem, Carnegie Hill",Manhattan
+250,10029,19,2015,7,5.1698670605613,10029,"East Harlem, Carnegie Hill",Manhattan
+251,10029,19,2015,8,5.025996533795491,10029,"East Harlem, Carnegie Hill",Manhattan
+252,10029,19,2015,9,5.18441840484941,10029,"East Harlem, Carnegie Hill",Manhattan
+253,10029,19,2015,10,5.24642289348172,10029,"East Harlem, Carnegie Hill",Manhattan
+254,10029,19,2015,11,5.38373424971363,10029,"East Harlem, Carnegie Hill",Manhattan
+255,10029,19,2015,12,5.38373424971363,10029,"East Harlem, Carnegie Hill",Manhattan
+256,10029,19,2016,1,5.24642289348172,10029,"East Harlem, Carnegie Hill",Manhattan
+257,10029,19,2016,2,5.300655292489849,10029,"East Harlem, Carnegie Hill",Manhattan
+258,10029,19,2016,3,5.24642289348172,10029,"East Harlem, Carnegie Hill",Manhattan
+259,10029,19,2016,4,5.24642289348172,10029,"East Harlem, Carnegie Hill",Manhattan
+260,10029,19,2016,5,5.28953229398664,10029,"East Harlem, Carnegie Hill",Manhattan
+261,10029,19,2016,6,5.38373424971363,10029,"East Harlem, Carnegie Hill",Manhattan
+262,10029,19,2016,7,5.37475303089708,10029,"East Harlem, Carnegie Hill",Manhattan
+263,10029,19,2016,8,5.38373424971363,10029,"East Harlem, Carnegie Hill",Manhattan
+264,10029,19,2016,9,5.490746081660251,10029,"East Harlem, Carnegie Hill",Manhattan
+265,10029,19,2016,10,5.52558782849239,10029,"East Harlem, Carnegie Hill",Manhattan
+266,10029,19,2016,11,5.490746081660251,10029,"East Harlem, Carnegie Hill",Manhattan
+267,10029,19,2016,12,5.56127703398558,10029,"East Harlem, Carnegie Hill",Manhattan
+268,10029,19,2017,1,5.38373424971363,10029,"East Harlem, Carnegie Hill",Manhattan
+269,10029,19,2017,2,5.24642289348172,10029,"East Harlem, Carnegie Hill",Manhattan
+270,10029,19,2017,3,5.18292682926829,10029,"East Harlem, Carnegie Hill",Manhattan
+271,10029,19,2017,4,5.24642289348172,10029,"East Harlem, Carnegie Hill",Manhattan
+272,10029,19,2017,5,5.1698670605613,10029,"East Harlem, Carnegie Hill",Manhattan
+273,10029,19,2017,6,5.1698670605613,10029,"East Harlem, Carnegie Hill",Manhattan
+274,10029,19,2017,7,5.18441840484941,10029,"East Harlem, Carnegie Hill",Manhattan
+275,10029,19,2017,8,5.27583254826707,10029,"East Harlem, Carnegie Hill",Manhattan
+276,10029,19,2017,9,5.3045186640471504,10029,"East Harlem, Carnegie Hill",Manhattan
+277,10029,19,2017,10,5.2161664369561205,10029,"East Harlem, Carnegie Hill",Manhattan
+278,10029,19,2017,11,5.41981929227087,10029,"East Harlem, Carnegie Hill",Manhattan
+279,10029,19,2017,12,5.38373424971363,10029,"East Harlem, Carnegie Hill",Manhattan
+280,10029,19,2018,1,5.38373424971363,10029,"East Harlem, Carnegie Hill",Manhattan
+281,10029,19,2018,2,5.38373424971363,10029,"East Harlem, Carnegie Hill",Manhattan
+282,10128,20,2017,1,4.689627245498531,10128,Upper East Side,Manhattan
+283,10128,20,2017,2,4.67706013363029,10128,Upper East Side,Manhattan
+284,10128,20,2017,3,4.66954022988506,10128,Upper East Side,Manhattan
+285,10128,20,2017,4,4.788557213930349,10128,Upper East Side,Manhattan
+286,10128,20,2017,5,4.92170022371365,10128,Upper East Side,Manhattan
+287,10128,20,2017,6,4.89130434782609,10128,Upper East Side,Manhattan
+288,10128,20,2017,7,4.97630331753555,10128,Upper East Side,Manhattan
+289,10128,20,2017,8,4.821150855365469,10128,Upper East Side,Manhattan
+290,10128,20,2017,9,4.86666666666667,10128,Upper East Side,Manhattan
+291,10128,20,2017,10,4.7911232671593496,10128,Upper East Side,Manhattan
+292,10128,20,2017,11,4.75086906141367,10128,Upper East Side,Manhattan
+293,10128,20,2017,12,4.79368932038835,10128,Upper East Side,Manhattan
+294,10128,20,2018,1,4.85659666128164,10128,Upper East Side,Manhattan
+295,10128,20,2018,2,4.53015463917526,10128,Upper East Side,Manhattan
+296,11201,28,2016,11,4.360026837554931,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+297,11201,28,2016,12,4.37300866645846,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+298,11201,28,2017,1,4.37226733291693,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+299,11201,28,2017,2,4.3901098901098905,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+300,11201,28,2017,3,4.44340505144995,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+301,11201,28,2017,4,4.48652118100128,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+302,11201,28,2017,5,4.47182728133537,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+303,11201,28,2017,6,4.46351931330472,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+304,11201,28,2017,7,4.43262411347518,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+305,11201,28,2017,8,4.49438202247191,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+306,11201,28,2017,9,4.419998584059661,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+307,11201,28,2017,10,4.37783232628399,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+308,11201,28,2017,11,4.34397163120567,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+309,11201,28,2017,12,4.3806646525679795,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+310,11201,28,2018,1,4.39512961508248,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+311,11201,28,2018,2,4.32236513486514,11201,"Boerum Hill, Brooklyn Heights, Cobble Hill, Downtown Brooklyn, DUMBO, Vinegar Hill",Brooklyn
+312,10462,35,2016,9,1.9794628751974699,10462,"Parkchester, East Bronx",Bronx
+313,10462,35,2016,10,1.96019300361882,10462,"Parkchester, East Bronx",Bronx
+314,10462,35,2016,11,1.9172552976791102,10462,"Parkchester, East Bronx",Bronx
+315,10462,35,2016,12,1.9959833197637298,10462,"Parkchester, East Bronx",Bronx
+316,10462,35,2017,1,1.86674051346515,10462,"Parkchester, East Bronx",Bronx
+317,10462,35,2017,2,1.94694467382329,10462,"Parkchester, East Bronx",Bronx
+318,10462,35,2017,3,2.03073569803318,10462,"Parkchester, East Bronx",Bronx
+319,10462,35,2017,4,1.86501555644768,10462,"Parkchester, East Bronx",Bronx
+320,10462,35,2017,5,2.0236088864127,10462,"Parkchester, East Bronx",Bronx
+321,10462,35,2017,6,2.0190233802087802,10462,"Parkchester, East Bronx",Bronx
+322,10462,35,2017,7,2.07373271889401,10462,"Parkchester, East Bronx",Bronx
+323,10462,35,2017,8,2.1327227123550903,10462,"Parkchester, East Bronx",Bronx
+324,10462,35,2017,9,2.1540890511508404,10462,"Parkchester, East Bronx",Bronx
+325,10462,35,2017,10,2.06611570247934,10462,"Parkchester, East Bronx",Bronx
+326,10462,35,2017,11,2.0,10462,"Parkchester, East Bronx",Bronx
+327,10462,35,2017,12,2.03683849516135,10462,"Parkchester, East Bronx",Bronx
+328,10462,35,2018,1,2.00806451612903,10462,"Parkchester, East Bronx",Bronx
+329,10462,35,2018,2,2.08212909441233,10462,"Parkchester, East Bronx",Bronx
+330,10463,43,2013,8,2.07272727272727,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+331,10463,43,2013,9,2.0,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+332,10463,43,2013,10,1.9704023664661001,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+333,10463,43,2013,11,1.92105263157895,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+334,10463,43,2013,12,2.0,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+335,10463,43,2014,1,2.07272727272727,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+336,10463,43,2014,2,2.07272727272727,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+337,10463,43,2014,3,2.0414962283225804,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+338,10463,43,2014,4,2.0,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+339,10463,43,2014,5,2.10477081384471,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+340,10463,43,2014,6,2.1111111111111103,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+341,10463,43,2014,7,2.18905472636816,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+342,10463,43,2014,8,2.14,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+343,10463,43,2014,9,2.17786069651741,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+344,10463,43,2014,10,2.15333333333333,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+345,10463,43,2014,11,2.13093579978237,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+346,10463,43,2014,12,2.1666666666666696,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+347,10463,43,2015,1,2.16,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+348,10463,43,2015,2,2.12187159956474,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+349,10463,43,2015,3,2.12187159956474,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+350,10463,43,2015,4,2.12187159956474,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+351,10463,43,2015,5,2.16935162064238,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+352,10463,43,2015,6,2.21631205673759,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+353,10463,43,2015,7,2.13093579978237,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+354,10463,43,2015,8,2.14,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+355,10463,43,2015,9,2.12187159956474,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+356,10463,43,2015,10,2.12187159956474,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+357,10463,43,2015,11,2.07272727272727,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+358,10463,43,2015,12,2.08475073313783,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+359,10463,43,2016,1,2.17,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+360,10463,43,2016,2,2.2,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+361,10463,43,2016,3,2.2,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+362,10463,43,2016,4,2.13666666666667,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+363,10463,43,2016,5,2.22728758169935,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+364,10463,43,2016,6,2.12187159956474,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+365,10463,43,2016,7,2.14,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+366,10463,43,2016,8,2.13093579978237,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+367,10463,43,2016,9,2.23611111111111,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+368,10463,43,2016,10,2.14,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+369,10463,43,2016,11,2.13333333333333,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+370,10463,43,2016,12,2.14,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+371,10463,43,2017,1,2.25415310392932,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+372,10463,43,2017,2,2.22222222222222,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+373,10463,43,2017,3,2.3120211640211603,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+374,10463,43,2017,4,2.25911111111111,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+375,10463,43,2017,5,2.35109717868339,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+376,10463,43,2017,6,2.32804232804233,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+377,10463,43,2017,7,2.25911111111111,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+378,10463,43,2017,8,2.14,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+379,10463,43,2017,9,2.14,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+380,10463,43,2017,10,2.14,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+381,10463,43,2017,11,2.14,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+382,10463,43,2017,12,2.14,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+383,10463,43,2018,1,2.0363636363636397,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+384,10463,43,2018,2,1.8510000385506398,10463,"Kingsbridge, Spuyten Duyvil, Marble Hill",Bronx
+385,10024,48,2013,10,4.422639860139861,10024,Upper West Side,Manhattan
+386,10024,48,2013,11,4.58236386394476,10024,Upper West Side,Manhattan
+387,10024,48,2013,12,4.558480250629651,10024,Upper West Side,Manhattan
+388,10024,48,2014,1,4.42617521367521,10024,Upper West Side,Manhattan
+389,10024,48,2014,2,4.40554821195065,10024,Upper West Side,Manhattan
+390,10024,48,2014,3,4.49438454425482,10024,Upper West Side,Manhattan
+391,10024,48,2014,4,4.57697642163662,10024,Upper West Side,Manhattan
+392,10024,48,2014,5,4.929577464788731,10024,Upper West Side,Manhattan
+393,10024,48,2014,6,4.84764542936288,10024,Upper West Side,Manhattan
+394,10024,48,2014,7,4.9992424242424205,10024,Upper West Side,Manhattan
+395,10024,48,2014,8,5.1898819506940495,10024,Upper West Side,Manhattan
+396,10024,48,2014,9,5.185049019607839,10024,Upper West Side,Manhattan
+397,10024,48,2014,10,5.10471204188482,10024,Upper West Side,Manhattan
+398,10024,48,2014,11,5.12418229976521,10024,Upper West Side,Manhattan
+399,10024,48,2014,12,4.99359795134443,10024,Upper West Side,Manhattan
+400,10024,48,2015,1,4.97630331753555,10024,Upper West Side,Manhattan
+401,10024,48,2015,2,5.02610966057441,10024,Upper West Side,Manhattan
+402,10024,48,2015,3,5.16483861350406,10024,Upper West Side,Manhattan
+403,10024,48,2015,4,5.25080085894322,10024,Upper West Side,Manhattan
+404,10024,48,2015,5,5.26630760023938,10024,Upper West Side,Manhattan
+405,10024,48,2015,6,5.19471488178025,10024,Upper West Side,Manhattan
+406,10024,48,2015,7,5.1898819506940495,10024,Upper West Side,Manhattan
+407,10024,48,2015,8,5.23457356216429,10024,Upper West Side,Manhattan
+408,10024,48,2015,9,5.185049019607839,10024,Upper West Side,Manhattan
+409,10024,48,2015,10,5.188679245283019,10024,Upper West Side,Manhattan
+410,10024,48,2015,11,5.25164113785558,10024,Upper West Side,Manhattan
+411,10024,48,2015,12,5.15582034830431,10024,Upper West Side,Manhattan
+412,10024,48,2016,1,5.12622149837134,10024,Upper West Side,Manhattan
+413,10024,48,2016,2,5.12622149837134,10024,Upper West Side,Manhattan
+414,10024,48,2016,3,5.182692307692309,10024,Upper West Side,Manhattan
+415,10024,48,2016,4,5.05651397977394,10024,Upper West Side,Manhattan
+416,10024,48,2016,5,5.19471488178025,10024,Upper West Side,Manhattan
+417,10024,48,2016,6,5.26630760023938,10024,Upper West Side,Manhattan
+418,10024,48,2016,7,5.21489812805106,10024,Upper West Side,Manhattan
+419,10024,48,2016,8,5.26630760023938,10024,Upper West Side,Manhattan
+420,10024,48,2016,9,4.9708555794458,10024,Upper West Side,Manhattan
+421,10024,48,2016,10,5.154617641517049,10024,Upper West Side,Manhattan
+422,10024,48,2016,11,5.0,10024,Upper West Side,Manhattan
+423,10024,48,2016,12,4.66630117140816,10024,Upper West Side,Manhattan
+424,10024,48,2017,1,4.94811320754717,10024,Upper West Side,Manhattan
+425,10024,48,2017,2,5.132347482886799,10024,Upper West Side,Manhattan
+426,10024,48,2017,3,5.22674418604651,10024,Upper West Side,Manhattan
+427,10024,48,2017,4,5.08962868117798,10024,Upper West Side,Manhattan
+428,10024,48,2017,5,5.1749420922215,10024,Upper West Side,Manhattan
+429,10024,48,2017,6,5.25,10024,Upper West Side,Manhattan
+430,10024,48,2017,7,5.23529411764706,10024,Upper West Side,Manhattan
+431,10024,48,2017,8,4.9375,10024,Upper West Side,Manhattan
+432,10024,48,2017,9,5.01113585746102,10024,Upper West Side,Manhattan
+433,10024,48,2017,10,5.0,10024,Upper West Side,Manhattan
+434,10024,48,2017,11,4.99054897567222,10024,Upper West Side,Manhattan
+435,10024,48,2017,12,4.99359795134443,10024,Upper West Side,Manhattan
+436,10024,48,2018,1,5.0,10024,Upper West Side,Manhattan
+437,10024,48,2018,2,4.60721694036301,10024,Upper West Side,Manhattan
+438,11229,60,2017,2,1.9166666666666698,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+439,11229,60,2017,3,1.97979179424372,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+440,11229,60,2017,4,2.02643557422969,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+441,11229,60,2017,5,2.2,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+442,11229,60,2017,6,2.35,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+443,11229,60,2017,7,2.19230618330195,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+444,11229,60,2017,8,1.8333333333333302,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+445,11229,60,2017,9,2.0227272727272703,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+446,11229,60,2017,10,2.0416666666666696,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+447,11229,60,2017,11,1.92857142857143,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+448,11229,60,2017,12,1.8859649122806998,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+449,11229,60,2018,1,1.8758852691218102,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+450,11229,60,2018,2,1.9259259259259298,11229,"Homecrest, Kensington, Kings Highway, Madison",Brooklyn
+451,10019,68,2013,9,5.19689301973757,10019,Midtown West,Manhattan
+452,10019,68,2013,10,5.26865671641791,10019,Midtown West,Manhattan
+453,10019,68,2013,11,5.369608584137679,10019,Midtown West,Manhattan
+454,10019,68,2013,12,5.33932135728543,10019,Midtown West,Manhattan
+455,10019,68,2014,1,5.40266822678883,10019,Midtown West,Manhattan
+456,10019,68,2014,2,5.405405405405411,10019,Midtown West,Manhattan
+457,10019,68,2014,3,5.4428813256369,10019,Midtown West,Manhattan
+458,10019,68,2014,4,5.444183207963199,10019,Midtown West,Manhattan
+459,10019,68,2014,5,5.4178709055876695,10019,Midtown West,Manhattan
+460,10019,68,2014,6,5.42967023443255,10019,Midtown West,Manhattan
+461,10019,68,2014,7,5.5458365164247505,10019,Midtown West,Manhattan
+462,10019,68,2014,8,5.53146565888925,10019,Midtown West,Manhattan
+463,10019,68,2014,9,5.4176072234763,10019,Midtown West,Manhattan
+464,10019,68,2014,10,5.45020506212919,10019,Midtown West,Manhattan
+465,10019,68,2014,11,5.48325358851675,10019,Midtown West,Manhattan
+466,10019,68,2014,12,5.45019820587737,10019,Midtown West,Manhattan
+467,10019,68,2015,1,5.574043261231281,10019,Midtown West,Manhattan
+468,10019,68,2015,2,5.4952120383036895,10019,Midtown West,Manhattan
+469,10019,68,2015,3,5.49760601915185,10019,Midtown West,Manhattan
+470,10019,68,2015,4,5.56586270871985,10019,Midtown West,Manhattan
+471,10019,68,2015,5,5.548856548856549,10019,Midtown West,Manhattan
+472,10019,68,2015,6,5.60885608856089,10019,Midtown West,Manhattan
+473,10019,68,2015,7,5.631786904633911,10019,Midtown West,Manhattan
+474,10019,68,2015,8,5.64459930313589,10019,Midtown West,Manhattan
+475,10019,68,2015,9,5.602277806652809,10019,Midtown West,Manhattan
+476,10019,68,2015,10,5.55220605220605,10019,Midtown West,Manhattan
+477,10019,68,2015,11,5.49760601915185,10019,Midtown West,Manhattan
+478,10019,68,2015,12,5.49760601915185,10019,Midtown West,Manhattan
+479,10019,68,2016,1,5.46479857669335,10019,Midtown West,Manhattan
+480,10019,68,2016,2,5.464480874316941,10019,Midtown West,Manhattan
+481,10019,68,2016,3,5.46710773273273,10019,Midtown West,Manhattan
+482,10019,68,2016,4,5.43144017891219,10019,Midtown West,Manhattan
+483,10019,68,2016,5,5.41666666666667,10019,Midtown West,Manhattan
+484,10019,68,2016,6,5.36079741154368,10019,Midtown West,Manhattan
+485,10019,68,2016,7,5.344244984160509,10019,Midtown West,Manhattan
+486,10019,68,2016,8,5.430777109355691,10019,Midtown West,Manhattan
+487,10019,68,2016,9,5.352781546811401,10019,Midtown West,Manhattan
+488,10019,68,2016,10,5.3631750339213,10019,Midtown West,Manhattan
+489,10019,68,2016,11,5.4338712439527095,10019,Midtown West,Manhattan
+490,10019,68,2016,12,5.280092667770889,10019,Midtown West,Manhattan
+491,10019,68,2017,1,5.43403964456596,10019,Midtown West,Manhattan
+492,10019,68,2017,2,5.44806517311609,10019,Midtown West,Manhattan
+493,10019,68,2017,3,5.5076162218145095,10019,Midtown West,Manhattan
+494,10019,68,2017,4,5.47520661157025,10019,Midtown West,Manhattan
+495,10019,68,2017,5,5.527210884353741,10019,Midtown West,Manhattan
+496,10019,68,2017,6,5.50314465408805,10019,Midtown West,Manhattan
+497,10019,68,2017,7,5.4828548644338095,10019,Midtown West,Manhattan
+498,10019,68,2017,8,5.4435857805255,10019,Midtown West,Manhattan
+499,10019,68,2017,9,5.403326403326401,10019,Midtown West,Manhattan
+500,10019,68,2017,10,5.3846153846153895,10019,Midtown West,Manhattan
+501,10019,68,2017,11,5.352781546811401,10019,Midtown West,Manhattan
+502,10019,68,2017,12,5.3631750339213,10019,Midtown West,Manhattan
+503,10019,68,2018,1,5.36778523489933,10019,Midtown West,Manhattan
+504,10019,68,2018,2,5.33382789317507,10019,Midtown West,Manhattan
+505,11355,81,2017,1,2.44413407821229,11355,"Flushing, Queensboro Hill",Queens
+506,11355,81,2017,2,2.3093790012804103,11355,"Flushing, Queensboro Hill",Queens
+507,11355,81,2017,3,2.41551530993279,11355,"Flushing, Queensboro Hill",Queens
+508,11355,81,2017,4,2.4880952380952404,11355,"Flushing, Queensboro Hill",Queens
+509,11355,81,2017,5,2.54076140879435,11355,"Flushing, Queensboro Hill",Queens
+510,11355,81,2017,6,2.70655595216999,11355,"Flushing, Queensboro Hill",Queens
+511,11355,81,2017,7,2.68240343347639,11355,"Flushing, Queensboro Hill",Queens
+512,11355,81,2017,8,2.61780104712042,11355,"Flushing, Queensboro Hill",Queens
+513,11355,81,2017,9,2.62037593339628,11355,"Flushing, Queensboro Hill",Queens
+514,11355,81,2017,10,2.5585811247576,11355,"Flushing, Queensboro Hill",Queens
+515,11355,81,2017,11,2.6229508196721296,11355,"Flushing, Queensboro Hill",Queens
+516,11355,81,2017,12,2.5914691020577,11355,"Flushing, Queensboro Hill",Queens
+517,11355,81,2018,1,2.44318181818182,11355,"Flushing, Queensboro Hill",Queens
+518,11355,81,2018,2,2.47621627697194,11355,"Flushing, Queensboro Hill",Queens
+519,11215,88,2016,12,3.3739175022789403,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+520,11215,88,2017,1,3.5,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+521,11215,88,2017,2,3.79574608564422,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+522,11215,88,2017,3,3.60531309297913,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+523,11215,88,2017,4,3.55463469359136,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+524,11215,88,2017,5,3.5326086956521703,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+525,11215,88,2017,6,3.8103329605093395,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+526,11215,88,2017,7,3.9,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+527,11215,88,2017,8,3.8505096262740697,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+528,11215,88,2017,9,3.75,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+529,11215,88,2017,10,3.6392522759981203,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+530,11215,88,2017,11,3.6037131882202296,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+531,11215,88,2017,12,3.3314198239571398,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+532,11215,88,2018,1,3.3333333333333304,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+533,11215,88,2018,2,3.36684093789607,11215,"Park Slope, Windsor Terrace, Prospect Park",Brooklyn
+534,11211,104,2016,11,4.0,11211,Williamsburg,Brooklyn
+535,11211,104,2016,12,4.1804347826087005,11211,Williamsburg,Brooklyn
+536,11211,104,2017,1,4.38095238095238,11211,Williamsburg,Brooklyn
+537,11211,104,2017,2,4.26086956521739,11211,Williamsburg,Brooklyn
+538,11211,104,2017,3,4.28219016199714,11211,Williamsburg,Brooklyn
+539,11211,104,2017,4,4.28219016199714,11211,Williamsburg,Brooklyn
+540,11211,104,2017,5,4.2721793308953,11211,Williamsburg,Brooklyn
+541,11211,104,2017,6,4.1148276762654605,11211,Williamsburg,Brooklyn
+542,11211,104,2017,7,4.1223404255319105,11211,Williamsburg,Brooklyn
+543,11211,104,2017,8,4.33006535947712,11211,Williamsburg,Brooklyn
+544,11211,104,2017,9,4.24966799468791,11211,Williamsburg,Brooklyn
+545,11211,104,2017,10,4.25339366515837,11211,Williamsburg,Brooklyn
+546,11211,104,2017,11,4.26086956521739,11211,Williamsburg,Brooklyn
+547,11211,104,2017,12,4.29338103756708,11211,Williamsburg,Brooklyn
+548,11211,104,2018,1,4.112808460634549,11211,Williamsburg,Brooklyn
+549,11211,104,2018,2,4.20937042459736,11211,Williamsburg,Brooklyn
+550,11238,144,2016,12,2.99134920634921,11238,Prospect Heights,Brooklyn
+551,11238,144,2017,1,3.25,11238,Prospect Heights,Brooklyn
+552,11238,144,2017,2,3.49401770758555,11238,Prospect Heights,Brooklyn
+553,11238,144,2017,3,3.55946398659967,11238,Prospect Heights,Brooklyn
+554,11238,144,2017,4,3.48727615457116,11238,Prospect Heights,Brooklyn
+555,11238,144,2017,5,3.55946398659967,11238,Prospect Heights,Brooklyn
+556,11238,144,2017,6,3.61538461538462,11238,Prospect Heights,Brooklyn
+557,11238,144,2017,7,3.58166189111748,11238,Prospect Heights,Brooklyn
+558,11238,144,2017,8,3.4285714285714306,11238,Prospect Heights,Brooklyn
+559,11238,144,2017,9,3.4177215189873396,11238,Prospect Heights,Brooklyn
+560,11238,144,2017,10,3.34057971014493,11238,Prospect Heights,Brooklyn
+561,11238,144,2017,11,3.4285714285714306,11238,Prospect Heights,Brooklyn
+562,11238,144,2017,12,3.5271132376395498,11238,Prospect Heights,Brooklyn
+563,11238,144,2018,1,3.4285714285714306,11238,Prospect Heights,Brooklyn
+564,11238,144,2018,2,3.3333333333333304,11238,Prospect Heights,Brooklyn
+565,10021,218,2017,1,5.122377622377621,10021,Upper East Side,Manhattan
+566,10021,218,2017,2,5.2801724137931,10021,Upper East Side,Manhattan
+567,10021,218,2017,3,5.45851528384279,10021,Upper East Side,Manhattan
+568,10021,218,2017,4,5.533063427800269,10021,Upper East Side,Manhattan
+569,10021,218,2017,5,5.51575931232092,10021,Upper East Side,Manhattan
+570,10021,218,2017,6,5.38315389487017,10021,Upper East Side,Manhattan
+571,10021,218,2017,7,5.31107738998483,10021,Upper East Side,Manhattan
+572,10021,218,2017,8,5.460347089092929,10021,Upper East Side,Manhattan
+573,10021,218,2017,9,5.34591194968553,10021,Upper East Side,Manhattan
+574,10021,218,2017,10,5.40229885057471,10021,Upper East Side,Manhattan
+575,10021,218,2017,11,5.4891975308642005,10021,Upper East Side,Manhattan
+576,10021,218,2017,12,5.34927839297879,10021,Upper East Side,Manhattan
+577,10021,218,2018,1,5.367899365571111,10021,Upper East Side,Manhattan
+578,10021,218,2018,2,5.1849009810381395,10021,Upper East Side,Manhattan
+579,10014,411,2013,10,5.4736842105263195,10014,"West Village, Soho",Manhattan
+580,10014,411,2013,11,5.63844086021505,10014,"West Village, Soho",Manhattan
+581,10014,411,2013,12,5.7,10014,"West Village, Soho",Manhattan
+582,10014,411,2014,1,5.54054054054054,10014,"West Village, Soho",Manhattan
+583,10014,411,2014,2,5.53191489361702,10014,"West Village, Soho",Manhattan
+584,10014,411,2014,3,5.531849867346411,10014,"West Village, Soho",Manhattan
+585,10014,411,2014,4,5.5806600462734295,10014,"West Village, Soho",Manhattan
+586,10014,411,2014,5,5.67061143984221,10014,"West Village, Soho",Manhattan
+587,10014,411,2014,6,5.9,10014,"West Village, Soho",Manhattan
+588,10014,411,2014,7,6.34612581091916,10014,"West Village, Soho",Manhattan
+589,10014,411,2014,8,6.270772205921579,10014,"West Village, Soho",Manhattan
+590,10014,411,2014,9,6.280674846625769,10014,"West Village, Soho",Manhattan
+591,10014,411,2014,10,6.280674846625769,10014,"West Village, Soho",Manhattan
+592,10014,411,2014,11,6.18795647093193,10014,"West Village, Soho",Manhattan
+593,10014,411,2014,12,6.4,10014,"West Village, Soho",Manhattan
+594,10014,411,2015,1,6.5530679933665,10014,"West Village, Soho",Manhattan
+595,10014,411,2015,2,6.47249190938511,10014,"West Village, Soho",Manhattan
+596,10014,411,2015,3,6.47249190938511,10014,"West Village, Soho",Manhattan
+597,10014,411,2015,4,6.643356643356639,10014,"West Village, Soho",Manhattan
+598,10014,411,2015,5,6.6122538767982695,10014,"West Village, Soho",Manhattan
+599,10014,411,2015,6,6.5884476534296,10014,"West Village, Soho",Manhattan
+600,10014,411,2015,7,6.66666666666667,10014,"West Village, Soho",Manhattan
+601,10014,411,2015,8,6.747638326585691,10014,"West Village, Soho",Manhattan
+602,10014,411,2015,9,6.70335788932671,10014,"West Village, Soho",Manhattan
+603,10014,411,2015,10,6.711792437234941,10014,"West Village, Soho",Manhattan
+604,10014,411,2015,11,6.6705069124424,10014,"West Village, Soho",Manhattan
+605,10014,411,2015,12,6.81088235294118,10014,"West Village, Soho",Manhattan
+606,10014,411,2016,1,6.525704809286901,10014,"West Village, Soho",Manhattan
+607,10014,411,2016,2,6.62997588963254,10014,"West Village, Soho",Manhattan
+608,10014,411,2016,3,6.643356643356639,10014,"West Village, Soho",Manhattan
+609,10014,411,2016,4,6.4478311840562705,10014,"West Village, Soho",Manhattan
+610,10014,411,2016,5,6.4356435643564405,10014,"West Village, Soho",Manhattan
+611,10014,411,2016,6,6.36305732484076,10014,"West Village, Soho",Manhattan
+612,10014,411,2016,7,6.03557814485388,10014,"West Village, Soho",Manhattan
+613,10014,411,2016,8,6.418485237483949,10014,"West Village, Soho",Manhattan
+614,10014,411,2016,9,6.18795647093193,10014,"West Village, Soho",Manhattan
+615,10014,411,2016,10,6.0,10014,"West Village, Soho",Manhattan
+616,10014,411,2016,11,6.344216691068809,10014,"West Village, Soho",Manhattan
+617,10014,411,2016,12,5.98330241187384,10014,"West Village, Soho",Manhattan
+618,10014,411,2017,1,6.3654804270462595,10014,"West Village, Soho",Manhattan
+619,10014,411,2017,2,6.280674846625769,10014,"West Village, Soho",Manhattan
+620,10014,411,2017,3,6.525704809286901,10014,"West Village, Soho",Manhattan
+621,10014,411,2017,4,6.709072619514049,10014,"West Village, Soho",Manhattan
+622,10014,411,2017,5,6.70538808714548,10014,"West Village, Soho",Manhattan
+623,10014,411,2017,6,6.73138686131387,10014,"West Village, Soho",Manhattan
+624,10014,411,2017,7,6.78117048346056,10014,"West Village, Soho",Manhattan
+625,10014,411,2017,8,6.62512957622161,10014,"West Village, Soho",Manhattan
+626,10014,411,2017,9,6.409242618741981,10014,"West Village, Soho",Manhattan
+627,10014,411,2017,10,6.43210749646393,10014,"West Village, Soho",Manhattan
+628,10014,411,2017,11,6.280674846625769,10014,"West Village, Soho",Manhattan
+629,10014,411,2017,12,6.34033742331288,10014,"West Village, Soho",Manhattan
+630,10014,411,2018,1,6.428571428571429,10014,"West Village, Soho",Manhattan
+631,10014,411,2018,2,5.50403225806452,10014,"West Village, Soho",Manhattan
+632,11354,436,2013,12,2.6285714285714303,11354,"Flushing, Linden Hill",Queens
+633,11354,436,2014,1,2.68571428571429,11354,"Flushing, Linden Hill",Queens
+634,11354,436,2014,2,2.7107142857142903,11354,"Flushing, Linden Hill",Queens
+635,11354,436,2014,3,2.74285714285714,11354,"Flushing, Linden Hill",Queens
+636,11354,436,2014,4,2.74285714285714,11354,"Flushing, Linden Hill",Queens
+637,11354,436,2014,5,2.47058823529412,11354,"Flushing, Linden Hill",Queens
+638,11354,436,2014,6,2.39130434782609,11354,"Flushing, Linden Hill",Queens
+639,11354,436,2014,7,2.38359201773836,11354,"Flushing, Linden Hill",Queens
+640,11354,436,2014,8,2.50569476082005,11354,"Flushing, Linden Hill",Queens
+641,11354,436,2014,9,2.5,11354,"Flushing, Linden Hill",Queens
+642,11354,436,2014,10,2.51700680272109,11354,"Flushing, Linden Hill",Queens
+643,11354,436,2014,11,2.5,11354,"Flushing, Linden Hill",Queens
+644,11354,436,2014,12,2.44063324538259,11354,"Flushing, Linden Hill",Queens
+645,11354,436,2015,1,2.3255813953488396,11354,"Flushing, Linden Hill",Queens
+646,11354,436,2015,2,2.3248605083695,11354,"Flushing, Linden Hill",Queens
+647,11354,436,2015,3,2.32823336299304,11354,"Flushing, Linden Hill",Queens
+648,11354,436,2015,4,2.6,11354,"Flushing, Linden Hill",Queens
+649,11354,436,2015,5,2.54486133768352,11354,"Flushing, Linden Hill",Queens
+650,11354,436,2015,6,2.47222222222222,11354,"Flushing, Linden Hill",Queens
+651,11354,436,2015,7,2.5716763005780297,11354,"Flushing, Linden Hill",Queens
+652,11354,436,2015,8,2.85714285714286,11354,"Flushing, Linden Hill",Queens
+653,11354,436,2015,9,2.76153846153846,11354,"Flushing, Linden Hill",Queens
+654,11354,436,2015,10,2.46386554621849,11354,"Flushing, Linden Hill",Queens
+655,11354,436,2015,11,2.52996005326232,11354,"Flushing, Linden Hill",Queens
+656,11354,436,2015,12,2.8,11354,"Flushing, Linden Hill",Queens
+657,11354,436,2016,1,2.5802586534804104,11354,"Flushing, Linden Hill",Queens
+658,11354,436,2016,2,2.55555555555556,11354,"Flushing, Linden Hill",Queens
+659,11354,436,2016,3,2.55555555555556,11354,"Flushing, Linden Hill",Queens
+660,11354,436,2016,4,2.55555555555556,11354,"Flushing, Linden Hill",Queens
+661,11354,436,2016,5,2.61111111111111,11354,"Flushing, Linden Hill",Queens
+662,11354,436,2016,6,2.4765957446808504,11354,"Flushing, Linden Hill",Queens
+663,11354,436,2016,7,2.3538868538868503,11354,"Flushing, Linden Hill",Queens
+664,11354,436,2016,8,2.62697022767075,11354,"Flushing, Linden Hill",Queens
+665,11354,436,2016,9,2.48554913294798,11354,"Flushing, Linden Hill",Queens
+666,11354,436,2016,10,2.60223048327138,11354,"Flushing, Linden Hill",Queens
+667,11354,436,2016,11,2.5823819907644903,11354,"Flushing, Linden Hill",Queens
+668,11354,436,2016,12,2.53025302530253,11354,"Flushing, Linden Hill",Queens
+669,11354,436,2017,1,2.63571428571429,11354,"Flushing, Linden Hill",Queens
+670,11354,436,2017,2,2.9607142857142903,11354,"Flushing, Linden Hill",Queens
+671,11354,436,2017,3,2.90909090909091,11354,"Flushing, Linden Hill",Queens
+672,11354,436,2017,4,2.99043062200957,11354,"Flushing, Linden Hill",Queens
+673,11354,436,2017,5,3.2,11354,"Flushing, Linden Hill",Queens
+674,11354,436,2017,6,3.18181818181818,11354,"Flushing, Linden Hill",Queens
+675,11354,436,2017,7,3.15183914382555,11354,"Flushing, Linden Hill",Queens
+676,11354,436,2017,8,3.05882352941176,11354,"Flushing, Linden Hill",Queens
+677,11354,436,2017,9,3.1016897002641,11354,"Flushing, Linden Hill",Queens
+678,11354,436,2017,10,3.0594900849858395,11354,"Flushing, Linden Hill",Queens
+679,11354,436,2017,11,3.17647058823529,11354,"Flushing, Linden Hill",Queens
+680,11354,436,2017,12,3.0523383627286695,11354,"Flushing, Linden Hill",Queens
+681,11354,436,2018,1,3.06543182239509,11354,"Flushing, Linden Hill",Queens
+682,11354,436,2018,2,2.9289215686274503,11354,"Flushing, Linden Hill",Queens
+683,10036,568,2013,10,5.34963778134159,10036,Midtown West,Manhattan
+684,10036,568,2013,11,5.32544378698225,10036,Midtown West,Manhattan
+685,10036,568,2013,12,5.3846153846153895,10036,Midtown West,Manhattan
+686,10036,568,2014,1,5.4858934169279,10036,Midtown West,Manhattan
+687,10036,568,2014,2,5.4858934169279,10036,Midtown West,Manhattan
+688,10036,568,2014,3,5.4858934169279,10036,Midtown West,Manhattan
+689,10036,568,2014,4,5.42372881355932,10036,Midtown West,Manhattan
+690,10036,568,2014,5,5.3125,10036,Midtown West,Manhattan
+691,10036,568,2014,6,5.36231884057971,10036,Midtown West,Manhattan
+692,10036,568,2014,7,5.32156713900135,10036,Midtown West,Manhattan
+693,10036,568,2014,8,5.3306342780027,10036,Midtown West,Manhattan
+694,10036,568,2014,9,5.26905829596413,10036,Midtown West,Manhattan
+695,10036,568,2014,10,5.26109653347505,10036,Midtown West,Manhattan
+696,10036,568,2014,11,5.1851851851851904,10036,Midtown West,Manhattan
+697,10036,568,2014,12,5.26020338520339,10036,Midtown West,Manhattan
+698,10036,568,2015,1,5.2810319863103805,10036,Midtown West,Manhattan
+699,10036,568,2015,2,5.2810319863103805,10036,Midtown West,Manhattan
+700,10036,568,2015,3,5.3214151651651695,10036,Midtown West,Manhattan
+701,10036,568,2015,4,5.37727189278502,10036,Midtown West,Manhattan
+702,10036,568,2015,5,5.3125,10036,Midtown West,Manhattan
+703,10036,568,2015,6,5.428571428571429,10036,Midtown West,Manhattan
+704,10036,568,2015,7,5.34173651432853,10036,Midtown West,Manhattan
+705,10036,568,2015,8,5.346636297616691,10036,Midtown West,Manhattan
+706,10036,568,2015,9,5.3125,10036,Midtown West,Manhattan
+707,10036,568,2015,10,5.32552083333333,10036,Midtown West,Manhattan
+708,10036,568,2015,11,5.32552083333333,10036,Midtown West,Manhattan
+709,10036,568,2015,12,5.4858934169279,10036,Midtown West,Manhattan
+710,10036,568,2016,1,5.6392653323687805,10036,Midtown West,Manhattan
+711,10036,568,2016,2,5.59579439252336,10036,Midtown West,Manhattan
+712,10036,568,2016,3,5.5350553505535105,10036,Midtown West,Manhattan
+713,10036,568,2016,4,5.53315267527675,10036,Midtown West,Manhattan
+714,10036,568,2016,5,5.54156171284635,10036,Midtown West,Manhattan
+715,10036,568,2016,6,5.53607354881266,10036,Midtown West,Manhattan
+716,10036,568,2016,7,5.45723242274966,10036,Midtown West,Manhattan
+717,10036,568,2016,8,5.57153127246585,10036,Midtown West,Manhattan
+718,10036,568,2016,9,5.36585365853659,10036,Midtown West,Manhattan
+719,10036,568,2016,10,5.50314465408805,10036,Midtown West,Manhattan
+720,10036,568,2016,11,5.551390636232929,10036,Midtown West,Manhattan
+721,10036,568,2016,12,5.280898876404491,10036,Midtown West,Manhattan
+722,10036,568,2017,1,5.353518656270951,10036,Midtown West,Manhattan
+723,10036,568,2017,2,5.51957307060755,10036,Midtown West,Manhattan
+724,10036,568,2017,3,5.548558634200949,10036,Midtown West,Manhattan
+725,10036,568,2017,4,5.521904761904759,10036,Midtown West,Manhattan
+726,10036,568,2017,5,5.58139545628434,10036,Midtown West,Manhattan
+727,10036,568,2017,6,5.50561797752809,10036,Midtown West,Manhattan
+728,10036,568,2017,7,5.472470238095241,10036,Midtown West,Manhattan
+729,10036,568,2017,8,5.345111811926611,10036,Midtown West,Manhattan
+730,10036,568,2017,9,5.33256880733945,10036,Midtown West,Manhattan
+731,10036,568,2017,10,5.280373831775701,10036,Midtown West,Manhattan
+732,10036,568,2017,11,5.23098813634397,10036,Midtown West,Manhattan
+733,10036,568,2017,12,5.4950495049505,10036,Midtown West,Manhattan
+734,10036,568,2018,1,5.3026463963964,10036,Midtown West,Manhattan
+735,10036,568,2018,2,5.389805097451269,10036,Midtown West,Manhattan
+736,10010,653,2013,10,5.398648648648651,10010,"Gramercy, Flatiron",Manhattan
+737,10010,653,2013,11,5.55043793415886,10010,"Gramercy, Flatiron",Manhattan
+738,10010,653,2013,12,5.382436260623231,10010,"Gramercy, Flatiron",Manhattan
+739,10010,653,2014,1,5.40633069375108,10010,"Gramercy, Flatiron",Manhattan
+740,10010,653,2014,2,5.40365124740125,10010,"Gramercy, Flatiron",Manhattan
+741,10010,653,2014,3,5.4875,10010,"Gramercy, Flatiron",Manhattan
+742,10010,653,2014,4,5.59395965199251,10010,"Gramercy, Flatiron",Manhattan
+743,10010,653,2014,5,5.87022900763359,10010,"Gramercy, Flatiron",Manhattan
+744,10010,653,2014,6,6.35909090909091,10010,"Gramercy, Flatiron",Manhattan
+745,10010,653,2014,7,5.9963099630996295,10010,"Gramercy, Flatiron",Manhattan
+746,10010,653,2014,8,5.69247546346783,10010,"Gramercy, Flatiron",Manhattan
+747,10010,653,2014,9,5.69247546346783,10010,"Gramercy, Flatiron",Manhattan
+748,10010,653,2014,10,5.86713286713287,10010,"Gramercy, Flatiron",Manhattan
+749,10010,653,2014,11,5.8405431777524806,10010,"Gramercy, Flatiron",Manhattan
+750,10010,653,2014,12,6.162246489859589,10010,"Gramercy, Flatiron",Manhattan
+751,10010,653,2015,1,6.06060606060606,10010,"Gramercy, Flatiron",Manhattan
+752,10010,653,2015,2,6.162246489859589,10010,"Gramercy, Flatiron",Manhattan
+753,10010,653,2015,3,6.2,10010,"Gramercy, Flatiron",Manhattan
+754,10010,653,2015,4,6.26031353135314,10010,"Gramercy, Flatiron",Manhattan
+755,10010,653,2015,5,6.3898568290280995,10010,"Gramercy, Flatiron",Manhattan
+756,10010,653,2015,6,6.35909090909091,10010,"Gramercy, Flatiron",Manhattan
+757,10010,653,2015,7,6.34126984126984,10010,"Gramercy, Flatiron",Manhattan
+758,10010,653,2015,8,6.278571428571429,10010,"Gramercy, Flatiron",Manhattan
+759,10010,653,2015,9,6.1892177589852,10010,"Gramercy, Flatiron",Manhattan
+760,10010,653,2015,10,6.13154960981048,10010,"Gramercy, Flatiron",Manhattan
+761,10010,653,2015,11,6.001936108422071,10010,"Gramercy, Flatiron",Manhattan
+762,10010,653,2015,12,5.990000910136441,10010,"Gramercy, Flatiron",Manhattan
+763,10010,653,2016,1,6.096077835208269,10010,"Gramercy, Flatiron",Manhattan
+764,10010,653,2016,2,6.263259402121499,10010,"Gramercy, Flatiron",Manhattan
+765,10010,653,2016,3,6.25,10010,"Gramercy, Flatiron",Manhattan
+766,10010,653,2016,4,6.12491190979563,10010,"Gramercy, Flatiron",Manhattan
+767,10010,653,2016,5,5.9320188553136095,10010,"Gramercy, Flatiron",Manhattan
+768,10010,653,2016,6,5.9257421949818,10010,"Gramercy, Flatiron",Manhattan
+769,10010,653,2016,7,6.018643767309929,10010,"Gramercy, Flatiron",Manhattan
+770,10010,653,2016,8,6.06060606060606,10010,"Gramercy, Flatiron",Manhattan
+771,10010,653,2016,9,5.667593880389429,10010,"Gramercy, Flatiron",Manhattan
+772,10010,653,2016,10,5.957085308056871,10010,"Gramercy, Flatiron",Manhattan
+773,10010,653,2016,11,6.0344466767118705,10010,"Gramercy, Flatiron",Manhattan
+774,10010,653,2016,12,5.667593880389429,10010,"Gramercy, Flatiron",Manhattan
+775,10010,653,2017,1,5.77223088923557,10010,"Gramercy, Flatiron",Manhattan
+776,10010,653,2017,2,6.04714391299757,10010,"Gramercy, Flatiron",Manhattan
+777,10010,653,2017,3,5.9,10010,"Gramercy, Flatiron",Manhattan
+778,10010,653,2017,4,5.889894419306179,10010,"Gramercy, Flatiron",Manhattan
+779,10010,653,2017,5,6.022408963585429,10010,"Gramercy, Flatiron",Manhattan
+780,10010,653,2017,6,6.179715262471321,10010,"Gramercy, Flatiron",Manhattan
+781,10010,653,2017,7,6.1946088794926,10010,"Gramercy, Flatiron",Manhattan
+782,10010,653,2017,8,6.278571428571429,10010,"Gramercy, Flatiron",Manhattan
+783,10010,653,2017,9,6.2402496099844,10010,"Gramercy, Flatiron",Manhattan
+784,10010,653,2017,10,6.06469002695418,10010,"Gramercy, Flatiron",Manhattan
+785,10010,653,2017,11,6.18171683389075,10010,"Gramercy, Flatiron",Manhattan
+786,10010,653,2017,12,5.99183135002598,10010,"Gramercy, Flatiron",Manhattan
+787,10010,653,2018,1,5.90858416945373,10010,"Gramercy, Flatiron",Manhattan
+788,10010,653,2018,2,5.667593880389429,10010,"Gramercy, Flatiron",Manhattan
+789,10022,839,2013,10,5.05907100046104,10022,Midtown East,Manhattan
+790,10022,839,2013,11,5.35772821881666,10022,Midtown East,Manhattan
+791,10022,839,2013,12,5.29411764705882,10022,Midtown East,Manhattan
+792,10022,839,2014,1,5.0789473684210495,10022,Midtown East,Manhattan
+793,10022,839,2014,2,5.069230769230769,10022,Midtown East,Manhattan
+794,10022,839,2014,3,5.21052631578947,10022,Midtown East,Manhattan
+795,10022,839,2014,4,5.10288065843621,10022,Midtown East,Manhattan
+796,10022,839,2014,5,5.28554070473876,10022,Midtown East,Manhattan
+797,10022,839,2014,6,5.270092226613969,10022,Midtown East,Manhattan
+798,10022,839,2014,7,5.67010309278351,10022,Midtown East,Manhattan
+799,10022,839,2014,8,5.50774526678141,10022,Midtown East,Manhattan
+800,10022,839,2014,9,5.304449648711941,10022,Midtown East,Manhattan
+801,10022,839,2014,10,5.23744683656985,10022,Midtown East,Manhattan
+802,10022,839,2014,11,5.31615925058548,10022,Midtown East,Manhattan
+803,10022,839,2014,12,5.35754973410326,10022,Midtown East,Manhattan
+804,10022,839,2015,1,5.4580896686159805,10022,Midtown East,Manhattan
+805,10022,839,2015,2,5.33099419948891,10022,Midtown East,Manhattan
+806,10022,839,2015,3,5.3123075870561705,10022,Midtown East,Manhattan
+807,10022,839,2015,4,5.300279329608941,10022,Midtown East,Manhattan
+808,10022,839,2015,5,5.304449648711941,10022,Midtown East,Manhattan
+809,10022,839,2015,6,5.33333333333333,10022,Midtown East,Manhattan
+810,10022,839,2015,7,5.34782608695652,10022,Midtown East,Manhattan
+811,10022,839,2015,8,5.23723292788483,10022,Midtown East,Manhattan
+812,10022,839,2015,9,5.19903809803839,10022,Midtown East,Manhattan
+813,10022,839,2015,10,5.219039295656111,10022,Midtown East,Manhattan
+814,10022,839,2015,11,5.418689320388349,10022,Midtown East,Manhattan
+815,10022,839,2015,12,5.45685279187817,10022,Midtown East,Manhattan
+816,10022,839,2016,1,5.532641212043231,10022,Midtown East,Manhattan
+817,10022,839,2016,2,5.49502001434991,10022,Midtown East,Manhattan
+818,10022,839,2016,3,5.61582781242669,10022,Midtown East,Manhattan
+819,10022,839,2016,4,5.63917744329023,10022,Midtown East,Manhattan
+820,10022,839,2016,5,5.60805243445693,10022,Midtown East,Manhattan
+821,10022,839,2016,6,5.70342205323194,10022,Midtown East,Manhattan
+822,10022,839,2016,7,5.39652412778751,10022,Midtown East,Manhattan
+823,10022,839,2016,8,5.3331578679254905,10022,Midtown East,Manhattan
+824,10022,839,2016,9,5.12404580152672,10022,Midtown East,Manhattan
+825,10022,839,2016,10,5.37190596625067,10022,Midtown East,Manhattan
+826,10022,839,2016,11,5.17487508922198,10022,Midtown East,Manhattan
+827,10022,839,2016,12,4.96966961545405,10022,Midtown East,Manhattan
+828,10022,839,2017,1,5.29928364788538,10022,Midtown East,Manhattan
+829,10022,839,2017,2,5.22496371552975,10022,Midtown East,Manhattan
+830,10022,839,2017,3,5.36743138487325,10022,Midtown East,Manhattan
+831,10022,839,2017,4,5.44747081712062,10022,Midtown East,Manhattan
+832,10022,839,2017,5,5.397070161912099,10022,Midtown East,Manhattan
+833,10022,839,2017,6,5.25846702317291,10022,Midtown East,Manhattan
+834,10022,839,2017,7,5.275147908473611,10022,Midtown East,Manhattan
+835,10022,839,2017,8,5.34885403783912,10022,Midtown East,Manhattan
+836,10022,839,2017,9,5.23809523809524,10022,Midtown East,Manhattan
+837,10022,839,2017,10,5.21052631578947,10022,Midtown East,Manhattan
+838,10022,839,2017,11,5.21189822898478,10022,Midtown East,Manhattan
+839,10022,839,2017,12,5.1762616286478895,10022,Midtown East,Manhattan
+840,10022,839,2018,1,5.135777690478481,10022,Midtown East,Manhattan
+841,10022,839,2018,2,4.6132252812315,10022,Midtown East,Manhattan
+842,10065,979,2013,10,5.390625,10065,Upper East Side,Manhattan
+843,10065,979,2013,11,5.68592057761733,10065,Upper East Side,Manhattan
+844,10065,979,2013,12,5.457547585755139,10065,Upper East Side,Manhattan
+845,10065,979,2014,1,5.308167141500469,10065,Upper East Side,Manhattan
+846,10065,979,2014,2,5.33333333333333,10065,Upper East Side,Manhattan
+847,10065,979,2014,3,5.400900900900901,10065,Upper East Side,Manhattan
+848,10065,979,2014,4,5.400900900900901,10065,Upper East Side,Manhattan
+849,10065,979,2014,5,5.66519174041298,10065,Upper East Side,Manhattan
+850,10065,979,2014,6,5.5333333333333306,10065,Upper East Side,Manhattan
+851,10065,979,2014,7,5.607476635514019,10065,Upper East Side,Manhattan
+852,10065,979,2014,8,5.784214595848451,10065,Upper East Side,Manhattan
+853,10065,979,2014,9,5.6687090564302896,10065,Upper East Side,Manhattan
+854,10065,979,2014,10,5.588235294117651,10065,Upper East Side,Manhattan
+855,10065,979,2014,11,5.50295857988166,10065,Upper East Side,Manhattan
+856,10065,979,2014,12,5.84036340038936,10065,Upper East Side,Manhattan
+857,10065,979,2015,1,5.7971014492753605,10065,Upper East Side,Manhattan
+858,10065,979,2015,2,5.67796610169492,10065,Upper East Side,Manhattan
+859,10065,979,2015,3,5.848153214774281,10065,Upper East Side,Manhattan
+860,10065,979,2015,4,5.81395348837209,10065,Upper East Side,Manhattan
+861,10065,979,2015,5,5.9245960502693,10065,Upper East Side,Manhattan
+862,10065,979,2015,6,5.9245960502693,10065,Upper East Side,Manhattan
+863,10065,979,2015,7,5.75282879950399,10065,Upper East Side,Manhattan
+864,10065,979,2015,8,5.74289337973251,10065,Upper East Side,Manhattan
+865,10065,979,2015,9,6.047197640117989,10065,Upper East Side,Manhattan
+866,10065,979,2015,10,5.915492957746481,10065,Upper East Side,Manhattan
+867,10065,979,2015,11,5.66650407637098,10065,Upper East Side,Manhattan
+868,10065,979,2015,12,5.627962085308059,10065,Upper East Side,Manhattan
+869,10065,979,2016,1,5.73040913171733,10065,Upper East Side,Manhattan
+870,10065,979,2016,2,5.62311979751608,10065,Upper East Side,Manhattan
+871,10065,979,2016,3,5.625879043600559,10065,Upper East Side,Manhattan
+872,10065,979,2016,4,5.59785596481583,10065,Upper East Side,Manhattan
+873,10065,979,2016,5,5.799479047662571,10065,Upper East Side,Manhattan
+874,10065,979,2016,6,5.70249794196337,10065,Upper East Side,Manhattan
+875,10065,979,2016,7,5.607476635514019,10065,Upper East Side,Manhattan
+876,10065,979,2016,8,5.588235294117651,10065,Upper East Side,Manhattan
+877,10065,979,2016,9,5.915976331360951,10065,Upper East Side,Manhattan
+878,10065,979,2016,10,5.80645161290323,10065,Upper East Side,Manhattan
+879,10065,979,2016,11,5.60224578044358,10065,Upper East Side,Manhattan
+880,10065,979,2016,12,5.31659693165969,10065,Upper East Side,Manhattan
+881,10065,979,2017,1,5.81020012911556,10065,Upper East Side,Manhattan
+882,10065,979,2017,2,5.73846995882387,10065,Upper East Side,Manhattan
+883,10065,979,2017,3,5.67260940032415,10065,Upper East Side,Manhattan
+884,10065,979,2017,4,5.612938921075259,10065,Upper East Side,Manhattan
+885,10065,979,2017,5,5.79050097592713,10065,Upper East Side,Manhattan
+886,10065,979,2017,6,5.80693815987934,10065,Upper East Side,Manhattan
+887,10065,979,2017,7,5.79155572253895,10065,Upper East Side,Manhattan
+888,10065,979,2017,8,5.663716814159289,10065,Upper East Side,Manhattan
+889,10065,979,2017,9,5.67045580385816,10065,Upper East Side,Manhattan
+890,10065,979,2017,10,5.828846173645361,10065,Upper East Side,Manhattan
+891,10065,979,2017,11,5.663716814159289,10065,Upper East Side,Manhattan
+892,10065,979,2017,12,5.68951836469092,10065,Upper East Side,Manhattan
+893,10065,979,2018,1,5.6544390522409405,10065,Upper East Side,Manhattan
+894,10065,979,2018,2,5.368758950459959,10065,Upper East Side,Manhattan
+895,11101,1046,2013,7,4.02077151335312,11101,Long Island City,Queens
+896,11101,1046,2013,8,4.01591895803184,11101,Long Island City,Queens
+897,11101,1046,2013,9,4.00049455984174,11101,Long Island City,Queens
+898,11101,1046,2013,10,4.07173517659919,11101,Long Island City,Queens
+899,11101,1046,2013,11,3.9866270430906403,11101,Long Island City,Queens
+900,11101,1046,2013,12,3.98375938141793,11101,Long Island City,Queens
+901,11101,1046,2014,1,3.99521552515094,11101,Long Island City,Queens
+902,11101,1046,2014,2,4.000989119683481,11101,Long Island City,Queens
+903,11101,1046,2014,3,3.9804743499010997,11101,Long Island City,Queens
+904,11101,1046,2014,4,3.9658536585365898,11101,Long Island City,Queens
+905,11101,1046,2014,5,3.98507176330356,11101,Long Island City,Queens
+906,11101,1046,2014,6,3.9868012205322896,11101,Long Island City,Queens
+907,11101,1046,2014,7,3.98697539797395,11101,Long Island City,Queens
+908,11101,1046,2014,8,3.98089171974522,11101,Long Island City,Queens
+909,11101,1046,2014,9,3.98697539797395,11101,Long Island City,Queens
+910,11101,1046,2014,10,3.99521552515094,11101,Long Island City,Queens
+911,11101,1046,2014,11,4.000989119683481,11101,Long Island City,Queens
+912,11101,1046,2014,12,3.99038461538462,11101,Long Island City,Queens
+913,11101,1046,2015,1,4.00584215342463,11101,Long Island City,Queens
+914,11101,1046,2015,2,4.00049455984174,11101,Long Island City,Queens
+915,11101,1046,2015,3,3.9922996578031498,11101,Long Island City,Queens
+916,11101,1046,2015,4,3.9793333028627096,11101,Long Island City,Queens
+917,11101,1046,2015,5,3.9804743499010997,11101,Long Island City,Queens
+918,11101,1046,2015,6,3.94444444444444,11101,Long Island City,Queens
+919,11101,1046,2015,7,4.01591895803184,11101,Long Island City,Queens
+920,11101,1046,2015,8,4.01310401310401,11101,Long Island City,Queens
+921,11101,1046,2015,9,4.08625396152844,11101,Long Island City,Queens
+922,11101,1046,2015,10,4.07407407407407,11101,Long Island City,Queens
+923,11101,1046,2015,11,4.089678372169351,11101,Long Island City,Queens
+924,11101,1046,2015,12,4.07094594594595,11101,Long Island City,Queens
+925,11101,1046,2016,1,4.0049489028261505,11101,Long Island City,Queens
+926,11101,1046,2016,2,3.98820866429618,11101,Long Island City,Queens
+927,11101,1046,2016,3,4.02542372881356,11101,Long Island City,Queens
+928,11101,1046,2016,4,4.02077151335312,11101,Long Island City,Queens
+929,11101,1046,2016,5,4.10037303646854,11101,Long Island City,Queens
+930,11101,1046,2016,6,4.09223199831848,11101,Long Island City,Queens
+931,11101,1046,2016,7,4.07094594594595,11101,Long Island City,Queens
+932,11101,1046,2016,8,4.000989119683481,11101,Long Island City,Queens
+933,11101,1046,2016,9,4.07906717185068,11101,Long Island City,Queens
+934,11101,1046,2016,10,4.07252440725244,11101,Long Island City,Queens
+935,11101,1046,2016,11,4.03741278370359,11101,Long Island City,Queens
+936,11101,1046,2016,12,4.09326424870466,11101,Long Island City,Queens
+937,11101,1046,2017,1,4.09223199831848,11101,Long Island City,Queens
+938,11101,1046,2017,2,4.106610286359899,11101,Long Island City,Queens
+939,11101,1046,2017,3,4.08625396152844,11101,Long Island City,Queens
+940,11101,1046,2017,4,4.1104868913857695,11101,Long Island City,Queens
+941,11101,1046,2017,5,4.1104868913857695,11101,Long Island City,Queens
+942,11101,1046,2017,6,4.08406026962728,11101,Long Island City,Queens
+943,11101,1046,2017,7,4.07094594594595,11101,Long Island City,Queens
+944,11101,1046,2017,8,4.084190872626549,11101,Long Island City,Queens
+945,11101,1046,2017,9,4.0884476534296,11101,Long Island City,Queens
+946,11101,1046,2017,10,4.0724612986488395,11101,Long Island City,Queens
+947,11101,1046,2017,11,4.07239819004525,11101,Long Island City,Queens
+948,11101,1046,2017,12,4.0716720679956,11101,Long Island City,Queens
+949,11101,1046,2018,1,4.05816467876327,11101,Long Island City,Queens
+950,11101,1046,2018,2,4.08625396152844,11101,Long Island City,Queens
+951,10013,1382,2013,10,5.34188034188034,10013,"Tribeca, Soho",Manhattan
+952,10013,1382,2013,11,5.45522320454882,10013,"Tribeca, Soho",Manhattan
+953,10013,1382,2013,12,5.63122594832325,10013,"Tribeca, Soho",Manhattan
+954,10013,1382,2014,1,5.63122594832325,10013,"Tribeca, Soho",Manhattan
+955,10013,1382,2014,2,5.7714521452145195,10013,"Tribeca, Soho",Manhattan
+956,10013,1382,2014,3,5.8650338536071205,10013,"Tribeca, Soho",Manhattan
+957,10013,1382,2014,4,5.7971014492753605,10013,"Tribeca, Soho",Manhattan
+958,10013,1382,2014,5,5.7423835125448,10013,"Tribeca, Soho",Manhattan
+959,10013,1382,2014,6,5.75518433179723,10013,"Tribeca, Soho",Manhattan
+960,10013,1382,2014,7,5.83333333333333,10013,"Tribeca, Soho",Manhattan
+961,10013,1382,2014,8,6.1281149298378494,10013,"Tribeca, Soho",Manhattan
+962,10013,1382,2014,9,5.83333333333333,10013,"Tribeca, Soho",Manhattan
+963,10013,1382,2014,10,5.75,10013,"Tribeca, Soho",Manhattan
+964,10013,1382,2014,11,6.142506142506139,10013,"Tribeca, Soho",Manhattan
+965,10013,1382,2014,12,6.25,10013,"Tribeca, Soho",Manhattan
+966,10013,1382,2015,1,6.23515439429929,10013,"Tribeca, Soho",Manhattan
+967,10013,1382,2015,2,5.97014925373134,10013,"Tribeca, Soho",Manhattan
+968,10013,1382,2015,3,6.1704270749395596,10013,"Tribeca, Soho",Manhattan
+969,10013,1382,2015,4,6.196078431372549,10013,"Tribeca, Soho",Manhattan
+970,10013,1382,2015,5,6.28511235955056,10013,"Tribeca, Soho",Manhattan
+971,10013,1382,2015,6,6.28511235955056,10013,"Tribeca, Soho",Manhattan
+972,10013,1382,2015,7,6.23515439429929,10013,"Tribeca, Soho",Manhattan
+973,10013,1382,2015,8,6.24044829342843,10013,"Tribeca, Soho",Manhattan
+974,10013,1382,2015,9,6.0,10013,"Tribeca, Soho",Manhattan
+975,10013,1382,2015,10,5.989983778666231,10013,"Tribeca, Soho",Manhattan
+976,10013,1382,2015,11,6.309148264984231,10013,"Tribeca, Soho",Manhattan
+977,10013,1382,2015,12,6.35558583106267,10013,"Tribeca, Soho",Manhattan
+978,10013,1382,2016,1,6.50759341572709,10013,"Tribeca, Soho",Manhattan
+979,10013,1382,2016,2,6.3282336578581395,10013,"Tribeca, Soho",Manhattan
+980,10013,1382,2016,3,6.20810015093628,10013,"Tribeca, Soho",Manhattan
+981,10013,1382,2016,4,6.22754491017964,10013,"Tribeca, Soho",Manhattan
+982,10013,1382,2016,5,6.30732230301116,10013,"Tribeca, Soho",Manhattan
+983,10013,1382,2016,6,5.707762557077629,10013,"Tribeca, Soho",Manhattan
+984,10013,1382,2016,7,5.66067960193028,10013,"Tribeca, Soho",Manhattan
+985,10013,1382,2016,8,6.18374558303887,10013,"Tribeca, Soho",Manhattan
+986,10013,1382,2016,9,5.694676225613089,10013,"Tribeca, Soho",Manhattan
+987,10013,1382,2016,10,5.97138085108286,10013,"Tribeca, Soho",Manhattan
+988,10013,1382,2016,11,5.647430726225539,10013,"Tribeca, Soho",Manhattan
+989,10013,1382,2016,12,5.66666666666667,10013,"Tribeca, Soho",Manhattan
+990,10013,1382,2017,1,5.79172527264374,10013,"Tribeca, Soho",Manhattan
+991,10013,1382,2017,2,5.87371512481645,10013,"Tribeca, Soho",Manhattan
+992,10013,1382,2017,3,5.80684596577017,10013,"Tribeca, Soho",Manhattan
+993,10013,1382,2017,4,5.79701800810452,10013,"Tribeca, Soho",Manhattan
+994,10013,1382,2017,5,6.12788031690636,10013,"Tribeca, Soho",Manhattan
+995,10013,1382,2017,6,6.07618255728012,10013,"Tribeca, Soho",Manhattan
+996,10013,1382,2017,7,6.019009895913451,10013,"Tribeca, Soho",Manhattan
+997,10013,1382,2017,8,5.933952528379769,10013,"Tribeca, Soho",Manhattan
+998,10013,1382,2017,9,5.98548972188634,10013,"Tribeca, Soho",Manhattan
+999,10013,1382,2017,10,6.09851446442533,10013,"Tribeca, Soho",Manhattan
+1000,10013,1382,2017,11,5.86644455774539,10013,"Tribeca, Soho",Manhattan
+1001,10013,1382,2017,12,5.79692547049857,10013,"Tribeca, Soho",Manhattan
+1002,10013,1382,2018,1,5.8483286157164,10013,"Tribeca, Soho",Manhattan
+1003,10013,1382,2018,2,5.78676523882003,10013,"Tribeca, Soho",Manhattan
+1004,10001,1475,2013,10,5.63245661605206,10001,"Chelsea,  West Midtown",Manhattan
+1005,10001,1475,2013,11,5.533653846153849,10001,"Chelsea,  West Midtown",Manhattan
+1006,10001,1475,2013,12,5.5,10001,"Chelsea,  West Midtown",Manhattan
+1007,10001,1475,2014,1,5.56916916648811,10001,"Chelsea,  West Midtown",Manhattan
+1008,10001,1475,2014,2,5.542165825977299,10001,"Chelsea,  West Midtown",Manhattan
+1009,10001,1475,2014,3,5.482121401598741,10001,"Chelsea,  West Midtown",Manhattan
+1010,10001,1475,2014,4,5.44323483670296,10001,"Chelsea,  West Midtown",Manhattan
+1011,10001,1475,2014,5,5.51282051282051,10001,"Chelsea,  West Midtown",Manhattan
+1012,10001,1475,2014,6,5.50938644688645,10001,"Chelsea,  West Midtown",Manhattan
+1013,10001,1475,2014,7,5.721781055019849,10001,"Chelsea,  West Midtown",Manhattan
+1014,10001,1475,2014,8,5.8314606741573,10001,"Chelsea,  West Midtown",Manhattan
+1015,10001,1475,2014,9,5.7659008586172,10001,"Chelsea,  West Midtown",Manhattan
+1016,10001,1475,2014,10,5.63991323210412,10001,"Chelsea,  West Midtown",Manhattan
+1017,10001,1475,2014,11,5.721781055019849,10001,"Chelsea,  West Midtown",Manhattan
+1018,10001,1475,2014,12,5.7189542483660105,10001,"Chelsea,  West Midtown",Manhattan
+1019,10001,1475,2015,1,5.66424674951807,10001,"Chelsea,  West Midtown",Manhattan
+1020,10001,1475,2015,2,5.798076923076921,10001,"Chelsea,  West Midtown",Manhattan
+1021,10001,1475,2015,3,5.794133829385871,10001,"Chelsea,  West Midtown",Manhattan
+1022,10001,1475,2015,4,5.80315691736305,10001,"Chelsea,  West Midtown",Manhattan
+1023,10001,1475,2015,5,5.800616920219981,10001,"Chelsea,  West Midtown",Manhattan
+1024,10001,1475,2015,6,5.617977528089889,10001,"Chelsea,  West Midtown",Manhattan
+1025,10001,1475,2015,7,5.6214887640449405,10001,"Chelsea,  West Midtown",Manhattan
+1026,10001,1475,2015,8,5.63991323210412,10001,"Chelsea,  West Midtown",Manhattan
+1027,10001,1475,2015,9,5.58333333333333,10001,"Chelsea,  West Midtown",Manhattan
+1028,10001,1475,2015,10,5.63245661605206,10001,"Chelsea,  West Midtown",Manhattan
+1029,10001,1475,2015,11,5.798076923076921,10001,"Chelsea,  West Midtown",Manhattan
+1030,10001,1475,2015,12,5.84072626118337,10001,"Chelsea,  West Midtown",Manhattan
+1031,10001,1475,2016,1,5.81378091269299,10001,"Chelsea,  West Midtown",Manhattan
+1032,10001,1475,2016,2,5.824508320726169,10001,"Chelsea,  West Midtown",Manhattan
+1033,10001,1475,2016,3,5.851063829787231,10001,"Chelsea,  West Midtown",Manhattan
+1034,10001,1475,2016,4,5.81378091269299,10001,"Chelsea,  West Midtown",Manhattan
+1035,10001,1475,2016,5,6.0268948881057405,10001,"Chelsea,  West Midtown",Manhattan
+1036,10001,1475,2016,6,5.84027436604815,10001,"Chelsea,  West Midtown",Manhattan
+1037,10001,1475,2016,7,5.82948490230906,10001,"Chelsea,  West Midtown",Manhattan
+1038,10001,1475,2016,8,5.9255097877918494,10001,"Chelsea,  West Midtown",Manhattan
+1039,10001,1475,2016,9,6.03321364452424,10001,"Chelsea,  West Midtown",Manhattan
+1040,10001,1475,2016,10,5.871859447142769,10001,"Chelsea,  West Midtown",Manhattan
+1041,10001,1475,2016,11,5.79896907216495,10001,"Chelsea,  West Midtown",Manhattan
+1042,10001,1475,2016,12,5.65570693131057,10001,"Chelsea,  West Midtown",Manhattan
+1043,10001,1475,2017,1,5.699360410090001,10001,"Chelsea,  West Midtown",Manhattan
+1044,10001,1475,2017,2,5.750605326876509,10001,"Chelsea,  West Midtown",Manhattan
+1045,10001,1475,2017,3,5.7659008586172,10001,"Chelsea,  West Midtown",Manhattan
+1046,10001,1475,2017,4,5.82849536490744,10001,"Chelsea,  West Midtown",Manhattan
+1047,10001,1475,2017,5,5.82948490230906,10001,"Chelsea,  West Midtown",Manhattan
+1048,10001,1475,2017,6,5.82948490230906,10001,"Chelsea,  West Midtown",Manhattan
+1049,10001,1475,2017,7,5.84027436604815,10001,"Chelsea,  West Midtown",Manhattan
+1050,10001,1475,2017,8,5.789076055523419,10001,"Chelsea,  West Midtown",Manhattan
+1051,10001,1475,2017,9,5.798076923076921,10001,"Chelsea,  West Midtown",Manhattan
+1052,10001,1475,2017,10,5.63245661605206,10001,"Chelsea,  West Midtown",Manhattan
+1053,10001,1475,2017,11,5.70184195658211,10001,"Chelsea,  West Midtown",Manhattan
+1054,10001,1475,2017,12,5.60401721664276,10001,"Chelsea,  West Midtown",Manhattan
+1055,10001,1475,2018,1,5.63245661605206,10001,"Chelsea,  West Midtown",Manhattan
+1056,10001,1475,2018,2,5.567307692307691,10001,"Chelsea,  West Midtown",Manhattan
+1057,10075,1487,2014,7,4.58715596330275,10075,Upper East Side,Manhattan
+1058,10075,1487,2014,8,4.6623794212218606,10075,Upper East Side,Manhattan
+1059,10075,1487,2014,9,4.583838320400759,10075,Upper East Side,Manhattan
+1060,10075,1487,2014,10,4.70147111589523,10075,Upper East Side,Manhattan
+1061,10075,1487,2014,11,4.46691176470588,10075,Upper East Side,Manhattan
+1062,10075,1487,2014,12,4.63678516228748,10075,Upper East Side,Manhattan
+1063,10075,1487,2015,1,4.89296636085627,10075,Upper East Side,Manhattan
+1064,10075,1487,2015,2,4.835891222401719,10075,Upper East Side,Manhattan
+1065,10075,1487,2015,3,4.91487489431768,10075,Upper East Side,Manhattan
+1066,10075,1487,2015,4,5.045871559633031,10075,Upper East Side,Manhattan
+1067,10075,1487,2015,5,5.2117263843648205,10075,Upper East Side,Manhattan
+1068,10075,1487,2015,6,5.00807754442649,10075,Upper East Side,Manhattan
+1069,10075,1487,2015,7,5.03009235745931,10075,Upper East Side,Manhattan
+1070,10075,1487,2015,8,5.04498714652956,10075,Upper East Side,Manhattan
+1071,10075,1487,2015,9,4.848046309696089,10075,Upper East Side,Manhattan
+1072,10075,1487,2015,10,4.70199791048392,10075,Upper East Side,Manhattan
+1073,10075,1487,2015,11,4.82669237360754,10075,Upper East Side,Manhattan
+1074,10075,1487,2015,12,5.06512301013025,10075,Upper East Side,Manhattan
+1075,10075,1487,2016,1,4.83333333333333,10075,Upper East Side,Manhattan
+1076,10075,1487,2016,2,4.814645029583031,10075,Upper East Side,Manhattan
+1077,10075,1487,2016,3,4.68497576736672,10075,Upper East Side,Manhattan
+1078,10075,1487,2016,4,4.83333333333333,10075,Upper East Side,Manhattan
+1079,10075,1487,2016,5,4.63991430772193,10075,Upper East Side,Manhattan
+1080,10075,1487,2016,6,4.70058613659531,10075,Upper East Side,Manhattan
+1081,10075,1487,2016,7,4.46691176470588,10075,Upper East Side,Manhattan
+1082,10075,1487,2016,8,4.65877641445126,10075,Upper East Side,Manhattan
+1083,10075,1487,2016,9,4.469228240076519,10075,Upper East Side,Manhattan
+1084,10075,1487,2016,10,4.65644171779141,10075,Upper East Side,Manhattan
+1085,10075,1487,2016,11,4.60293673381775,10075,Upper East Side,Manhattan
+1086,10075,1487,2016,12,4.46691176470588,10075,Upper East Side,Manhattan
+1087,10075,1487,2017,1,4.58163193155504,10075,Upper East Side,Manhattan
+1088,10075,1487,2017,2,4.61871750433276,10075,Upper East Side,Manhattan
+1089,10075,1487,2017,3,4.6611111111111105,10075,Upper East Side,Manhattan
+1090,10075,1487,2017,4,4.86843515541265,10075,Upper East Side,Manhattan
+1091,10075,1487,2017,5,4.744869307739429,10075,Upper East Side,Manhattan
+1092,10075,1487,2017,6,4.96742671009772,10075,Upper East Side,Manhattan
+1093,10075,1487,2017,7,5.0055679287305095,10075,Upper East Side,Manhattan
+1094,10075,1487,2017,8,4.90859851049424,10075,Upper East Side,Manhattan
+1095,10075,1487,2017,9,4.86134407510413,10075,Upper East Side,Manhattan
+1096,10075,1487,2017,10,4.87096592191379,10075,Upper East Side,Manhattan
+1097,10075,1487,2017,11,4.87096592191379,10075,Upper East Side,Manhattan
+1098,10075,1487,2017,12,4.78361669242658,10075,Upper East Side,Manhattan
+1099,10075,1487,2018,1,4.65772597356199,10075,Upper East Side,Manhattan
+1100,10075,1487,2018,2,4.29802955665025,10075,Upper East Side,Manhattan
+1101,11249,1527,2017,1,4.78260869565217,11211,Williamsburg,Brooklyn
+1102,11249,1527,2017,2,4.63768115942029,11211,Williamsburg,Brooklyn
+1103,11249,1527,2017,3,4.71869116326003,11211,Williamsburg,Brooklyn
+1104,11249,1527,2017,4,4.699248120300751,11211,Williamsburg,Brooklyn
+1105,11249,1527,2017,5,4.83870967741935,11211,Williamsburg,Brooklyn
+1106,11249,1527,2017,6,4.92602890761973,11211,Williamsburg,Brooklyn
+1107,11249,1527,2017,7,4.76536221332363,11211,Williamsburg,Brooklyn
+1108,11249,1527,2017,8,4.76457399103139,11211,Williamsburg,Brooklyn
+1109,11249,1527,2017,9,4.7741935483871,11211,Williamsburg,Brooklyn
+1110,11249,1527,2017,10,4.61837627613029,11211,Williamsburg,Brooklyn
+1111,11249,1527,2017,11,4.71794871794872,11211,Williamsburg,Brooklyn
+1112,11249,1527,2017,12,4.55582232893157,11211,Williamsburg,Brooklyn
+1113,11249,1527,2018,1,4.55582232893157,11211,Williamsburg,Brooklyn
+1114,11249,1527,2018,2,4.60971112476951,11211,Williamsburg,Brooklyn
+1115,10017,2098,2013,10,4.977738201246661,10017,Midtown East,Manhattan
+1116,10017,2098,2013,11,5.1169590643274905,10017,Midtown East,Manhattan
+1117,10017,2098,2013,12,5.06329113924051,10017,Midtown East,Manhattan
+1118,10017,2098,2014,1,5.0,10017,Midtown East,Manhattan
+1119,10017,2098,2014,2,5.0223276844603095,10017,Midtown East,Manhattan
+1120,10017,2098,2014,3,5.01672240802676,10017,Midtown East,Manhattan
+1121,10017,2098,2014,4,4.9499831605874505,10017,Midtown East,Manhattan
+1122,10017,2098,2014,5,5.12,10017,Midtown East,Manhattan
+1123,10017,2098,2014,6,4.9934296977661,10017,Midtown East,Manhattan
+1124,10017,2098,2014,7,5.07617651166038,10017,Midtown East,Manhattan
+1125,10017,2098,2014,8,5.10082081461979,10017,Midtown East,Manhattan
+1126,10017,2098,2014,9,5.100199071001991,10017,Midtown East,Manhattan
+1127,10017,2098,2014,10,5.10948905109489,10017,Midtown East,Manhattan
+1128,10017,2098,2014,11,5.17444219066937,10017,Midtown East,Manhattan
+1129,10017,2098,2014,12,5.220877077306691,10017,Midtown East,Manhattan
+1130,10017,2098,2015,1,5.2617918313570495,10017,Midtown East,Manhattan
+1131,10017,2098,2015,2,5.2623015873015895,10017,Midtown East,Manhattan
+1132,10017,2098,2015,3,5.27086383601757,10017,Midtown East,Manhattan
+1133,10017,2098,2015,4,5.27924528301887,10017,Midtown East,Manhattan
+1134,10017,2098,2015,5,5.27988666791207,10017,Midtown East,Manhattan
+1135,10017,2098,2015,6,5.32715172362222,10017,Midtown East,Manhattan
+1136,10017,2098,2015,7,5.39111121553022,10017,Midtown East,Manhattan
+1137,10017,2098,2015,8,5.41125541125541,10017,Midtown East,Manhattan
+1138,10017,2098,2015,9,5.4140127388535,10017,Midtown East,Manhattan
+1139,10017,2098,2015,10,5.27531013970962,10017,Midtown East,Manhattan
+1140,10017,2098,2015,11,5.25548040782337,10017,Midtown East,Manhattan
+1141,10017,2098,2015,12,5.2805280528052805,10017,Midtown East,Manhattan
+1142,10017,2098,2016,1,5.295405870374269,10017,Midtown East,Manhattan
+1143,10017,2098,2016,2,5.2734375,10017,Midtown East,Manhattan
+1144,10017,2098,2016,3,5.23684210526316,10017,Midtown East,Manhattan
+1145,10017,2098,2016,4,5.19053876478318,10017,Midtown East,Manhattan
+1146,10017,2098,2016,5,5.2491103202847,10017,Midtown East,Manhattan
+1147,10017,2098,2016,6,5.1851851851851904,10017,Midtown East,Manhattan
+1148,10017,2098,2016,7,5.1169590643274905,10017,Midtown East,Manhattan
+1149,10017,2098,2016,8,5.23948802105726,10017,Midtown East,Manhattan
+1150,10017,2098,2016,9,5.07486631016043,10017,Midtown East,Manhattan
+1151,10017,2098,2016,10,5.09090909090909,10017,Midtown East,Manhattan
+1152,10017,2098,2016,11,5.1169590643274905,10017,Midtown East,Manhattan
+1153,10017,2098,2016,12,4.9799416484318,10017,Midtown East,Manhattan
+1154,10017,2098,2017,1,5.09090909090909,10017,Midtown East,Manhattan
+1155,10017,2098,2017,2,5.11384580132899,10017,Midtown East,Manhattan
+1156,10017,2098,2017,3,5.1873198847262305,10017,Midtown East,Manhattan
+1157,10017,2098,2017,4,5.27482269503546,10017,Midtown East,Manhattan
+1158,10017,2098,2017,5,5.276740453201651,10017,Midtown East,Manhattan
+1159,10017,2098,2017,6,5.26315789473684,10017,Midtown East,Manhattan
+1160,10017,2098,2017,7,5.21201413427562,10017,Midtown East,Manhattan
+1161,10017,2098,2017,8,5.270478031315769,10017,Midtown East,Manhattan
+1162,10017,2098,2017,9,5.17241379310345,10017,Midtown East,Manhattan
+1163,10017,2098,2017,10,5.10082081461979,10017,Midtown East,Manhattan
+1164,10017,2098,2017,11,5.0,10017,Midtown East,Manhattan
+1165,10017,2098,2017,12,5.07389162561576,10017,Midtown East,Manhattan
+1166,10017,2098,2018,1,4.96644295302013,10017,Midtown East,Manhattan
+1167,10017,2098,2018,2,4.82305240593445,10017,Midtown East,Manhattan
+1168,10038,2142,2013,9,4.58333333333333,10038,"Financial District, Seaport",Manhattan
+1169,10038,2142,2013,10,4.5018003524094095,10038,"Financial District, Seaport",Manhattan
+1170,10038,2142,2013,11,4.47368421052632,10038,"Financial District, Seaport",Manhattan
+1171,10038,2142,2013,12,4.475,10038,"Financial District, Seaport",Manhattan
+1172,10038,2142,2014,1,4.477977161500821,10038,"Financial District, Seaport",Manhattan
+1173,10038,2142,2014,2,4.48275862068965,10038,"Financial District, Seaport",Manhattan
+1174,10038,2142,2014,3,4.5018003524094095,10038,"Financial District, Seaport",Manhattan
+1175,10038,2142,2014,4,4.5321516900247305,10038,"Financial District, Seaport",Manhattan
+1176,10038,2142,2014,5,4.59777122440878,10038,"Financial District, Seaport",Manhattan
+1177,10038,2142,2014,6,4.58484002952916,10038,"Financial District, Seaport",Manhattan
+1178,10038,2142,2014,7,4.62487153134635,10038,"Financial District, Seaport",Manhattan
+1179,10038,2142,2014,8,4.74882110355148,10038,"Financial District, Seaport",Manhattan
+1180,10038,2142,2014,9,4.74516695957821,10038,"Financial District, Seaport",Manhattan
+1181,10038,2142,2014,10,4.74516695957821,10038,"Financial District, Seaport",Manhattan
+1182,10038,2142,2014,11,4.68164794007491,10038,"Financial District, Seaport",Manhattan
+1183,10038,2142,2014,12,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1184,10038,2142,2015,1,4.715189629130251,10038,"Financial District, Seaport",Manhattan
+1185,10038,2142,2015,2,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1186,10038,2142,2015,3,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1187,10038,2142,2015,4,4.74516695957821,10038,"Financial District, Seaport",Manhattan
+1188,10038,2142,2015,5,4.715189629130251,10038,"Financial District, Seaport",Manhattan
+1189,10038,2142,2015,6,4.782394385938679,10038,"Financial District, Seaport",Manhattan
+1190,10038,2142,2015,7,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1191,10038,2142,2015,8,4.8075072184793095,10038,"Financial District, Seaport",Manhattan
+1192,10038,2142,2015,9,4.80550033413048,10038,"Financial District, Seaport",Manhattan
+1193,10038,2142,2015,10,4.775297195276379,10038,"Financial District, Seaport",Manhattan
+1194,10038,2142,2015,11,4.811028930209701,10038,"Financial District, Seaport",Manhattan
+1195,10038,2142,2015,12,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1196,10038,2142,2016,1,4.8002767880476,10038,"Financial District, Seaport",Manhattan
+1197,10038,2142,2016,2,4.8006608257345,10038,"Financial District, Seaport",Manhattan
+1198,10038,2142,2016,3,4.85714285714286,10038,"Financial District, Seaport",Manhattan
+1199,10038,2142,2016,4,4.83584674954147,10038,"Financial District, Seaport",Manhattan
+1200,10038,2142,2016,5,4.82079100882201,10038,"Financial District, Seaport",Manhattan
+1201,10038,2142,2016,6,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1202,10038,2142,2016,7,4.8075072184793095,10038,"Financial District, Seaport",Manhattan
+1203,10038,2142,2016,8,4.75487840046141,10038,"Financial District, Seaport",Manhattan
+1204,10038,2142,2016,9,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1205,10038,2142,2016,10,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1206,10038,2142,2016,11,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1207,10038,2142,2016,12,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1208,10038,2142,2017,1,4.74882110355148,10038,"Financial District, Seaport",Manhattan
+1209,10038,2142,2017,2,4.75594139019596,10038,"Financial District, Seaport",Manhattan
+1210,10038,2142,2017,3,4.78339350180505,10038,"Financial District, Seaport",Manhattan
+1211,10038,2142,2017,4,4.75487840046141,10038,"Financial District, Seaport",Manhattan
+1212,10038,2142,2017,5,4.75143891200714,10038,"Financial District, Seaport",Manhattan
+1213,10038,2142,2017,6,4.8075072184793095,10038,"Financial District, Seaport",Manhattan
+1214,10038,2142,2017,7,4.7887323943662,10038,"Financial District, Seaport",Manhattan
+1215,10038,2142,2017,8,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1216,10038,2142,2017,9,4.77716476193888,10038,"Financial District, Seaport",Manhattan
+1217,10038,2142,2017,10,4.75487840046141,10038,"Financial District, Seaport",Manhattan
+1218,10038,2142,2017,11,4.7524752475247505,10038,"Financial District, Seaport",Manhattan
+1219,10038,2142,2017,12,4.73450208444027,10038,"Financial District, Seaport",Manhattan
+1220,10038,2142,2018,1,4.71452420701169,10038,"Financial District, Seaport",Manhattan
+1221,10038,2142,2018,2,4.60703340086229,10038,"Financial District, Seaport",Manhattan
+1222,10005,2917,2013,7,4.88133095633879,10005,Financial District,Manhattan
+1223,10005,2917,2013,8,4.91018825047694,10005,Financial District,Manhattan
+1224,10005,2917,2013,9,4.85815602836879,10005,Financial District,Manhattan
+1225,10005,2917,2013,10,4.9492385786802,10005,Financial District,Manhattan
+1226,10005,2917,2013,11,4.93557275379788,10005,Financial District,Manhattan
+1227,10005,2917,2013,12,4.942339373970349,10005,Financial District,Manhattan
+1228,10005,2917,2014,1,4.995192307692309,10005,Financial District,Manhattan
+1229,10005,2917,2014,2,4.9492385786802,10005,Financial District,Manhattan
+1230,10005,2917,2014,3,4.96079949940091,10005,Financial District,Manhattan
+1231,10005,2917,2014,4,5.0,10005,Financial District,Manhattan
+1232,10005,2917,2014,5,5.056179775280901,10005,Financial District,Manhattan
+1233,10005,2917,2014,6,5.0,10005,Financial District,Manhattan
+1234,10005,2917,2014,7,5.07195824613079,10005,Financial District,Manhattan
+1235,10005,2917,2014,8,5.086167852851469,10005,Financial District,Manhattan
+1236,10005,2917,2014,9,5.0448430493273495,10005,Financial District,Manhattan
+1237,10005,2917,2014,10,5.04461684346917,10005,Financial District,Manhattan
+1238,10005,2917,2014,11,5.0751879699248095,10005,Financial District,Manhattan
+1239,10005,2917,2014,12,5.078761649633059,10005,Financial District,Manhattan
+1240,10005,2917,2015,1,5.059789303767889,10005,Financial District,Manhattan
+1241,10005,2917,2015,2,5.091690544412611,10005,Financial District,Manhattan
+1242,10005,2917,2015,3,5.073913597553211,10005,Financial District,Manhattan
+1243,10005,2917,2015,4,5.03826530612245,10005,Financial District,Manhattan
+1244,10005,2917,2015,5,5.08720930232558,10005,Financial District,Manhattan
+1245,10005,2917,2015,6,5.137443969685281,10005,Financial District,Manhattan
+1246,10005,2917,2015,7,5.22421524663677,10005,Financial District,Manhattan
+1247,10005,2917,2015,8,5.22344747533372,10005,Financial District,Manhattan
+1248,10005,2917,2015,9,5.27182866556837,10005,Financial District,Manhattan
+1249,10005,2917,2015,10,5.16333938294011,10005,Financial District,Manhattan
+1250,10005,2917,2015,11,5.12160284796388,10005,Financial District,Manhattan
+1251,10005,2917,2015,12,5.03663003663004,10005,Financial District,Manhattan
+1252,10005,2917,2016,1,5.02962962962963,10005,Financial District,Manhattan
+1253,10005,2917,2016,2,5.007473841554559,10005,Financial District,Manhattan
+1254,10005,2917,2016,3,5.058627638808559,10005,Financial District,Manhattan
+1255,10005,2917,2016,4,5.106778087279481,10005,Financial District,Manhattan
+1256,10005,2917,2016,5,5.042016806722691,10005,Financial District,Manhattan
+1257,10005,2917,2016,6,5.0,10005,Financial District,Manhattan
+1258,10005,2917,2016,7,4.9492385786802,10005,Financial District,Manhattan
+1259,10005,2917,2016,8,5.0,10005,Financial District,Manhattan
+1260,10005,2917,2016,9,4.96981159703241,10005,Financial District,Manhattan
+1261,10005,2917,2016,10,4.995192307692309,10005,Financial District,Manhattan
+1262,10005,2917,2016,11,4.91462803707105,10005,Financial District,Manhattan
+1263,10005,2917,2016,12,4.9492385786802,10005,Financial District,Manhattan
+1264,10005,2917,2017,1,5.0,10005,Financial District,Manhattan
+1265,10005,2917,2017,2,5.00373692077728,10005,Financial District,Manhattan
+1266,10005,2917,2017,3,5.0,10005,Financial District,Manhattan
+1267,10005,2917,2017,4,5.091690544412611,10005,Financial District,Manhattan
+1268,10005,2917,2017,5,5.160466253074639,10005,Financial District,Manhattan
+1269,10005,2917,2017,6,5.24662668665667,10005,Financial District,Manhattan
+1270,10005,2917,2017,7,5.15337423312883,10005,Financial District,Manhattan
+1271,10005,2917,2017,8,5.0751879699248095,10005,Financial District,Manhattan
+1272,10005,2917,2017,9,5.02962962962963,10005,Financial District,Manhattan
+1273,10005,2917,2017,10,5.0644405809492,10005,Financial District,Manhattan
+1274,10005,2917,2017,11,5.0,10005,Financial District,Manhattan
+1275,10005,2917,2017,12,4.96981159703241,10005,Financial District,Manhattan
+1276,10005,2917,2018,1,5.0,10005,Financial District,Manhattan
+1277,10005,2917,2018,2,4.90566037735849,10005,Financial District,Manhattan
+1278,10280,2975,2013,7,4.70757048246214,10280,Battery Park City,Manhattan
+1279,10280,2975,2013,8,4.7181818181818205,10280,Battery Park City,Manhattan
+1280,10280,2975,2013,9,4.7345746671657,10280,Battery Park City,Manhattan
+1281,10280,2975,2013,10,4.73259726603575,10280,Battery Park City,Manhattan
+1282,10280,2975,2013,11,4.8013245033112595,10280,Battery Park City,Manhattan
+1283,10280,2975,2013,12,4.77189508114471,10280,Battery Park City,Manhattan
+1284,10280,2975,2014,1,4.81203007518797,10280,Battery Park City,Manhattan
+1285,10280,2975,2014,2,4.8650323438728,10280,Battery Park City,Manhattan
+1286,10280,2975,2014,3,4.93611584327087,10280,Battery Park City,Manhattan
+1287,10280,2975,2014,4,4.94791387303168,10280,Battery Park City,Manhattan
+1288,10280,2975,2014,5,5.0150829562594295,10280,Battery Park City,Manhattan
+1289,10280,2975,2014,6,5.056179775280901,10280,Battery Park City,Manhattan
+1290,10280,2975,2014,7,5.07757404795487,10280,Battery Park City,Manhattan
+1291,10280,2975,2014,8,5.084745762711861,10280,Battery Park City,Manhattan
+1292,10280,2975,2014,9,5.12833181311442,10280,Battery Park City,Manhattan
+1293,10280,2975,2014,10,5.084745762711861,10280,Battery Park City,Manhattan
+1294,10280,2975,2014,11,5.06457465921405,10280,Battery Park City,Manhattan
+1295,10280,2975,2014,12,5.0729695431472095,10280,Battery Park City,Manhattan
+1296,10280,2975,2015,1,5.084745762711861,10280,Battery Park City,Manhattan
+1297,10280,2975,2015,2,5.068710359408031,10280,Battery Park City,Manhattan
+1298,10280,2975,2015,3,5.13196480938416,10280,Battery Park City,Manhattan
+1299,10280,2975,2015,4,5.14691136800295,10280,Battery Park City,Manhattan
+1300,10280,2975,2015,5,5.0729695431472095,10280,Battery Park City,Manhattan
+1301,10280,2975,2015,6,5.2077168919368795,10280,Battery Park City,Manhattan
+1302,10280,2975,2015,7,5.26742301458671,10280,Battery Park City,Manhattan
+1303,10280,2975,2015,8,5.23809523809524,10280,Battery Park City,Manhattan
+1304,10280,2975,2015,9,5.32849668928309,10280,Battery Park City,Manhattan
+1305,10280,2975,2015,10,5.3450670950670895,10280,Battery Park City,Manhattan
+1306,10280,2975,2015,11,5.391527599486519,10280,Battery Park City,Manhattan
+1307,10280,2975,2015,12,5.45894866290547,10280,Battery Park City,Manhattan
+1308,10280,2975,2016,1,5.3601534681836505,10280,Battery Park City,Manhattan
+1309,10280,2975,2016,2,5.303030303030299,10280,Battery Park City,Manhattan
+1310,10280,2975,2016,3,5.219252439599691,10280,Battery Park City,Manhattan
+1311,10280,2975,2016,4,5.26153105616554,10280,Battery Park City,Manhattan
+1312,10280,2975,2016,5,5.2536231884058,10280,Battery Park City,Manhattan
+1313,10280,2975,2016,6,5.19187414839589,10280,Battery Park City,Manhattan
+1314,10280,2975,2016,7,5.179562221815741,10280,Battery Park City,Manhattan
+1315,10280,2975,2016,8,5.17006802721088,10280,Battery Park City,Manhattan
+1316,10280,2975,2016,9,5.22022838499184,10280,Battery Park City,Manhattan
+1317,10280,2975,2016,10,5.09461426491994,10280,Battery Park City,Manhattan
+1318,10280,2975,2016,11,5.1925431126250805,10280,Battery Park City,Manhattan
+1319,10280,2975,2016,12,5.00425632701276,10280,Battery Park City,Manhattan
+1320,10280,2975,2017,1,5.12,10280,Battery Park City,Manhattan
+1321,10280,2975,2017,2,5.13911620294599,10280,Battery Park City,Manhattan
+1322,10280,2975,2017,3,5.2132701421800896,10280,Battery Park City,Manhattan
+1323,10280,2975,2017,4,5.17165168311116,10280,Battery Park City,Manhattan
+1324,10280,2975,2017,5,5.22332531154266,10280,Battery Park City,Manhattan
+1325,10280,2975,2017,6,5.27182866556837,10280,Battery Park City,Manhattan
+1326,10280,2975,2017,7,5.24158292440873,10280,Battery Park City,Manhattan
+1327,10280,2975,2017,8,5.210916645846759,10280,Battery Park City,Manhattan
+1328,10280,2975,2017,9,5.13472225415395,10280,Battery Park City,Manhattan
+1329,10280,2975,2017,10,5.19790176442537,10280,Battery Park City,Manhattan
+1330,10280,2975,2017,11,5.1529790660225405,10280,Battery Park City,Manhattan
+1331,10280,2975,2017,12,5.081716036772219,10280,Battery Park City,Manhattan
+1332,10280,2975,2018,1,5.08118059903127,10280,Battery Park City,Manhattan
+1333,10280,2975,2018,2,5.09885535900104,10280,Battery Park City,Manhattan
+1334,11109,2993,2012,7,3.9285714285714306,11109,Ravenswood (Astoria),Queens
+1335,11109,2993,2012,8,3.9257693091501897,11109,Ravenswood (Astoria),Queens
+1336,11109,2993,2012,9,3.9285714285714306,11109,Ravenswood (Astoria),Queens
+1337,11109,2993,2012,10,3.9467939972714903,11109,Ravenswood (Astoria),Queens
+1338,11109,2993,2012,11,4.15,11109,Ravenswood (Astoria),Queens
+1339,11109,2993,2012,12,3.95662130443256,11109,Ravenswood (Astoria),Queens
+1340,11109,2993,2013,1,3.77155172413793,11109,Ravenswood (Astoria),Queens
+1341,11109,2993,2013,2,3.8471219816448397,11109,Ravenswood (Astoria),Queens
+1342,11109,2993,2013,3,3.9636363636363594,11109,Ravenswood (Astoria),Queens
+1343,11109,2993,2013,4,4.08775407674782,11109,Ravenswood (Astoria),Queens
+1344,11109,2993,2013,5,4.0196078431372495,11109,Ravenswood (Astoria),Queens
+1345,11109,2993,2013,6,3.99197592778335,11109,Ravenswood (Astoria),Queens
+1346,11109,2993,2013,7,4.06558172712766,11109,Ravenswood (Astoria),Queens
+1347,11109,2993,2013,8,4.069767441860471,11109,Ravenswood (Astoria),Queens
+1348,11109,2993,2013,9,4.03589372978182,11109,Ravenswood (Astoria),Queens
+1349,11109,2993,2013,10,4.04945828607189,11109,Ravenswood (Astoria),Queens
+1350,11109,2993,2013,11,4.0389100101289905,11109,Ravenswood (Astoria),Queens
+1351,11109,2993,2013,12,4.023709902370991,11109,Ravenswood (Astoria),Queens
+1352,11109,2993,2014,1,4.05405405405405,11109,Ravenswood (Astoria),Queens
+1353,11109,2993,2014,2,4.03888197821252,11109,Ravenswood (Astoria),Queens
+1354,11109,2993,2014,3,4.05405405405405,11109,Ravenswood (Astoria),Queens
+1355,11109,2993,2014,4,4.03888197821252,11109,Ravenswood (Astoria),Queens
+1356,11109,2993,2014,5,4.0800959630741,11109,Ravenswood (Astoria),Queens
+1357,11109,2993,2014,6,4.0800959630741,11109,Ravenswood (Astoria),Queens
+1358,11109,2993,2014,7,4.05715485401344,11109,Ravenswood (Astoria),Queens
+1359,11109,2993,2014,8,4.0589080459770095,11109,Ravenswood (Astoria),Queens
+1360,11109,2993,2014,9,4.0589080459770095,11109,Ravenswood (Astoria),Queens
+1361,11109,2993,2014,10,4.0800959630741,11109,Ravenswood (Astoria),Queens
+1362,11109,2993,2014,11,4.13724460098065,11109,Ravenswood (Astoria),Queens
+1363,11109,2993,2014,12,4.10128388017118,11109,Ravenswood (Astoria),Queens
+1364,11109,2993,2015,1,4.10370574299147,11109,Ravenswood (Astoria),Queens
+1365,11109,2993,2015,2,4.05715485401344,11109,Ravenswood (Astoria),Queens
+1366,11109,2993,2015,3,4.0800959630741,11109,Ravenswood (Astoria),Queens
+1367,11109,2993,2015,4,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1368,11109,2993,2015,5,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1369,11109,2993,2015,6,4.13569321533923,11109,Ravenswood (Astoria),Queens
+1370,11109,2993,2015,7,4.13569321533923,11109,Ravenswood (Astoria),Queens
+1371,11109,2993,2015,8,4.10128388017118,11109,Ravenswood (Astoria),Queens
+1372,11109,2993,2015,9,4.0800959630741,11109,Ravenswood (Astoria),Queens
+1373,11109,2993,2015,10,4.10128388017118,11109,Ravenswood (Astoria),Queens
+1374,11109,2993,2015,11,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1375,11109,2993,2015,12,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1376,11109,2993,2016,1,4.05715485401344,11109,Ravenswood (Astoria),Queens
+1377,11109,2993,2016,2,4.05715485401344,11109,Ravenswood (Astoria),Queens
+1378,11109,2993,2016,3,4.05715485401344,11109,Ravenswood (Astoria),Queens
+1379,11109,2993,2016,4,4.05715485401344,11109,Ravenswood (Astoria),Queens
+1380,11109,2993,2016,5,4.10128388017118,11109,Ravenswood (Astoria),Queens
+1381,11109,2993,2016,6,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1382,11109,2993,2016,7,4.0800959630741,11109,Ravenswood (Astoria),Queens
+1383,11109,2993,2016,8,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1384,11109,2993,2016,9,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1385,11109,2993,2016,10,4.05715485401344,11109,Ravenswood (Astoria),Queens
+1386,11109,2993,2016,11,4.0589080459770095,11109,Ravenswood (Astoria),Queens
+1387,11109,2993,2016,12,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1388,11109,2993,2017,1,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1389,11109,2993,2017,2,4.13569321533923,11109,Ravenswood (Astoria),Queens
+1390,11109,2993,2017,3,4.0589080459770095,11109,Ravenswood (Astoria),Queens
+1391,11109,2993,2017,4,4.0589080459770095,11109,Ravenswood (Astoria),Queens
+1392,11109,2993,2017,5,4.0800959630741,11109,Ravenswood (Astoria),Queens
+1393,11109,2993,2017,6,4.11848854775521,11109,Ravenswood (Astoria),Queens
+1394,11109,2993,2017,7,4.10128388017118,11109,Ravenswood (Astoria),Queens
+1395,11109,2993,2017,8,4.13724460098065,11109,Ravenswood (Astoria),Queens
+1396,11109,2993,2017,9,4.13724460098065,11109,Ravenswood (Astoria),Queens
+1397,11109,2993,2017,10,4.11848854775521,11109,Ravenswood (Astoria),Queens
+1398,11109,2993,2017,11,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1399,11109,2993,2017,12,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1400,11109,2993,2018,1,4.05540166204986,11109,Ravenswood (Astoria),Queens
+1401,11109,2993,2018,2,4.023709902370991,11109,Ravenswood (Astoria),Queens
+1402,10069,3005,2011,3,4.67153284671533,10069,Upper West Side,Manhattan
+1403,10069,3005,2011,4,4.87626785083514,10069,Upper West Side,Manhattan
+1404,10069,3005,2011,5,5.07488289838448,10069,Upper West Side,Manhattan
+1405,10069,3005,2011,6,5.30470952793054,10069,Upper West Side,Manhattan
+1406,10069,3005,2011,7,5.01495513459621,10069,Upper West Side,Manhattan
+1407,10069,3005,2011,8,5.06144314098499,10069,Upper West Side,Manhattan
+1408,10069,3005,2011,9,5.04955624850084,10069,Upper West Side,Manhattan
+1409,10069,3005,2011,10,5.3255760368663605,10069,Upper West Side,Manhattan
+1410,10069,3005,2011,11,5.04864788958434,10069,Upper West Side,Manhattan
+1411,10069,3005,2011,12,5.09065550906555,10069,Upper West Side,Manhattan
+1412,10069,3005,2012,1,5.07220947496288,10069,Upper West Side,Manhattan
+1413,10069,3005,2012,2,5.32424634596127,10069,Upper West Side,Manhattan
+1414,10069,3005,2012,3,5.34964225589226,10069,Upper West Side,Manhattan
+1415,10069,3005,2012,4,5.09065550906555,10069,Upper West Side,Manhattan
+1416,10069,3005,2012,5,5.120192307692309,10069,Upper West Side,Manhattan
+1417,10069,3005,2012,6,5.08467400150614,10069,Upper West Side,Manhattan
+1418,10069,3005,2012,7,5.32062291453832,10069,Upper West Side,Manhattan
+1419,10069,3005,2012,8,5.21390374331551,10069,Upper West Side,Manhattan
+1420,10069,3005,2012,9,5.12728412137449,10069,Upper West Side,Manhattan
+1421,10069,3005,2012,10,5.223880597014929,10069,Upper West Side,Manhattan
+1422,10069,3005,2012,11,5.27701984523053,10069,Upper West Side,Manhattan
+1423,10069,3005,2012,12,5.12431962197898,10069,Upper West Side,Manhattan
+1424,10069,3005,2013,1,5.11461318051576,10069,Upper West Side,Manhattan
+1425,10069,3005,2013,2,5.114124772076059,10069,Upper West Side,Manhattan
+1426,10069,3005,2013,3,4.9951219512195095,10069,Upper West Side,Manhattan
+1427,10069,3005,2013,4,5.2493962032219805,10069,Upper West Side,Manhattan
+1428,10069,3005,2013,5,5.44452101998622,10069,Upper West Side,Manhattan
+1429,10069,3005,2013,6,5.37223389715351,10069,Upper West Side,Manhattan
+1430,10069,3005,2013,7,5.29661016949153,10069,Upper West Side,Manhattan
+1431,10069,3005,2013,8,5.30455508474576,10069,Upper West Side,Manhattan
+1432,10069,3005,2013,9,5.374973212194309,10069,Upper West Side,Manhattan
+1433,10069,3005,2013,10,5.375253549695739,10069,Upper West Side,Manhattan
+1434,10069,3005,2013,11,5.4582361516035,10069,Upper West Side,Manhattan
+1435,10069,3005,2013,12,5.4908692159034205,10069,Upper West Side,Manhattan
+1436,10069,3005,2014,1,5.43749071179582,10069,Upper West Side,Manhattan
+1437,10069,3005,2014,2,5.3871829105474,10069,Upper West Side,Manhattan
+1438,10069,3005,2014,3,5.369127516778519,10069,Upper West Side,Manhattan
+1439,10069,3005,2014,4,5.369127516778519,10069,Upper West Side,Manhattan
+1440,10069,3005,2014,5,5.369127516778519,10069,Upper West Side,Manhattan
+1441,10069,3005,2014,6,5.3871829105474,10069,Upper West Side,Manhattan
+1442,10069,3005,2014,7,5.40132784495851,10069,Upper West Side,Manhattan
+1443,10069,3005,2014,8,5.375253549695739,10069,Upper West Side,Manhattan
+1444,10069,3005,2014,9,5.439976826843281,10069,Upper West Side,Manhattan
+1445,10069,3005,2014,10,5.518244892714891,10069,Upper West Side,Manhattan
+1446,10069,3005,2014,11,5.47286821705426,10069,Upper West Side,Manhattan
+1447,10069,3005,2014,12,5.511627906976741,10069,Upper West Side,Manhattan
+1448,10069,3005,2015,1,5.46967026013063,10069,Upper West Side,Manhattan
+1449,10069,3005,2015,2,5.484756256178139,10069,Upper West Side,Manhattan
+1450,10069,3005,2015,3,5.496644295302009,10069,Upper West Side,Manhattan
+1451,10069,3005,2015,4,5.45570926571828,10069,Upper West Side,Manhattan
+1452,10069,3005,2015,5,5.375253549695739,10069,Upper West Side,Manhattan
+1453,10069,3005,2015,6,5.31590413943355,10069,Upper West Side,Manhattan
+1454,10069,3005,2015,7,5.24216626555073,10069,Upper West Side,Manhattan
+1455,10069,3005,2015,8,5.223880597014929,10069,Upper West Side,Manhattan
+1456,10069,3005,2015,9,5.28252251645217,10069,Upper West Side,Manhattan
+1457,10069,3005,2015,10,5.3175265378018794,10069,Upper West Side,Manhattan
+1458,10069,3005,2015,11,5.374973212194309,10069,Upper West Side,Manhattan
+1459,10069,3005,2015,12,5.47286821705426,10069,Upper West Side,Manhattan
+1460,10069,3005,2016,1,5.439976826843281,10069,Upper West Side,Manhattan
+1461,10069,3005,2016,2,5.47286821705426,10069,Upper West Side,Manhattan
+1462,10069,3005,2016,3,5.47286821705426,10069,Upper West Side,Manhattan
+1463,10069,3005,2016,4,5.51094890510949,10069,Upper West Side,Manhattan
+1464,10069,3005,2016,5,5.49190856108188,10069,Upper West Side,Manhattan
+1465,10069,3005,2016,6,5.49190856108188,10069,Upper West Side,Manhattan
+1466,10069,3005,2016,7,5.3746928746928795,10069,Upper West Side,Manhattan
+1467,10069,3005,2016,8,5.381218230121571,10069,Upper West Side,Manhattan
+1468,10069,3005,2016,9,5.396294157976401,10069,Upper West Side,Manhattan
+1469,10069,3005,2016,10,5.430487254736719,10069,Upper West Side,Manhattan
+1470,10069,3005,2016,11,5.451936872309901,10069,Upper West Side,Manhattan
+1471,10069,3005,2016,12,5.42740166165134,10069,Upper West Side,Manhattan
+1472,10069,3005,2017,1,5.34555182171914,10069,Upper West Side,Manhattan
+1473,10069,3005,2017,2,5.24216626555073,10069,Upper West Side,Manhattan
+1474,10069,3005,2017,3,5.268703898840879,10069,Upper West Side,Manhattan
+1475,10069,3005,2017,4,5.31715430904498,10069,Upper West Side,Manhattan
+1476,10069,3005,2017,5,5.2312321824516905,10069,Upper West Side,Manhattan
+1477,10069,3005,2017,6,5.20994326854728,10069,Upper West Side,Manhattan
+1478,10069,3005,2017,7,5.20994326854728,10069,Upper West Side,Manhattan
+1479,10069,3005,2017,8,5.22727272727273,10069,Upper West Side,Manhattan
+1480,10069,3005,2017,9,5.1577295127747105,10069,Upper West Side,Manhattan
+1481,10069,3005,2017,10,5.332849189058339,10069,Upper West Side,Manhattan
+1482,10069,3005,2017,11,5.3846153846153895,10069,Upper West Side,Manhattan
+1483,10069,3005,2017,12,5.25338222381216,10069,Upper West Side,Manhattan
+1484,10069,3005,2018,1,5.257623554153519,10069,Upper West Side,Manhattan
+1485,10069,3005,2018,2,5.38589914758139,10069,Upper West Side,Manhattan
+1486,10007,3012,2013,7,5.54195804195804,10007,"Tribeca, Financial District",Manhattan
+1487,10007,3012,2013,8,5.5,10007,"Tribeca, Financial District",Manhattan
+1488,10007,3012,2013,9,5.725446428571429,10007,"Tribeca, Financial District",Manhattan
+1489,10007,3012,2013,10,5.755755755755759,10007,"Tribeca, Financial District",Manhattan
+1490,10007,3012,2013,11,6.15079365079365,10007,"Tribeca, Financial District",Manhattan
+1491,10007,3012,2013,12,6.2753950338600495,10007,"Tribeca, Financial District",Manhattan
+1492,10007,3012,2014,1,5.94648750589345,10007,"Tribeca, Financial District",Manhattan
+1493,10007,3012,2014,2,6.03468208092486,10007,"Tribeca, Financial District",Manhattan
+1494,10007,3012,2014,3,6.06936416184971,10007,"Tribeca, Financial District",Manhattan
+1495,10007,3012,2014,4,5.915775753107231,10007,"Tribeca, Financial District",Manhattan
+1496,10007,3012,2014,5,5.83803191489362,10007,"Tribeca, Financial District",Manhattan
+1497,10007,3012,2014,6,5.9204265313374504,10007,"Tribeca, Financial District",Manhattan
+1498,10007,3012,2014,7,5.8495085230807495,10007,"Tribeca, Financial District",Manhattan
+1499,10007,3012,2014,8,5.836476608187129,10007,"Tribeca, Financial District",Manhattan
+1500,10007,3012,2014,9,5.851063829787231,10007,"Tribeca, Financial District",Manhattan
+1501,10007,3012,2014,10,5.91422466422466,10007,"Tribeca, Financial District",Manhattan
+1502,10007,3012,2014,11,5.952380952380951,10007,"Tribeca, Financial District",Manhattan
+1503,10007,3012,2014,12,5.9669880222027505,10007,"Tribeca, Financial District",Manhattan
+1504,10007,3012,2015,1,5.994641661085059,10007,"Tribeca, Financial District",Manhattan
+1505,10007,3012,2015,2,5.9669880222027505,10007,"Tribeca, Financial District",Manhattan
+1506,10007,3012,2015,3,6.017837547867759,10007,"Tribeca, Financial District",Manhattan
+1507,10007,3012,2015,4,6.316649642492339,10007,"Tribeca, Financial District",Manhattan
+1508,10007,3012,2015,5,6.0,10007,"Tribeca, Financial District",Manhattan
+1509,10007,3012,2015,6,6.03572384894557,10007,"Tribeca, Financial District",Manhattan
+1510,10007,3012,2015,7,6.0,10007,"Tribeca, Financial District",Manhattan
+1511,10007,3012,2015,8,6.237524950099799,10007,"Tribeca, Financial District",Manhattan
+1512,10007,3012,2015,9,6.36246612873185,10007,"Tribeca, Financial District",Manhattan
+1513,10007,3012,2015,10,6.33640552995392,10007,"Tribeca, Financial District",Manhattan
+1514,10007,3012,2015,11,6.21885104900916,10007,"Tribeca, Financial District",Manhattan
+1515,10007,3012,2015,12,6.26649336326756,10007,"Tribeca, Financial District",Manhattan
+1516,10007,3012,2016,1,6.1965811965812,10007,"Tribeca, Financial District",Manhattan
+1517,10007,3012,2016,2,6.25482625482625,10007,"Tribeca, Financial District",Manhattan
+1518,10007,3012,2016,3,6.0966542750929404,10007,"Tribeca, Financial District",Manhattan
+1519,10007,3012,2016,4,5.9473279974128905,10007,"Tribeca, Financial District",Manhattan
+1520,10007,3012,2016,5,5.901722391084089,10007,"Tribeca, Financial District",Manhattan
+1521,10007,3012,2016,6,6.10667752442997,10007,"Tribeca, Financial District",Manhattan
+1522,10007,3012,2016,7,5.7581843317972305,10007,"Tribeca, Financial District",Manhattan
+1523,10007,3012,2016,8,6.0,10007,"Tribeca, Financial District",Manhattan
+1524,10007,3012,2016,9,5.8173784977908705,10007,"Tribeca, Financial District",Manhattan
+1525,10007,3012,2016,10,5.78398290598291,10007,"Tribeca, Financial District",Manhattan
+1526,10007,3012,2016,11,6.00038402457757,10007,"Tribeca, Financial District",Manhattan
+1527,10007,3012,2016,12,5.77028723404255,10007,"Tribeca, Financial District",Manhattan
+1528,10007,3012,2017,1,5.952380952380951,10007,"Tribeca, Financial District",Manhattan
+1529,10007,3012,2017,2,5.93073593073593,10007,"Tribeca, Financial District",Manhattan
+1530,10007,3012,2017,3,5.97351130673301,10007,"Tribeca, Financial District",Manhattan
+1531,10007,3012,2017,4,5.98823866896156,10007,"Tribeca, Financial District",Manhattan
+1532,10007,3012,2017,5,6.1374002461335495,10007,"Tribeca, Financial District",Manhattan
+1533,10007,3012,2017,6,6.1374002461335495,10007,"Tribeca, Financial District",Manhattan
+1534,10007,3012,2017,7,5.9705261672760495,10007,"Tribeca, Financial District",Manhattan
+1535,10007,3012,2017,8,5.973715651135009,10007,"Tribeca, Financial District",Manhattan
+1536,10007,3012,2017,9,5.847617600243161,10007,"Tribeca, Financial District",Manhattan
+1537,10007,3012,2017,10,5.87729308214947,10007,"Tribeca, Financial District",Manhattan
+1538,10007,3012,2017,11,5.87729308214947,10007,"Tribeca, Financial District",Manhattan
+1539,10007,3012,2017,12,5.93504726714508,10007,"Tribeca, Financial District",Manhattan
+1540,10007,3012,2018,1,5.903553463639951,10007,"Tribeca, Financial District",Manhattan
+1541,10007,3012,2018,2,5.952380952380951,10007,"Tribeca, Financial District",Manhattan
+1542,10282,3018,2011,7,5.05186721991701,10282,"Tribeca, Financial District",Manhattan
+1543,10282,3018,2011,8,4.96369294605809,10282,"Tribeca, Financial District",Manhattan
+1544,10282,3018,2011,9,4.9192307692307695,10282,"Tribeca, Financial District",Manhattan
+1545,10282,3018,2011,10,4.81430536451169,10282,"Tribeca, Financial District",Manhattan
+1546,10282,3018,2011,11,4.77791461412151,10282,"Tribeca, Financial District",Manhattan
+1547,10282,3018,2011,12,4.84712230215827,10282,"Tribeca, Financial District",Manhattan
+1548,10282,3018,2012,1,4.83215268225585,10282,"Tribeca, Financial District",Manhattan
+1549,10282,3018,2012,2,4.94628267973856,10282,"Tribeca, Financial District",Manhattan
+1550,10282,3018,2012,3,5.00463821892393,10282,"Tribeca, Financial District",Manhattan
+1551,10282,3018,2012,4,5.20864223933086,10282,"Tribeca, Financial District",Manhattan
+1552,10282,3018,2012,5,5.4058823529411795,10282,"Tribeca, Financial District",Manhattan
+1553,10282,3018,2012,6,5.2166666666666694,10282,"Tribeca, Financial District",Manhattan
+1554,10282,3018,2012,7,5.308114704087861,10282,"Tribeca, Financial District",Manhattan
+1555,10282,3018,2012,8,5.388888888888889,10282,"Tribeca, Financial District",Manhattan
+1556,10282,3018,2012,9,5.29411764705882,10282,"Tribeca, Financial District",Manhattan
+1557,10282,3018,2012,10,5.17857142857143,10282,"Tribeca, Financial District",Manhattan
+1558,10282,3018,2012,11,5.18207282913165,10282,"Tribeca, Financial District",Manhattan
+1559,10282,3018,2012,12,5.21208033573141,10282,"Tribeca, Financial District",Manhattan
+1560,10282,3018,2013,1,5.14583333333333,10282,"Tribeca, Financial District",Manhattan
+1561,10282,3018,2013,2,5.20833333333333,10282,"Tribeca, Financial District",Manhattan
+1562,10282,3018,2013,3,5.23333333333333,10282,"Tribeca, Financial District",Manhattan
+1563,10282,3018,2013,4,5.28571428571429,10282,"Tribeca, Financial District",Manhattan
+1564,10282,3018,2013,5,5.53640027709553,10282,"Tribeca, Financial District",Manhattan
+1565,10282,3018,2013,6,5.5418719211822705,10282,"Tribeca, Financial District",Manhattan
+1566,10282,3018,2013,7,5.542857142857139,10282,"Tribeca, Financial District",Manhattan
+1567,10282,3018,2013,8,5.47084878787122,10282,"Tribeca, Financial District",Manhattan
+1568,10282,3018,2013,9,5.57042076589443,10282,"Tribeca, Financial District",Manhattan
+1569,10282,3018,2013,10,5.36655518394649,10282,"Tribeca, Financial District",Manhattan
+1570,10282,3018,2013,11,5.36655518394649,10282,"Tribeca, Financial District",Manhattan
+1571,10282,3018,2013,12,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1572,10282,3018,2014,1,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1573,10282,3018,2014,2,5.36655518394649,10282,"Tribeca, Financial District",Manhattan
+1574,10282,3018,2014,3,5.339743589743589,10282,"Tribeca, Financial District",Manhattan
+1575,10282,3018,2014,4,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1576,10282,3018,2014,5,5.32291666666667,10282,"Tribeca, Financial District",Manhattan
+1577,10282,3018,2014,6,5.44753231492362,10282,"Tribeca, Financial District",Manhattan
+1578,10282,3018,2014,7,5.35714285714286,10282,"Tribeca, Financial District",Manhattan
+1579,10282,3018,2014,8,5.50810810810811,10282,"Tribeca, Financial District",Manhattan
+1580,10282,3018,2014,9,5.52951184142709,10282,"Tribeca, Financial District",Manhattan
+1581,10282,3018,2014,10,5.52304139582621,10282,"Tribeca, Financial District",Manhattan
+1582,10282,3018,2014,11,5.36655518394649,10282,"Tribeca, Financial District",Manhattan
+1583,10282,3018,2014,12,5.38695652173913,10282,"Tribeca, Financial District",Manhattan
+1584,10282,3018,2015,1,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1585,10282,3018,2015,2,5.3125,10282,"Tribeca, Financial District",Manhattan
+1586,10282,3018,2015,3,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1587,10282,3018,2015,4,5.2560646900269505,10282,"Tribeca, Financial District",Manhattan
+1588,10282,3018,2015,5,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1589,10282,3018,2015,6,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1590,10282,3018,2015,7,5.36655518394649,10282,"Tribeca, Financial District",Manhattan
+1591,10282,3018,2015,8,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1592,10282,3018,2015,9,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1593,10282,3018,2015,10,5.38695652173913,10282,"Tribeca, Financial District",Manhattan
+1594,10282,3018,2015,11,5.36655518394649,10282,"Tribeca, Financial District",Manhattan
+1595,10282,3018,2015,12,5.36655518394649,10282,"Tribeca, Financial District",Manhattan
+1596,10282,3018,2016,1,5.38695652173913,10282,"Tribeca, Financial District",Manhattan
+1597,10282,3018,2016,2,5.38695652173913,10282,"Tribeca, Financial District",Manhattan
+1598,10282,3018,2016,3,5.44753231492362,10282,"Tribeca, Financial District",Manhattan
+1599,10282,3018,2016,4,5.44753231492362,10282,"Tribeca, Financial District",Manhattan
+1600,10282,3018,2016,5,5.36655518394649,10282,"Tribeca, Financial District",Manhattan
+1601,10282,3018,2016,6,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1602,10282,3018,2016,7,5.3125,10282,"Tribeca, Financial District",Manhattan
+1603,10282,3018,2016,8,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1604,10282,3018,2016,9,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1605,10282,3018,2016,10,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1606,10282,3018,2016,11,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1607,10282,3018,2016,12,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1608,10282,3018,2017,1,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1609,10282,3018,2017,2,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1610,10282,3018,2017,3,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1611,10282,3018,2017,4,5.36655518394649,10282,"Tribeca, Financial District",Manhattan
+1612,10282,3018,2017,5,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1613,10282,3018,2017,6,5.346153846153849,10282,"Tribeca, Financial District",Manhattan
+1614,10282,3018,2017,7,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1615,10282,3018,2017,8,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1616,10282,3018,2017,9,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1617,10282,3018,2017,10,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1618,10282,3018,2017,11,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1619,10282,3018,2017,12,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1620,10282,3018,2018,1,5.32932692307692,10282,"Tribeca, Financial District",Manhattan
+1621,10282,3018,2018,2,5.38695652173913,10282,"Tribeca, Financial District",Manhattan
+1622,10006,3021,2013,8,4.8032069970845495,10006,"Financial District, Battery Park City",Manhattan
+1623,10006,3021,2013,9,4.87629981292577,10006,"Financial District, Battery Park City",Manhattan
+1624,10006,3021,2013,10,4.919014084507039,10006,"Financial District, Battery Park City",Manhattan
+1625,10006,3021,2013,11,5.18711018711019,10006,"Financial District, Battery Park City",Manhattan
+1626,10006,3021,2013,12,5.2,10006,"Financial District, Battery Park City",Manhattan
+1627,10006,3021,2014,1,5.23168908819133,10006,"Financial District, Battery Park City",Manhattan
+1628,10006,3021,2014,2,5.687846733627699,10006,"Financial District, Battery Park City",Manhattan
+1629,10006,3021,2014,3,5.6782670454545405,10006,"Financial District, Battery Park City",Manhattan
+1630,10006,3021,2014,4,5.62841530054645,10006,"Financial District, Battery Park City",Manhattan
+1631,10006,3021,2014,5,5.645532951478041,10006,"Financial District, Battery Park City",Manhattan
+1632,10006,3021,2014,6,5.9750869585746695,10006,"Financial District, Battery Park City",Manhattan
+1633,10006,3021,2014,7,6.001420454545451,10006,"Financial District, Battery Park City",Manhattan
+1634,10006,3021,2014,8,6.00750938673342,10006,"Financial District, Battery Park City",Manhattan
+1635,10006,3021,2014,9,5.303030303030299,10006,"Financial District, Battery Park City",Manhattan
+1636,10006,3021,2014,10,5.35343035343035,10006,"Financial District, Battery Park City",Manhattan
+1637,10006,3021,2014,11,5.2064631956911995,10006,"Financial District, Battery Park City",Manhattan
+1638,10006,3021,2014,12,5.06638198757764,10006,"Financial District, Battery Park City",Manhattan
+1639,10006,3021,2015,1,5.09031198686371,10006,"Financial District, Battery Park City",Manhattan
+1640,10006,3021,2015,2,5.10771992818671,10006,"Financial District, Battery Park City",Manhattan
+1641,10006,3021,2015,3,5.09031198686371,10006,"Financial District, Battery Park City",Manhattan
+1642,10006,3021,2015,4,5.14091350826045,10006,"Financial District, Battery Park City",Manhattan
+1643,10006,3021,2015,5,5.40639776126604,10006,"Financial District, Battery Park City",Manhattan
+1644,10006,3021,2015,6,5.58002936857562,10006,"Financial District, Battery Park City",Manhattan
+1645,10006,3021,2015,7,5.4279720279720305,10006,"Financial District, Battery Park City",Manhattan
+1646,10006,3021,2015,8,5.26315789473684,10006,"Financial District, Battery Park City",Manhattan
+1647,10006,3021,2015,9,5.44504995458674,10006,"Financial District, Battery Park City",Manhattan
+1648,10006,3021,2015,10,5.18630129822589,10006,"Financial District, Battery Park City",Manhattan
+1649,10006,3021,2015,11,5.3941908713692905,10006,"Financial District, Battery Park City",Manhattan
+1650,10006,3021,2015,12,5.23168908819133,10006,"Financial District, Battery Park City",Manhattan
+1651,10006,3021,2016,1,5.480270008995321,10006,"Financial District, Battery Park City",Manhattan
+1652,10006,3021,2016,2,5.6857702759710005,10006,"Financial District, Battery Park City",Manhattan
+1653,10006,3021,2016,3,5.94047842621719,10006,"Financial District, Battery Park City",Manhattan
+1654,10006,3021,2016,4,5.238717890031389,10006,"Financial District, Battery Park City",Manhattan
+1655,10006,3021,2016,5,5.62714249996988,10006,"Financial District, Battery Park City",Manhattan
+1656,10006,3021,2016,6,5.02252062931675,10006,"Financial District, Battery Park City",Manhattan
+1657,10006,3021,2016,7,5.21235521235521,10006,"Financial District, Battery Park City",Manhattan
+1658,10006,3021,2016,8,5.041752418801599,10006,"Financial District, Battery Park City",Manhattan
+1659,10006,3021,2016,9,5.08514359351988,10006,"Financial District, Battery Park City",Manhattan
+1660,10006,3021,2016,10,4.85799701046338,10006,"Financial District, Battery Park City",Manhattan
+1661,10006,3021,2016,11,4.992857142857139,10006,"Financial District, Battery Park City",Manhattan
+1662,10006,3021,2016,12,5.0,10006,"Financial District, Battery Park City",Manhattan
+1663,10006,3021,2017,1,4.99642857142857,10006,"Financial District, Battery Park City",Manhattan
+1664,10006,3021,2017,2,5.1243167182235805,10006,"Financial District, Battery Park City",Manhattan
+1665,10006,3021,2017,3,5.329436777105371,10006,"Financial District, Battery Park City",Manhattan
+1666,10006,3021,2017,4,5.188679245283019,10006,"Financial District, Battery Park City",Manhattan
+1667,10006,3021,2017,5,5.23168908819133,10006,"Financial District, Battery Park City",Manhattan
+1668,10006,3021,2017,6,5.101936887170281,10006,"Financial District, Battery Park City",Manhattan
+1669,10006,3021,2017,7,5.08928571428571,10006,"Financial District, Battery Park City",Manhattan
+1670,10006,3021,2017,8,4.992857142857139,10006,"Financial District, Battery Park City",Manhattan
+1671,10006,3021,2017,9,5.08928571428571,10006,"Financial District, Battery Park City",Manhattan
+1672,10006,3021,2017,10,4.9922619047619,10006,"Financial District, Battery Park City",Manhattan
+1673,10006,3021,2017,11,4.992857142857139,10006,"Financial District, Battery Park City",Manhattan
+1674,10006,3021,2017,12,5.08928571428571,10006,"Financial District, Battery Park City",Manhattan
+1675,10006,3021,2018,1,5.096153846153849,10006,"Financial District, Battery Park City",Manhattan
+1676,10006,3021,2018,2,5.11140472112661,10006,"Financial District, Battery Park City",Manhattan
+1677,10004,3025,2013,9,4.816795254784809,10004,Battery Park City,Manhattan
+1678,10004,3025,2013,10,4.89658204089697,10004,Battery Park City,Manhattan
+1679,10004,3025,2013,11,4.921465968586389,10004,Battery Park City,Manhattan
+1680,10004,3025,2013,12,5.03597122302158,10004,Battery Park City,Manhattan
+1681,10004,3025,2014,1,5.04576338928857,10004,Battery Park City,Manhattan
+1682,10004,3025,2014,2,5.05542390731964,10004,Battery Park City,Manhattan
+1683,10004,3025,2014,3,4.98812213028212,10004,Battery Park City,Manhattan
+1684,10004,3025,2014,4,5.05640373197625,10004,Battery Park City,Manhattan
+1685,10004,3025,2014,5,5.06241253848307,10004,Battery Park City,Manhattan
+1686,10004,3025,2014,6,5.03048780487805,10004,Battery Park City,Manhattan
+1687,10004,3025,2014,7,5.03048780487805,10004,Battery Park City,Manhattan
+1688,10004,3025,2014,8,5.03322951394982,10004,Battery Park City,Manhattan
+1689,10004,3025,2014,9,4.96781647136491,10004,Battery Park City,Manhattan
+1690,10004,3025,2014,10,4.947667029774871,10004,Battery Park City,Manhattan
+1691,10004,3025,2014,11,5.03322951394982,10004,Battery Park City,Manhattan
+1692,10004,3025,2014,12,5.06926952141058,10004,Battery Park City,Manhattan
+1693,10004,3025,2015,1,5.06926952141058,10004,Battery Park City,Manhattan
+1694,10004,3025,2015,2,5.03597122302158,10004,Battery Park City,Manhattan
+1695,10004,3025,2015,3,4.96,10004,Battery Park City,Manhattan
+1696,10004,3025,2015,4,5.05555555555556,10004,Battery Park City,Manhattan
+1697,10004,3025,2015,5,5.18672199170125,10004,Battery Park City,Manhattan
+1698,10004,3025,2015,6,5.18672199170125,10004,Battery Park City,Manhattan
+1699,10004,3025,2015,7,5.18672199170125,10004,Battery Park City,Manhattan
+1700,10004,3025,2015,8,5.06926952141058,10004,Battery Park City,Manhattan
+1701,10004,3025,2015,9,5.03597122302158,10004,Battery Park City,Manhattan
+1702,10004,3025,2015,10,5.03860889290401,10004,Battery Park City,Manhattan
+1703,10004,3025,2015,11,5.06241253848307,10004,Battery Park City,Manhattan
+1704,10004,3025,2015,12,5.091383812010441,10004,Battery Park City,Manhattan
+1705,10004,3025,2016,1,5.30874785591767,10004,Battery Park City,Manhattan
+1706,10004,3025,2016,2,5.3763440860215095,10004,Battery Park City,Manhattan
+1707,10004,3025,2016,3,5.3781512605042,10004,Battery Park City,Manhattan
+1708,10004,3025,2016,4,5.215053763440861,10004,Battery Park City,Manhattan
+1709,10004,3025,2016,5,4.98403499422684,10004,Battery Park City,Manhattan
+1710,10004,3025,2016,6,5.23917995444191,10004,Battery Park City,Manhattan
+1711,10004,3025,2016,7,5.05555555555556,10004,Battery Park City,Manhattan
+1712,10004,3025,2016,8,5.126130038293,10004,Battery Park City,Manhattan
+1713,10004,3025,2016,9,4.95052143240549,10004,Battery Park City,Manhattan
+1714,10004,3025,2016,10,4.85099265973693,10004,Battery Park City,Manhattan
+1715,10004,3025,2016,11,4.95607929298524,10004,Battery Park City,Manhattan
+1716,10004,3025,2016,12,4.87169811320755,10004,Battery Park City,Manhattan
+1717,10004,3025,2017,1,5.617353750578999,10004,Battery Park City,Manhattan
+1718,10004,3025,2017,2,5.761889306193099,10004,Battery Park City,Manhattan
+1719,10004,3025,2017,3,5.38507423117709,10004,Battery Park City,Manhattan
+1720,10004,3025,2017,4,5.281938325991191,10004,Battery Park City,Manhattan
+1721,10004,3025,2017,5,5.2960510786951795,10004,Battery Park City,Manhattan
+1722,10004,3025,2017,6,5.32261794634598,10004,Battery Park City,Manhattan
+1723,10004,3025,2017,7,5.71428571428571,10004,Battery Park City,Manhattan
+1724,10004,3025,2017,8,5.279503105590059,10004,Battery Park City,Manhattan
+1725,10004,3025,2017,9,5.0487861811391195,10004,Battery Park City,Manhattan
+1726,10004,3025,2017,10,4.9320987654321,10004,Battery Park City,Manhattan
+1727,10004,3025,2017,11,5.06241253848307,10004,Battery Park City,Manhattan
+1728,10004,3025,2017,12,5.08637236084453,10004,Battery Park City,Manhattan
+1729,10004,3025,2018,1,5.0041734568146605,10004,Battery Park City,Manhattan
+1730,10004,3025,2018,2,4.98403499422684,10004,Battery Park City,Manhattan
