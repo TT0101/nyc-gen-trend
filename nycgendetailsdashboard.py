@@ -19,7 +19,9 @@ import indexcolors as ic
 import genoverviewdata as oData
 import subwaydatarepository as sdres
 import schooldatarepository as scres
+import foodrepository as fres
 import housingpricerepository as hpres
+import counttimerepository as ctres
 
 import TypeHelper as th
 import maphelpers as mh
@@ -37,6 +39,7 @@ genIndexColor = None
 mapOptions = [  
                 {'label': 'Schools', 'value':'SC'}
                 ,{'label': 'Subway Stations', 'value': 'SE'}
+                ,{'label': 'Food Stores', 'value': 'FS'}
                 
              ]
 
@@ -44,9 +47,9 @@ mapOptions = [
 graphOptions = [
                     {'label': 'Housing Prices (per Sq Ft)', 'value': 'HP'},
                     {'label': 'Rental Prices (per Sq Ft)', 'value': 'RP'},
-#                        {'label': 'New Construction', 'value': 'NC'},
-#                        {'label': 'Food Permits', 'value': 'FP'},
-#                        {'label': 'Sidewalk Cafe Licences', 'value': 'SCL'},
+                    {'label': 'DOB Permits Issued', 'value':'DP'},
+                    {'label': 'Food Permits', 'value': 'FP'},
+                    {'label': 'Sidewalk Cafe Licenses', 'value': 'SCL'},
 #                        {'label': 'School Class Sizes', 'value': 'SCS'}
                 ]
     
@@ -132,24 +135,32 @@ def runDetailsDash(zcta):
 
 
 #functions
+                
+#set up all the data for the zcta chosen
 def getDataWithLocationDictionary(zctaOverview):
     return {
              'SE': sdres.getSubwaysInBoros(zctaOverview.Boro)
             ,'SC': scres.getSchoolsInZcta(zctaOverview.ZCTA)
+            , 'FS': fres.getStoresInZcta(zctaOverview.ZCTA)
             }
 
 def getDataWithLocationCounts(zctaOverview):
     return {
                 'SE': sdres.getNumberOfSubwaysInZcta(zctaOverview.ZCTA),
-                'SC': scres.getNumberOfSchoolsInZcta(zctaOverview.ZCTA)
+                'SC': scres.getNumberOfSchoolsInZcta(zctaOverview.ZCTA),
+                'FS': fres.getNumberOfFoodStormesInZcta(zctaOverview.ZCTA)
             }
 
 def getDataForChartsDictionary(zctaOverview):
     return {
                 'HP': hpres.getMedianSellZcta(zctaOverview.ZCTA)
                 ,'RP': hpres.getMedianRentalZcta(zctaOverview.ZCTA)
+                ,'DP': ctres.getDOBPermitZcta(zctaOverview.ZCTA)
+                ,'FP':ctres.getFoodPermitZcta(zctaOverview.ZCTA)
+                ,'SCL':ctres.getSidewalkPermitZcta(zctaOverview.ZCTA)
             }
 
+#build maps and graphs from data
 def getDataFromChosen(valuesChosen, data):
     return [[key, data[key]] for key in valuesChosen]
     
@@ -250,7 +261,7 @@ def getChartData(data):
             ])
 
 def getLinePlot(values, dataDic):
-    lineOptions = ['HP', 'RP']
+    lineOptions = ['HP', 'RP', 'DP', 'FP','SCL']
     valuesChosen = [val for val in values if val in lineOptions]
     lineSets = getDataFromChosen(valuesChosen, dataDic)
     if(len(lineSets) == 0):
@@ -323,4 +334,4 @@ def onMapDataSelected(value):
               [Input('mapDataSelect', 'value')])
 def loadZoomOnMapLoad(value):
 
-    return ''#str(chartDic)
+    return ''#str(chartDic['DP'])

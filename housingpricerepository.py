@@ -39,7 +39,7 @@ def processMedianHousingData(df):
     dfclean = df.rename(index=str, columns={'medianPrice':'y'})
     dfclean = dfclean.loc[:, ['zcta', 'y']]
     
-    return dfclean
+    return dfclean.sort_index()
 
 medianSellSqFoot = getMedianSellSqFtData()
 medianRentalSqFoot = getMedianRentalSqFtData()

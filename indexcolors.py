@@ -37,7 +37,7 @@ def getSpecificColor(index):
 
 #map points for details
 def getDetailColorScale():
-    return [['SE', '#00d129'], ['SC', '#f9c60c']]
+    return [['SE', '#00d129'], ['SC', '#f9c60c'], ['FS', '#d104cd']]
 
 def getDetailSpecificColor(index):
     return [item[1] for item in getDetailColorScale() if item[0] == index][0]
