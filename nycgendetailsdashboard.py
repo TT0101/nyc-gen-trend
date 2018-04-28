@@ -45,12 +45,11 @@ mapOptions = [
 
 #graph
 graphOptions = [
-                    {'label': 'Housing Prices (per Sq Ft)', 'value': 'HP'},
-                    {'label': 'Rental Prices (per Sq Ft)', 'value': 'RP'},
-                    {'label': 'DOB Permits Issued', 'value':'DP'},
-                    {'label': 'Food Permits', 'value': 'FP'},
-                    {'label': 'Sidewalk Cafe Licenses', 'value': 'SCL'},
-#                        {'label': 'School Class Sizes', 'value': 'SCS'}
+                    {'label': 'Housing Prices (per Sq Ft)', 'value': 'HP', 'ytitle': 'Dollars per Sq. Ft.'},
+                    {'label': 'Rental Prices (per Sq Ft)', 'value': 'RP', 'ytitle': 'Dollars per Sq. Ft.'},
+                    {'label': 'DOB Permits Issued', 'value':'DP', 'ytitle': 'Number Issued'},
+                    {'label': 'Food Permits', 'value': 'FP', 'ytitle': 'Number Issued'},
+                    {'label': 'Sidewalk Cafe Licenses', 'value': 'SCL', 'ytitle': 'Number Issued'}
                 ]
     
 def runDetailsDash(zcta):
@@ -115,7 +114,7 @@ def runDetailsDash(zcta):
                         id = 'zctaRegionMap',
                         style={'height':'100%', 'width':'100%'} #figure comes from callback
                         ),
-                        ], style={'width':'35%', 'height':'65%', 'float':'right'}),
+                        ], style={'width':'35%', 'height':'75vh', 'float':'right'}),
                 #graphs and charts
                 html.Div(children=[
                 #select time trends
@@ -126,7 +125,7 @@ def runDetailsDash(zcta):
                     value=["HP"]
                 ),
                 dcc.Graph(id='detailsGraph')
-                ], style={'width': '64%', 'float':'left'})
+                ], style={'width': '64%', 'float':'left', 'height':'75vh'})
             ])
             
     ], style={'width':'100%', 'height':'100%', 'padding':'0px'})
@@ -250,16 +249,17 @@ def getMapLayout(mapboxtoken, polygons, genColor):
                     )
                 )
 
-def getChartData(data):
-    return go.Data([
-                go.Scatter(
-                    x=data['x'],
-                    y=data['y'],
-                    name = 'example',
-                    connectgaps=True
-                )
-            ])
+#def getChartData(data):
+#    return go.Data([
+#                go.Scatter(
+#                    x=data['x'],
+#                    y=data['y'],
+#                    name = 'example',
+#                    connectgaps=True
+#                )
+#            ])
 
+#build charts based on chosen values
 def getLinePlot(values, dataDic):
     lineOptions = ['HP', 'RP', 'DP', 'FP','SCL']
     valuesChosen = [val for val in values if val in lineOptions]
@@ -267,12 +267,14 @@ def getLinePlot(values, dataDic):
     if(len(lineSets) == 0):
         return getBlankChart()
     
-    return [go.Scatter(
+    return [[go.Scatter(
                     x=item[1].index
                     ,y=item[1]['y']
                     ,connectgaps=True
                     ,name=getLabelForMultiKey(item[0], graphOptions)['label']
-            )
+            ),
+            getLabelForMultiKey(item[0], graphOptions)['ytitle']
+            ]
             for item in lineSets if len(item[1]) > 0] 
 
 def getBlankChart():
@@ -284,14 +286,15 @@ def getLineChartData(values, dataDic):
     
     if lineChartLength == 0:
         return getBlankChart()
-    elif lineChartLength == 1:
-        return go.Data(lineChart)
+#    elif lineChartLength == 1:
+#        return go.Data([item[0] for item in lineChart])
     else:
-        #make subplots out of it as there's more than one
+        #make subplots out of it (should work with one as well)
         fig = tools.make_subplots(rows=lineChartLength, cols=1, shared_xaxes=True, vertical_spacing=0.1)
         c = 1
         for t in lineChart:
-            fig.append_trace(t, c, 1)
+            fig.append_trace(t[0], c, 1)
+            fig['layout']['yaxis' + str(c)].update(title=t[1])
             c += 1
             
         return fig
