@@ -34,9 +34,12 @@ pointsDic = None
 mapCountDic = None
 chartDic = None
 genIndexColor = None
+mapOptions = {}
+graphOptions = {}
 
+#options for multiselects
 #map
-mapOptions = [  
+mapOptionsStore = [  
                 {'label': 'Schools', 'value':'SC'}
                 ,{'label': 'Subway Stations', 'value': 'SE'}
                 ,{'label': 'Food Stores', 'value': 'FS'}
@@ -44,7 +47,7 @@ mapOptions = [
              ]
 
 #graph
-graphOptions = [
+graphOptionsStore = [
                     {'label': 'Housing Prices (per Sq Ft)', 'value': 'HP', 'ytitle': 'Dollars per Sq. Ft.'},
                     {'label': 'Rental Prices (per Sq Ft)', 'value': 'RP', 'ytitle': 'Dollars per Sq. Ft.'},
                     {'label': 'DOB Permits Issued', 'value':'DP', 'ytitle': 'Number Issued'},
@@ -80,8 +83,19 @@ def runDetailsDash(zcta):
     #remove options not avaliable
     foundPointData = [key for key in pointsDic if len(pointsDic[key]) > 0]
     foundChartData = [key for key in chartDic if len(chartDic[key]) > 0]
-    mapOptions = [item for item in mapOptions if item['value'] in foundPointData]
-    graphOptions = [item for item in graphOptions if item['value'] in foundChartData]
+    mapOptions = [item for item in mapOptionsStore if item['value'] in foundPointData]
+    graphOptions = [item for item in graphOptionsStore if item['value'] in foundChartData]
+    
+    #get default option
+    if(len(foundPointData) > 0):
+        mapDefault = "SE" if "SE" in foundPointData else foundPointData[0]
+    else:
+        mapDefault = ""
+        
+    if(len(foundChartData) > 0):
+        chartDefault = "HP" if "HP" in foundChartData else foundChartData[0]
+    else:
+        chartDefault = ""
         
     #ui
     return html.Div(children=[
@@ -108,7 +122,7 @@ def runDetailsDash(zcta):
                          dcc.Dropdown(id='mapDataSelect',
                             options= mapOptions,
                             multi=True,
-                            value=["SE"]
+                            value=[mapDefault]
                         ),
                         dcc.Graph(
                         id = 'zctaRegionMap',
@@ -122,7 +136,7 @@ def runDetailsDash(zcta):
                     id='chartDataSelect',
                     options=graphOptions,
                     multi=True,
-                    value=["HP"]
+                    value=[chartDefault]
                 ),
                 dcc.Graph(id='detailsGraph')
                 ], style={'width': '64%', 'float':'left', 'height':'75vh'})
@@ -133,8 +147,7 @@ def runDetailsDash(zcta):
     
 
 
-#functions
-                
+#functions                
 #set up all the data for the zcta chosen
 def getDataWithLocationDictionary(zctaOverview):
     return {
@@ -159,15 +172,20 @@ def getDataForChartsDictionary(zctaOverview):
                 ,'SCL':ctres.getSidewalkPermitZcta(zctaOverview.ZCTA)
             }
 
-#build maps and graphs from data
+#helpers
+#used to get labels and titles for the key
+def getLabelForMultiKey(key, options):
+    matching = list(filter(lambda option: option['value'] == key, options))
+    if(len(matching)>0):
+        return matching[0]
+    
+    return [{'label': '', 'ytitle': ''}]
+
+#gets the keys and values from the dictionaries based on the items chosen
 def getDataFromChosen(valuesChosen, data):
     return [[key, data[key]] for key in valuesChosen]
-    
 
-def getListOfCountsFormatted(dataDict):
-    return ["Number of " + getPointCategoryForLayer(key) + ": " + str(dataDict[key]) for key in dataDict]
-        
-
+#all the map stuff below
 def getBlankMap():
     return go.Data([
             go.Scattermapbox(
@@ -175,22 +193,7 @@ def getBlankMap():
                     )
             ])
 
-def repeatItemForNumberOfLats(items, dataSets):
-    setCount = 0
-    repeatArray = []
-    for s in dataSets:
-        repeatArray += [items[setCount] for item in s['lat']]
-        setCount += 1
-
-    return repeatArray
-
-def getLabelForMultiKey(key, options):
-    matching = list(filter(lambda option: option['value'] == key, options))
-    if(len(matching)>0):
-        return matching[0]
-    
-    return [{'label': ''}]
-
+#gets the legend with the number of items in the zcta for the map
 def getPointCategoryForLayer(key):
     return getLabelForMultiKey(key, mapOptions)['label'] + " (" + str(mapCountDic[key]) + ")"
 
@@ -221,7 +224,6 @@ def getMapWithPoints(valuesChosen, data):
 #get map layout with polygon of zcta
 def getMapLayout(mapboxtoken, polygons, genColor):
     return go.Layout(
-            #height=800,
             autosize=True,
             showlegend=True,
             legend=dict(orientation='h'),
@@ -249,20 +251,10 @@ def getMapLayout(mapboxtoken, polygons, genColor):
                     )
                 )
 
-#def getChartData(data):
-#    return go.Data([
-#                go.Scatter(
-#                    x=data['x'],
-#                    y=data['y'],
-#                    name = 'example',
-#                    connectgaps=True
-#                )
-#            ])
-
 #build charts based on chosen values
 def getLinePlot(values, dataDic):
-    lineOptions = ['HP', 'RP', 'DP', 'FP','SCL']
-    valuesChosen = [val for val in values if val in lineOptions]
+    #lineOptions = ['HP', 'RP', 'DP', 'FP','SCL']
+    valuesChosen = values#[val for val in values if val in lineOptions]
     lineSets = getDataFromChosen(valuesChosen, dataDic)
     if(len(lineSets) == 0):
         return getBlankChart()
@@ -286,8 +278,6 @@ def getLineChartData(values, dataDic):
     
     if lineChartLength == 0:
         return getBlankChart()
-#    elif lineChartLength == 1:
-#        return go.Data([item[0] for item in lineChart])
     else:
         #make subplots out of it (should work with one as well)
         fig = tools.make_subplots(rows=lineChartLength, cols=1, shared_xaxes=True, vertical_spacing=0.1)
@@ -304,13 +294,6 @@ def getLineChartData(values, dataDic):
 @app.callback(Output('detailsGraph', 'figure'),
               [Input('chartDataSelect', 'value')])
 def onChartDataSelected(values):
-    #this is mock data for now, would get from whatever is chosen in multiselect 
-#    x = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
-#    y = [2,4,6,8,1,3,5,7,9]
-#    chartData = pd.DataFrame({'x': x, 'y': y})
-#    #chartData.head()
-#    return dict(data=getChartData(chartData))
-
     if values == None or len(values) == 0:
         chartData = getBlankChart()
     else:
@@ -334,7 +317,7 @@ def onMapDataSelected(value):
 
 ##
 @app.callback(Output('mapScript', 'children'),
-              [Input('mapDataSelect', 'value')])
+              [Input('chartDataSelect', 'value')])
 def loadZoomOnMapLoad(value):
 
-    return ''#str(chartDic['DP'])
+    return ''#str([[key, len(chartDic[key])] for key in chartDic])
