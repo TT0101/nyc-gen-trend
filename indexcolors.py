@@ -11,7 +11,7 @@ def getColorScale():
     return [[0.0, '#f7fbff'],[0.1, '#deebf7'],[0.2,'#c6dbef'],[0.3,'#9ecae1'],[0.4,'#6baed6'],[0.5,'#4292c6'],[0.6,'#2171b5'],[0.7,'#08519c'],[0.8,'#08306b'],[0.9,'#052047'],[1.0,'#020b18']]
  
 def normedGenColorScale():
-    maxGenIndex = oData.GetMaxGenIndex()
+    maxGenIndex = oData.GetMaxGenIndex() + 0.001
     minGenIndex = oData.GetMinGenIndex()
     
     seg = (maxGenIndex - minGenIndex)/10

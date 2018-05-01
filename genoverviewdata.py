@@ -11,19 +11,7 @@ import zctaoverview as zo
 
 import FileHelper as fh
 import TypeHelper as th
-
-
-#get data seperately so that we can get this first, before everything else runs
-def getOverviewData():
-    zctaRentIndexFile = os.getcwd() + "/mysite/Datafiles/withZCTA_MockRentIndex.csv"
-    zctaStaticFile = os.getcwd() + "/mysite/Datafiles/zip_to_zcta10_nyc_with_NBH.csv"
-
-    #data
-    genOverviewData = fh.readInCSVDicData(zctaRentIndexFile, processOverviewData)
-    allZCTAWithNBH = fh.readInCSVDicData(zctaStaticFile, processStaticFileData)
-
-    return mergeForMissingZCTA(genOverviewData, allZCTAWithNBH)
-
+    
 
 def getOverviewForZCTA(zcta, overviewData):
     matching = [z for z in overviewData if z.ZCTA == zcta]
@@ -36,12 +24,18 @@ def getOverviewForZCTA(zcta, overviewData):
 #processing
 def processOverviewData(fileList):
     data = []
-    rowCount = 0
+    #rowCount = 0
     for line in fileList:
-        if rowCount > 0:
-            ov = zo.ZCTAOverview(line['boroLabel'], line['zcta'], line['nbhLabel'], line['PctChange'])
+        #if rowCount > 0:
+            
+        lineZCTA = th.cleanInts(line['ZCTA'])
+        staticData = list(filter(lambda s: s.ZCTA == lineZCTA, allZCTAWithNBH))
+        if(len(staticData) > 0):
+            sLine = staticData[0]
+            #ov = zo.ZCTAOverview(line['boroLabel'], line['zcta'], line['nbhLabel'], line['PctChange'])
+            ov = zo.ZCTAOverview(sLine.Boro, line['ZCTA'], sLine.Neighborhood, line['G.Index'])
             data.append(ov)
-        rowCount += 1
+        #rowCount += 1
     
     return data
 
@@ -79,4 +73,13 @@ def GetMaxGenIndex():
     return 100
 
 #run first
-GENOVERVIEWDATA = getOverviewData() #load the data first so we have it
+#get the main zcta file first, this isn't going to change
+zctaStaticFile = os.getcwd() + "/mysite/Datafiles/zip_to_zcta10_nyc_with_NBH.csv"
+allZCTAWithNBH = fh.readInCSVDicData(zctaStaticFile, processStaticFileData)
+
+#then the index file, which needs the all zcta file to get the nbh and other data
+zctaIndexFile = os.getcwd() + "/mysite/Datafiles/GIndexByZCTA.csv"
+#data
+genOverviewData = fh.readInCSVDicData(zctaIndexFile, processOverviewData)
+
+GENOVERVIEWDATA = mergeForMissingZCTA(genOverviewData, allZCTAWithNBH) #load the data first so we have it
