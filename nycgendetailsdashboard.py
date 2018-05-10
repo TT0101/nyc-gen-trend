@@ -263,6 +263,8 @@ def getLinePlot(values, dataDic):
                     x=item[1].index
                     ,y=item[1]['y']
                     ,connectgaps=True
+                    ,mode='lines'
+                    ,line=dict(shape='spline')
                     ,name=getLabelForMultiKey(item[0], graphOptions)['label']
             ),
             getLabelForMultiKey(item[0], graphOptions)['ytitle']
